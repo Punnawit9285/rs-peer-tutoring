@@ -8,7 +8,8 @@ global.window = global;
 JSON.parse(rd('data/sections.json')).forEach(f => eval(rd('data/' + f + '.js')));
 eval(rd('src/thai-data.js'));
 eval(rd('src/thai-explain.js'));
-eval(rd('src/flows.js'));  /* FLOWS.printHtml: static copy of the interactive flowcharts */
+eval(rd('src/flows.js'));
+eval(rd('src/flows-anatomy.js'));  /* the anatomy maps */  /* FLOWS.printHtml: static copy of the interactive flowcharts */
 const THAI_Q = window.THAI_Q, THAI_CONCEPT = window.THAI_CONCEPT;  /* shared with both decks: src/thai-data.js */
 const S = CVS.sections, LET = 'ABCDEFGH';
 const pages = process.argv[2] && fs.existsSync(process.argv[2]) ? JSON.parse(rd(process.argv[2])) : {};

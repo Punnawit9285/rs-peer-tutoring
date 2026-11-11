@@ -393,7 +393,7 @@
     var st = state(name), vs = view(name, st), steps = st.res ? st.res.steps : [];
     var h = '<div class="fx-head"><b>' + D.title + '</b><span>' + D.hint + '</span></div>';
     h += '<div class="fx-cases" role="group" aria-label="Load a case">' + D.cases.map(function (c) { return '<button type="button" class="fx-btn' + (st.caseK === c.k ? ' on' : '') + '" data-a="case" data-k="' + c.k + '">' + c.b + '</button>'; }).join('') +
-      '<button type="button" class="fx-btn ghost' + (st.form ? ' on' : '') + '" data-a="form">Your numbers</button></div>';
+      (D.fields && D.fields.length ? '<button type="button" class="fx-btn ghost' + (st.form ? ' on' : '') + '" data-a="form">Your numbers</button>' : '') + '</div>';
     if (st.form) {
       var cur = st.v || {};
       h += '<div class="fx-form">' + D.fields.map(function (f) { return '<label><span>' + f[1] + '</span><input type="number" step="any" inputmode="decimal" data-f="' + f[0] + '" value="' + (typeof cur[f[0]] === 'number' ? cur[f[0]] : '') + '"></label>'; }).join('') +
@@ -417,6 +417,7 @@
     if (st.res && steps.length && st.step) {
       h += '<ol class="fx-trail">' + steps.slice(0, st.step).map(function (s, i) { return '<li' + (i === st.step - 1 ? ' class="now"' : '') + '>' + s.why + '</li>'; }).join('') + '</ol>';
       if (st.step >= steps.length) {
+        if (D.dxLabel && st.res.dx && st.res.dx.length) h += '<p class="fx-dx"><span>' + D.dxLabel + '</span>' + st.res.dx.join(' → ') + '</p>';
         if (name === 'ab' && st.res.dx && st.res.dx.length) h += '<p class="fx-dx"><span>Diagnosis</span>' + st.res.dx.map(function (d, i) { return i ? d.charAt(0).toLowerCase() + d.slice(1) : d; }).join(' + ') + '</p>';
         if (name === 'pft') h += '<p class="fx-dx"><span>Reading</span>' + pftReading(st) + '</p>';
       }
@@ -426,7 +427,7 @@
       h += '<div class="fx-explain"><h4>' + t.h + '</h4>' + ul(t.b) + (t.ratio ? ratioBox(t.ratio) : '') + (t.th ? '<p class="fx-th">' + t.th + '</p>' : '') + '</div>';
       if (name === 'pft' && t.curve) h += curves(t.curve, st.res && vs.on[key] && st.v);
     } else if (!st.res) {
-      h += '<p class="fx-idle">' + (name === 'pft' ? 'Five questions, in order: is the air slow (ratio)? is the lung small (FVC)? how bad (grade)? does it reverse (bronchodilator)? and, if all normal, the small airways (FEF₂₅–₇₅).' : 'pH first, then which value (PaCO₂ or HCO₃⁻) explains it, then whether the other value compensated as expected, then — for metabolic acidosis — the anion gap and delta ratio.') + '</p>';
+      h += '<p class="fx-idle">' + (D.idle ? D.idle : name === 'pft' ? 'Five questions, in order: is the air slow (ratio)? is the lung small (FVC)? how bad (grade)? does it reverse (bronchodilator)? and, if all normal, the small airways (FEF₂₅–₇₅).' : 'pH first, then which value (PaCO₂ or HCO₃⁻) explains it, then whether the other value compensated as expected, then — for metabolic acidosis — the anion gap and delta ratio.') + '</p>';
     }
     return h;
   }
@@ -466,6 +467,7 @@
     var g = el.querySelector('.fx-node[data-n="' + n + '"]'); if (g) try { g.focus({ preventScroll: true }); } catch (e) { }
   }
 
+  F.add = function (name, d) { DEFS[name] = d; };  /* extra charts (src/flows-anatomy.js) */
   F.paths = { pft: pftPath, ab: abPath, pftCases: PFT_CASES, abCases: AB_CASES };  /* used by tools/flowtest.js */
   F.mount = function (root) {
     var els = (root || document).querySelectorAll('.flowx');

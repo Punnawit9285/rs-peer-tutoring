@@ -7,6 +7,7 @@
      '| a | b |'         table row (first row = head)  '= text'   centered equation
      '@F1' '@F2'         place that figure here; figures not placed go to a column beside the text
      '@X1'               place that flow widget        {{...}}    cloze blank (keep 3–8 per card, key ideas only)
+     '@flow:name'        an interactive chart from src/flows*.js
      '---'               what follows goes full width under the text and figure columns */
 (function () {
   var C = window.CVS, byId = {};
@@ -34,6 +35,7 @@
       else if (k === '! ') out.push('<p class="lt-trap">' + inl(t) + '</p>');
       else if (k === '= ') out.push('<div class="eqn">' + inl(t) + '</div>');
       else if (/^@F\d+$/.test(b)) { var i = +b.slice(2) - 1; if (!F[i]) throw new Error('no figure ' + b); used[i] = 1; out.push(F[i]); }
+      else if (/^@flow:\w+$/.test(b)) out.push('<div class="flowx" data-flow="' + b.slice(6) + '"></div>');
       else if (/^@X\d+$/.test(b)) { var j = +b.slice(2) - 1; if (!X[j]) throw new Error('no flow ' + b); out.push(X[j]); }
       else out.push('<p class="lt-p">' + inl(b) + '</p>');
     });
@@ -71,7 +73,9 @@ S_('U-C2', [
   '| Superior meatus | posterior ethmoidal cells |',
   '| Middle meatus · {{hiatus semilunaris}} | {{frontal}}, maxillary, anterior ethmoidal |',
   '| Inferior meatus | nasolacrimal duct |',
-  '> {{Kiesselbach area}} (front of septum) → arteries meet → commonest nosebleed site'
+  '> {{Kiesselbach area}} (front of septum) → arteries meet → commonest nosebleed site',
+  '---',
+  '@flow:sinus'
 ]);
 S_('U-C3', [
   '## Nasopharynx · air only',
@@ -99,7 +103,9 @@ S_('U-C5', [
   '| Thyroarytenoid, vocalis | relax | recurrent |',
   '> Recurrent laryngeal injury → cord can’t {{abduct}} → hoarse, short of breath',
   '> Superior thyroid a. tied → its companion nerve cut → cord tension ↓ → weak, low voice',
-  '- Trachea: C6 → carina at the sternal angle · C-rings closed by trachealis'
+  '- Trachea: C6 → carina at the sternal angle · C-rings closed by trachealis',
+  '---',
+  '@flow:larynx'
 ]);
 
 /* ---------- W · Thoracic wall ---------- */
@@ -131,7 +137,9 @@ S_('W-C4', [
   '> Top → bottom: {{VAN}} = vein, artery, nerve',
   '- Front: {{internal thoracic}} artery · back: aorta · veins → azygos / hemiazygos',
   '> Nerve block → aim at the {{lower border}} of the rib',
-  '> Chest tap or drain → over the {{upper border}} of the rib below (away from the bundle)'
+  '> Chest tap or drain → over the {{upper border}} of the rib below (away from the bundle)',
+  '---',
+  '@flow:icspace'
 ]);
 S_('W-C5', [
   '> Thoracocentesis → low, at the back · chest drain → 4th–5th space, axillary line',
@@ -139,7 +147,9 @@ S_('W-C5', [
   '> {{Flail chest}}: ribs broken in 2 places → loose segment → {{paradoxical}} movement',
   '- Diaphragm motor = {{phrenic nerve}} only (C3–5)',
   '- Openings: IVC T8 · {{esophagus}} T10 · aorta T12',
-  '- Right dome sits on the {{liver}}'
+  '- Right dome sits on the {{liver}}',
+  '---',
+  '@flow:diaphragm'
 ]);
 
 /* ---------- B · Lungs and bronchi ---------- */
@@ -166,7 +176,9 @@ S_('B-C3', [
   '> {{Right main bronchus}}: wider, shorter, more vertical → inhaled peanut lodges here',
   '- Right upper lobe bronchus above the pulmonary artery = {{eparterial bronchus}}',
   '- Left main bronchus: long, horizontal',
-  '- Pulmonary {{veins}}: lowest, most anterior in the root → oxygenated blood to the heart'
+  '- Pulmonary {{veins}}: lowest, most anterior in the root → oxygenated blood to the heart',
+  '---',
+  '@flow:airway'
 ]);
 S_('B-C4', [
   '> Bronchial arteries feed lung tissue: left ← {{thoracic aorta}} · right ← posterior intercostal a.',
@@ -179,7 +191,9 @@ S_('B-C5', [
   '- {{Thoracic duct}}: from cisterna chyli · between aorta and azygos · injury → chylothorax',
   '- Right lymphatic duct → right {{venous angle}} (subclavian + internal jugular)',
   '> Vagus → {{bronchoconstriction}} · sympathetic → bronchodilation',
-  '- {{Stellate ganglion}}: top of the sympathetic trunk, on the neck of rib 1'
+  '- {{Stellate ganglion}}: top of the sympathetic trunk, on the neck of rib 1',
+  '---',
+  '@flow:lymph'
 ]);
 
 /* ---------- H · Histology ---------- */
