@@ -12,7 +12,8 @@ const THAI_Q = window.THAI_Q, THAI_CONCEPT = window.THAI_CONCEPT;  /* shared wit
 const S = CVS.sections, LET = 'ABCDEFGH';
 const pages = process.argv[2] && fs.existsSync(process.argv[2]) ? JSON.parse(rd(process.argv[2])) : {};
 const pg = k => pages[k] ? String(pages[k]) : '00';
-const eager = h => String(h).replace(/ loading="lazy"/g, '');
+/* print-sized figure copies made by tools/pdf.sh in dist/pimg/: the PDF embeds each image once per use */
+const eager = h => String(h).replace(/ loading="lazy"/g, '').replace(/src="img\/([^"]+\.jpg)"/g, 'src="pimg/$1"');
 const isQ = it => it.t === 'q' || it.t === 'tf' || it.t === 'open';
 
 let nQ = 0, nC = 0;
@@ -57,9 +58,10 @@ S.forEach(s => {
 h += '</tbody></table><p class="legend"><span class="chip core">core</span> done in the video</p></section>';
 
 function qBlock(it) {
-  let b = '<div class="pq"><div class="pqh"><b>' + it.id + '</b>' + (it.src ? '<span class="src">' + it.src + '</span>' : '') + (it.core ? '<span class="chip core">core</span>' : '') + (it.t === 'tf' ? '<span class="src">True / False</span>' : '') + (it.group ? '<span class="src">' + it.group + '</span>' : '') + '</div>';
+  let b = '<div class="pq' + (it.wide ? ' wide' : '') + '"><div class="pqh"><b>' + it.id + '</b>' + (it.src ? '<span class="src">' + it.src + '</span>' : '') + (it.core ? '<span class="chip core">core</span>' : '') + (it.t === 'tf' ? '<span class="src">True / False</span>' : '') + (it.group ? '<span class="src">' + it.group + '</span>' : '') + '</div>';
   b += '<div class="pstem">' + it.q + '</div>';
-  if (it.fig) b += '<div class="pfig">' + eager(it.fig) + '</div>';
+  if (it.figRef) b += '<p class="pfigref">Same figure as ' + it.figRef + '</p>';
+  else if (it.fig) b += '<div class="pfig">' + eager(it.fig) + '</div>';
   if (it.t === 'q') b += '<ol class="popt">' + it.o.map((o, i) => '<li><span class="L">' + LET[i] + '</span><span>' + o + '</span></li>').join('') + '</ol>';
   else if (it.t === 'tf') b += '<div class="ptf"><span><span class="L">T</span>True</span><span><span class="L">F</span>False</span></div>';
   else b += '<div class="plines"><i></i><i></i><i></i><i></i></div>';

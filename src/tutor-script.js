@@ -27,19 +27,10 @@ window.TUTOR_SCRIPT.sec.U = { part: "Video 1", time: "12&#8211;15 min",
   ],
   say: {
     "U-C1": "Walk around the nasal cavity wall by wall: cribriform plate on the roof, hard palate on the floor, two bones plus one cartilage in the septum, and three conchae on the lateral wall where the bottom one is its own separate bone.",
-    "U1": "Clear nasal fluid plus loss of smell after head trauma is the classic cribriform plate fracture tearing olfactory nerve rootlets and dura.",
     "U-C2": "Memorize the lateral wall drainage from top to bottom, and note that the hiatus semilunaris in the middle meatus catches three major sinuses while the inferior meatus is reserved for tears. On the septum side, five arteries meet at Kiesselbach area.",
-    "U4": "Hiatus semilunaris is the big three-way gutter in the middle meatus: frontal sinus, anterior ethmoidal cells, and maxillary sinus.",
-    "U5": "Kiesselbach area has two ethmoidals from the ophthalmic, two branches from the maxillary, and the superior labial from the facial; the inferior alveolar artery goes to the mandible.",
     "U-C3": "Divide the pharynx into three floors and pair each floor with its clinical landmark: fossa of Rosenmuller in the nasopharynx for NPC, Waldeyer ring across the nasopharynx and oropharynx, and the piriform recess in the laryngopharynx for swallowed fish bones.",
-    "U6": "Nasopharyngeal carcinoma classically starts in the pharyngeal recess, also called the fossa of Rosenmuller, just behind the torus tubarius.",
     "U-C4": "Nine cartilages—three single, three paired—held together by two fibro-elastic sheets: the upper quadrangular membrane gives the false cord, while the lower conus elasticus gives the true vocal ligament and the median cricothyroid ligament.",
-    "U8": "The conus elasticus gives you two high-yield structures: its upper free edge is the vocal ligament, and its anterior thickening is the median cricothyroid ligament pierced in an emergency cricothyroidotomy.",
-    "U9": "True: true vocal cords take mechanical stress so they wear stratified squamous epithelium, and the glottis has no lymphatic vessels.",
     "U-C5": "One muscle opens the airway—posterior cricoarytenoid—and one intrinsic muscle has its own motor nerve—cricothyroid via the external laryngeal nerve. Everything else motor belongs to the recurrent laryngeal nerve.",
-    "U10": "Posterior cricoarytenoid is the only abductor of the vocal folds; without it, the rima glottidis cannot open.",
-    "U11": "Ligating the superior thyroid artery puts the external laryngeal nerve at risk, paralyzing the cricothyroid muscle and leaving the patient with a monotone voice.",
-    "U14": "Use the ten post-test blanks on slide 44 as a rapid-fire checklist across the entire Upper Respiratory Tract lecture."
   }
 };
 
@@ -55,17 +46,10 @@ window.TUTOR_SCRIPT.sec.W = { part: "Video 1", time: "12&#8211;15 min",
   ],
   say: {
     "W-C1": "Start with the bony frame: the sternal angle finds the second rib, ribs one through seven reach the sternum directly, and a typical rib grips the spine at two joints—head to vertebral bodies and tubercle to transverse process.",
-    "W1": "The sternal angle of Louis always lines up with the second costal cartilage.",
     "W-C2": "Three muscle sheets line each space: external runs down-and-forward like hands in pockets to lift the ribs, while internal and innermost run at right angles to pull them down in forced expiration.",
-    "W3": "External intercostals run inferoanteriorly, elevate the ribs in inspiration, and turn into a membrane anteriorly from the costochondral junction to the sternum.",
     "W-C3": "Quiet expiration costs zero muscle energy—it is pure elastic recoil. Only when breathing turns forceful do we recruit neck and chest elevators for inspiration or abdominal and internal intercostal muscles for expiration.",
-    "W5": "SCM, scalenes, pectoralis minor, serratus anterior, and levator costarum are all inspiratory helpers; abdominal muscles and internal intercostals belong to forced expiration.",
     "W-C4": "Between the internal and innermost muscle layers sits the VAN bundle tucked into the costal groove along the lower rib border. Aim at the lower border to numb the nerve, and hug the upper border to miss the vessels.",
-    "W7": "From top to bottom in the costal groove it is Vein, Artery, Nerve—running in the plane between the internal and innermost intercostal muscles.",
-    "W9": "Block the nerve at the lower border where the VAN bundle hides; slide chest tubes and pleural needles over the upper border where it is safe.",
     "W-C5": "Match each pleural problem to its space and line, spot the inward-on-inspiration paradox of a flail chest, and trace the three major openings through the diaphragm.",
-    "W10": "In the Thoracic Wall handout, fluid thoracocentesis is at the 7th or 8th space posteriorly, while a chest tube for air or blood goes in the 4th or 5th space at the anterior or mid-axillary line.",
-    "W11": "An unattached flail segment gets sucked inward by negative intrathoracic pressure during inspiration and pushed outward during expiration—paradoxical movement."
   }
 };
 
@@ -81,18 +65,10 @@ window.TUTOR_SCRIPT.sec.B = { part: "Video 2", time: "12&#8211;15 min",
   ],
   say: {
     "B-C1": "Lock in the two-rib pleural gap across the three vertical lines: six-eight-ten for the lung, eight-ten-twelve for the pleura. That two-rib space at the base is the costodiaphragmatic recess.",
-    "B1": "Six, eight, ten for the lung; eight, ten, twelve for the pleura; and the cupola rises one inch above the medial third of the clavicle.",
-    "B2": "In the Lung handout, a pleural tap enters the costodiaphragmatic recess at the 8th, 9th, or 10th space in the midaxillary line, always hugging the upper border of the rib.",
     "B-C2": "Look at the medial surface of each lung as a mold of its mediastinal neighbors: veins and the esophagus stamp the right lung, while the aorta and subclavian artery stamp the left.",
-    "B4": "Right mediastinal surface is venous plus esophagus—azygos arch, SVC, brachiocephalic vein—while the left surface carries the aortic arch, descending aorta, and subclavian artery.",
     "B-C3": "The sternal angle at disc T4–T5 is your master plane for the carina and aortic arch. At the right hilum, spot the right superior lobar bronchus sitting above the pulmonary artery—the only eparterial bronchus.",
-    "B6": "Everything on that list sits at the sternal angle plane except the start of the trachea, which is up in the neck at C6.",
-    "B7": "The right superior lobar bronchus is the eparterial bronchus above the right pulmonary artery, and the segment count in this lecture is ten on the right and eight on the left.",
     "B-C4": "Bronchial arteries follow a one-right, two-left rule: one right branch off the third right posterior intercostal artery, two left branches straight off the aorta at T5 or T6. Then follow the veins into the azygos on the right and accessory hemiazygos on the left.",
-    "B9": "One right bronchial artery from the third right posterior intercostal artery with venous drainage to the azygos; two left bronchial arteries from the aorta at T5–T6 with venous drainage to the accessory hemiazygos.",
     "B-C5": "Finish with lymph and nerves: bronchomediastinal trunks join the right lymphatic duct and the thoracic duct from L2, while the pulmonary plexus balances vagal bronchoconstriction against sympathetic bronchodilation.",
-    "B11": "Parasternal, anterior mediastinal, and tracheobronchial nodes feed the bronchomediastinal trunks, and the thoracic duct starts at the cisterna chyli at L2.",
-    "B12": "Vagus constricts the airways and dilates pulmonary vessels; sympathetic dilates the airways and constricts vessels; and the greater and lesser splanchnic nerves come from T5–T9 and T10–T11."
   }
 };
 
@@ -112,18 +88,10 @@ window.TUTOR_SCRIPT.sec.H = { part: "Video 2", time: "12&#8211;15 min",
   ],
   say: {
     "H-C1": "Start by splitting the tract at the terminal bronchiole, then contrast three upper linings: respiratory mucosa with motile cilia and goblet cells, olfactory mucosa with non-motile cilia and Bowman glands but zero goblet cells, and non-keratinized stratified squamous on every surface that takes mechanical wear.",
-    "H1": "Olfactory mucosa has non-motile cilia, packed nuclei, Bowman glands in the lamina propria, and no goblet cells.",
-    "H2": "The oropharynx, the oral surface of the epiglottis, and the true vocal cords all take friction, so they wear non-keratinized stratified squamous epithelium.",
     "H-C2": "Compare the three tubes in one table: C-shaped cartilage and posterior trachealis in the trachea, discontinuous cartilage plates in intrapulmonary bronchi, and zero cartilage with almost no goblet cells or glands once you enter a bronchiole.",
-    "H4": "C-shaped hyaline cartilage, posterior trachealis muscle, a thick basement membrane, and shared adventitia with the esophagus is the signature of the trachea.",
-    "H6": "Stepping from an intrapulmonary bronchus into a bronchiole drops out all cartilage plates and nearly all goblet cells and submucosal glands.",
     "H-C3": "At the terminal bronchiole, goblet cells give way to dome-shaped Club cells with short microvilli and four exam jobs: lipoprotein secretion, stem-cell repair, detoxification, and the biomarker CC16.",
-    "H7": "Club cells are dome-shaped with blunt microvilli; they help surfactant via lipoprotein, act as stem-like cells, detoxify xenobiotics, and secrete CC16.",
     "H-C4": "Watch the number trap in the alveolus: Type II cuboidal cells outnumber Type I cells sixty to forty, but flat Type I cells cover ninety to ninety-five percent of the gas-exchange surface. And remember pores of Kohn equalize pressure between neighbors to prevent atelectasis.",
-    "H9": "Type I makes up forty percent of the cells but covers ninety to ninety-five percent of the area; Type II makes up sixty percent of the cells and covers only five to ten percent.",
-    "H10": "Pores of Kohn link adjacent alveoli for collateral ventilation so a blocked bronchiole does not collapse the alveolus.",
     "H-C5": "Count all five layers of the air-blood barrier on slide 42 from alveolus to red cell, and finish with the simple squamous mesothelium of the pleura.",
-    "H12": "In slide order: alveolar fluid with surfactant, alveolar epithelium, fused double basal lamina, capillary endothelium, and the red blood cell plasma membrane."
   }
 };
 
@@ -139,16 +107,9 @@ window.TUTOR_SCRIPT.sec.G = { part: "Video 2", time: "12&#8211;15 min",
   ],
   say: {
     "G-C1": "Separate STPD from BTPS right away: BTPS is 37 degrees Celsius, ambient pressure, and saturated with 47 mmHg of water vapor. Then lock in 22.4 liters per mole at STP and the two numbers for the gas constant R.",
-    "G1": "BTPS stands for body temperature at 37 degrees Celsius, ambient pressure, and gas saturated with 47 mmHg of water vapor.",
-    "G2": "One mole of ideal gas occupies 22.4 liters at STP, with R equal to 0.082 liter-atmospheres per Kelvin-mole or 8.314 Joules per Kelvin-mole.",
     "G-C2": "Just below the carina sits the isothermic saturation boundary: air hits 37 degrees, 100 percent humidity, 44 milligrams per liter, and 47 mmHg of water vapor. Subtracting 47 from 760 leaves 713 mmHg of dry gas, dropping PO2 from 159.1 to 149.2 mmHg before a single molecule crosses an alveolus.",
-    "G4": "Subtract 47 mmHg of water vapor from 760 to get 713, then multiply by 0.2093 to get 149.2 mmHg in moist bronchial air.",
-    "G5": "At the isothermic saturation boundary below the carina, gas is at 37 degrees Celsius, 100 percent relative humidity, 44 milligrams per liter, and 47 mmHg water vapor pressure.",
     "G-C3": "Know both numbers from the alveolar gas equation on room air: 99.2 mmHg when you drop the correction factor F, and 101.2 mmHg when you include F equals 2 or use the clinical times-1.2 shortcut for FiO2 up to 0.6. Above FiO2 0.6, drop the 1.2 multiplier.",
-    "G7": "149.2 minus 40 over 0.8 gives 99.2 mmHg without F, and adding the 2 mmHg correction factor—or subtracting 40 times 1.2—gives 101.2 mmHg.",
-    "G8": "Once FiO2 goes above 0.6, the clinical formula drops the 1.2 multiplier and simply subtracts PaCO2 from FiO2 times PB minus water vapor.",
     "G-C4": "Henry’s law multiplies partial pressure by solubility: 0.003 times 100 gives 0.3 mL of dissolved O2 per deciliter of arterial blood, while CO2 is 23 times more soluble in plasma. For the wards, remember tank factor 0.16 for a D cylinder and keep nasal cannula flow at or below 6 liters per minute.",
-    "G10": "At a PaO2 of 100 mmHg, 0.003 times 100 gives 0.3 mL of dissolved O2 per deciliter, and CO2 is about 23 times more soluble in plasma than O2."
   }
 };
 
@@ -164,19 +125,10 @@ window.TUTOR_SCRIPT.sec.M = { part: "Video 2", time: "14&#8211;18 min",
   ],
   say: {
     "M-C1": "Start at rest at FRC: alveolar pressure is zero, intrapleural pressure is minus five, and transpulmonary pressure is plus five. Quiet inspiration pulls pleural pressure more negative, whereas passive positive-pressure ventilation pushes pleural pressure positive.",
-    "M1": "Diaphragm and external intercostals drive quiet inspiration; SCM, serratus anterior, and scalenes join in maximal inspiration; and internal intercostals plus abdominal muscles drive forced expiration.",
-    "M2": "At end-expiration at FRC, alveolar pressure is 0, intrapleural pressure is minus 5 cmH2O, and transpulmonary pressure PA minus Ppl is plus 5 cmH2O.",
     "M-C2": "Surfactant DPPC lowers surface tension, and slide 16 highlights that smaller alveoli pack more surfactant per unit area so they have a smaller recoil force and expand more easily. On the relaxation curve, inward lung pull and outward chest pull balance at FRC.",
-    "M4": "In slide 16, small alveoli have a higher density of surfactant per surface area, giving them a lower elastic recoil force so they expand more easily during inspiration.",
-    "M5": "At FRC, inward lung recoil equals outward chest wall recoil; opening the chest lets the lung collapse to minimal air while the rib cage springs outward.",
     "M-C3": "Compliance is the inverse of recoil: lung alone is 0.2, chest wall is 0.2, and together in series they add reciprocals to give 0.1 liters per cmH2O. Emphysema loses recoil so compliance shoots up; fibrosis stiffens the lung so compliance drops.",
-    "M7": "Adding reciprocals of 0.2 and 0.2 gives a combined compliance of 0.1 L/cmH2O; static compliance rises in emphysema and falls in pulmonary fibrosis.",
-    "M9": "Static compliance is measured during a breath-hold with zero airflow, while dynamic compliance is measured during active breathing.",
     "M-C4": "Even though radius to the fourth power rules a single tube, small airways under 2 millimeters contribute only 10 percent of total resistance because thousands of parallel branches create a massive total cross-sectional area. During forced expiration in COPD, high positive pleural pressure crushes those small untethered airways, trapping air.",
-    "M10": "Upper and large airways account for 90 percent of resistance—50 percent in the nose and mouth, 25 at the glottis, 15 in bronchi over 2 mm—leaving only 10 percent in small airways because of their huge parallel cross-sectional area.",
-    "M11": "In COPD, loss of elastic recoil and radial traction lets high positive pleural pressure during forced expiration compress non-cartilaginous airways early, causing air trapping.",
     "M-C5": "Match each breath sound to its location and ratio—vesicular is inspiration longer than expiration over the lung fields, bronchial is expiration longer than inspiration over the manubrium—and split resting work of breathing into 65 percent elastic, 25 percent airway resistance, and 10 percent tissue viscosity.",
-    "M13": "At rest, 65 percent of work overcomes elastic recoil, 25 percent airway resistance, and 10 percent tissue viscosity; fibrosis increases elastic work while COPD increases airway resistance work."
   }
 };
 
@@ -197,20 +149,10 @@ window.TUTOR_SCRIPT.sec.E = { part: "Video 3", time: "14&#8211;18 min",
   ],
   say: {
     "E-C1": "Walk oxygen down four steps: 160 in dry air, 150 in the humidified trachea after subtracting 47 for water vapor, 100 in the alveolus from the alveolar gas equation, and 97 in arterial blood because of the 2 percent physiologic shunt from bronchial and thebesian veins.",
-    "E1": "Read the stem carefully: dry inspired air at sea level is 760 times 0.21, which is 160 mmHg. Once humidified in the trachea it drops to 150.",
-    "E2": "Switching from carbohydrates (R = 1.0) to fat (R = 0.7) increases the PACO2-over-R term, so PAO2 drops from 110 to about 93 mmHg; PaO2 stays slightly below PAO2 because of the 2 percent bronchial and thebesian shunt.",
     "E-C2": "Fick’s law puts area, pressure gradient, and solubility on top, and barrier thickness and the square root of molecular weight on the bottom. CO2 is 24.2 times more soluble than O2, so it diffuses 20 times faster. Watch the false highs and lows on DLCO: Müller’s maneuver and polycythemia raise it, Valsalva and anemia lower it.",
-    "E4": "Membrane thickness sits in the denominator of Fick’s law, so thickening the barrier is the only choice that decreases diffusion.",
-    "E6": "Pair high capillary blood volume or high Hb with high DLCO—Müller’s maneuver, alveolar hemorrhage, polycythemia—and reduced area or reduced flow with low DLCO—emphysema or Valsalva.",
     "E-C3": "Arterial blood carries 20.4 mL of O2 per dL and venous blood carries 15.19, giving 5 mL extracted per dL or 250 mL per minute. A red cell spends 0.75 seconds in the capillary: N2O equilibrates in a tenth of that time and normal O2 in a third—both perfusion-limited—while CO binds Hb so tightly that plasma PCO never rises, making CO always diffusion-limited.",
-    "E7": "Plug 15 grams of Hb into 1.34 times saturation plus 0.003 times PO2: 20.4 mL/dL arterial, 15.19 venous, and 250 mL per minute across a 5-liter cardiac output.",
-    "E8": "Carbon monoxide is always diffusion-limited because it locks onto hemoglobin without raising dissolved plasma partial pressure.",
     "E-C4": "Gravity pulls the lung down, making apical intrapleural pressure minus 10 versus minus 2 at the base. So apical alveoli start out largest at rest, sit on the flat top of the compliance curve, and ventilate less than the base—yet apical blood flow is so tiny that V/Q is highest at the apex and lowest at the base, averaging 0.84 overall.",
-    "E10": "At the apex, more negative intrapleural pressure stretches resting alveoli to their largest baseline size, making them less compliant during inspiration.",
-    "E11": "Subtract dead space first: 300 minus 100 is 200 mL per breath, times 10 breaths per minute is 2000 mL/min of alveolar ventilation. Divide by 5000 mL/min of cardiac output to get 0.4.",
     "E-C5": "Dead space is ventilation without perfusion—V/Q infinity, alveolar gas looks like tracheal air at 150 and 0, and we measure physiological dead space with Bohr’s equation. Shunt is perfusion without ventilation—V/Q zero, blood stays venous at 40 and 46. Both widen the A-a gradient, whereas moderate exercise keeps arterial blood gases flat through isocapnic buffering.",
-    "E12": "Use Bohr’s formula: 40 minus 24 over 40 is 0.40, and 40 percent of a 500 mL tidal volume gives 200 mL of physiological dead space.",
-    "E13": "Pure dead space matches humidified inspired air at 150 and 0; pure shunt matches mixed venous blood at 40 and 46; and shunt, V/Q mismatch, and diffusion defects all widen the A-a gradient."
   }
 };
 
@@ -226,19 +168,10 @@ window.TUTOR_SCRIPT.sec.T = { part: "Video 3", time: "14&#8211;18 min",
   ],
   say: {
     "T-C1": "Partial pressure pushes gas into liquid; tension pushes it back out. Follow oxygen across the nine layers from alveolar air and surfactant into hemoglobin: exercise triples O2 diffusing capacity from 20 to 65, and red cells multiply blood O2 capacity 65-fold.",
-    "T1": "Tension is the escaping force that balances partial pressure at equilibrium, and young-adult O2 diffusing capacity jumps from 20 at rest to 65 during exercise.",
     "T-C2": "Know the exact three-step choreography of HbA oxygenation: O2 enters the wider alpha pocket first, pulls ferrous iron 0.6 Angstroms into the porphyrin ring from high-spin to low-spin, breaks the salt bridges, rotates alpha-beta 15 degrees, kicks out 2,3-BPG, and opens the beta pocket.",
-    "T3": "Alpha subunit first because its heme pocket is wider, then Fe2+ drops 0.6 Angstroms into the plane from high-spin to low-spin, breaking salt bridges, rotating 15 degrees, and expelling 2,3-BPG.",
     "T-C3": "Normal P50 is 27 mmHg. Heat, CO2, protons—acting through the beta-His146 to Asp94 ion pair—and 2,3-BPG all stabilize the T-state and shift the curve right to unload O2. Remember the exam trap on 2,3-BPG: hormones, hypoxia, anemia, and altitude raise it, but acidosis lowers it.",
-    "T6": "At low pH, protonated His146 on the beta chain forms an ion pair with Asp94 that locks deoxyhemoglobin in the T-state and raises P50.",
-    "T7": "2,3-BPG comes from anaerobic glycolysis, binds beta chains 1-to-1 non-covalently, rises with thyroid hormone, GH, androgens, anemia, and altitude, and decreases in acidosis.",
     "T-C4": "Compare every cousin of HbA: fetal HbF is alpha-2-gamma-2 and ignores 2,3-BPG so it shifts left to pull O2 across the placenta; carbon monoxide binds Fe2+ 210 times tighter than O2; methemoglobin has Fe3+; sulfhemoglobin comes from hydroxylamine sulfate; and muscle myoglobin is a 153-amino-acid monomer with a hyperbolic curve and zero cooperativity.",
-    "T9": "HbF is alpha-2-gamma-2 and barely binds 2,3-BPG, shifting its curve to the left so the fetus can extract oxygen from maternal HbA.",
-    "T10": "CO binds heme Fe2+ with 210 times the affinity of O2, methemoglobin has ferric Fe3+, and sulfhemoglobin is caused by sulfur agents like hydroxylamine sulfate.",
-    "T11": "Myoglobin is a single 153-amino-acid chain of 16,700 Daltons in muscle with a rectangular hyperbolic curve, higher affinity than HbA, no cooperativity, and no H+ or CO2 binding.",
     "T-C5": "Most CO2 rides as bicarbonate—70 percent in the Gas Transport slides, over 90 percent in the Gas Exchange slides—made by RBC carbonic anhydrase and exported via the chloride shift. Then lock in the two effects by location: Bohr in systemic capillaries unloads O2 when H+ and CO2 rise; Haldane in pulmonary capillaries unloads CO2 when O2 binds Hb.",
-    "T12": "Bicarbonate is always the major form of CO2 transport, generated by RBC carbonic anhydrase and exported in exchange for chloride.",
-    "T13": "Bohr happens in systemic capillaries where H+ and CO2 lower O2 affinity to unload oxygen; Haldane happens in alveolar capillaries where oxygenation of Hb lowers CO2 and H+ affinity to unload carbon dioxide."
   }
 };
 
@@ -254,44 +187,30 @@ window.TUTOR_SCRIPT.sec.C = { part: "Video 3", time: "12&#8211;15 min",
   ],
   say: {
     "C-C1": "Three phrases define the pulmonary circulation: low pressure, low resistance, same flow. Then contrast it with the high-pressure bronchial arteries from the aorta and intercostals, which feed the airways down to the terminal bronchioles and drain partly into the pulmonary veins.",
-    "C1": "Compared with the systemic bed, the pulmonary circulation has both lower pressure and lower resistance while carrying the exact same cardiac output.",
-    "C2": "Bronchial arteries come off the aorta and intercostal arteries at high systemic pressure, supply conducting airways to the terminal bronchioles, and drain partly via pulmonary veins.",
     "C-C2": "Two graphs explain PVR: first, when blood flow rises in exercise, PVR drops mainly by recruiting closed capillaries and secondarily by distending open ones. Second, lung inflation squashes alveolar capillaries but pulls extra-alveolar vessels open by radial traction, giving a U-shaped total PVR curve with its minimum right at FRC.",
-    "C4": "During exercise, PVR falls primarily through capillary recruitment—opening previously closed vessels—along with capillary distension.",
-    "C5": "Total PVR is lowest at FRC because alveolar vessels are squashed toward TLC while extra-alveolar vessels narrow toward RV.",
     "C-C3": "Unlike systemic arteries, pulmonary arteries constrict when alveolar PO2 falls below 70 mmHg. That hypoxic vasoconstriction diverts blood away from unventilated alveoli to reduce shunt, and keeps fetal PVR high until the baby takes its first oxygenated breath.",
-    "C6": "Alveolar hypoxia triggers hypoxic pulmonary vasoconstriction and increases PVR; every other option lowers PVR.",
-    "C7": "Below a PAO2 of 70 mmHg, local vasoconstriction redirects blood away from poorly ventilated alveoli to reduce shunt, while in the fetus generalized HPV keeps PVR high until the first breath.",
     "C-C4": "Normal Starling forces push a slow 20 mL per hour of fluid outward into perivascular lymphatics. When filtration overwhelms those lymphatics, early interstitial edema with peribronchial cuffing turns into late alveolar edema—flooding alveoli one by one, creating a severe shunt, and relying on epithelial Na/K-ATPase to pump the fluid out.",
-    "C9": "Cardiogenic edema raises capillary hydrostatic pressure—LV failure, mitral stenosis, fluid overload—whereas non-cardiogenic edema lowers plasma oncotic pressure, blocks lymphatics, or raises the filtration coefficient K in sepsis, acute lung injury, or oxygen toxicity.",
-    "C10": "Early interstitial edema collects in perivascular and peribronchial spaces and drains via lymphatics to hilar nodes; late alveolar edema floods alveoli, causes shunt, and is pumped out by epithelial Na/K-ATPase."
   }
 };
 
 /* ---------- P ---------- */
 window.TUTOR_SCRIPT.sec.P = { part: "Video 4", time: "14&#8211;18 min",
-  open: "Pulmonary function testing comes down to three questions: which volumes can a simple spirometer actually see, did the patient blow an acceptable and repeatable curve, and how do we walk through the interpretation flowchart and flow-volume loop?",
+  open: "Most of the class lost the thread in this lecture, so we will treat it as a checklist: how a good test is done, then five questions that read any spirometry report, then six real reports from the slides.",
   u: [
-    "<b>Volumes &amp; capacities</b>: four volumes (TV, IRV, ERV, RV) combine into four capacities (IC = TV + IRV, FRC = ERV + RV, VC = IRV + TV + ERV, TLC = VC + RV). Simple spirometry <b>cannot measure RV, FRC, or TLC</b>.",
-    "<b>Prep &amp; withholding</b>: withhold SABA 4–6 h, SAMA 12 h, LABA 24 h, ultra-LABA 36 h, LAMA 36–48 h, theophylline 12 h (SR 24 h); do not withhold ICS or anti-leukotrienes. GLI2012 reference values use <b>age, sex, height, and ethnicity</b> — never weight.",
-    "<b>ATS/ERS 2019 acceptability</b>: inhale to TLC in &le; 2 s; 1. BEV &le; 5% FVC or 0.100 L; 2. EOFE plateau &le; 0.025 L in last 1 s, time &ge; 15 s, or repeatable FVC; 3. no cough in 1st s, glottis closure, tongue block, or leak; 4. FIVC &minus; FVC &le; 0.100 L or 5% FVC.",
-    "<b>Repeatability &amp; best test</b>: 3–8 trials; top two FVC and top two FEV<sub>1</sub> within &le; 0.150 L in adults; report the <b>largest FEV<sub>1</sub> and largest FVC</b> even if from different trials.",
-    "<b>Reversibility &amp; algorithm</b>: salbutamol 400 &mu;g (wait 15 min) or ipratropium 160 &mu;g (wait 30 min); positive response is <b>&ge; 12% and &ge; 200 mL</b> from baseline (or &gt; 10% predicted in 2021). Follow FEV<sub>1</sub>/FVC (&lt; 70% = obstruction) &rarr; FVC (&lt; 80% = suspect restriction or check Corrected %FVC) &rarr; FEF<sub>25–75%</sub> (&lt; 65% = small airway disease).",
-    "<b>Flow-volume loops</b>: scooped concave expiratory limb in obstruction; steep narrow witch's hat in parenchymal restriction; flat inspiratory limb in variable extrathoracic obstruction (stridor); flat expiratory limb in variable intrathoracic obstruction (wheezes); both flat in fixed central obstruction."
+    "<b>What spirometry sees</b>: only air that moves past the lips, so it cannot measure RV, FRC or TLC.",
+    "<b>Before the test</b>: a forced blow spikes chest, skull and eye pressure (hence the contraindications); stop bronchodilators for a diagnostic test, but not inhaled steroids.",
+    "<b>A good blow</b>: fill to TLC fast, blast, keep going; at least 3 acceptable blows with the top two within 0.150 L; report the largest FEV₁ and the largest FVC.",
+    "<b>Steps 1–2</b>: FEV₁/FVC below 70–75 is obstruction (use the actual ratio); FVC below 80% predicted is restriction (correct it first if obstructed; confirm with TLC).",
+    "<b>Steps 3–4</b>: grade obstruction by FEV₁ %pred and restriction by FVC %pred (≥ 70, 50–69, 35–49, &lt; 35); a bronchodilator response is ≥ 12% and ≥ 200 mL.",
+    "<b>Step 5</b>: if the ratio and FVC are normal, FEF₂₅–₇₅% below 65% means small airway disease.",
+    "<b>Loops</b>: scooped expiration in obstruction, a small narrow loop in restriction, flat limbs in central airway obstruction (both flat = fixed)."
   ],
   say: {
     "P-C1": "Start with the one rule they always test: a simple spirometer only sees air crossing the lips, so it can never measure residual volume, FRC, or TLC. For those three, you need a body box or gas dilution.",
-    "P1": "Anything that includes residual volume is invisible to simple spirometry: RV itself, FRC, and TLC.",
-    "P-C2": "Forced spirometry is a huge pressure spike in the chest, head, and eyes, which explains the contraindication list. For bronchodilator withholding times, walk up the ladder from four-to-six hours for SABA up to forty-eight hours for LAMA, and remember weight is never in the GLI reference equation.",
-    "P3": "Step up the withholding ladder: SABA four to six hours, SAMA twelve, LABA twenty-four, ultra-LABA thirty-six, LAMA thirty-six to forty-eight, and leave inhaled steroids alone.",
-    "P-C3": "Four acceptability checks, then repeatability: fast inspiration under two seconds, BEV under five percent or a hundred mils, a clean one-second plateau or fifteen seconds of blow, no first-second cough or leak, and FIVC within a hundred mils of FVC. Then check that the top two FVC and FEV1 values are within a hundred and fifty mils.",
-    "P6": "Lock in the 2019 numbers: BEV five percent or a hundred mils, plateau twenty-five mils in the last second or fifteen seconds total, and adult repeatability within a hundred and fifty mils.",
-    "P7": "Compare the two largest values, not the highest and lowest: both FEV1 and FVC are repeatable within a hundred and fifty mils, and Trial 2 holds the largest FEV1 and the largest FVC.",
-    "P-C4": "Walk the flowchart from the top: check FEV1 over FVC against seventy percent first. If it is normal, check FVC for restriction and FEF25-75 for small airway disease. If FEV1 over FVC is low, grade severity by percent predicted FEV1, use corrected FVC to separate air-trapping pure obstruction from a combined defect, and check the twelve-percent and two-hundred-mil bronchodilator rule.",
-    "P8": "Both men have pure obstruction, but Case 3 is forty-three percent predicted and fails the reversibility cutoff, while Case 4 is sixty-nine percent predicted and hits plus twelve percent and plus two hundred mils right on the nose.",
-    "P9": "Both patients have a normal FEV1-to-FVC ratio above eighty percent, so look at FVC next: Case 5 has a low FVC of sixty-nine percent predicted, meaning suspected moderate restriction, whereas Case 6 has a normal FVC but an FEF25-75 of fifty-one percent, classic small airway disease.",
+    "P-C2": "Blowing hard spikes the pressure in the chest, head and eyes, which is why the list of reasons to wait looks the way it does.",
+    "P-C3": "One good blow is fill, blast, keep going. Do it at least three times, check the top two agree, then report the biggest FEV1 and the biggest FVC.",
+    "P-C4": "Read every report with five questions: blocked, small, how bad, reversible, small airways. Each one uses one number from one column.",
     "P-C5": "Every flow-volume loop tells a mechanical story: scooped-out expiration in distal obstruction, a narrow steep witch's hat in parenchymal fibrosis, flat inspiration in variable extrathoracic obstruction, flat expiration in variable intrathoracic obstruction, and a flat box when the central airway is fixed.",
-    "P11": "Vocal cord paralysis sits outside the chest: negative airway pressure during inspiration sucks the cords inward against atmospheric pressure, flattening the bottom inspiratory limb and causing stridor."
   }
 };
 
@@ -308,18 +227,10 @@ window.TUTOR_SCRIPT.sec.R = { part: "Video 4", time: "14&#8211;18 min",
   ],
   say: {
     "R-C1": "Separate the rhythm generator from the drivers: the pre-Botzinger complex in the intermediate VRG is the pacemaker, the DRG in the NTS drives normal inspiration down the phrenic nerve, the lower pons pushes inspiration on, and the upper pons switches it off.",
-    "R1": "The pacemaker that sets the basic respiratory rhythm is the pre-Botzinger complex in the intermediate VRG.",
-    "R2": "DRG is the nucleus tractus solitarii driving the diaphragm via C3 to C5; lower-pontine apneustic excites it, and upper-pontine pneumotaxic inhibits it.",
     "R-C2": "Central chemoreceptors do seventy percent of the work for CO2 because CO2 slips right across the blood-brain barrier into low-protein CSF, whereas H+ is locked out. Peripheral carotid bodies handle hypoxia by closing O2-sensitive potassium channels on Type I glomus cells.",
-    "R4": "CO2 crosses the blood-brain barrier freely and acidifies the poorly buffered CSF, whereas arterial H+ cannot cross.",
-    "R5": "Low PO2 shuts the O2-sensitive potassium channel on the glomus cell, depolarizing the membrane, opening voltage-gated calcium channels, and releasing ATP and acetylcholine onto CN IX.",
     "R-C3": "Match each vagal lung receptor to its clinical picture: smooth-muscle stretch receptors give the Hering-Breuer inflation reflex, epithelial irritant receptors trigger asthma bronchoconstriction and cough, and unmyelinated alveolar J receptors cause rapid shallow breathing in pulmonary edema.",
-    "R7": "Pulmonary congestion in left heart failure stretches the alveolar interstitium and fires unmyelinated vagal J receptors, producing rapid, shallow breathing.",
     "R-C4": "Arterial PCO2 is the number-one controller, and hypoxia makes its slope even steeper. Memorize the two slide mechanisms for CO2 narcosis when you give too much oxygen to a chronic CO2 retainer: you blunt their hypoxic ventilatory drive and you undo hypoxic pulmonary vasoconstriction, worsening V/Q mismatch.",
-    "R9": "Slide 45 gives two mechanisms for oxygen-induced CO2 narcosis: reduced hypoxic ventilatory drive causing hypoventilation, and reduced hypoxic pulmonary vasoconstriction worsening V/Q mismatch.",
-    "R10": "Low PO2 steepens and left-shifts the linear CO2 response curve, while the hypoxic response itself stays flat until PaO2 drops below about sixty millimeters of mercury.",
     "R-C5": "Read the five abnormal waveforms at a glance: waxing-and-waning with apnea is Cheyne-Stokes, long inspiratory cramps from an upper-pontine lesion is apneusis, grouped breaths with pauses is cluster breathing, and total chaos is medullary ataxic breathing.",
-    "R12": "Sustained inspiratory plateaus are apneusis, caused by losing the upper-pontine pneumotaxic switch-off mechanism."
   }
 };
 
@@ -331,25 +242,18 @@ window.TUTOR_SCRIPT.sec = window.TUTOR_SCRIPT.sec || {};
 window.TUTOR_SCRIPT.sec.A = { part: "Video 5", time: "14&#8211;18 min",
   open: "Acid-base regulation comes down to keeping the bicarbonate-to-carbon-dioxide ratio at twenty to one. Once you know how the kidneys reclaim and generate bicarbonate, the four compensation rules and the six-step ABG algorithm solve every clinical case.",
   u: [
-    "<b>Arterial pH, acid loads &amp; Henderson–Hasselbalch</b>: normal pH is 7.35–7.45 (7.40 = 40 nEq/L H<sup>+</sup>; compatible range 6.80–7.80). Lungs excrete 15,000–20,000 mmol/day of volatile acid (CO<sub>2</sub>); kidneys excrete 50–100 mEq/day of fixed acids. pH = 6.1 + log([HCO<sub>3</sub><sup>&minus;</sup>] / (0.03 &times; P<sub>aCO2</sub>)) with a normal 24 / 1.2 = <b>20:1 ratio</b>; chemical buffers act in seconds, lungs in minutes, kidneys in hours to days.",
+    "<b>Arterial pH, acid loads &amp; Henderson–Hasselbalch</b>: normal pH is 7.35–7.45 (7.40 = 40 nEq/L H<sup>+</sup>; compatible range 6.80–7.80). Lungs excrete 13,000 mmol/day of volatile acid (CO<sub>2</sub>); kidneys excrete 50–100 mEq/day of fixed acids. pH = 6.1 + log([HCO<sub>3</sub><sup>&minus;</sup>] / (0.03 &times; P<sub>aCO2</sub>)) with a normal 24 / 1.2 = <b>20:1 ratio</b>; chemical buffers act in seconds, lungs in minutes, kidneys in hours to days.",
     "<b>Renal reclamation vs new HCO<sub>3</sub><sup>&minus;</sup></b>: 85% of filtered HCO<sub>3</sub><sup>&minus;</sup> (~4,320 mEq/day) is reclaimed in the PCT via apical NHE3 and CA IV (plus 10% TAL, 4.9% distal) without net H<sup>+</sup> excretion. New HCO<sub>3</sub><sup>&minus;</sup> requires excreting H<sup>+</sup> with urinary buffers: titratable acid (HPO<sub>4</sub><sup>2&minus;</sup> &rarr; H<sub>2</sub>PO<sub>4</sub><sup>&minus;</sup>, pK<sub>a</sub> 6.8, 10–40 mEq/day, min urine pH 4.4–4.5) and NH<sub>4</sub><sup>+</sup> from glutamine (20–50 mEq/day, inducible up to <b>500 mEq/day</b> in chronic acidosis). Type A intercalated cells secrete H<sup>+</sup>; Type B secrete HCO<sub>3</sub><sup>&minus;</sup> via pendrin.",
     "<b>Four primary disorders &amp; compensation</b>: respiratory acidosis (&uarr;P<sub>aCO2</sub> &gt; 45) raises HCO<sub>3</sub><sup>&minus;</sup> by 1 (acute) or 3.5 (chronic) per 10 mmHg; respiratory alkalosis (&darr;P<sub>aCO2</sub> &lt; 35) lowers HCO<sub>3</sub><sup>&minus;</sup> by 2 (acute) or 4–5 (chronic) per 10 mmHg; metabolic acidosis (&darr;HCO<sub>3</sub><sup>&minus;</sup> &lt; 22) lowers P<sub>aCO2</sub> by 1.25 per 1 mmol/L (Winter’s: 1.5&times;HCO<sub>3</sub><sup>&minus;</sup> + 8 &plusmn; 2); metabolic alkalosis (&uarr;HCO<sub>3</sub><sup>&minus;</sup> &gt; 26) raises P<sub>aCO2</sub> by 0.75 per 1 mmol/L. Compensation never overcorrects.",
     "<b>Anion gap &amp; urine anion gap</b>: plasma AG = [Na<sup>+</sup>] &minus; ([Cl<sup>&minus;</sup>] + [HCO<sub>3</sub><sup>&minus;</sup>]), normal 12 &plusmn; 4 (8–16) mEq/L. HAGMA (normochloremic) follows <b>KUSMALE</b>; NAGMA (hyperchloremic) occurs in diarrhea, RTA, or acetazolamide. Urine AG = (Na<sup>+</sup> + K<sup>+</sup>) &minus; Cl<sup>&minus;</sup> is negative (&lt; &minus;20) in diarrhea (intact NH<sub>4</sub><sup>+</sup> excretion) and positive in RTA.",
     "<b>6-step ABG algorithm &amp; 5 handout cases</b>: check internal consistency &rarr; acidemia/alkalemia &rarr; primary process &rarr; expected compensation &rarr; always calculate AG &rarr; compare &Delta;AG against &Delta;HCO<sub>3</sub><sup>&minus;</sup> to unmask mixed disorders (such as Case 2 HAGMA + respiratory acidosis, Case 3 normal-pH HAGMA + metabolic alkalosis, and Case 4 acute-on-chronic respiratory acidosis)."
   ],
   say: {
-    "A-C1": "Lock in the twenty-to-one ratio in the Henderson-Hasselbalch equation: 24 millimoles per liter of bicarbonate over 1.2 millimoles per liter of dissolved CO2 gives log 20, which is 1.3, plus 6.1 equals 7.40. And contrast 15,000 to 20,000 millimoles a day of volatile CO2 blown off by the lungs with 50 to 100 mEq a day of fixed acids excreted by the kidneys.",
-    "A1": "0.03 times 40 is 1.2 mmol/L of dissolved CO2, and 24 divided by 1.2 gives the classic 20-to-1 base-to-acid ratio.",
+    "A-C1": "Lock in the twenty-to-one ratio in the Henderson-Hasselbalch equation: 24 millimoles per liter of bicarbonate over 1.2 millimoles per liter of dissolved CO2 gives log 20, which is 1.3, plus 6.1 equals 7.40. And contrast about 13,000 millimoles a day of volatile CO2 blown off by the lungs with 50 to 100 mEq a day of fixed acids excreted by the kidneys.",
     "A-C2": "Reclaiming 85 percent of filtered bicarbonate in the proximal tubule via NHE3 and CA IV only saves old bicarbonate. To generate new bicarbonate and excrete net acid, the kidney must trap H+ on phosphate as titratable acid or excrete ammonium from glutamine—which scales up to 500 mEq per day in chronic acidosis.",
-    "A4": "In severe chronic metabolic acidosis, proximal glutamine metabolism and urinary ammonium excretion scale up to about 500 mEq per day—far outstripping phosphate titratable acid.",
     "A-C3": "Memorize the compensation numbers off the summary table on slide 61: 1 and 3.5 for acute and chronic respiratory acidosis, 2 and 4-to-5 for acute and chronic respiratory alkalosis, 1.25—or Winter’s formula—for metabolic acidosis, and 0.75 for metabolic alkalosis. Watch out for the prose typos on slides 55, 56, and 60: compensation always moves in the same direction as the primary change and never overcorrects.",
-    "A7": "In chronic respiratory acidosis, bicarbonate rises by 3.5 for every 10 mmHg rise in PaCO2: three steps of 3.5 adds 10.5 to 24, giving 34.5 mmol/L.",
-    "A8": "A 12 mmol/L drop in bicarbonate multiplied by 1.25 lowers PaCO2 by 15 mmHg from 40 to 25 mmHg—or by Winter’s formula, 1.5 times 12 plus 8 gives 26 plus-or-minus 2 mmHg.",
     "A-C4": "Always calculate the plasma anion gap—sodium minus chloride plus bicarbonate, normally 12 plus-or-minus 4. High anion gap means KUSMALE; normal anion gap means hyperchloremic bicarbonate loss from diarrhea or RTA, which you separate using the urine anion gap.",
-    "A10": "Diarrhea and renal tubular acidosis lose bicarbonate and replace it with chloride, giving a normal anion gap hyperchloremic acidosis; all the other choices are KUSMALE high-anion-gap causes.",
     "A-C5": "Walk all five handout cases through the six-step algorithm. Never stop at a normal pH or a PaCO2 of 40: in Case 2, a PaCO2 of 40 with a bicarbonate of 12 means superimposed respiratory acidosis, and in Case 3, an anion gap of 21 unmasks a hidden HAGMA plus vomiting alkalosis despite a completely normal pH of 7.40.",
-    "A12": "With a bicarbonate of 12 and an anion gap of 25, expected PaCO2 is 25 mmHg; an actual PaCO2 of 40 mmHg is far too high, proving a mixed HAGMA and respiratory acidosis.",
-    "A13": "Never skip Step 5: even with pH 7.40, PaCO2 40, and bicarbonate 24, the anion gap is 21—revealing a mixed high-anion-gap metabolic acidosis and vomiting-induced metabolic alkalosis."
   }
 };
 
@@ -365,17 +269,144 @@ window.TUTOR_SCRIPT.sec.S = { part: "Video 5", time: "12&#8211;15 min",
   ],
   say: {
     "S-C1": "Separate moderate exercise from heavy exercise at the anaerobic threshold: below the threshold, ventilation tracks metabolism so arterial PaO2, PaCO2, and pH stay flat; above the threshold, lactic acid buffering generates extra CO2 and H+, driving hyperventilation that drops PaCO2.",
-    "S1": "During moderate steady-state aerobic exercise below the anaerobic threshold, arterial PaO2, PaCO2, and pH remain essentially unchanged from rest.",
     "S-C2": "At high altitude, FiO2 is still 21 percent—it is barometric pressure that falls. Acute hyperventilation creates a respiratory alkalosis that brakes the central chemoreceptors until the kidneys excrete bicarbonate, a step you can speed up with acetazolamide. And remember HAPE comes from uneven hypoxic pulmonary vasoconstriction.",
-    "S4": "Blowing off CO2 during the first hours at altitude causes hypocapnia and respiratory alkalosis, which inhibits central chemoreceptors until the kidneys excrete bicarbonate.",
-    "S5": "HAPE is a non-cardiogenic edema caused by exaggerated, patchy hypoxic pulmonary vasoconstriction that subjects less-constricted capillary beds to high hydrostatic pressure.",
     "S-C3": "Pair each diving hazard with its gas law: Boyle’s law explains why holding your breath during SCUBA ascent expands lung gas fourfold from 30 meters and ruptures alveoli, while Henry’s law explains nitrogen narcosis at depth and nitrogen bubbles in decompression sickness—both countered by switching to Heliox.",
-    "S7": "Rising from 4 atmospheres at 30 meters to 1 atmosphere at the surface while holding your breath expands trapped alveolar gas fourfold by Boyle’s law, causing pulmonary barotrauma, pneumothorax, and arterial gas embolism.",
-    "S8": "Helium is far less soluble in lipid membranes than nitrogen and much less dense, preventing nitrogen narcosis, reducing bubble load, and easing the work of breathing on deep dives.",
     "S-C4": "Contrast NREM and REM sleep: NREM is slow and regular with a 3 to 5 mmHg rise in PaCO2, whereas REM is irregular with skeletal muscle atonia that paralyzes intercostals and pharyngeal dilators while sparing the diaphragm.",
-    "S9": "During REM sleep, descending supraspinal inhibition causes skeletal muscle atonia of the intercostals and pharyngeal dilators while sparing the diaphragm.",
     "S-C5": "In utero, HbF alpha-2-gamma-2 ignores 2,3-BPG to keep a left-shifted P50 of 19 mmHg, and the double Bohr effect widens the oxygen transfer gradient across the placenta. At the first breath, alveolar oxygenation drops PVR while cord clamping raises SVR, flipping left atrial pressure above right atrial pressure to shut the foramen ovale.",
-    "S11": "The gamma chains of HbF bind 2,3-BPG much more weakly than the beta chains of HbA, shifting the fetal curve left to a P50 around 19 mmHg.",
-    "S12": "Lung inflation and oxygenation drop pulmonary vascular resistance while cord clamping raises systemic vascular resistance, raising left atrial pressure above right atrial pressure to close the foramen ovale."
   }
 };
+
+/* ========== Questions: SAY lines for core questions (AC79–AC81 past papers) ========== */
+Object.assign(window.TUTOR_SCRIPT.sec.U.say, {
+  "U1": "Lowest and longest scroll on the lateral wall: inferior concha.",
+  "U3": "Inferior meatus has one tenant only: the nasolacrimal duct.",
+  "U5": "Sphenoethmoidal recess drains the sphenoid sinus.",
+  "U6": "The curved gutter under the bulla is the hiatus semilunaris.",
+  "U10": "The adenoid lives in the nasopharynx, so it cannot make an oropharyngeal mass.",
+  "U11": "Open mouth, two swollen masses between the arches: palatine tonsils.",
+  "U13": "Auditory tube opens into the nasopharynx.",
+  "U15": "The bump behind the tube opening is the torus tubarius.",
+  "U21": "Two folds with a slit between: the lower one is the vocal fold.",
+  "U26": "Back of the cricoid lamina: posterior cricoarytenoid.",
+  "U27": "It is the only muscle that opens the glottis.",
+  "U28": "Superior thyroid artery travels with the external laryngeal nerve, so the cricothyroid is at risk.",
+  "U30": "Cannot abduct the cords after neck surgery: recurrent laryngeal nerve."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.W.say, {
+  "W1": "Rib 2 meets the sternum at the sternal angle, your landmark for counting ribs.",
+  "W4": "Find the ridge, then the cartilage beside it is rib two.",
+  "W6": "Near the sternum the outer layer is only membrane, so the muscle you see is the internal intercostal.",
+  "W9": "From inside, the fan behind the lower sternum is the transversus thoracis.",
+  "W11": "Externals elevate, internals depress.",
+  "W12": "Vertical vessels a finger beside the sternum: internal thoracic.",
+  "W14": "You stop in the pleural cavity, so the visceral pleura is never crossed.",
+  "W15": "Through the chest wall means through the costal pleura.",
+  "W16": "C three, four, five keeps the diaphragm alive: the phrenic nerve.",
+  "W19": "Esophagus goes through the esophageal hiatus at T10."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.B.say, {
+  "B1": "A rib breaks through the pleura lining the ribs: the costal pleura.",
+  "B2": "The lowest lateral gutter of the pleural cavity is the costodiaphragmatic recess.",
+  "B5": "The heart pushes a notch into the left upper lobe, with the lingula below it.",
+  "B6": "The pleural sleeve hanging below the root is the pulmonary ligament.",
+  "B11": "Eparterial means above the artery: the right upper lobe bronchus.",
+  "B12": "Wider, shorter, steeper: the right main bronchus catches the peanut.",
+  "B19": "Sitting right on top of the right root is the arch of the azygos.",
+  "B22": "Milky pleural fluid means the thoracic duct."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.H.say, {
+  "H1": "Food side is stratified squamous, airway side is respiratory epithelium.",
+  "H2": "The tip of the epiglottis meets food, so it is stratified squamous.",
+  "H4": "The nostril is skin, not respiratory epithelium.",
+  "H6": "Moist stratified squamous in the larynx means the true vocal cord.",
+  "H10": "Olfactory epithelium lives in the roof of the nose.",
+  "H15": "Respiratory bronchiole: simple cuboidal with alveoli budding from the wall.",
+  "H20": "Premature lungs lack surfactant because type two pneumocytes are immature.",
+  "H21": "Round cells in the alveolar corners are type two pneumocytes."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.G.say, {
+  "G1": "Boyle: squeeze the volume and the pressure goes up.",
+  "G2": "Every breath is Boyle’s law: change the volume, change the pressure, air follows.",
+  "G3": "Subtract 47 mmHg of water vapor from 760 to get 713, then multiply by 0.2093 to get 149.2 mmHg in moist bronchial air.",
+  "G5": "Inspired oxygen minus one point two times the CO2: about ninety-five.",
+  "G7": "Dissolved amount follows partial pressure: Henry’s law."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.M.say, {
+  "M1": "Watch the absolute words: always, most. Only the FRC definition survives.",
+  "M4": "Lung pulls in, chest wall pulls out, and the gap between them goes negative.",
+  "M6": "Alveolar zero minus pleural minus eight gives eight.",
+  "M9": "Compliance is the slope: steepest curve, most compliant lung.",
+  "M10": "Emphysema makes the lung floppier: compliance goes up, so “decreased compliance” is the wrong statement.",
+  "M11": "Push harder and the airway squeezes shut: dynamic compression limits forced expiration."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.E.say, {
+  "E1": "Aim for four litres a minute of alveolar ventilation: tidal five-fifty at ten.",
+  "E2": "Breathe faster with the same CO2 production and the end-tidal CO2 falls.",
+  "E3": "Fick’s law: thickness is the only thing on the bottom of the fraction here.",
+  "E4": "A bit slower by weight, twenty-four times more soluble: about twenty times faster.",
+  "E7": "Apex: little air, even less blood, so the highest V over Q.",
+  "E9": "Bohr gives the physiological dead space fraction; Fowler gives the anatomical one.",
+  "E11": "High V over Q looks like dead space: oxygen high, CO2 low.",
+  "E14": "Blood through pus-filled alveoli is a physiological shunt."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.T.say, {
+  "T1": "Anemia empties the trucks, not the road: content falls, PaO2 stays.",
+  "T2": "Alpha subunit first because its heme pocket is wider, then Fe2+ drops 0.6 Angstroms into the plane from high-spin to low-spin, breaking salt bridges, rotating 15 degrees, and expelling 2,3-BPG.",
+  "T4": "Left shift: lower P50, tighter grip on oxygen.",
+  "T5": "2,3-BPG pries oxygen off hemoglobin for the tissues.",
+  "T6": "HbF ignores 2,3-BPG, so its curve sits to the left.",
+  "T8": "Carbon monoxide steals seats and makes the rest cling: left shift.",
+  "T10": "Seventy percent of CO2 rides as bicarbonate.",
+  "T11": "Haldane is oxygen kicking CO2 off; Bohr is CO2 kicking oxygen off."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.C.say, {
+  "C1": "Same flow as the body, at a fraction of the pressure and resistance.",
+  "C2": "Squeeze the capillaries with alveolar pressure and resistance rises.",
+  "C3": "Maximal output opens every channel and widens them all: A.",
+  "C4": "Zone three, the base: artery beats vein beats alveolus.",
+  "C5": "Early interstitial edema collects in perivascular and peribronchial spaces and drains via lymphatics to hilar nodes; late alveolar edema floods alveoli, causes shunt, and is pumped out by epithelial Na/K-ATPase."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.P.say, {
+  "P1": "Anything that includes residual volume is invisible to simple spirometry: RV itself, FRC, and TLC.",
+  "P5": "Lock in the 2019 numbers: BEV five percent or a hundred mils, plateau twenty-five mils in the last second or fifteen seconds total, and adult repeatability within a hundred and fifty mils.",
+  "P6": "Pick the biggest FEV1 and the biggest FVC; never average.",
+  "P7": "Ratio fine, FVC fine, mid-flows fine: normal.",
+  "P8": "Low ratio, FEV1 forty-three percent, only eight percent better: severe and irreversible.",
+  "P9": "Moderate obstruction, and two hundred ten millilitres, over twelve percent: it reverses.",
+  "P10": "Ratio normal, FVC sixty-two percent: moderate restriction, confirm with TLC.",
+  "P12": "Divide first: sixty-eight percent is obstruction, and he smokes.",
+  "P13": "Very severe, and two hundred fifty millilitres better: by the lecture rule that is a response.",
+  "P15": "Moderate obstruction that jumps six hundred millilitres: reversible, like asthma.",
+  "P17": "Normal ratio, small FVC: restriction.",
+  "P18": "Vocal cord paralysis sits outside the chest: negative airway pressure during inspiration sucks the cords inward against atmospheric pressure, flattening the bottom inspiratory limb and causing stridor.",
+  "P19": "Combined disease: a small loop with a scooped-out top.",
+  "P20": "Flat on top and flat on the bottom: a fixed obstruction.",
+  "P21": "Scooped at baseline, much bigger after salbutamol: reversible obstruction."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.R.say, {
+  "R1": "The pacemaker that sets the basic respiratory rhythm is the pre-Botzinger complex in the intermediate VRG.",
+  "R2": "DRG is the nucleus tractus solitarii driving the diaphragm via C3 to C5; lower-pontine apneustic excites it, and upper-pontine pneumotaxic inhibits it.",
+  "R3": "Acid in the blood is sensed at the carotid body, not the medulla.",
+  "R5": "Fluid in the alveolar walls fires J receptors: rapid, shallow breathing.",
+  "R6": "Correct his hypoxia and you remove the drive he breathes on.",
+  "R9": "Sustained inspiratory plateaus are apneusis, caused by losing the upper-pontine pneumotaxic switch-off mechanism."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.A.say, {
+  "A2": "In blood, bicarbonate takes the first hit.",
+  "A6": "Kidneys answer acidosis by burning glutamine: ammonium out, new bicarbonate in.",
+  "A8": "Metabolic acid, respiratory answer: blow off CO2.",
+  "A9": "Winter says thirty to thirty-four; forty means a second, respiratory problem.",
+  "A10": "CO2 up fifteen, bicarbonate up one or two: acute.",
+  "A12": "COPD: high CO2, high bicarbonate, near-normal pH.",
+  "A18": "Albumin is most of the gap; low albumin hides acid.",
+  "A20": "Gap thirty, delta ratio one: a pure high-gap acidosis.",
+  "A21": "Vomiting: metabolic alkalosis, and the high CO2 is just compensation."
+});
+Object.assign(window.TUTOR_SCRIPT.sec.S.say, {
+  "S1": "Ventilation outruns everything in exercise.",
+  "S2": "The first-minute jump is neural: moving limbs talk to the brainstem.",
+  "S3": "Altitude first gives a respiratory alkalosis.",
+  "S5": "Day one at altitude: you breathe more. Red cells come weeks later.",
+  "S6": "Fifty metres is six atmospheres; times point two one is one point two six.",
+  "S8": "First breath: left atrial pressure rises and slams the foramen ovale shut."
+});

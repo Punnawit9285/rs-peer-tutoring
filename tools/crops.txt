@@ -82,8 +82,7 @@ circ-starling       circ    21    0.56  0.30  0.96  0.88
 pft-volumes         pft     4     0.51  0.10  0.96  0.48
 pft-withhold        pft     6     0.02  0.56  0.49  0.94
 pft-accept          pft     8     0.02  0.54  0.96  0.95
-pft-patterns        pft     10    0.52  0.12  0.96  0.50
-pft-algo            pft     10    0.02  0.55  0.49  0.95
+pft-algo            pft     10    0.02  0.55  0.49  0.95 w=3600
 pft-loops           pft     12    0.02  0.12  0.96  0.94
 
 # Section R: Respiratory Control (ctrl.pdf)
@@ -107,3 +106,73 @@ stress-altitude     stress  10    0.02  0.14  0.48  0.94
 stress-diving       stress  11    0.50  0.52  0.96  0.94
 stress-sleep        stress  14    0.02  0.14  0.96  0.94
 stress-fetal        stress  15    0.50  0.14  0.96  0.94
+# Past papers (AC79-AC81, peer-recalled; src-pdf/ac*.pdf link to the files in ~/Downloads/RS I AC)
+ac81-tonsil         ac81    3     0.176 0.370 0.524 0.570
+ac81-epiglottis     ac81    6     0.178 0.098 0.524 0.494
+ac81-compliance     ac81    8     0.171 0.172 0.518 0.300
+ac81-fvref          ac81    13    0.170 0.330 0.345 0.533
+ac81-fva            ac81    13    0.565 0.211 0.730 0.358
+ac81-fvb            ac81    13    0.565 0.364 0.730 0.525
+ac81-fvc            ac81    13    0.565 0.532 0.730 0.696
+ac81-fvd            ac81    13    0.565 0.702 0.730 0.868
+ac79-laryngoscope   ac79    5     0.720 0.196 0.906 0.326
+ac79-skullsinus     ac79    6     0.658 0.359 0.879 0.546
+ac79-lingula        ac79    6     0.607 0.719 0.869 0.916
+ac79-pleuralgraph   ac79    7     0.654 0.375 0.873 0.467
+ac79-fvbd           ac79    13    0.637 0.262 0.883 0.401
+ac79-fvtb           ac79    13    0.678 0.474 0.904 0.614
+ac79-hemothorax     ac79    14    0.648 0.557 0.914 0.730
+ac80-adenoid        ac80    1     0.170 0.515 0.360 0.690 m=0.17,0.515,0.212,0.585
+ac80-ppl            ac80    4     0.166 0.620 0.530 0.775
+ac80-fvfixed        ac80    8     0.190 0.090 0.420 0.350
+ac80-vessels        ac80    9     0.178 0.136 0.506 0.320
+ac80-cxr            ac80    12    0.160 0.090 0.560 0.330
+ac79s-st1           ac79s   3     0.013 0.159 0.492 0.884
+ac79s-st2           ac79s   4     0.024 0.272 0.500 0.730
+ac79s-st3           ac79s   5     0.013 0.167 0.492 0.890
+ac79s-st4           ac79s   6     0.050 0.163 0.343 0.830
+ac79s-st5           ac79s   7     0.055 0.180 0.353 0.820
+ac79s-st6           ac79s   8     0.030 0.166 0.458 0.855
+ac79s-st7           ac79s   9     0.066 0.166 0.408 0.833
+ac79s-st8           ac79s   10    0.020 0.208 0.434 0.890
+ac79s-st9           ac79s   11    0.093 0.154 0.409 0.894
+ac79s-st10          ac79s   12    0.022 0.190 0.381 0.852
+ac79s-st11          ac79s   13    0.020 0.360 0.396 0.716
+ac79s-st12          ac79s   14    0.021 0.367 0.397 0.759
+ac79s-st13          ac79s   15    0.029 0.141 0.430 0.970
+ac79s-st14          ac79s   16    0.050 0.165 0.290 0.660
+ac79s-st15          ac79s   17    0.026 0.185 0.410 0.990
+ac79s-st16          ac79s   18    0.033 0.143 0.457 0.957
+ac79s-st17          ac79s   19    0.034 0.161 0.451 0.910
+ac79s-st18          ac79s   20    0.026 0.154 0.410 0.980
+ac79s-st19          ac79s   21    0.033 0.200 0.384 0.744
+ac79s-st20          ac79s   22    0.010 0.120 0.445 0.920
+ac79s-st21          ac79s   23    0.021 0.367 0.458 0.800
+ac79s-st22          ac79s   24    0.010 0.300 0.445 0.806
+ac79s-st23          ac79s   25    0.047 0.333 0.418 0.800
+ac79s-st24          ac79s   26    0.013 0.276 0.436 0.810
+ac81s-st1           ac81s   2     0.453 0.225 0.896 0.776
+ac81s-st2           ac81s   3     0.454 0.197 0.907 0.776
+ac81s-st3           ac81s   4     0.438 0.225 0.920 0.908
+ac81s-st5           ac81s   6     0.472 0.190 0.878 0.830
+ac81s-st6           ac81s   7     0.471 0.190 0.876 0.830
+ac81s-st7           ac81s   8     0.468 0.242 0.918 0.828
+ac81s-st8           ac81s   9     0.447 0.254 0.860 0.832
+ac81s-st10          ac81s   11    0.541 0.178 0.948 0.868
+ac81s-st11          ac81s   12    0.555 0.166 0.917 0.860
+ac81s-st12          ac81s   13    0.563 0.072 0.945 0.970
+ac81s-st13          ac81s   14    0.472 0.207 0.876 0.797
+ac81s-st14          ac81s   15    0.500 0.233 0.917 0.759
+ac80s-nld           ac80s   4     0.055 0.212 0.466 0.790
+ac80s-cricoid       ac80s   7     0.107 0.229 0.343 0.779
+ac80s-subclavian    ac80s   8     0.066 0.246 0.364 0.756
+ac80s-lobar         ac80s   10    0.087 0.225 0.363 0.735
+ac80s-lungsec       ac80s   25    0.064 0.204 0.533 0.833
+ac80s-dustcell      ac80s   27    0.076 0.204 0.496 0.910
+# PFT lecture quiz (slides 14-15): best test selection and cases 2-6, rendered large so the report tables stay legible
+pft-case1           pft     14    0.000 0.116 0.498 0.497 w=3600
+pft-case2           pft     14    0.502 0.116 1.000 0.497 w=3600
+pft-case3           pft     14    0.000 0.517 0.498 0.913 w=3600
+pft-case4           pft     14    0.502 0.517 1.000 0.913 w=3600
+pft-case5           pft     15    0.000 0.116 0.498 0.497 w=3600
+pft-case6           pft     15    0.502 0.116 1.000 0.497 w=3600

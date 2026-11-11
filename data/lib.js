@@ -18,7 +18,13 @@ window.CVS = {
     pft: 'Pulmonary function test handout',
     acid: 'Acid-base regulation handout',
     circ: 'Pulmonary circulation handout',
-    stress: 'RS under stress handout'
+    stress: 'RS under stress handout',
+    ac79: 'AC79 RS I MCQ key (PS81 edit)',
+    ac80: 'AC80 RS I MCQ recall',
+    ac81: 'AC81 RS I MCQ raw key',
+    ac79s: 'AC79 spot test',
+    ac80s: 'AC80 spot test key',
+    ac81s: 'AC81 spot test'
   },
   cloze: function (h) { return String(h).replace(/\{\{([\s\S]*?)\}\}/g, '<span class="cz">$1</span>'); },
   fig: function (name, cap, pdf, page, cls) {

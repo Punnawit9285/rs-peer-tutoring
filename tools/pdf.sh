@@ -15,6 +15,16 @@ print() {
     --print-to-pdf="$1" "file://$PWD/dist/print.html" 2>/dev/null
 }
 tools/fonts.sh
+# print-sized figure copies for the PDF (dist/pimg/, git-ignored): 900 px, the PFT case reports 2000 px
+mkdir -p dist/pimg
+for f in img/*.jpg; do
+  o="dist/pimg/${f#img/}"
+  [ "$o" -nt "$f" ] && continue
+  cp "$f" "$o"; lim=900; case "$f" in img/pft-case*) lim=2000;; esac
+  m=$(sips -g pixelWidth -g pixelHeight "$o" | awk '/pixel/{if($2>m)m=$2} END{print m}')
+  [ "$m" -gt "$lim" ] && sips -Z "$lim" "$o" >/dev/null
+  sips -s formatOptions 75 "$o" >/dev/null
+done
 node print.js
 print "$TMP/pass1.pdf"
 tools/pdftext "$TMP/pass1.pdf" > "$TMP/pass1.txt"

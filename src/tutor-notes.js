@@ -408,50 +408,29 @@ Object.assign(window.TUTOR_NOTES, {
     "0 L          [RV, FRC, TLC CANNOT be measured by simple spirometry]"
   ] },
   "P-C2": { b: [
-    "เหตุผลทางสรีรวิทยาของข้อห้าม: การเป่า FVC คือการทำ Valsalva อย่างแรง (ความดันในช่องอกอาจพุ่งเกิน +100 ถึง +200 cmH<sub>2</sub>O) ทำให้ venous return เปลี่ยนแปลงฉับพลันและความดันหลอดเลือดสมอง/ลูกตาสูงขึ้น",
-    "จำเลขเวลางดยาขยายหลอดลมเป็นขั้นบันได: <b>SABA 4–6 &rarr; SAMA 12 &rarr; LABA 24 &rarr; Ultra-LABA 36 &rarr; LAMA 36–48 ชั่วโมง</b> (ยากลุ่มต้าน muscarinic มักออกฤทธิ์นานกว่ากลุ่มกระตุ้น beta-2 ในระดับเดียวกัน)",
-    "ทำไม <b>น้ำหนักตัว</b> จึงไม่อยู่ในสมการ GLI2012: ขนาดทางกายวิภาคของปอดแปรผันตรงกับความสูงของร่างกายและขนาดทรวงอก ไม่ได้เพิ่มขึ้นตามมวลไขมัน (แต่โรคอ้วนรุนแรงทำให้ ERV และ FRC ลดลงจริง จึงถือเป็นความผิดปกติที่ต้องการตรวจพบ ไม่ใช่ปรับค่าอ้างอิงลงตามน้ำหนัก)",
-    "การตรวจเพื่อ<b>ติดตามผลการรักษา (monitoring)</b> ไม่จำเป็นต้องงดยาขยายหลอดลมที่ใช้ประจำ ต่างจากการตรวจเพื่อ<b>วินิจฉัยครั้งแรก (diagnosis)</b> ที่ต้องงดยาก่อนตรวจ baseline"
-  ], d: [
-    "Drug Class                     Withhold Time",
-    "SABA (salbutamol)                 4 - 6 h",
-    "SAMA (ipratropium)                   12 h",
-    "Theophylline (IR / SR)          12 h / 24 h",
-    "LABA (formoterol, salmeterol)        24 h",
-    "Ultra-LABA (indacaterol, etc.)       36 h",
-    "LAMA (tiotropium, etc.)         36 - 48 h",
-    "ICS / Anti-leukotriene          No withhold"
+    "ข้อห้ามทั้งหมดมาจากแรงดันที่พุ่งขึ้นตอนเป่า (คล้าย Valsalva): เสี่ยง aneurysm แตก แผลผ่าตัดแยก pneumothorax แย่ลง",
+    "ยาที่ไม่ต้องงดคือยา controller ที่ไม่ได้ขยายหลอดลมทันที (ICS, montelukast)",
+    "จำเวลางดยา: ตัวสั้น 4–6 / 12 ชม. · ตัวยาว 24 / 36–48 ชม. (β-agonist สั้นกว่า antimuscarinic เสมอ)"
   ] },
   "P-C3": { b: [
-    "กลไกที่การกลั้นหายใจที่ TLC นาน 4–6 วินาทีทำให้ PEF และ FEV<sub>1</sub> ลดลง เรียกว่า <b>viscoelastic stress relaxation</b> ของเนื้อเยื่อปอด ทำให้แรงหดกลับ (elastic recoil pressure) ขณะเริ่มเป่าลดลง",
-    "ในสไลด์หน้า 9 มีรอยพิมพ์เพี้ยนจากฟอนต์เป็น <code>FIVC 2 FVC</code> ซึ่งในต้นฉบับ ATS/ERS 2019 คือเครื่องหมายลบ: <b>FIVC &minus; FVC &le; 0.100 L หรือ 5% ของ FVC</b>",
-    "แยกคำว่า <b>Acceptable</b> (ดีทั้งกราฟ) กับ <b>Usable</b> (ใช้ได้เฉพาะบางค่า): เช่น ถ้าผู้ป่วยไอในช่วงท้ายหลังพ้นวินาทีแรกไปแล้ว ค่า <b>FEV<sub>1</sub> ยังคง usable</b> แม้ค่า FVC จะไม่ acceptable",
-    "ในเด็กอายุ &le; 6 ปี เกณฑ์ Repeatability ของ FVC และ FEV<sub>1</sub> จะแคบลงเป็น <b>&le; 0.100 L หรือ 10%</b> ของค่าสูงสุด (ในผู้ใหญ่ใช้ <b>&le; 0.150 L</b>)"
-  ], d: [
-    "ATS/ERS 2019 Acceptability & Repeatability:",
-    "1. Start : BEV <= 5% FVC or 0.100 L (whichever is greater)",
-    "2. End   : Plateau <= 0.025 L in last 1 s OR Time >= 15 s OR repeatable FVC",
-    "3. Clean : No cough in 1st sec, glottis closure, leak, or tongue block",
-    "4. FIVC  : FIVC - FVC <= 0.100 L or 5% FVC",
-    "Repeat   : Top 2 FVC diff <= 0.150 L AND Top 2 FEV1 diff <= 0.150 L"
+    "ให้นักเรียนจำเป็นคำกริยา: <b>Fill → Blast → Keep going</b> (สูดเต็ม → ระเบิดออก → เป่าต่อ)",
+    "Early termination → FVC ต่ำเกินจริง และ FEV₁/FVC สูงเกินจริง (อาจซ่อน obstruction ได้)",
+    "ไอในวินาทีแรกทำให้ FEV₁ ใช้ไม่ได้ แต่ FVC อาจยังใช้ได้",
+    "ทำไมไม่เฉลี่ย: ค่าที่ต่ำมักมาจากความพยายามไม่เต็มที่ ไม่ใช่ความแปรปรวนจริงของปอด"
   ] },
   "P-C4": { b: [
-    "สังเกตความแตกต่างของเกณฑ์ Bronchodilator response 2 ยุคในสไลด์หน้า 10: เกณฑ์ปี 2019 เทียบกับ <b>ค่าเริ่มต้น (baseline)</b> (&ge; 12% และ &ge; 200 mL) ส่วนเกณฑ์ปี 2021 เทียบกับ <b>ค่าคาดคะเนมาตรฐาน (predicted value)</b> (&gt; 10% ของค่า predicted) เพื่อลดอคติในคนที่ค่าเริ่มต้นต่ำมาก",
-    "ที่มาของสูตร <b>Corrected %FVC = %predicted FVC + (70 &minus; FEV<sub>1</sub>/FVC)</b> และเกณฑ์ <b>%pred FVC &minus; %pred FEV<sub>1</sub> &ge; 12</b>: ในโรคหลอดลมอุดกั้นรุนแรง หลอดลมเล็กจะปิดตัวเร็วขณะเป่าออก (premature airway closure) ทำให้ RV สูงขึ้นและกดให้ FVC ลดลงต่ำกว่า 80% เรียกว่า <b>pseudorestriction</b>",
-    "ในข้อสอบ เมื่อไรก็ตามที่โจทย์ถามการยืนยันภาวะ <b>Restrictive lung disease</b> จากสไปโรเมตรีย์ คำตอบต้องจบด้วยการตรวจวัด <b>TLC (ด้วย body plethysmography หรือ gas dilution)</b> เสมอ เพราะสไปโรเมตรีย์เห็นเพียง FVC ที่ลดลง",
-    "ใน Quiz หน้า 14–15: Case 2 = Normal · Case 3 = Severe irreversible pure obstruction · Case 4 = Moderate reversible pure obstruction · Case 5 = Suspected moderate restriction · Case 6 = Small airway disease"
+    "ถามติดปากทุกรายงาน: <b>Blocked? Small? How bad? Reversible? Small airways?</b>",
+    "ทำไม FEV₁/FVC มาก่อน: obstruction ทำให้ FVC ลดได้จาก air trapping (pseudo-restriction) จึงต้อง correct ก่อนตัดสินว่ามี restriction",
+    "Case 4: FEV₁ %pred เพิ่ม 69 → 78 = 9 จุด (ไม่ถึง 10% ตามเกณฑ์ 2021) แต่สไลด์นับเป็น response ตามเกณฑ์ ≥ 12% และ ≥ 200 mL → ในห้องใช้เกณฑ์นี้",
+    "Spirometry บอกได้แค่ <b>restrictive pattern</b>; การยืนยัน restriction ต้องวัด TLC (body plethysmography หรือ gas dilution)"
   ], d: [
-    "                     [ FEV1 / FVC < 70% ? ]",
-    "                       /                \\",
-    "                     NO                 YES (Obstruction)",
-    "                    /                     \\",
-    "            [ FVC < 80% ? ]         [ Corrected %FVC > 80% ]",
-    "             /           \\          [ or %FVC - %FEV1 >= 12 ]",
-    "           YES            NO              /            \\",
-    "     Suspect Restrict   [FEF25-75<65%]  YES             NO",
-    "     (Confirm by TLC)    /          \\  Pure Obstruction  Combined Defect",
-    "                       YES          NO",
-    "                   Small Airway   Normal"
+    "FEV1/FVC < 70-75 ?",
+    "  NO  -> FVC < 80% ?  YES -> restriction (confirm TLC), grade by FVC%",
+    "          NO  -> FEF25-75 < 65% ?  YES -> small airway disease",
+    "                                   NO  -> normal",
+    "  YES -> corrected %FVC > 80% ?  NO -> combined defect",
+    "          YES -> pure obstruction, grade by FEV1%",
+    "                 BD >= 12% and >= 200 mL ? -> reversible / irreversible"
   ] },
   "P-C5": { b: [
     "หลักการจำ <b>Variable upper airway obstruction</b>: ดูว่าความดันด้านไหนชนะในแต่ละจังหวะ โดยส่วนที่อยู่นอกช่องอก (extrathoracic) เทียบกับความดันบรรยากาศ ($P_{\\text{atm}} = 0$) ส่วนที่อยู่ในช่องอก (intrathoracic) เทียบกับความดันเยื่อหุ้มปอด ($P_{\\text{pl}}$)",

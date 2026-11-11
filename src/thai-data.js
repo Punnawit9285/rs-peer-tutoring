@@ -38,62 +38,6 @@ Object.assign(window.THAI_CONCEPT, {
   ]
 });
 
-Object.assign(window.THAI_Q, {
-  "U1": [
-    "<b>Cribriform plate of the ethmoid bone</b> เป็นส่วนของหลังคาโพรงจมูกที่มีใยประสาทรับกลิ่น (olfactory nerve) ทะลุผ่าน เมื่อแตกจึงเกิดทั้ง <b>anosmia</b> และ <b>CSF rhinorrhea</b>",
-    "Vomer เป็นส่วนล่างหลังของ nasal septum, inferior concha อยู่ผนังด้านข้าง และ maxilla/palatine เป็นพื้นโพรงจมูก (hard palate)"
-  ],
-  "U2": [
-    "<b>Nasal septum</b> ประกอบด้วยกระดูก 2 ชิ้นคือ <b>perpendicular plate of ethmoid</b> และ <b>vomer</b> รวมกับ <b>septal cartilage</b> ด้านหน้า",
-    "Cribriform plate เป็นหลังคาโพรงจมูก ส่วน conchae ทั้ง 3 อยู่บนผนังด้านข้าง"
-  ],
-  "U3": [
-    "ผิด: เฉพาะ <b>superior และ middle nasal conchae</b> เท่านั้นที่เป็นส่วนของกระดูก ethmoid",
-    "<b>Inferior nasal concha</b> เป็นกระดูกชิ้นแยกต่างหาก (independent facial bone)"
-  ],
-  "U4": [
-    "<b>Hiatus semilunaris</b> ใน middle meatus รับรูเปิดของ 3 โครงสร้าง: <b>frontal sinus, anterior ethmoidal air cells และ maxillary sinus</b>",
-    "Middle ethmoidal cells เปิดบน ethmoidal bulla, posterior ethmoidal cells เปิดที่ superior meatus, sphenoidal sinus เปิดที่ sphenoethmoidal recess และ nasolacrimal duct เปิดที่ inferior meatus"
-  ],
-  "U5": [
-    "<b>Inferior alveolar artery</b> ไปเลี้ยงฟันล่าง ไม่ได้มาที่ผนังกั้นจมูก",
-    "<b>Kiesselbach (Little) area</b> เกิดจาก 5 เส้น: anterior &amp; posterior ethmoidal (จาก ophthalmic a.), sphenopalatine &amp; greater palatine (จาก maxillary a.) และ septal branch of superior labial (จาก facial a.)"
-  ],
-  "U6": [
-    "<b>Nasopharyngeal carcinoma (NPC)</b> ที่สัมพันธ์กับเชื้อ EBV มักเกิดที่ <b>pharyngeal recess (fossa of Rosenmuller)</b> ด้านหลังต่อ torus tubarius ใน nasopharynx",
-    "Piriform recess อยู่ใน laryngopharynx (จุดที่ก้างปลาติด) ส่วน tonsillar crypts อยู่ใน oropharynx"
-  ],
-  "U7": [
-    "ถูก: <b>piriform fossa (recess)</b> เป็นแอ่งสองข้างของ laryngeal inlet ใน laryngopharynx ซึ่งเป็น 1 ใน 3 ตำแหน่งหลักที่สิ่งแปลกปลอมชอบติด (ร่วมกับ base of tongue และ tonsillar crypts)"
-  ],
-  "U8": [
-    "<b>Conus elasticus</b> มีขอบบนอิสระหนาตัวเป็น <b>vocal ligament</b> (สายเสียงแท้) และด้านหน้าตรงกลางหนาตัวเป็น <b>median cricothyroid ligament</b> ซึ่งเป็นจุดเจาะฉุกเฉินใน <b>emergency cricothyroidotomy</b>",
-    "Vestibular ligament เป็นขอบล่างของ quadrangular membrane"
-  ],
-  "U9": [
-    "ถูก: <b>true vocal cords</b> บุด้วย <b>stratified squamous epithelium</b> เพื่อทนการเสียดสี และ <b>glottic region ไม่มี lymphatic drainage</b> มะเร็งที่จำกัดอยู่ในชั้นนี้จึงแพร่กระจายทางน้ำเหลืองช้า"
-  ],
-  "U10": [
-    "<b>Posterior cricoarytenoid muscle</b> เป็นกล้ามเนื้อ<b>มัดเดียวเท่านั้น</b>ที่ทำหน้าที่กางสายเสียง (open/abduct rima glottidis)",
-    "Lateral cricoarytenoid และ transverse/oblique arytenoids ทำหน้าที่หุบ (close), cricothyroid ดึงให้ตึง (tense) และ thyroarytenoid/vocalis ทำให้หย่อน (relax)"
-  ],
-  "U11": [
-    "<b>External laryngeal nerve</b> วิ่งคู่กับ superior thyroid artery ไปเลี้ยง <b>cricothyroid muscle</b> เมื่อบาดเจ็บจึงดึงสายเสียงให้ตึงไม่ได้ เสียงกลายเป็น <b>monotone</b>",
-    "Recurrent (inferior) laryngeal nerve วิ่งคู่กับ inferior thyroid artery ไปเลี้ยงกล้ามเนื้อมัดอื่นทั้งหมดของกล่องเสียง"
-  ],
-  "U12": [
-    "ความรู้สึกระดับ<b>เหนือ</b>สายเสียงแท้ (supraglottis) รับโดย <b>internal laryngeal nerve</b> (แขนงของ superior laryngeal n.)",
-    "ความรู้สึกระดับ<b>ใต้</b>สายเสียงแท้รับโดย <b>inferior laryngeal nerve</b> (จาก recurrent laryngeal n.) ส่วน external laryngeal n. เป็น motor ไปเลี้ยง cricothyroid"
-  ],
-  "U13": [
-    "ผิด: กระดูกอ่อนท่อลมเป็นรูปตัว C (<b>incomplete C-shaped hyaline cartilage</b> 16–20 วง) ไม่ใช่รูปวงแหวนเต็มวง และไม่ใช่ elastic cartilage",
-    "ด้านหลังที่ว่างอยู่มีกล้ามเนื้อเรียบ <b>trachealis muscle</b> ขึงอยู่ เพื่อให้หลอดอาหาร (esophagus) ด้านหลังขยายตัวได้ขณะกลืนอาหาร"
-  ],
-  "U14": [
-    "ทบทวนครบ 10 ข้อจากหน้าสุดท้ายของสไลด์: (1) <b>nasal septum</b>, (2) <b>sphenoidal sinus</b>, (3) <b>orbit</b>, (4) <b>pharyngeal tonsil</b>, (5) <b>pharyngeal constrictor muscles</b>",
-    "(6) <b>vocal folds</b>, (7) <b>posterior cricoarytenoid</b>, (8) <b>external laryngeal nerve</b>, (9) <b>trachealis muscle</b>, (10) <b>tracheostomy</b>"
-  ]
-});
 
 /* ---------- W · Thoracic Wall & Diaphragm ---------- */
 window.THAI_SEC.W = {
@@ -130,56 +74,6 @@ Object.assign(window.THAI_CONCEPT, {
   ]
 });
 
-Object.assign(window.THAI_Q, {
-  "W1": [
-    "<b>Sternal angle (of Louis)</b> เป็นรอยต่อระหว่าง manubrium กับ body of sternum ซึ่งตรงกับจุดเกาะของ costal cartilage ของ <b>ซี่โครงซี่ที่ 2 (2nd rib)</b>",
-    "ใช้เป็นจุดตั้งต้นในการคลำนับซี่โครงและช่องระหว่างซี่โครงบนร่างกาย"
-  ],
-  "W2": [
-    "<b>Typical ribs (ซี่ที่ 3–9)</b> มี head ต่อกับ demifacets บนตัวกระดูกสันหลัง และมี tubercle ต่อกับ transverse process",
-    "True ribs คือซี่ 1–7, false ribs คือซี่ 8–12 (โดยซี่ 11–12 เป็น floating ribs) และ costal groove อยู่ที่ขอบล่างของซี่โครง"
-  ],
-  "W3": [
-    "<b>External intercostal</b> วิ่งเฉียงลงและไปด้านหน้า (inferiorly &amp; anteriorly) ทำหน้าที่ยกซี่โครงขณะหายใจเข้า และด้านหน้าต่อ costochondral junction กลายเป็น <b>external (anterior) intercostal membrane</b>",
-    "<b>Internal intercostal</b> วิ่งเฉียงขึ้นและไปด้านหน้า ทำหน้าที่ดึงซี่โครงลงขณะหายใจออกแรง และด้านหลังกลายเป็น posterior membrane"
-  ],
-  "W4": [
-    "ถูก: <b>transversus thoracis</b> อยู่ชั้นในสุดของผนังทรวงอกด้านหน้า เกาะจาก xiphoid และส่วนล่างของ sternal body ไปที่ซี่โครง <b>2–6</b> ทำหน้าที่ดึงซี่โครงลงในการหายใจออกแรง"
-  ],
-  "W5": [
-    "กล้ามเนื้อช่วยหายใจเข้าแรง (<b>forceful inspiration</b>) ได้แก่ <b>SCM, scalenes, pectoralis minor, serratus anterior &amp; posterior และ levator costarum</b>",
-    "Internal/innermost intercostals, transversus thoracis และกล้ามเนื้อหน้าท้อง (rectus abdominis, obliques) ใช้ในการหายใจออกแรง (forceful expiration)"
-  ],
-  "W6": [
-    "ผิด: <b>normal (quiet) expiration</b> ไม่ได้ใช้การหดตัวของกล้ามเนื้อ แต่อาศัยการคลายตัวของกะบังลมและผนังทรวงอกร่วมกับ <b>elastic recoil</b> ของปอด",
-    "Internal intercostals และ rectus abdominis จะทำงานเมื่อต้องหายใจออกแรง (forceful expiration)"
-  ],
-  "W7": [
-    "มัดหลอดเลือดและเส้นประสาทวิ่งใน costal groove ระหว่างชั้น <b>internal กับ innermost intercostal</b> เรียงจากบนลงล่างเป็น <b>Vein → Artery → Nerve (VAN)</b>"
-  ],
-  "W8": [
-    "<b>Anterior intercostal arteries</b> แยกจาก <b>internal thoracic artery</b> ส่วน posterior intercostal arteries แยกจาก thoracic aorta",
-    "ด้านหลอดเลือดดำ: posterior intercostal veins ข้างขวาเทเข้า <b>azygos vein</b> ส่วนข้างซ้ายเทเข้า hemiazygos / accessory hemiazygos veins"
-  ],
-  "W9": [
-    "<b>Intercostal nerve block</b> ต้องฉีดยาชาที่ <b>ขอบล่างของซี่โครง (lower border)</b> เพื่อให้โดนเส้นประสาทใน costal groove",
-    "ส่วน <b>thoracostomy / thoracocentesis</b> ต้องแทงชิด <b>ขอบบนของซี่โครง (upper border)</b> เพื่อหลบไม่ให้บาดเจ็บ VAN bundle"
-  ],
-  "W10": [
-    "ตามสไลด์ Thoracic Wall: <b>Thoracocentesis</b> (เจาะระบายน้ำ) ทำที่ <b>7th หรือ 8th ICS</b> แนว posterior axillary หรือ mid-scapular line",
-    "ส่วน <b>Tube thoracostomy</b> (ใส่ท่อระบายลม/เลือด) ทำที่ <b>4th หรือ 5th ICS</b> แนว anterior หรือ mid-axillary line ชิดขอบบนของซี่โครง"
-  ],
-  "W11": [
-    "ใน <b>flail chest</b> ส่วนของผนังอกที่หักลอยจะเกิด <b>paradoxical movement</b>: ยุบเข้าด้านในขณะหายใจเข้า (เพราะความดันในช่องอกเป็นลบ) และโป่งออกด้านนอกขณะหายใจออก"
-  ],
-  "W12": [
-    "ถูก: บนภาพกะบังลม <b>IVC</b> ทะลุผ่าน <b>central tendon</b> ส่วน <b>esophageal hiatus</b> ล้อมรอบด้วยเส้นใยกล้ามเนื้อของ <b>right crus</b> (และ abdominal aorta ลอดอยู่ด้านหลังระหว่าง right กับ left crura)"
-  ],
-  "W13": [
-    "(a) <b>Nerve block</b> แทงที่<b>ขอบล่าง</b>ของซี่โครงเพื่อเข้าหา VAN ใน costal groove แต่ <b>pleural tap / chest tube</b> แทงที่<b>ขอบบน</b>ของซี่โครงเพื่อหลบ VAN",
-    "(b) <b>ข้อแตกต่างระหว่าง 2 สไลด์</b>: สไลด์ Thoracic wall p.23 ให้ทำ thoracocentesis ที่ <b>7th/8th ICS</b> (posterior axillary/mid-scapular line) ส่วนสไลด์ Lung p.10 ให้ทำที่ <b>8th–10th ICS</b> (midaxillary line)"
-  ]
-});
 
 /* ---------- B · Lung & Bronchial Tree ---------- */
 window.THAI_SEC.B = {
@@ -216,61 +110,6 @@ Object.assign(window.THAI_CONCEPT, {
   ]
 });
 
-Object.assign(window.THAI_Q, {
-  "B1": [
-    "ตามแนว <b>MCL, MAL, Paravertebral</b>: ขอบล่างปอดอยู่ที่ซี่โครง <b>6, 8, 10</b> และขอบล่าง parietal pleura อยู่ที่ซี่โครง <b>8, 10, 12</b>",
-    "ยอดโดมของเยื่อหุ้มปอด (<b>cupola</b>) ยื่นพ้น <b>medial third ของ clavicle ขึ้นมา 1 นิ้ว</b>"
-  ],
-  "B2": [
-    "ตามสไลด์ Lung &amp; Bronchial Tree p.10 การทำ <b>pleural tap (thoracentesis)</b> เข้าสู่ costodiaphragmatic recess ทำที่ <b>8th, 9th หรือ 10th ICS</b> แนว midaxillary line เหนือขอบบนของซี่โครง",
-    "โครงสร้างที่เสี่ยงบาดเจ็บหากแทงผิดคือ ปอด ตับ ม้าม กะบังลม และ intercostal neurovascular bundle"
-  ],
-  "B3": [
-    "ผิดทั้งสองส่วน: <b>extrapleural fascia</b> แยก <b>parietal pleura</b> ออกจากผนังทรวงอก (ส่วน visceral pleura แนบสนิทกับเนื้อปอด)",
-    "น้ำเหลืองในโพรงเยื่อหุ้มปอดเรียกว่า <b>chylothorax</b> ส่วนหนองเรียกว่า <b>pyothorax (empyema)</b>"
-  ],
-  "B4": [
-    "ผิวด้าน mediastinum ของ<b>ปอดขวา</b>มีรอยกดจาก <b>arch of azygos vein, SVC, brachiocephalic vein และ esophagus</b>",
-    "ผิวด้าน mediastinum ของ<b>ปอดซ้าย</b>มีรอยกดจาก <b>aortic arch, descending aorta และ subclavian artery</b> พร้อม cardiac notch และ lingula"
-  ],
-  "B5": [
-    "ถูก: <b>pulmonary ligament</b> คือรอยพับสองชั้นของเยื่อหุ้มปอดที่ย้อยลงมาจากขอบล่างของขั้วปอด (root of lung) บนผิวด้าน mediastinum"
-  ],
-  "B6": [
-    "<b>จุดเริ่มต้นของท่อลม (trachea)</b> อยู่ที่ขอบล่างของ cricoid cartilage ระดับกระดูกคอ <b>C6</b> ไม่ใช่ระดับ sternal angle",
-    "ระนาบ <b>sternal angle (DT4)</b> ผ่านรอยต่อ manubrium/body, ซี่โครงซี่ที่ 2, จุดเริ่มและสิ้นสุดของ aortic arch, tracheal bifurcation (carina) และขอบล่างของ superior mediastinum"
-  ],
-  "B7": [
-    "<b>Eparterial bronchus</b> คือ <b>right superior lobar bronchus</b> เพราะอยู่เหนือกว่า right pulmonary artery (ส่วน lobar bronchi อื่นทั้งหมดอยู่ใต้ pulmonary artery จึงเรียกว่า hyparterial)",
-    "จำนวน bronchopulmonary segments ในสไลด์คือ <b>ปอดขวา 10 ส่วน (3+2+5)</b> และ <b>ปอดซ้าย 8 ส่วน (4+4)</b>"
-  ],
-  "B8": [
-    "<b>Conducting part</b> สิ้นสุดที่ <b>terminal bronchioles</b> และ <b>respiratory part</b> เริ่มต้นที่ <b>respiratory bronchioles</b> (ตามด้วย alveolar ducts, alveolar sacs และ alveoli)"
-  ],
-  "B9": [
-    "<b>Right bronchial artery (1 เส้น)</b> แยกจาก <b>3rd right posterior intercostal artery</b> และ right bronchial vein เทเข้า <b>azygos vein</b>",
-    "<b>Left bronchial arteries (2 เส้น)</b> แยกโดยตรงจาก <b>thoracic aorta (ระดับ T5/T6)</b> และ left bronchial vein เทเข้า <b>accessory hemiazygos vein</b>"
-  ],
-  "B10": [
-    "ฝั่งซ้ายช่วงบน (<b>left 5th–8th intercostal veins</b>) เทเข้า <b>accessory hemiazygos vein</b>",
-    "ฝั่งซ้ายช่วงล่าง (<b>left 9th–11th intercostal veins</b> ร่วมกับ left subcostal และ left ascending lumbar veins) เทเข้า <b>hemiazygos vein</b> ก่อนข้ามไปเทเข้า azygos vein ทั้งคู่"
-  ],
-  "B11": [
-    "ต่อมน้ำเหลือง 3 กลุ่มที่รวมเข้า <b>bronchomediastinal lymph trunks</b> คือ <b>parasternal, anterior mediastinal และ tracheobronchial nodes</b>",
-    "<b>Thoracic duct</b> เริ่มต้นจาก <b>cisterna chyli</b> ที่ระดับกระดูกสันหลัง <b>L2</b>"
-  ],
-  "B12": [
-    "ใน pulmonary plexus: <b>Parasympathetic (vagus)</b> ทำให้หลอดลมหดตัว (<b>bronchoconstriction</b>) และหลอดเลือดขยายตัว (<b>vasodilation</b>) ส่วน <b>Sympathetic</b> ให้ผลตรงกันข้าม (<b>bronchodilation &amp; vasoconstriction</b>)",
-    "<b>Greater splanchnic nerve</b> มาจากปมประสาท <b>T5–T9</b> และ <b>lesser splanchnic nerve</b> มาจาก <b>T10–T11</b> ไปเลี้ยงอวัยวะใต้กะบังลม"
-  ],
-  "B13": [
-    "ผิด: <b>phrenic nerve (C3–C5)</b> ให้ทั้งใยประสาท <b>motor และ sensory</b> แก่กะบังลม และยังรับความรู้สึก (sensory) จาก <b>pericardium และ mediastinal pleura</b> ด้วย"
-  ],
-  "B14": [
-    "สรุปความต่างขวา-ซ้าย 3 หมวด: (1) <b>Mediastinal impressions</b>: ขวา = azygos arch, SVC, brachiocephalic v., esophagus · ซ้าย = aortic arch, descending aorta, subclavian a., cardiac notch/lingula",
-    "(2) <b>Hilum</b>: right superior lobar bronchus เป็น <b>eparterial</b> (เหนือ PA) ส่วนที่เหลือเป็น <b>hyparterial</b> · (3) <b>Bronchial vessels</b>: ขวา 1 เส้นจาก 3rd right posterior intercostal a. / ดำเข้า azygos v. · ซ้าย 2 เส้นจาก aorta (T5–T6) / ดำเข้า accessory hemiazygos v."
-  ]
-});
 
 /* Part 2 Thai layers: Sections H (Histology), G (Gas phase & equilibrium), M (Mechanics of breathing). */
 window.THAI_Q = window.THAI_Q || {};
@@ -313,55 +152,6 @@ Object.assign(window.THAI_CONCEPT, {
   ]
 });
 
-Object.assign(window.THAI_Q, {
-  "H1": [
-    "<b>Olfactory mucosa</b> (อยู่ส่วนบนของ superior nasal concha, upper nasal septum และ sphenoethmoidal recess) มี non-motile cilia นิวเคลียสหนาแน่น <b>ไม่มี goblet cell</b> และมี Bowman gland",
-    "ต่างจาก respiratory mucosa ที่มี motile cilia และ goblet cell จำนวนมาก"
-  ],
-  "H2": [
-    "บริเวณที่ต้องทนแรงเสียดสีแต่ยังชื้นอยู่ ได้แก่ <b>oropharynx, ด้านช่องปากของ epiglottis และ true vocal cord</b> จะบุด้วย non-keratinized stratified squamous epithelium",
-    "ส่วน nasal vestibule เป็น keratinized stratified squamous เพราะสัมผัสอากาศภายนอกโดยตรง"
-  ],
-  "H3": [
-    "ถูก: แกนกลางของ epiglottis เป็น <b>elastic cartilage</b> ด้านช่องปาก (oral/superior side) บุด้วย non-keratinized stratified squamous ส่วนด้านกล่องเสียง (laryngeal/inferior side) บุด้วย respiratory epithelium"
-  ],
-  "H4": [
-    "<b>Trachea</b> มีกระดูกอ่อน hyaline รูปตัว C ด้านหลังเชื่อมด้วยกล้ามเนื้อเรียบ trachealis มี basement membrane หนา และใช้ชั้น adventitia ร่วมกับหลอดอาหาร",
-    "แผ่นกระดูกอ่อนไม่ต่อเนื่องเป็นลักษณะของ intrapulmonary bronchus"
-  ],
-  "H5": [
-    "ผิด: แผ่นกระดูกอ่อนแบบไม่ต่อเนื่อง (discontinuous cartilage plates) เป็นลักษณะของ <b>intrapulmonary bronchus</b>",
-    "เมื่อเข้าสู่ <b>regular bronchiole</b> จะไม่มีกระดูกอ่อน และแทบไม่มี goblet cell หรือ seromucous gland เลย"
-  ],
-  "H6": [
-    "จุดตัดสำคัญของ <b>regular bronchiole</b> คือกระดูกอ่อนหายไปทั้งหมด และ goblet cell กับต่อม seromucous เหลือน้อยมากหรือไม่มีเลย",
-    "ถุงลมจะเริ่มโป่งออกที่ respiratory bronchiole ไม่ใช่ regular bronchiole"
-  ],
-  "H7": [
-    "<b>Clara cell (Club cell)</b> ใน terminal bronchiole มีปลายยอดนูน (dome shape) และมี short microvilli",
-    "หน้าที่ครบ 4 ข้อตามสไลด์: หลั่ง lipoprotein ช่วย surfactant, ทำหน้าที่คล้าย stem cell, กำจัดสารพิษ (detoxify) และสร้าง biomarker <b>CC16</b>"
-  ],
-  "H8": [
-    "ถูก: <b>terminal bronchiole</b> คือส่วนสุดท้ายของ air-conducting portion ส่วน <b>respiratory bronchiole</b> คือจุดเริ่มต้นของ respiratory portion"
-  ],
-  "H9": [
-    "จำแยกจำนวนเซลล์กับพื้นที่ผิวให้แม่น: <b>Type I</b> มี 40% ของจำนวนเซลล์ แต่คลุมพื้นที่ผิวถึง 90–95%",
-    "<b>Type II</b> มี 60% ของจำนวนเซลล์ แต่เป็นเซลล์รูปลูกบาศก์จึงคลุมพื้นที่ผิวเพียง 5–10%"
-  ],
-  "H10": [
-    "<b>Pores of Kohn</b> เป็นรูเชื่อมระหว่างถุงลมข้างเคียง ทำให้เกิด collateral circulation และช่วยป้องกันภาวะปอดแฟบ (atelectasis)"
-  ],
-  "H11": [
-    "ผิด: หากนับตาม<b>จำนวนเซลล์</b> Type II มีมากกว่า (60% ต่อ 40%) แต่ Type I แผ่บางจึงคลุม<b>พื้นที่ผิว</b>มากกว่า (90–95%)"
-  ],
-  "H12": [
-    "สไลด์หน้า 42 เรียง <b>air-blood barrier 5 ชั้น</b> จากถุงลมเข้าหาเม็ดเลือดแดง: (1) alveolar fluid + surfactant (2) alveolar epithelium (3) basal lamina x 2 (4) capillary endothelium (5) plasma membrane ของ RBC"
-  ],
-  "H13": [
-    "เยื่อหุ้มปอดทั้ง visceral และ parietal pleura เป็น serous membrane บุด้วย <b>mesothelium</b> ทำหน้าที่สร้างของเหลวหล่อลื่น (lubricant fluid)",
-    "เนื้องอกร้ายของชั้นนี้คือ <b>mesothelioma</b> ซึ่งสัมพันธ์กับการสูดแร่ใยหิน (asbestosis/asbestos)"
-  ]
-});
 
 /* ---------- G · Gas Phase, Partial Pressures & Gas-Liquid Equilibrium ---------- */
 window.THAI_SEC.G = {
@@ -394,50 +184,6 @@ Object.assign(window.THAI_CONCEPT, {
   ]
 });
 
-Object.assign(window.THAI_Q, {
-  "G1": [
-    "<b>BTPS</b> = Body Temperature (37 °C), ambient Pressure, Saturated with water vapor (PH2O = 47 mmHg)",
-    "ส่วน STPD คือ 0 °C (273 K), 760 mmHg และไม่มีไอน้ำ (dry)"
-  ],
-  "G2": [
-    "ตามกฎของ Avogadro ที่ STP แก๊สอุดมคติ 1 โมลมีปริมาตร <b>22.4 L</b>",
-    "ค่าคงที่ของแก๊ส R ในสไลด์คือ <b>0.082 L·atm/(K·mol)</b> หรือ <b>8.314 J/(K·mol)</b>"
-  ],
-  "G3": [
-    "ผิด: กฎของ Charles ปริมาตรแปรผันตรงกับ<b>อุณหภูมิสัมบูรณ์ (Kelvin)</b> ไม่ใช่องศาเซลเซียส โดยกราฟตัดศูนย์ที่ −273 °C (0 K)"
-  ],
-  "G4": [
-    "เมื่ออากาศอิ่มตัวด้วยไอน้ำที่ 37 °C (PH2O = 47 mmHg) ความดันของแก๊สแห้งที่เหลือคือ 760 − 47 = 713 mmHg",
-    "ดังนั้น PO2 ในหลอดลมชื้น = 0.2093 × 713 = <b>149.2 mmHg</b>"
-  ],
-  "G5": [
-    "ที่ <b>isothermic saturation boundary</b> (ต่ำกว่า carina เล็กน้อย) อากาศมีอุณหภูมิ <b>37 °C</b> ความชื้นสัมพัทธ์ <b>100% RH</b> ปริมาณไอน้ำ <b>44 mg/L</b> และความดันไอน้ำ <b>47 mmHg</b>"
-  ],
-  "G6": [
-    "ถูก: การเติมไอน้ำ 47 mmHg ในทางเดินหายใจส่วนต้นเจือจางความดันย่อยของออกซิเจนจาก 159.1 mmHg เหลือ 149.2 mmHg ก่อนถึงถุงลม"
-  ],
-  "G7": [
-    "คำนวณจาก 149.2 − (40 / 0.8) = <b>99.2 mmHg</b> เมื่อตัด F ออก",
-    "แต่ถ้ารวม F = 2 mmHg หรือใช้สูตรคูณ 1.2 (149.2 − 40 × 1.2) จะได้ <b>101.2 mmHg</b> เท่ากัน"
-  ],
-  "G8": [
-    "ในสไลด์หน้า 22 และ 24: ถ้า FiO2 ≤ 0.6 ใช้สูตรลบด้วย <b>(PaCO2) × 1.2</b> แต่ถ้า <b>FiO2 > 0.6</b> ให้ลบด้วย <b>PaCO2</b> โดยตรงไม่ต้องคูณ 1.2"
-  ],
-  "G9": [
-    "ผิด: ตาม <b>Graham law</b> อัตราการแพร่ในสถานะแก๊สแปรผกผันกับรากที่สองของมวลโมเลกุล ดังนั้น CO2 (44) จึงแพร่ในอากาศช้ากว่า O2 (32) เล็กน้อย"
-  ],
-  "G10": [
-    "ตาม <b>Henry law</b>: ที่ PaO2 = 100 mmHg ออกซิเจนละลายในเลือด = 0.003 × 100 = <b>0.3 mL O2 / dL blood</b>",
-    "ในพลาสมาที่ 38 °C CO2 มีค่าการละลาย 0.490 เทียบกับ O2 ที่ 0.021 จึงละลายได้ดีกว่าประมาณ 23 เท่า"
-  ],
-  "G11": [
-    "ถูก: ถัง D มีความจุ 0.16 L/psi เมื่ออัด 2000 psi จะได้ออกซิเจนประมาณ <b>320 L</b> และ nasal cannula เปิด 2–6 L/min (FiO2 0.28–0.44) เพราะถ้าเกิน 6 L/min จะระคายเคืองเยื่อบุจมูก"
-  ],
-  "G12": [
-    "ปริมาตรออกซิเจนในถัง D = 2000 psi × 0.16 L/psi = <b>320 L</b> เมื่อเปิด 4 L/min จะใช้ได้ประมาณ 320 / 4 = <b>80 นาที</b>",
-    "หากเปิด nasal cannula เกิน 6 L/min จะทำให้เยื่อบุจมูกแห้งและระคายเคือง จึงควรเปลี่ยนเป็น face mask (เปิด 3–8 L/min ให้ FiO2 0.30–0.80)"
-  ]
-});
 
 /* ---------- M · Mechanics of Breathing ---------- */
 window.THAI_SEC.M = {
@@ -474,59 +220,6 @@ Object.assign(window.THAI_CONCEPT, {
   ]
 });
 
-Object.assign(window.THAI_Q, {
-  "M1": [
-    "หายใจเข้าปกติใช้ <b>diaphragm กับ external intercostals</b> ถ้าหายใจเข้าเต็มที่จะเพิ่ม <b>sternocleidomastoid, serratus anterior และ scalenes</b>",
-    "หายใจออกปกติเป็นการคลายตัวแบบ passive แต่ถ้าหายใจออกเต็มที่จะใช้ <b>internal intercostals และกล้ามเนื้อหน้าท้อง</b> (rectus abdominis, external & internal obliques)"
-  ],
-  "M2": [
-    "ขณะพักปลายหายใจออกปกติ (FRC / EELV) ไม่มีลมไหล: <b>PA = 0 cmH2O</b>, <b>Ppl = −5 cmH2O</b> (−3.5 mmHg) และ <b>PL = PA − Ppl = +5 cmH2O</b>"
-  ],
-  "M3": [
-    "ผิด: เมื่อเครื่องช่วยหายใจอัดความดันบวกโดยผู้ป่วยไม่ออกแรงช่วย ความดันในปอดจะดันผนังทรวงอกออก ทำให้ <b>Ppl เปลี่ยนเป็นค่าบวก</b> (เช่น +5 cmH2O) ไม่ได้ติดลบมากขึ้นเหมือนการหายใจเอง"
-  ],
-  "M4": [
-    "ตามสไลด์หน้า 16: ถุงลมขนาดเล็กมีปริมาณ <b>surfactant (DPPC) ต่อพื้นที่ผิวมากกว่า</b>ถุงลมขนาดใหญ่",
-    "ทำให้ถุงลมเล็กมี elastic recoil force น้อยกว่า และขยายปริมาตรขณะหายใจเข้าได้ดีกว่าถุงลมใหญ่"
-  ],
-  "M5": [
-    "ที่ <b>FRC</b> แรงหดเข้าของปอดเท่ากับแรงดีดออกของผนังทรวงอกพอดี (ความดันรวม = 0)",
-    "ถ้าเกิดรอยรั่วเข้าช่องเยื่อหุ้มปอด (pneumothorax) ปอดจะหดแฟบลงเหลือ minimal air ส่วนผนังทรวงอกจะดีดขยายออก"
-  ],
-  "M6": [
-    "ถูก: หากขาดสารลดแรงตึงผิว <b>DPPC</b> แรงตึงผิวของของเหลวในถุงลมจะสูงขึ้น ทำให้ปอดมี elastic recoil force เพิ่มขึ้นและขยายยาก"
-  ],
-  "M7": [
-    "คำนวณจาก 1/C(รวม) = 1/0.2 + 1/0.2 = 10 ดังนั้น C(รวม) = <b>0.1 L/cmH2O</b>",
-    "<b>Emphysema</b> ทำลายผนังถุงลม → elastic recoil ลดลง → compliance เพิ่มขึ้น · <b>Pulmonary fibrosis</b> มีพังผืด → elastic recoil เพิ่มขึ้น → compliance ลดลง"
-  ],
-  "M8": [
-    "ผิด: Compliance <b>แปรผกผัน</b>กับ elastic recoil (C ∝ 1 / elastic recoil) ดังนั้นผู้ป่วย emphysema จึงมี compliance สูงกว่าปกติ"
-  ],
-  "M9": [
-    "<b>Static compliance</b> วัดขณะที่ไม่มีการไหลของอากาศ (กลั้นหายใจค้างไว้) จึงสะท้อนคุณสมบัติความยืดหยุ่นล้วนๆ",
-    "ส่วน <b>dynamic compliance</b> วัดระหว่างที่มีการหายใจเข้าออกต่อเนื่อง"
-  ],
-  "M10": [
-    "ความต้านทานส่วนใหญ่อยู่ที่ทางเดินหายใจส่วนต้น: <b>จมูก-ปาก 50%, glottis 25%, trachea-bronchi (>2 mm) 15%</b>",
-    "ส่วนหลอดลมเล็ก (<2 mm) มีความต้านทานรวมเพียง <b>10%</b> เพราะแตกแขนงขนานกันจำนวนมากจนพื้นที่หน้าตัดรวมใหญ่มาก"
-  ],
-  "M11": [
-    "ขณะเบ่งหายใจออกแรง Ppl จะเป็นบวกสูงมาก ในผู้ป่วย <b>COPD/emphysema</b> ถุงลมเสียความยืดหยุ่นและเสียแรงดึงรั้งรอบหลอดลม (radial traction)",
-    "ความดันบวกในช่องอกจึงกดหลอดลมฝอยให้ตีบแคบตั้งแต่เนิ่นๆ (dynamic compression) เกิดลมค้างในปอด (air trapping)"
-  ],
-  "M12": [
-    "ถูก: การกระตุ้น <b>parasympathetic</b> ทำให้หลอดลมหดตัว (bronchoconstriction) เพิ่มความต้านทาน ส่วน <b>sympathetic</b> ทำให้หลอดลมคลายตัว (bronchodilation) ลดความต้านทาน"
-  ],
-  "M13": [
-    "ขณะพัก งานที่ใช้ในการหายใจแบ่งเป็น <b>65% เอาชนะความยืดหยุ่น (elastic), 25% เอาชนะความต้านทานท่อทางเดินหายใจ และ 10% เอาชนะความหนืดของเนื้อเยื่อ</b>",
-    "ใน <b>pulmonary fibrosis</b> จะเพิ่ม elastic work ส่วนใน <b>COPD</b> จะเพิ่ม airway resistance work"
-  ],
-  "M14": [
-    "<b>Laminar flow</b> พบในหลอดลมเล็กส่วนปลาย (ขึ้นกับความหนืด) · <b>Turbulent flow</b> พบในหลอดลมใหญ่เมื่อไหลเร็ว (ขึ้นกับความหนาแน่น) · <b>Transitional flow</b> พบตามจุดแยกแขนง",
-    "<b>Vesicular sound</b> (Insp > Exp, เสียงค่อย ทุ้ม ≤200 Hz) ฟังได้ทั่วเนื้อปอด · <b>Bronchial sound</b> (Exp > Insp มีช่วงเงียบคั่น, เสียงดัง แหลม ≥400 Hz) ปกติฟังได้เหนือ manubrium"
-  ]
-});
 
 /* Part 3 Thai data: Sections E (Gas exchange), T (Gas transport), C (Pulmonary circulation). */
 window.THAI_Q = window.THAI_Q || {};
@@ -567,64 +260,6 @@ Object.assign(window.THAI_CONCEPT, {
     "การวัดพื้นที่สูญเปล่าทางกายวิภาคใช้ก๊าซไนโตรเจน ส่วนพื้นที่สูญเปล่าทางสรีรวิทยาใช้สมการของ Bohr และต้องจำ 3 สาเหตุที่ทำให้ A–a gradient กว้างขึ้น รวมถึงการควบคุมการหายใจขณะออกกำลังกาย"
   ]
 });
-Object.assign(window.THAI_Q, {
-  "E1": [
-    "อากาศแห้งที่ระดับน้ำทะเล (760 mmHg) มี P<sub>O2</sub> = 760 &times; 0.21 = <b>160 mmHg</b>",
-    "ตัวเลข 150 mmHg คืออากาศในท่อลมที่อิ่มตัวด้วยไอน้ำแล้ว (หัก P<sub>H2O</sub> 47 mmHg) และ 100 mmHg คือในถุงลม"
-  ],
-  "E2": [
-    "จาก P<sub>AO2</sub> = P<sub>IO2</sub> &minus; (P<sub>ACO2</sub> / R): เมื่อเปลี่ยนจากคาร์โบไฮเดรต (R = 1.0 &rarr; P<sub>AO2</sub> = 110) เป็นไขมันล้วน (R = 0.7) ค่า P<sub>AO2</sub> จะลดลงเป็น 150 &minus; (40/0.7) &approx; <b>93 mmHg</b>",
-    "P<sub>aO2</sub> ต่ำกว่า P<sub>AO2</sub> เล็กน้อยเพราะมี <b>2% physiologic shunt</b> จากหลอดเลือด bronchial และ coronary thebesian veins เทเลือดดำปนเข้าเลือดแดง"
-  ],
-  "E3": [
-    "ผิด: ตามกฎของ Henry เฉพาะ <b>O<sub>2</sub> ที่ละลายอิสระ (free dissolved form)</b> เท่านั้นที่สร้างความดันย่อย P<sub>O2</sub>",
-    "O<sub>2</sub> ที่จับกับ Hb ไม่สร้างความดันย่อย (แต่เป็นคลังสำรองหลักของ O<sub>2</sub> content)"
-  ],
-  "E4": [
-    "ตามกฎของ Fick: V&#775;<sub>gas</sub> = [D &times; A &times; (P<sub>1</sub> &minus; P<sub>2</sub>)] / T ดังนั้นเมื่อ <b>membrane thickness (T)</b> เพิ่มขึ้น อัตราการแพร่จะลดลง",
-    "การเพิ่มพื้นที่ผิว (A), ค่าการละลาย, สัมประสิทธิ์การแพร่ (D) หรือความต่างความดัน ล้วนทำให้การแพร่เพิ่มขึ้น"
-  ],
-  "E5": [
-    "CO<sub>2</sub> มี <b>solubility สูงกว่า O<sub>2</sub> ถึง 24.2 เท่า</b> (0.592 vs 0.0244) ซึ่งชนะผลของน้ำหนักโมเลกุลที่หนักกว่าเพียง &radic;(44/32) = 1.17 เท่า",
-    "หารกันได้ 24.2 / 1.17 &approx; 20 เท่า จึงแพร่เร็วกว่า O<sub>2</sub> ประมาณ 20 เท่า"
-  ],
-  "E6": [
-    "<b>High D<sub>LCO</sub> (&gt;120%)</b> เกิดจากเลือดในปอดหรือ Hb เพิ่มขึ้น: <b>M&uuml;ller’s maneuver</b> (หายใจเข้าสู้กับ glottis ที่ปิด), alveolar hemorrhage, early congestion, L-to-R shunt, exercise, polycythemia",
-    "<b>Low D<sub>LCO</sub> (&lt;80%)</b> เกิดจากพื้นที่ลดลง (emphysema), ผนังหนา (fibrosis), เลือดไปปอดลดลง (<b>Valsalva maneuver</b>, PE, pulmonary HTN), anemia หรือสูบบุหรี่"
-  ],
-  "E7": [
-    "เลือดแดง (S<sub>aO2</sub> 100%, P<sub>aO2</sub> 100): (15 &times; 1.34 &times; 1.0) + (100 &times; 0.003) = 20.1 + 0.3 = <b>20.4 mL/dL</b> · เลือดดำ (S<sub>vO2</sub> 75%, P<sub>vO2</sub> 40): 15.07 + 0.12 = <b>15.19 mL/dL</b>",
-    "เลือด 100 mL รับ O<sub>2</sub> เพิ่ม ~5 mL ดังนั้น Cardiac output 5000 mL/min จึงรับ O<sub>2</sub> เข้าเลือด <b>250 mL/min</b>"
-  ],
-  "E8": [
-    "<b>CO (คาร์บอนมอนอกไซด์)</b> เป็น <b>diffusion-limited เสมอ</b> เพราะจับกับ Hb แน่นมากจนความดันย่อยของ CO อิสระในพลาสมาแทบไม่เพิ่มขึ้นเลยตลอดความยาวหลอดเลือดฝอย",
-    "N<sub>2</sub>O, CO<sub>2</sub> และ O<sub>2</sub> ในสภาวะปกติเป็น perfusion-limited"
-  ],
-  "E9": [
-    "<b>N<sub>2</sub>O</b> ไม่จับกับ Hb เลย ความดันย่อยในพลาสมาจึงพุ่งขึ้นจนสมดุลกับถุงลมภายใน <b>0.075 s</b> (1/10 ของ transit time 0.75 s) &rarr; perfusion-limited",
-    "<b>O<sub>2</sub></b> จับกับ Hb จนอิ่มตัวและสมดุลที่ <b>0.25 s</b> (1/3 ของ transit time) &rarr; perfusion-limited ในคนปกติ · ส่วน <b>CO</b> จับ Hb แน่นมากจนความดันในพลาสมาไม่ขึ้น จึงไม่สมดุลจนจบ 0.75 s &rarr; diffusion-limited เสมอ"
-  ],
-  "E10": [
-    "ที่ <b>ยอดปอด (apex)</b> ความดัน intrapleural ติดลบมาก (&minus;10 cmH<sub>2</sub>O) ทำให้ transpulmonary pressure สูง (+10) ถุงลมขณะพักจึงมี <b>ขนาดใหญ่ที่สุด (larger baseline alveoli)</b>",
-    "เมื่อถุงลมใหญ่ตั้งต้นอยู่บนส่วนแบนของกราฟ P-V จึงมี compliance ต่ำและขยายตัวรับ ventilation ได้น้อยกว่าฐานปอด (และได้รับ perfusion น้อยกว่าฐานปอดมาก)"
-  ],
-  "E11": [
-    "คำนวณ <b>Alveolar ventilation</b> = (TV &minus; DS) &times; RR = (300 &minus; 100) &times; 10 = <b>2000 mL/min</b>",
-    "หารด้วย Perfusion (CO = 5000 mL/min) จะได้ V/Q = 2000 / 5000 = <b>0.4</b> (ระวังอย่าใช้ minute ventilation 300 &times; 10 = 3000 มาหาร)"
-  ],
-  "E12": [
-    "ใช้ <b>Bohr’s equation</b> วัด physiological dead space: DS/TV = (P<sub>ACO2</sub> &minus; P<sub>ECO2</sub>) / P<sub>ACO2</sub> = (40 &minus; 24) / 40 = <b>0.40</b> &rarr; DS = 0.40 &times; 500 = <b>200 mL</b>",
-    "ส่วน Fowler’s method (single-breath N<sub>2</sub> washout) วัดเฉพาะ anatomical dead space (~150 mL)"
-  ],
-  "E13": [
-    "<b>Pure dead space (V/Q = &infin;)</b> ไม่มีเลือดไหลผ่าน ก๊าซในถุงลมจึงเท่ากับอากาศชื้นในท่อลม (<b>P<sub>AO2</sub> = 150, P<sub>ACO2</sub> = 0 mmHg</b>)",
-    "<b>Pure shunt (V/Q = 0)</b> ไม่มีอากาศเข้า เลือดที่ออกจากถุงลมจึงเท่ากับเลือดดำ (<b>P<sub>aO2</sub> = 40, P<sub>aCO2</sub> = 46 mmHg</b>) และ A–a gradient จะกว้างขึ้นใน 3 ภาวะ: R-to-L shunt, V/Q mismatch, และ diffusion defect"
-  ],
-  "E14": [
-    "ถูก: ในช่วง <b>isocapnic buffering</b> (graded moderate exercise) การระบายอากาศเพิ่มขึ้นเป็นสัดส่วนเดียวกับการสร้าง CO<sub>2</sub>",
-    "ส่งผลให้ค่าเฉลี่ยของ P<sub>aO2</sub>, P<sub>aCO2</sub> และ pH ในเลือดแดงคงที่แทบไม่เปลี่ยนแปลงจากขณะพัก"
-  ]
-});
 
 /* ---------- T · Gas transport ---------- */
 window.THAI_SEC.T = {
@@ -660,60 +295,6 @@ Object.assign(window.THAI_CONCEPT, {
     "จับคู่ปรากฏการณ์ทั้งสองให้ถูกตำแหน่ง: ที่เนื้อเยื่อส่วนปลาย กรดและ CO<sub>2</sub> ช่วยเร่งการปล่อย O<sub>2</sub> ส่วนที่ถุงลมปอด การจับ O<sub>2</sub> ช่วยเร่งการปลดปล่อย CO<sub>2</sub> และโปรตอน"
   ]
 });
-Object.assign(window.THAI_Q, {
-  "T1": [
-    "<b>Tension</b> คือแรงที่ผลักก๊าซให้หนีออกจากของเหลว (เมื่อสมดุล Partial pressure = Tension)",
-    "ในผู้ใหญ่วัยหนุ่มสาว <b>O<sub>2</sub> diffusing capacity</b> เพิ่มจาก <b>20 mL/min/mmHg</b> ขณะพัก เป็น <b>65 mL/min/mmHg</b> ขณะออกกำลังกาย เพราะหลอดเลือดฝอยขยายตัวและผนังถุงลมบางลง"
-  ],
-  "T2": [
-    "สไลด์หน้า 9 แยก <b>Alveolar–capillary block</b> ออกเป็น 3 โรค: <b>pulmonary edema, interstitial pulmonary fibrosis, และ silicosis</b> (ส่วน pneumonia, atelectasis, lung tumor, TB จัดอยู่ในกลุ่มลดพื้นที่ผิวถุงลม)",
-    "การมี Hb ในเม็ดเลือดแดงช่วยเพิ่มความสามารถในการขนส่ง O<sub>2</sub> ของเลือดได้ถึง <b>65 เท่า</b>"
-  ],
-  "T3": [
-    "O<sub>2</sub> จับที่ <b>&alpha;-subunit ก่อน</b> เพราะมี heme pocket กว้างกว่า &beta;-subunit จากนั้น <b>Fe<sup>2+</sup> ขยับลงมา 0.6 &Aring;</b> เข้าสู่ระนาบ porphyrin (เปลี่ยนจาก high-spin เป็น low-spin)",
-    "ส่งผลให้ salt bridges (&alpha;–&alpha; และ &alpha;–&beta;) ขาดออก, &alpha;&beta; หมุนไป <b>15&deg;</b>, 2,3-BPG หลุดออก และ heme pocket ของ &beta;-subunit เปิดกว้างขึ้น"
-  ],
-  "T4": [
-    "ผิด: การจับระหว่าง Hb กับ O<sub>2</sub> (ใช้เวลา 0.01 วินาที) เรียกว่า <b>oxygenation ไม่ใช่ oxidation</b>",
-    "เลขออกซิเดชันของเหล็กต้องคงเป็น <b>Fe<sup>2+</sup> (ferrous)</b> เสมอ (ถ้าถูกออกซิไดซ์เป็น Fe<sup>3+</sup> จะกลายเป็น methemoglobin ที่จับ O<sub>2</sub> ไม่ได้)"
-  ],
-  "T5": [
-    "<b>CO<sub>2</sub></b> จับกับหมู่ &minus;NH<sub>2</sub> ที่ปลาย N-terminal ของ globin ได้เป็น carbaminohemoglobin · ส่วน <b>2,3-BPG</b> จับแบบ non-covalent กับสาย &beta;-globin ของ deoxyhemoglobin",
-    "O<sub>2</sub> และ CO จับที่อะตอม <b>Fe<sup>2+</sup></b> ของ heme ส่วน H<sup>+</sup> จับกับกรดอะมิโนที่รับโปรตอนบนสาย globin"
-  ],
-  "T6": [
-    "เมื่อ pH ลดลง (H<sup>+</sup> สูง) กรดอะมิโน <b>His146 (His HC3)</b> ของสาย &beta;-subunit จะรับโปรตอนแล้วสร้างพันธะไอออนิก (ion pair) กับ <b>Asp94 (Asp FG1)</b>",
-    "พันธะนี้ช่วยล็อก deoxyhemoglobin ให้อยู่ในรูป <b>T-state</b> (low affinity) กราฟจึงเบี่ยงขวา (P<sub>50</sub> &gt; 27 mmHg) และปล่อย O<sub>2</sub> ให้กล้ามเนื้อมากขึ้น"
-  ],
-  "T7": [
-    "<b>2,3-BPG</b> ได้จาก <b>anaerobic glycolysis</b> ในเม็ดเลือดแดง จับกับสาย &beta;-chain ของ deoxyHb แบบ non-covalent ในอัตราส่วน <b>1:1</b>",
-    "ระดับ 2,3-BPG <b>เพิ่มขึ้น</b> จากฮอร์โมน (thyroid, GH, androgens), ออกกำลังกาย, anemia, hypoxia, ที่สูง แต่ <b>ลดลงในภาวะ acidosis</b>"
-  ],
-  "T8": [
-    "<b>ระยะสั้น (Short-term)</b>: ที่สูงมีความดันย่อย O<sub>2</sub> ต่ำ (hypobaric hypoxia) กระตุ้น peripheral chemoreceptors (carotid &amp; aortic bodies) ให้เกิด <b>hyperventilation</b> จนเกิด <b>respiratory alkalosis</b>",
-    "<b>การปรับตัว (Acclimatization)</b>: เม็ดเลือดแดงสร้าง <b>2,3-BPG เพิ่มขึ้น</b> (และสร้างเม็ดเลือดแดงเพิ่มขึ้น) เพื่อเลื่อนกราฟ O<sub>2</sub>-Hb ไปทางขวา ช่วยปลดปล่อย O<sub>2</sub> ให้เนื้อเยื่อได้ดีขึ้น"
-  ],
-  "T9": [
-    "<b>HbF (&alpha;<sub>2</sub>&gamma;<sub>2</sub>)</b> มีสาย &gamma; แทนสาย &beta; จึง <b>ไม่จับหรือจับกับ 2,3-BPG ได้น้อยมาก</b>",
-    "ทำให้ HbF มี affinity ต่อ O<sub>2</sub> สูงกว่า HbA ของแม่ (กราฟเบี่ยงซ้าย) จึงดึง O<sub>2</sub> ข้ามรกมายังทารกได้"
-  ],
-  "T10": [
-    "<b>CO</b> จับกับ Fe<sup>2+</sup> ของ Hb ได้ดีกว่า O<sub>2</sub> ถึง <b>210 เท่า</b> เกิดเป็น carboxyhemoglobin และทำให้กราฟเบี่ยงซ้ายจนเนื้อเยื่อขาดออกซิเจน",
-    "<b>Methemoglobin</b> มี Fe<sup>3+</sup> แทน Fe<sup>2+</sup> · ส่วน <b>Sulfhemoglobin</b> มีอะตอมกำมะถัน (sulfur) แทนที่เหล็กหลังได้รับสารพิษเช่น <b>hydroxylamine sulfate</b>"
-  ],
-  "T11": [
-    "<b>Myoglobin</b> เป็นโปรตีนสายเดี่ยว (monomer, <b>153 กรดอะมิโน, MW 16,700 Da</b>) ในกล้ามเนื้อหัวใจและกล้ามเนื้อลาย มีกราฟเป็น <b>rectangular hyperbola</b> (affinity สูงกว่า HbA ทั้งที่ P<sub>O2</sub> ต่ำและสูง)",
-    "ไม่มี cooperativity (allosteric effect) และไม่จับกับ H<sup>+</sup> หรือ CO<sub>2</sub> (ไม่มี Bohr effect)"
-  ],
-  "T12": [
-    "รูปหลักของการขนส่ง CO<sub>2</sub> คือ <b>ไบคาร์บอเนตไอออน (HCO<sub>3</sub><sup>&minus;</sup>)</b> (70% ตามสไลด์ Gas Transport หน้า 41 หรือ 90+% ตามสไลด์ Gas Exchange หน้า 33)",
-    "สร้างโดยเอนไซม์ <b>carbonic anhydrase</b> ในเม็ดเลือดแดง แล้วส่ง HCO<sub>3</sub><sup>&minus;</sup> ออกสู่พลาสมาแลกกับ <b>Cl<sup>&minus;</sup> (chloride shift)</b>"
-  ],
-  "T13": [
-    "<b>Bohr effect</b> เกิดที่ <b>systemic capillaries</b>: การเติม H<sup>+</sup> และ CO<sub>2</sub> จากเมแทบอลิซึมของเนื้อเยื่อทำให้ O<sub>2</sub>–Hb affinity ลดลง จึงปล่อย O<sub>2</sub> ออกมา",
-    "<b>Haldane effect</b> เกิดที่ <b>alveolar capillaries</b>: เมื่อ O<sub>2</sub> เข้าจับ Hb (oxygenation) จะทำให้ affinity ต่อ CO<sub>2</sub> และ H<sup>+</sup> ลดลง จึงเร่งการเปลี่ยน HCO<sub>3</sub><sup>&minus;</sup> + H<sup>+</sup> &rarr; CO<sub>2</sub> ออกสู่ถุงลม"
-  ]
-});
 
 /* ---------- C · Pulmonary circulation ---------- */
 window.THAI_SEC.C = {
@@ -745,66 +326,16 @@ Object.assign(window.THAI_CONCEPT, {
     "ลำดับการเกิดภาวะปอดบวมน้ำจากระยะแรกในเนื้อเยื่อรอบหลอดเลือดและหลอดลมไปสู่ระยะรุนแรงที่น้ำทะลักเข้าถุงลม พร้อมกลไกชดเชยและสาเหตุจากหัวใจเทียบกับนอกหัวใจ"
   ]
 });
-Object.assign(window.THAI_Q, {
-  "C1": [
-    "Pulmonary circulation มีทั้ง <b>ความดันต่ำกว่า (Lower Pressure)</b> และ <b>ความต้านทานต่ำกว่า (Lower Resistance)</b> เมื่อเทียบกับ systemic circulation",
-    "แต่มีอัตราการไหลของเลือด <b>เท่ากัน (Same Flow)</b> คือรับ cardiac output จาก RV เท่ากับ LV"
-  ],
-  "C2": [
-    "<b>Bronchial circulation</b> แตกแขนงจาก <b>aorta และ intercostal arteries</b> (ความดันสูงเท่า systemic) ไปเลี้ยง conducting airways จนถึงระดับ <b>terminal bronchiole</b>",
-    "เลือดดำระบายกลับทาง <b>pulmonary veins</b> (ทำให้เกิด physiologic R-to-L shunt) และบางส่วนกลับทาง systemic circulation"
-  ],
-  "C3": [
-    "ผิด: จาก Flow = Pressure / Resistance แม้ความดันในหลอดเลือดปอดจะต่ำกว่าฝั่ง systemic มาก แต่ความต้านทานก็ต่ำกว่าในสัดส่วนเดียวกัน",
-    "ดังนั้น ปริมาณเลือดที่ไหลผ่านปอดต่อนาทีจึง <b>เท่ากับ</b> cardiac output ของฝั่ง systemic"
-  ],
-  "C4": [
-    "เมื่อเลือดไหลเข้าปอดเพิ่มขึ้นขณะออกกำลังกาย <b>PVR จะลดลง</b>",
-    "กลไกหลักคือ <b>Capillary recruitment</b> (หลอดเลือดฝอยที่เดิมปิดอยู่เริ่มเปิดรับเลือด) ร่วมกับ <b>Distension</b> (หลอดเลือดฝอยขยายขนาดจากแบนเป็นกลมขึ้น)"
-  ],
-  "C5": [
-    "ที่ปริมาตรปอดสูง (เข้าใกล้ TLC) <b>alveolar vessels</b> จะถูกถุงลมที่ขยายตัวเบียดแบน (PVR สูงขึ้น) ส่วนที่ปริมาตรปอดต่ำ (เข้าใกล้ RV) <b>extra-alveolar vessels</b> จะตีบลงเพราะขาด radial traction และ P<sub>pl</sub> ติดลบน้อยลง",
-    "เมื่อรวมผลของหลอดเลือดทั้งสองชนิด ความต้านทานรวม (Total PVR) จึงต่ำที่สุดที่ระดับ <b>FRC</b>"
-  ],
-  "C6": [
-    "<b>Hypoxia</b> (P<sub>AO2</sub> &lt; 70 mmHg) กระตุ้นให้กล้ามเนื้อเรียบหลอดเลือดปอดหดตัว (hypoxic pulmonary vasoconstriction) จึงทำให้ <b>PVR เพิ่มขึ้น</b>",
-    "ส่วน nitric oxide, ปริมาตรปอดที่ FRC, endothelin antagonist และการขยายขนาดของหลอดเลือดฝอย (distension) ล้วนทำให้ PVR ลดลง"
-  ],
-  "C7": [
-    "เมื่อ <b>P<sub>AO2</sub> &lt; 70 mmHg</b> หลอดเลือดปอดบริเวณนั้นจะหดตัวเพื่อ <b>เบี่ยงเลือดหนีจากถุงลมที่ระบายอากาศไม่ดี</b> ไปยังถุงลมปกติ ช่วย <b>ลด shunt</b>",
-    "ในทารกในครรภ์มี generalized HPV ทำให้ PVR สูงมาก และเมื่อทารกสูด <b>ลมหายใจแรก (first breath)</b> ออกซิเจนในถุงลมจะทำให้ PVR ลดลงอย่างรวดเร็ว"
-  ],
-  "C8": [
-    "ผิด: ในท่ายืน <b>ฐานปอด (Zone 3)</b> มีความดันภายในหลอดเลือดสูงกว่ายอดปอดจากแรงโน้มถ่วง",
-    "จึงเกิด recruitment และ distension มากกว่า ส่งผลให้ <b>ความต้านทานต่ำกว่า</b> และมีเลือดไหลเวียนมากกว่ายอดปอด"
-  ],
-  "C9": [
-    "<b>Cardiogenic pulmonary edema (&uparrow; P<sub>c</sub>)</b> เกิดจาก left ventricular failure, mitral stenosis (เพิ่ม afterload) หรือ fluid overload (เพิ่ม preload)",
-    "ส่วน <b>Non-cardiogenic (&uparrow; K / capillary permeability)</b> เกิดจาก acute lung injury, sepsis หรือ oxygen toxicity (และยังมีกลุ่ม &downarrow; &pi;<sub>c</sub> กับ &downarrow; lymphatic drainage)"
-  ],
-  "C10": [
-    "<b>ระยะแรก (Interstitial edema)</b>: น้ำขังในช่องว่าง perivascular และ peribronchial เห็นเป็น <b>peribronchial cuffing</b> และชดเชยโดย <b>ท่อน้ำเหลือง (lymphatics)</b> ระบายไปที่ hilar lymph nodes",
-    "<b>ระยะท้าย (Alveolar edema)</b>: น้ำล้นเข้าท่วมถุงลมทีละใบทำให้เกิด <b>shunt</b> รุนแรง และชดเชยโดยการปั๊มน้ำออกผ่าน <b>Na<sup>+</sup>/K<sup>+</sup>-ATPase</b> ของเซลล์เยื่อบุถุงลม"
-  ],
-  "C11": [
-    "ถูก: ในภาวะปกติ แรงสุทธิของสมการ Starling ในปอดมีทิศดันน้ำออกนอกหลอดเลือดฝอยเล็กน้อย",
-    "ทำให้เกิดการไหลของน้ำเหลืองปอดอย่างต่อเนื่องประมาณ <b>20 mL/h</b> เพื่อรักษาให้ถุงลมแห้งอยู่เสมอ"
-  ],
-  "C12": [
-    "<b>Mitral stenosis</b> เพิ่ม capillary hydrostatic pressure (&uparrow; P<sub>c</sub>, cardiogenic) · <b>Nephrotic syndrome</b> ลด capillary oncotic pressure (&downarrow; &pi;<sub>c</sub>, non-cardiogenic) · <b>Sepsis</b> เพิ่ม filtration coefficient / permeability (&uparrow; K, non-cardiogenic)",
-    "<b>Alveolar edema</b> อันตรายกว่า interstitial edema มาก เพราะน้ำเข้าท่วมถุงลมจนอากาศเข้าไม่ได้ เกิด <b>V/Q mismatch และ shunt</b> ที่ขัดขวางการแลกเปลี่ยนก๊าซโดยตรง"
-  ]
-});
 
 /* ---------- P · Pulmonary Function Tests & Spirometry Interpretation ---------- */
 window.THAI_SEC.P = {
-  big: "หัวใจของสไปโรเมตรีย์คือ (1) แยกปริมาตรที่เครื่องเป่าธรรมดาวัดไม่ได้ (<b>RV, FRC, TLC</b>), (2) เช็กคุณภาพการเป่าตามเกณฑ์ <b>ATS/ERS 2019</b> (เริ่มเร็ว BEV น้อย, เป่าสุด EOFE, ไม่มี artifact, เลือกค่ามากสุด), และ (3) แปลผลตาม flowchart จาก <b>FEV<sub>1</sub>/FVC &rarr; FVC &rarr; FEF<sub>25–75%</sub> / Corrected %FVC &rarr; Bronchodilator response</b> พร้อมอ่านรูปร่าง <b>flow-volume loop</b>",
-  traps: [
-    "Simple spirometry วัดได้เฉพาะลมที่เข้าออกผ่านปาก จึง <b>วัด RV, FRC และ TLC ไม่ได้</b> (ต้องใช้ body plethysmography หรือ gas dilution)",
-    "ค่าอ้างอิงมาตรฐาน <b>GLI2012</b> คิดจาก <b>อายุ เพศ ส่วนสูง และเชื้อชาติ</b> เท่านั้น — <b>น้ำหนักตัวไม่ใช้คำนวณค่าอ้างอิง</b>",
-    "การสูดหายใจเข้าลึกสุดไปที่ TLC ต้องทำภายใน <b>&le; 2 วินาที</b> ถ้ากลั้นค้างไว้นาน 4–6 วินาที จะทำให้ค่า <b>PEF และ FEV<sub>1</sub> ต่ำกว่าความเป็นจริง</b>",
-    "<b>Repeatability</b> ในผู้ใหญ่ดูผลต่างของค่าที่ <b>มากที่สุด 2 อันดับแรก</b> (&le; 0.150 L) ไม่ใช่เอาค่าสูงสุดลบค่าต่ำสุด และ <b>Best test</b> ให้เลือก FEV<sub>1</sub> ที่มากที่สุด และ FVC ที่มากที่สุด แม้มาจากคนละ trial",
-    "เมื่อ <b>FEV<sub>1</sub>/FVC &lt; 70% ร่วมกับ FVC &lt; 80%</b> อย่าเพิ่งรีบตอบ combined defect: ถ้า <b>Corrected %FVC &gt; 80%</b> (หรือ <b>%pred FVC &minus; %pred FEV<sub>1</sub> &ge; 12</b>) ให้แปลผลเป็น <b>pure obstruction</b> ที่ FVC ต่ำลงจาก air trapping"
+  "big": "PFT ทั้งบทสรุปได้เป็น <b>การอ่านรายงาน spirometry 5 ขั้น</b>: (1) FEV₁/FVC ต่ำไหม → obstruction (2) FVC %pred ต่ำไหม → restriction (3) รุนแรงแค่ไหน (4) ตอบสนองต่อยาขยายหลอดลมไหม (5) ถ้าปกติหมด ดู FEF₂₅–₇₅% → small airway และก่อนอ่านต้องมั่นใจว่าเป่าถูกวิธีและเลือกค่าถูก",
+  "traps": [
+    "Step 1 ใช้ <b>ค่า FEV₁/FVC จริงในช่อง Pre</b> (เช่น 53.29) ไม่ใช่ช่อง %(Pre/Pred) ของแถวนั้น (68)",
+    "Obstruction วัดความรุนแรงด้วย <b>FEV₁ %pred</b> · restriction ใช้ <b>FVC %pred</b> (Mild ≥ 70, Moderate 50–69, Severe 35–49, Very severe &lt; 35)",
+    "BD response ต้อง <b>≥ 12% และ ≥ 200 mL</b> (ครบทั้งสองข้อ) ใน FEV₁ หรือ FVC เทียบกับก่อนให้ยา",
+    "Spirometry <b>วัด RV, FRC, TLC ไม่ได้</b> → restriction จาก spirometry ต้องยืนยันด้วย TLC",
+    "Best test = <b>FEV₁ สูงสุด และ FVC สูงสุด</b> (มาจากคนละครั้งได้) ไม่ใช่ค่าเฉลี่ย"
   ]
 };
 Object.assign(window.THAI_CONCEPT, {
@@ -813,73 +344,21 @@ Object.assign(window.THAI_CONCEPT, {
     "ปริมาตรที่ค้างอยู่ในปอดหลังเป่าลมออกสุดเป็นตัวกำหนดว่าความจุใดบ้างที่เครื่องสไปโรเมตรีย์ธรรมดาวัดไม่ได้"
   ],
   "P-C2": [
-    "การเป่า FVC เพิ่มแรงดันในช่องอก กะโหลกศีรษะ และลูกตา จึงต้องเช็กข้อห้ามหลังผ่าตัดหรือภาวะฉุกเฉินทางหลอดเลือดเสมอ",
-    "จำระยะเวลางดยาขยายหลอดลมเรียงจากออกฤทธิ์สั้นไปยาว ส่วนยาลดการอักเสบกลุ่มสเตียรอยด์สูดไม่ต้องงดก่อนตรวจ"
+    "การเป่าแรงทำให้ความดันในอก ศีรษะ และลูกตาสูงขึ้น จึงต้องเลี่ยงในบางภาวะ",
+    "ก่อนตรวจเพื่อวินิจฉัยต้องงดยาขยายหลอดลมตามเวลาที่กำหนด แต่ยาบางกลุ่มไม่ต้องงด",
+    "ทุกค่าเทียบกับค่าคาดหมายของคนที่มีลักษณะเดียวกัน"
   ],
   "P-C3": [
-    "ประเมินความน่าเชื่อถือของกราฟทีละขั้น: จุดเริ่มต้นต้องไม่ลังเล จุดสิ้นสุดต้องเป่าจนสุด ไม่มีสิ่งรบกวนในวินาทีแรก และสูดเข้าเต็มปอดตั้งแต่ต้น",
-    "เมื่อได้กราฟที่ผ่านเกณฑ์อย่างน้อย 3 ครั้ง ให้เทียบความซ้ำได้จากคู่ที่ค่าสูงสุด แล้วดึงค่าที่ดีที่สุดมารายงาน"
+    "หนึ่งครั้งที่ดี = สูดเต็ม เป่าแรงทันที และเป่าจนสุด",
+    "ต้องได้หลายครั้งที่ผ่านเกณฑ์และค่าใกล้กัน แล้วเลือกค่าที่ดีที่สุดไปรายงาน"
   ],
   "P-C4": [
-    "ไล่ตามแผนผังการแปลผลจากอัตราส่วนการไหลต่อความจุก่อนเสมอ แล้วจึงดูความจุปอดและค่าการไหลช่วงกลางเพื่อแยกโรคหลอดลมเล็ก",
-    "ความรุนแรงของภาวะอุดกั้นดูจาก %predicted FEV1 ส่วนภาวะเนื้อปอดจำกัดการขยายดูจาก %predicted FVC"
+    "อ่านรายงานเป็น checklist 5 ขั้น แต่ละขั้นใช้ตัวเลขเดียวจากคอลัมน์เดียว",
+    "ระวังเลือกคอลัมน์ผิดในแถว FEV₁/FVC"
   ],
   "P-C5": [
     "รูปร่างของกราฟขาเป่าออกและขาสูดเข้าช่วยแยกโรคหลอดลมส่วนปลาย เนื้อปอดแข็งตัว กล้ามเนื้ออ่อนแรง และการอุดกั้นของทางเดินหายใจส่วนต้น",
     "สำหรับการอุดกั้นทางเดินหายใจขนาดใหญ่ที่เปลี่ยนแปลงตามแรงดัน ให้เทียบแรงดันในท่อลมกับแรงดันรอบนอก (ความดันบรรยากาศที่คอ vs ความดันเยื่อหุ้มปอดในช่องอก)"
-  ]
-});
-Object.assign(window.THAI_Q, {
-  "P1": [
-    "Simple spirometer วัดได้เฉพาะปริมาตรอากาศที่เคลื่อนผ่านปาก จึงวัด <b>RV</b> ที่ค้างในปอดหลังเป่าสุดไม่ได้",
-    "ความจุใดก็ตามที่มี RV เป็นองค์ประกอบ ได้แก่ <b>FRC (ERV + RV)</b> และ <b>TLC (VC + RV)</b> จึงวัดด้วย simple spirometry ไม่ได้เช่นกัน ต้องใช้ body plethysmography"
-  ],
-  "P2": [
-    "<b>IC</b> = TV + IRV = 0.5 + 2.5 = <b>3.0 L</b> · <b>FRC</b> = ERV + RV = 1.2 + 1.6 = <b>2.8 L</b> · <b>VC</b> = IRV + TV + ERV = 2.5 + 0.5 + 1.2 = <b>4.2 L</b>",
-    "ถ้าถาม TLC จะเท่ากับ VC + RV = 4.2 + 1.6 = 5.8 L"
-  ],
-  "P3": [
-    "เวลางดยาขยายหลอดลมก่อนตรวจเพื่อการวินิจฉัย: <b>SABA 4–6 h, SAMA 12 h, LABA 24 h, Ultra-LABA 36 h, LAMA 36–48 h</b> และ theophylline 12 h (SR 24 h)",
-    "<b>Inhaled corticosteroids (ICS) และ anti-leukotrienes</b> ไม่ต้องงดก่อนตรวจ"
-  ],
-  "P4": [
-    "สมการอ้างอิง <b>GLI2012</b> ใช้เพียง 4 ปัจจัย: <b>อายุ (age), เพศ (sex), ส่วนสูง (height) และเชื้อชาติ (ethnicity)</b>",
-    "น้ำหนักตัว (weight) ชั่งเพื่อบันทึกข้อมูลผู้ป่วยแต่ไม่ได้อยู่ในสมการคำนวณขนาดปอดมาตรฐาน"
-  ],
-  "P5": [
-    "ถูก: <b>Acute MI ภายใน 1 เดือน</b>, ผ่าตัดสมองหรือทรวงอกภายใน <b>4 สัปดาห์</b> และผ่าตัดตาภายใน <b>4–8 สัปดาห์</b> เป็นข้อห้ามสัมพัทธ์ทั้งหมด เพราะการเบ่งเป่าลมแรงเพิ่มความดันในช่องอก สมอง และลูกตา"
-  ],
-  "P6": [
-    "เกณฑ์ ATS/ERS 2019: สูดเข้าถึง TLC ใน <b>&le; 2 s</b> · Good start: <b>BEV &le; 5% ของ FVC หรือ 0.100 L</b> (แล้วแต่ค่าใดมากกว่า) · Good end (EOFE): <b>plateau &le; 0.025 L ใน 1 s สุดท้าย</b> หรือเป่านาน <b>&ge; 15 s</b>",
-    "Repeatability ในผู้ใหญ่: ผลต่างของค่าสูงสุด 2 อันดับแรกของทั้ง FVC และ FEV<sub>1</sub> ต้อง <b>&le; 0.150 L</b> (ทดสอบ 3–8 ครั้ง)"
-  ],
-  "P7": [
-    "<b>Repeatability ผ่าน</b>: เทียบค่ามากสุด 2 อันดับแรก (Trial 2 กับ Trial 1) พบว่า FEV<sub>1</sub> ต่างกัน 4.00 &minus; 3.93 = <b>0.07 L</b> (&le; 0.150 L) และ FVC ต่างกัน 4.43 &minus; 4.39 = <b>0.04 L</b> (&le; 0.150 L)",
-    "<b>Best test selection</b>: เลือกค่า FEV<sub>1</sub> สูงสุด (<b>4.00 L</b>) และ FVC สูงสุด (<b>4.43 L</b>) ซึ่งอยู่ใน <b>Trial 2</b> ทั้งคู่ (ห้ามเลือกตาม FEV<sub>1</sub>/FVC สูงสุด หรือนำมาเฉลี่ยกัน)"
-  ],
-  "P8": [
-    "ทั้งสองรายมี FEV<sub>1</sub>/FVC &lt; 70% และ FVC &ge; 80% pred จึงเป็น <b>pure obstruction</b> ทั้งคู่",
-    "<b>Case 3</b>: FEV<sub>1</sub> = 43% pred (อยู่ในช่วง 35–49% = <b>severe</b>) และหลังพ่นยาเพิ่มเพียง +8% (+80 mL) จึงเป็น <b>irreversible</b> · <b>Case 4</b>: FEV<sub>1</sub> = 69% pred (50–69% = <b>moderate</b>) และหลังพ่นยาเพิ่มจาก 1.70 เป็น 1.90 L (<b>+12% และ +200 mL</b> พอดีเกณฑ์) จึงเป็น <b>reversible obstruction</b>"
-  ],
-  "P9": [
-    "<b>Case 5</b>: FEV<sub>1</sub>/FVC = 82.91% (&ge; 70%) แต่ FVC = 69% pred (&lt; 80%, อยู่ในช่วง 50–69%) &rarr; สงสัย <b>moderate restriction</b> (ต้องยืนยันด้วยการวัด TLC)",
-    "<b>Case 6</b>: FEV<sub>1</sub>/FVC = 83.11% (&ge; 70%) และ FVC = 97% pred (&ge; 80%) ดูเหมือนปกติ แต่เมื่อเช็ก <b>FEF<sub>25–75%</sub> = 51% pred (&lt; 65%)</b> จึงแปลผลเป็น <b>small airway disease</b>"
-  ],
-  "P10": [
-    "เมื่อ FEV<sub>1</sub>/FVC &lt; 70% ร่วมกับ FVC &lt; 80% pred ให้คำนวณ <b>Corrected %FVC = %pred FVC + (70 &minus; FEV<sub>1</sub>/FVC) = 74 + 15 = 89% (&gt; 80%)</b> หรือดูผลต่าง <b>%pred FVC &minus; %pred FEV<sub>1</sub> = 74 &minus; 52 = 22 (&ge; 12)</b>",
-    "เมื่อเข้าเกณฑ์ดังกล่าว แปลว่าเป็น <b>pure obstruction</b> ที่ FVC ลดลงเทียม (pseudorestriction) จากลมค้างปอด (air trapping) ไม่ใช่ combined defect"
-  ],
-  "P11": [
-    "อัมพาตสายเสียง (vocal cord paralysis) เป็น <b>variable extrathoracic obstruction</b>: ขณะหายใจเข้า ความดันในท่อลมเป็นลบ (&minus;) เมื่อเทียบกับความดันบรรยากาศรอบคอ (+) จึงดูดสายเสียงให้ตีบเข้าหากัน เกิดเสียง <b>stridor</b> และกราฟ <b>ขาหายใจเข้าแบนราบ (flat inspiratory curve)</b>",
-    "ขณะหายใจออก ความดันบวกในท่อลมดันสายเสียงให้ถ่างออก กราฟขาหายใจออกจึงปกติ"
-  ],
-  "P12": [
-    "<b>Variable intrathoracic obstruction</b>: ขณะเบ่งหายใจออก ความดันเยื่อหุ้มปอดที่เป็นบวกสูง (+) บีบหลอดลมใหญ่ในช่องอก ทำให้ <b>ขาหายใจออกแบนราบ (flat expiratory curve)</b> และได้ยินเสียง wheezes",
-    "ถ้าเป็น <b>fixed obstruction</b> จะแบนทั้งขาเข้าและขาออก (box-like) · ถ้าเป็น <b>parenchymal restriction</b> จะได้กราฟแคบสูงชันรูปหมวกแม่มด (witch's hat)"
-  ],
-  "P13": [
-    "<b>Obstructive</b>: PEF ลดลง ขาเป่าออกเว้าบุ๋ม (scooped-out concave) และ FEV<sub>1</sub>/FVC &lt; 70% · <b>Parenchymal restrictive</b>: ฐานแคบลง (FVC และ TLC ต่ำ) แต่ขาเป่าออกชันเป็นรูปหมวกแม่มด (witch's hat) และ FEV<sub>1</sub>/FVC &ge; 70%",
-    "<b>Fixed central airway obstruction</b>: ตีบคงที่ทั้งสองจังหวะ ทำให้กราฟถูกตัดยอดแบนราบทั้งขาเป่าออกและขาสูดเข้า (box-like loop)"
   ]
 });
 
@@ -916,56 +395,6 @@ Object.assign(window.THAI_CONCEPT, {
     "เชื่อมโยงแต่ละรูปแบบเข้ากับตำแหน่งรอยโรคตั้งแต่สมองใหญ่และภาวะหัวใจวาย ลงมาถึงพอนส์ส่วนบน และเมดัลลา"
   ]
 });
-Object.assign(window.THAI_Q, {
-  "R1": [
-    "<b>Pre-Botzinger complex</b> ซึ่งอยู่ในส่วนกลาง (intermediate) ของ <b>ventral respiratory group (VRG)</b> ทำหน้าที่เป็น <b>pacemaker (central pattern generator)</b> สร้างจังหวะการหายใจพื้นฐาน",
-    "NTS คือ DRG · Botzinger complex อยู่ใน rostral VRG (หายใจออก) · NRA อยู่ใน caudal VRG (หายใจออก)"
-  ],
-  "R2": [
-    "<b>DRG (NTS)</b> อยู่ใน dorsal medulla รับสัญญาณจาก CN IX และ CN X แล้วส่งคำสั่งหายใจเข้าผ่าน <b>phrenic nerve (C3–C5)</b> ไปยังกะบังลม",
-    "<b>Apneustic center (lower pons)</b> กระตุ้น DRG ให้หายใจเข้ายาวขึ้น ส่วน <b>pneumotaxic center (upper pons)</b> ยับยั้งการหายใจเข้าเพื่อควบคุมปริมาตรและอัตราการหายใจ"
-  ],
-  "R3": [
-    "ตามตารางหน้า 10: <b>Rostral VRG</b> = nucleus retrofacialis / Botzinger complex (<b>Expiratory</b>) · <b>Intermediate VRG</b> = pre-Botzinger, NA, NPA (<b>Inspiratory</b>) · <b>Caudal VRG</b> = nucleus retroambigualis (<b>Expiratory</b>)"
-  ],
-  "R4": [
-    "<b>Blood-brain barrier (BBB)</b> ยอมให้ <b>CO<sub>2</sub> แพร่ผ่านได้ดีมาก</b> แต่ไม่ยอมให้ H<sup>+</sup> ในเลือดผ่านได้ง่าย",
-    "เมื่อ CO<sub>2</sub> เข้าสู่ CSF (ปกติ pH 7.32 และมี <b>โปรตีนต่ำมาก</b> จึงบัฟเฟอร์ได้น้อย) จะเปลี่ยนเป็น H<sup>+</sup> ไปกระตุ้น central chemoreceptors อย่างรวดเร็ว"
-  ],
-  "R5": [
-    "เมื่อ <b>PaO<sub>2</sub> ลดลง</b> จะไปยับยั้ง/ปิด <b>O<sub>2</sub>-sensitive K<sup>+</sup> channels</b> บนเซลล์ Type I (glomus) &rarr; เกิด <b>depolarization (&Delta;V<sub>m</sub>)</b> &rarr; เปิด <b>voltage-gated Ca<sup>2+</sup> channels</b> &rarr; Ca<sup>2+</sup> ไหลเข้าเซลล์ &rarr; หลั่ง <b>ATP และ acetylcholine</b> กระตุ้นเส้นใยประสาทรับความรู้สึกของ <b>CN IX</b>"
-  ],
-  "R6": [
-    "ผิดทั้งสองส่วน: สไลด์หน้า 47 ระบุว่า <b>carotid body เท่านั้น</b> (ไม่ใช่ aortic body) ที่ตอบสนองต่อการลดลงของ pH เลือด และสไลด์หน้า 23 ระบุว่าการตัด carotid body ทั้งสองข้าง (bilateral carotid body resection) ทำให้ <b>สูญเสีย hypoxic ventilatory drive อย่างสมบูรณ์</b>"
-  ],
-  "R7": [
-    "ภาวะหัวใจซ้ายวายทำให้หลอดเลือดฝอยปอดคั่งและมีน้ำบวมในผนังถุงลม (interstitial edema) ไปกระตุ้น <b>J (juxtacapillary) receptors</b> ในผนังถุงลม",
-    "สัญญาณเดินทางผ่าน <b>nonmyelinated vagal C-fibers</b> ที่นำสัญญาณช้า ทำให้เกิดการหายใจเร็วตื้น (rapid, shallow breathing)"
-  ],
-  "R8": [
-    "<b>Pulmonary stretch receptors</b> อยู่ในชั้นกล้ามเนื้อเรียบของหลอดลม ส่งผ่านใยมีไมอีลินของ CN X เมื่อปอดขยายตัวจะเกิด <b>Hering-Breuer inflation reflex</b> ทำให้หายใจช้าลงโดยยืดเวลาหายใจออก",
-    "ความดันเลือดสูงกระตุ้น baroreceptors ทำให้ <b>hypoventilation</b> · Irritant receptors อยู่ในเยื่อบุหลอดลม · การบล็อก CN X ชั่วคราวในผู้ใหญ่ที่ตื่นอยู่ไม่เปลี่ยนอัตราหรือปริมาตรการหายใจปกติ"
-  ],
-  "R9": [
-    "สไลด์หน้า 45 ระบุ 2 กลไกหลักของ <b>CO<sub>2</sub> narcosis</b> เมื่อให้ O<sub>2</sub> มากเกินในผู้ป่วยที่มี CO<sub>2</sub> คั่งเรื้อรัง: (1) <b>ลด hypoxic ventilatory response</b> ทำให้เกิด hypoventilation และ (2) <b>ลด hypoxic pulmonary vasoconstriction</b> ทำให้ <b>V/Q mismatch เพิ่มขึ้น</b> ส่งผลให้ CO<sub>2</sub> คั่งมากขึ้นเกิด acute-on-top respiratory acidosis"
-  ],
-  "R10": [
-    "ภาวะพร่องออกซิเจน (PO<sub>2</sub> ต่ำลง เช่น 47 เทียบกับ 110 mmHg) จะ <b>ขยายการตอบสนองต่อ CO<sub>2</sub></b> ทำให้กราฟชันขึ้นและเลื่อนไปทางซ้าย",
-    "เมื่อ PCO<sub>2</sub> ปกติ (36 mmHg) การหายใจแทบไม่เพิ่มขึ้นเลยจนกว่า <b>PaO<sub>2</sub> จะลดต่ำกว่าประมาณ 60 mmHg</b> (ผ่าน peripheral chemoreceptors เท่านั้น)"
-  ],
-  "R11": [
-    "ระหว่างออกกำลังกายระดับปานกลาง (moderate exercise) ค่า <b>PaO<sub>2</sub>, PaCO<sub>2</sub> และ pH ในเลือดแดงยังคงปกติ</b> เพราะการหายใจและประสิทธิภาพการแลกเปลี่ยนก๊าซเพิ่มขึ้นสมดุลกับการใช้ออกซิเจน (กระตุ้นจาก cortex, joint/muscle receptors และอุณหภูมิที่เพิ่มขึ้น)",
-    "ค่า pH จะลดลงเฉพาะเมื่อออกกำลังกายหนักมาก (heavy exercise) จากการเกิด lactic acidosis"
-  ],
-  "R12": [
-    "<b>Apneusis</b> มีลักษณะหายใจเข้าค้างยาว (prolonged inspiratory plateaus) สลับกับการหายใจออกสั้นๆ",
-    "เกิดจากรอยโรคที่ทำลาย <b>pneumotaxic center ในพอนส์ส่วนบน</b> (ร่วมกับการขาดสัญญาณยับยั้งจาก CN X) ทำให้ apneustic center ในพอนส์ส่วนล่างกระตุ้นการหายใจเข้าโดยไม่มีตัวตัดจบ"
-  ],
-  "R13": [
-    "<b>Cheyne-Stokes</b>: หายใจค่อยๆ ลึกขึ้นแล้วตื้นลง (crescendo–decrescendo) สลับกับช่วงหยุดหายใจ (apnea) จากการไหลเวียนเลือดช้าในหัวใจวายหรือสมองบาดเจ็บ · <b>Kussmaul</b>: หายใจหอบลึกและเร็วต่อเนื่องไม่มีช่วงหยุด จาก H<sup>+</sup> ในภาวะ metabolic acidosis กระตุ้น carotid bodies",
-    "<b>Ataxic breathing</b>: ทั้งจังหวะและความลึกไม่สม่ำเสมออย่างสิ้นเชิง เกิดจากความเสียหายต่อศูนย์ควบคุมการหายใจในเมดัลลาโดยตรง"
-  ]
-});
 
 /* Part 5 Thai layers: Sections A (Acid-Base Regulation), S (RS Under Stress). */
 window.THAI_Q = window.THAI_Q || {};
@@ -976,7 +405,7 @@ window.THAI_SEC = window.THAI_SEC || {};
 window.THAI_SEC.A = {
   big: "แกนหลักของพาร์ทนี้คือ <b>การรักษาความสมดุลของ pH เลือดที่ 7.35–7.45</b> ด้วยอัตราส่วน [HCO₃⁻] ต่อ CO₂ ที่ 20:1 การดูดกลับและสร้าง HCO₃⁻ ใหม่ที่ไต และการอ่านผล ABG 6 ขั้นตอนพร้อมสูตรชดเชยและ Anion Gap",
   traps: [
-    "<b>Volatile vs Fixed acid</b>: กรดระเหยได้ (CO₂) สร้างสูงถึง 15,000–20,000 mmol/วัน ขับออกทางปอด ส่วนกรดไม่ระเหย (fixed acids เช่น sulfuric, phosphoric, lactic, ketoacids) สร้าง 50–100 mEq/วัน ขับออกทางไต",
+    "<b>Volatile vs Fixed acid</b>: กรดระเหยได้ (CO₂) สร้างสูงถึง 13,000 mmol/วัน ขับออกทางปอด ส่วนกรดไม่ระเหย (fixed acids เช่น sulfuric, phosphoric, lactic, ketoacids) สร้าง 50–100 mEq/วัน ขับออกทางไต",
     "<b>การดูดกลับ HCO₃⁻ ที่ PCT (85%)</b> ใช้ NHE3 และ CA IV เป็นเพียงการสงวน HCO₃⁻ เดิม (ไม่มีการขับ H⁺ สุทธิออกมากับปัสสาวะ) ส่วน<b>การสร้าง HCO₃⁻ ใหม่</b>ต้องขับ H⁺ ออกมากับ titratable acid (ฟอสเฟต) หรือ <b>NH₄⁺ จากการสลาย glutamine</b> (ซึ่งเพิ่มได้ถึง 500 mEq/วันในภาวะกรดเรื้อรัง)",
     "<b>สูตรคาดคะเนการชดเชย (ระวังคำพิมพ์ผิดในสไลด์หน้า 55, 56, 60)</b>: การชดเชยต้องขยับตัวแปรรองไปใน<b>ทิศทางเดียวกับ</b>ตัวแปรหลักเสมอ และไม่มีการชดเชยเกิน (no overcompensation)",
     "<b>Anion Gap (AG) = Na⁺ − (Cl⁻ + HCO₃⁻)</b> ค่าปกติ 12 ± 4 (8–16) mEq/L: ต้องคำนวณทุกครั้งแม้ pH และ HCO₃⁻ จะดูปกติ (เช่น เคส 3 ที่มี HAGMA ซ่อนอยู่กับ metabolic alkalosis จากอาเจียน)",
@@ -1007,58 +436,6 @@ Object.assign(window.THAI_CONCEPT, {
   ]
 });
 
-Object.assign(window.THAI_Q, {
-  "A1": [
-    "ความเข้มข้นของ CO₂ ที่ละลายน้ำ = 0.03 × 40 = 1.2 mmol/L",
-    "ดังนั้นอัตราส่วน [HCO₃⁻] ต่อ (0.03 × PaCO₂) = 24 / 1.2 = <b>20 : 1</b> (log 20 = 1.3 → pH = 6.1 + 1.3 = 7.40)"
-  ],
-  "A2": [
-    "แม้ค่า pKa = 6.1 จะห่างจาก 7.4 แต่ระบบ <b>HCO₃⁻ / CO₂</b> เป็นบัฟเฟอร์ที่สำคัญที่สุดใน ECF เพราะมีความเข้มข้นสูงและเป็น<b>ระบบเปิด (open system)</b> ที่ปอดควบคุม PaCO₂ และไตควบคุม [HCO₃⁻] ได้อย่างอิสระ"
-  ],
-  "A3": [
-    "ถูก: ร่างกายสร้างกรดระเหยได้ (CO₂) ประมาณ <b>15,000–20,000 mmol/วัน</b> ซึ่งมากกว่ากรดไม่ระเหย (fixed acids 50–100 mEq/วัน) หลายร้อยเท่า"
-  ],
-  "A4": [
-    "ในภาวะกรดเรื้อรังรุนแรง ไตเพิ่มการสลาย <b>glutamine</b> และขับ <b>NH₄⁺</b> ออกทางปัสสาวะได้สูงถึง <b>~500 mEq/วัน</b> (จากปกติ 20–50 mEq/วัน)",
-    "ขณะที่ titratable acid (ฟอสเฟต) มีจำกัดเพียง 10–40 mEq/วัน และ pH ปัสสาวะลดต่ำสุดได้เพียง 4.4–4.5"
-  ],
-  "A5": [
-    "การดูดกลับ HCO₃⁻ 85% ที่ <b>proximal convoluted tubule</b> อาศัยการขับ H⁺ ทางด้านโพรงท่อผ่าน <b>NHE3 (Na⁺–H⁺ exchanger)</b> ร่วมกับเอนไซม์ <b>carbonic anhydrase IV (CA IV)</b> ที่ brush border"
-  ],
-  "A6": [
-    "ผิด: การดูดกลับ HCO₃⁻ ที่ท่อไตส่วนต้นเป็นเพียงการ<b>สงวน (reclaim)</b> HCO₃⁻ ที่กรองออกมา ไม่ได้ขับ H⁺ สุทธิออกในปัสสาวะ การสร้าง HCO₃⁻ ใหม่ต้องเกิดคู่กับการขับ H⁺ ในรูป titratable acid หรือ NH₄⁺"
-  ],
-  "A7": [
-    "ใน <b>chronic respiratory acidosis</b> ทุกๆ 10 mmHg ของ PaCO₂ ที่เพิ่มขึ้น [HCO₃⁻] จะเพิ่มขึ้น <b>3.5 mmol/L</b> (3–4 mmol/L)",
-    "เมื่อ PaCO₂ เพิ่มจาก 40 เป็น 70 (+30 mmHg) ค่า [HCO₃⁻] ที่คาดหวัง = 24 + (3.5 × 3) = <b>34.5 mmol/L</b> (ถ้าเป็น acute จะเพิ่มเพียง 1 × 3 เป็น 27 mmol/L)"
-  ],
-  "A8": [
-    "ใน <b>metabolic acidosis</b> ทุกๆ 1 mmol/L ของ [HCO₃⁻] ที่ลดลง PaCO₂ จะลดลง <b>1.25 mmHg</b>: 40 − (1.25 × 12) = <b>25 mmHg</b>",
-    "หรือใช้ <b>Winter's formula</b>: PaCO₂ = (1.5 × 12) + 8 ± 2 = <b>26 ± 2 mmHg</b>"
-  ],
-  "A9": [
-    "ผิด: การชดเชยทางสรีรวิทยาจะดึง pH กลับเข้าหาช่วงปกติแต่<b>ไม่มีการชดเชยเกิน (never overcorrects)</b>"
-  ],
-  "A10": [
-    "ภาวะ<b>ท้องเสียรุนแรง (diarrhea)</b> และ <b>renal tubular acidosis (RTA)</b> สูญเสีย HCO₃⁻ โดยตรงและดึง Cl⁻ กลับมาแทนที่ จึงเกิด <b>normal anion gap (hyperchloremic) metabolic acidosis</b>",
-    "ส่วน DKA, lactic acidosis, methanol/ethylene glycol และ uremia เป็นกลุ่ม HAGMA (KUSMALE)"
-  ],
-  "A11": [
-    "ค่า <b>UAG ติดลบมาก (−35 mEq/L)</b> แสดงว่าในปัสสาวะมี Cl⁻ สูงกว่า (Na⁺ + K⁺) เพราะไตสามารถขับ <b>NH₄⁺</b> ออกมาคู่กับ Cl⁻ ได้อย่างเต็มที่ บ่งชี้ว่าการเสีย HCO₃⁻ เกิดนอกไตคือ <b>ท้องเสีย (diarrhea)</b>"
-  ],
-  "A12": [
-    "จาก pH 7.12, [HCO₃⁻] 12 และ AG = 140 − (103 + 12) = <b>25 mEq/L</b> ผู้ป่วยมี <b>HAGMA</b>",
-    "เมื่อคิดการชดเชย ค่า PaCO₂ ควรลดลงเหลือ ~25 mmHg แต่ค่าจริงอยู่ที่ <b>40 mmHg</b> (สูงกว่าค่าชดเชยที่ควรเป็น) จึงมี <b>respiratory acidosis</b> ร่วมด้วย"
-  ],
-  "A13": [
-    "แม้ pH (7.40), PaCO₂ (40) และ [HCO₃⁻] (24) จะดูปกติ แต่เมื่อคำนวณ <b>AG = 145 − (100 + 24) = 21 mEq/L</b> (เพิ่มขึ้น +9 จาก 12)",
-    "แสดงว่ามี <b>HAGMA</b> (จากไตวาย) ซ่อนอยู่คู่กับ <b>metabolic alkalosis</b> (จากการอาเจียน 4 วัน) ที่ดึง [HCO₃⁻] กลับขึ้นมาที่ 24 mmol/L"
-  ],
-  "A14": [
-    "ที่ PaCO₂ = 70 mmHg (+30 mmHg): ถ้าเป็น acute ล้วน [HCO₃⁻] ควรเป็น <b>27 mmol/L</b> ถ้าเป็น chronic ล้วนควรเป็น <b>34.5 mmol/L</b>",
-    "ค่า [HCO₃⁻] จริงเท่ากับ <b>31 mmol/L</b> อยู่กึ่งกลางระหว่างสองค่านี้ ร่วมกับ pH 7.26 จึงเป็น <b>acute-on-chronic respiratory acidosis</b>"
-  ]
-});
 
 /* ---------- S · Respiratory System Under Stress ---------- */
 window.THAI_SEC.S = {
@@ -1095,52 +472,855 @@ Object.assign(window.THAI_CONCEPT, {
   ]
 });
 
+
+/* ========== Questions: Thai answer bullets (AC79–AC81 past papers), keyed by question ID ========== */
+
+/* ---------- U ---------- */
+Object.assign(window.THAI_Q, {
+  "U1": [
+    "A คือหิ้งที่อยู่ <b>ต่ำและยาวที่สุด</b> บนผนังด้านข้าง ชิดพื้นจมูก = <b>inferior nasal concha</b> (เป็นกระดูกแยกชิ้น)",
+    "Middle concha อยู่สูงกว่า และ ethmoidal bulla อยู่ใต้ middle concha ใน middle meatus"
+  ],
+  "U2": [
+    "ใต้ inferior concha = <b>inferior meatus</b> มีแค่ <b>nasolacrimal duct</b> เปิดเข้ามา ซึ่งไม่มีในตัวเลือก → None of the above",
+    "Frontal sinus และ anterior/middle ethmoidal cells เปิดที่ middle meatus"
+  ],
+  "U3": [
+    "สิ่งเดียวที่เปิดเข้า <b>inferior meatus</b> คือ <b>nasolacrimal duct</b>",
+    "Frontal, maxillary, anterior ethmoid → middle meatus · sphenoid → sphenoethmoidal recess"
+  ],
+  "U4": [
+    "ท่อที่วิ่งจาก <b>lacrimal sac</b> ลงไปเปิดใต้ inferior concha = <b>nasolacrimal duct</b>"
+  ],
+  "U5": [
+    "<b>Sphenoethmoidal recess</b> (เหนือ superior concha) รับ <b>sphenoid sinus</b>",
+    "Posterior ethmoid → superior meatus · frontal, maxillary, anterior ethmoid → middle meatus"
+  ],
+  "U6": [
+    "ร่องโค้งใน <b>middle meatus</b> ใต้ ethmoidal bulla = <b>hiatus semilunaris</b>",
+    "เป็นทางระบายของ frontal, anterior ethmoid และ maxillary sinus · “hiatus semicircularis” ไม่มีจริง"
+  ],
+  "U7": [
+    "ช่องอากาศใน <b>body of sphenoid</b> หลังโพรงจมูกและใต้ sella = <b>sphenoid sinus</b>"
+  ],
+  "U8": [
+    "ตัด middle concha ออกแล้ว ร่องโค้งที่ชี้ = <b>hiatus semilunaris</b>"
+  ],
+  "U9": [
+    "ปลายหน้าบนของ hiatus semilunaris รับ <b>frontal sinus</b> (ผ่าน frontonasal duct / infundibulum)",
+    "Maxillary ostium อยู่ถัดไปด้านหลังของร่องเดียวกัน"
+  ],
+  "U10": [
+    "<b>Pharyngeal tonsil (adenoid)</b> อยู่ที่ <b>nasopharynx</b> (ผนังหลัง/หลังคา) ไม่ใช่ oropharynx",
+    "Uvula, palatine tonsil, lingual tonsil และปลาย epiglottis เห็นได้ใน oropharynx"
+  ],
+  "U11": [
+    "ก้อนบวมสองข้างของ oropharynx ระหว่าง palatoglossal กับ palatopharyngeal arch = <b>palatine tonsil</b> (tonsillitis)",
+    "อ้าปากแล้วเห็นได้เลย ส่วน lingual tonsil อยู่โคนลิ้น และ pharyngeal/tubal อยู่ใน nasopharynx"
+  ],
+  "U12": [
+    "A = หลังคา/ผนังหลังของ nasopharynx = <b>adenoid (pharyngeal tonsil)</b>",
+    "B = tubal · C = palatine · D = lingual tonsil (ตามเฉลย AC80)"
+  ],
+  "U13": [
+    "รูเปิดของ <b>auditory tube</b> อยู่ผนังด้านข้างของ <b>nasopharynx</b> หน้า torus tubarius"
+  ],
+  "U14": [
+    "Tonsillar crypt คือรอยบุ๋มของ <b>palatine tonsil</b> ซึ่งอยู่ใน <b>oropharynx</b>"
+  ],
+  "U15": [
+    "ปุ่มนูนของกระดูกอ่อนหลังรูเปิด auditory tube = <b>torus tubarius</b>",
+    "Salpingopharyngeal fold คือสันที่ลากลงจาก torus"
+  ],
+  "U16": [
+    "ซอกลึกหลัง torus = <b>pharyngeal recess (fossa of Rosenmüller)</b> ในข้อสอบเขียนว่า pharyngeal sinus",
+    "Piriform sinus และ vallecula อยู่ต่ำกว่ามาก (laryngopharynx/oropharynx)"
+  ],
+  "U17": [
+    "รูรูปกรวยบนผนังข้างของ nasopharynx หน้า torus = <b>opening of auditory tube</b>"
+  ],
+  "U18": [
+    "สันที่ลากลงจาก torus tubarius มีกล้ามเนื้อ <b>salpingopharyngeus</b> (salpinx = ท่อ) เกาะที่กระดูกอ่อนของ auditory tube"
+  ],
+  "U19": [
+    "แผ่นกระดูกอ่อนขนาดใหญ่ด้านข้างกล่องเสียง = <b>thyroid cartilage</b>"
+  ],
+  "U20": [
+    "วงกระดูกอ่อน <b>ครบรอบ</b> ที่ปลายล่างของกล่องเสียงเหนือ trachea = <b>cricoid cartilage</b>"
+  ],
+  "U21": [
+    "บน → ล่าง: vestibular fold → ventricle → <b>vocal fold</b> · A คือ fold ล่าง = <b>vocal fold</b>"
+  ],
+  "U22": [
+    "ท่อที่มีวงกระดูกอ่อนต่อลงไปใต้ cricoid = <b>trachea</b>"
+  ],
+  "U23": [
+    "ในภาพตัด coronal, B คือ fold ล่างใต้ ventricle = <b>vocal fold</b>"
+  ],
+  "U24": [
+    "มองจากด้านหลัง กล้ามเนื้อบนแผ่นหลังของ cricoid = <b>posterior cricoarytenoid</b>"
+  ],
+  "U25": [
+    "กล้ามเนื้อด้านหน้าที่วิ่งจาก cricoid ขึ้นไป thyroid = <b>cricothyroid</b> (intrinsic ตัวเดียวที่อยู่ด้านนอก)"
+  ],
+  "U26": [
+    "ด้านหลังบนแผ่น cricoid = <b>posterior cricoarytenoid</b>"
+  ],
+  "U27": [
+    "Posterior cricoarytenoid = <b>abductor ตัวเดียว</b> → เปิด rima glottidis",
+    "Tense = cricothyroid · relax = thyroarytenoid/vocalis · close = lateral cricoarytenoid, arytenoids"
+  ],
+  "U28": [
+    "<b>External laryngeal nerve</b> วิ่งคู่กับ superior thyroid artery และเลี้ยงแค่ <b>cricothyroid</b>",
+    "ผูกหลอดเลือด → เส้นประสาทโดนไปด้วย → cricothyroid อ่อนแรง"
+  ],
+  "U29": [
+    "เส้นประสาทข้าง superior thyroid artery = external laryngeal → cricothyroid หยุดทำงาน → <b>vocal cord ตึงไม่ได้</b> เสียงต่ำ อ่อนแรง",
+    "ยกเปิด rima glottidis ไม่ได้ = recurrent laryngeal nerve (posterior cricoarytenoid)"
+  ],
+  "U30": [
+    "<b>Recurrent laryngeal nerve</b> เลี้ยง intrinsic muscle ทุกตัวยกเว้น cricothyroid รวมถึง <b>posterior cricoarytenoid</b> ที่เปิด glottis",
+    "Internal laryngeal = sensation เหนือ vocal fold · external = cricothyroid"
+  ]
+});
+
+/* ---------- W ---------- */
+Object.assign(window.THAI_Q, {
+  "W1": [
+    "<b>Sternal angle (manubriosternal joint)</b> = จุดเกาะของ <b>ซี่โครงคู่ที่ 2</b> ใช้นับซี่โครงทางคลินิก",
+    "คู่ 1 → manubrium · คู่ 3–6 → body · คู่ 7 → xiphisternal junction · xiphoid ไม่มีซี่โครงเกาะ"
+  ],
+  "W2": [
+    "ส่วนยาวตรงกลางใต้ sternal angle = <b>body of sternum</b>"
+  ],
+  "W3": [
+    "สันแนวขวางที่ manubrium ต่อกับ body = <b>sternal angle</b>"
+  ],
+  "W4": [
+    "รอยต่อ manubrium–body ระดับ costal cartilage คู่ที่ 2 = <b>sternal angle</b>"
+  ],
+  "W5": [
+    "นับลงจาก sternal angle (คู่ที่ 2) → ถัดลงไปหนึ่งช่อง = <b>ซี่ที่ 3</b>"
+  ],
+  "W6": [
+    "ใกล้ sternum ชั้น external เหลือแต่ <b>external intercostal membrane</b> กล้ามเนื้อที่เห็นจึงเป็น <b>internal intercostal</b>",
+    "External: ใยวิ่งลงมาด้านหน้า (มือล้วงกระเป๋า) · internal: ตั้งฉากกับ external"
+  ],
+  "W7": [
+    "ชั้นนอกสุด ใยวิ่ง <b>ลงมาด้านหน้า</b> = <b>external intercostal</b>"
+  ],
+  "W8": [
+    "ด้านนอกของผนังอก ชั้นนอกสุด = <b>external intercostal</b>"
+  ],
+  "W9": [
+    "มองจากด้านในทรวงอก แผ่นกล้ามเนื้อรูปพัดจากด้านหลังของ sternum ส่วนล่างไป costal cartilage = <b>transversus thoracis</b>"
+  ],
+  "W10": [
+    "ด้านในผนังอกด้านหน้า = <b>transversus thoracis</b>"
+  ],
+  "W11": [
+    "<b>External intercostal</b> ยกซี่โครงตอนหายใจเข้า",
+    "Internal, innermost, transversus thoracis → กดซี่โครงลงตอน forced expiration · diaphragm ไม่ได้ยกซี่โครง"
+  ],
+  "W12": [
+    "หลอดเลือดแนวตั้งห่างขอบ sternum ราวหนึ่งนิ้วด้านในผนังอก = <b>internal thoracic vessels</b>",
+    "แตกเป็น musculophrenic และ superior epigastric ที่ด้านล่าง"
+  ],
+  "W13": [
+    "คู่หลอดเลือดแนวตั้งข้าง sternum = <b>internal thoracic vessels</b>"
+  ],
+  "W14": [
+    "เจาะผ่าน: ผิวหนัง → intercostal 3 ชั้น → endothoracic fascia → <b>parietal pleura</b> → pleural cavity",
+    "<b>Visceral pleura</b> หุ้มปอด ไม่ต้องเจาะผ่าน (ถ้าทะลุคือบาดเจ็บปอด)"
+  ],
+  "W15": [
+    "เจาะผ่านผนังอกด้านข้าง → ผ่าน <b>costal pleura</b> (ส่วนหนึ่งของ parietal pleura) ชิดขอบบนของซี่โครงล่าง"
+  ],
+  "W16": [
+    "<b>Phrenic nerve (C3, C4, C5)</b> เป็น motor nerve เดียวของ diaphragm (“C3, 4, 5 keeps the diaphragm alive”)",
+    "Lower intercostal nerve ให้ sensation ที่ขอบ diaphragm เท่านั้น"
+  ],
+  "W17": [
+    "A = dome ของ <b>diaphragm</b> → เลี้ยงโดย <b>phrenic nerve</b>"
+  ],
+  "W18": [
+    "ใต้ <b>right dome</b> ของ diaphragm คือ <b>liver</b> (โดมขวาจึงสูงกว่า)"
+  ],
+  "W19": [
+    "A = <b>esophagus</b> ผ่าน <b>esophageal hiatus (T10)</b> พร้อม vagal trunks",
+    "T8 caval (IVC) · T12 aortic hiatus (aorta, thoracic duct)"
+  ],
+  "W20": [
+    "หลอดเลือดดำใหญ่ทางขวาผ่าน central tendon = <b>IVC</b> (caval opening, T8)"
+  ],
+  "W21": [
+    "เส้นประสาทวิ่งบนผิว pericardium <b>หน้า</b> lung root ลงไป diaphragm = <b>phrenic nerve</b>",
+    "Vagus วิ่ง <b>หลัง</b> lung root"
+  ]
+});
+
+/* ---------- B ---------- */
+Object.assign(window.THAI_Q, {
+  "B1": [
+    "ซี่โครงหักแทง <b>costal pleura</b> = parietal pleura ส่วนที่บุผิวในของซี่โครง",
+    "AC79 มีตัวเลือก parietal pleura และเฉลยข้อนั้น ซึ่งคือเรื่องเดียวกัน (costal เป็นส่วนหนึ่งของ parietal)"
+  ],
+  "B2": [
+    "ซอกที่ costal pleura พับต่อเป็น diaphragmatic pleura ด้านล่างข้าง = <b>costodiaphragmatic recess</b> (น้ำขังที่นี่ก่อน)"
+  ],
+  "B3": [
+    "เยื่อที่อยู่ <b>ระหว่าง lobe</b> ในร่อง fissure = <b>visceral pleura</b> (มีแค่ visceral ที่มุดเข้า fissure)"
+  ],
+  "B4": [
+    "เยื่อบุผนังอกด้านในเหนือ intercostal muscle = <b>parietal (costal) pleura</b>"
+  ],
+  "B5": [
+    "<b>Cardiac notch</b> อยู่ขอบหน้าของ <b>ปอดซ้าย lobe บน</b> โดยมี lingula ห้อยอยู่ใต้รอยเว้า"
+  ],
+  "B6": [
+    "พับเยื่อสองชั้นที่ห้อยลงจาก <b>lung root</b> บนผิว mediastinal = <b>pulmonary ligament</b>"
+  ],
+  "B7": [
+    "ลิ้นของ lobe บนซ้ายใต้ cardiac notch = <b>lingula</b>"
+  ],
+  "B8": [
+    "ร่องโค้งข้าม lung root บนปอด <b>ขวา</b> = <b>azygos vein impression</b>",
+    "Aortic arch impression อยู่บนปอดซ้าย"
+  ],
+  "B9": [
+    "แอ่งลึกหน้า lung root บนปอด <b>ซ้าย</b> = <b>left cardiac impression</b> (จาก left ventricle)"
+  ],
+  "B10": [
+    "ร่องใกล้ยอดปอด <b>ขวา</b> ที่ subclavian artery พาดข้าม = <b>subclavian artery impression</b> (ในข้อสอบเขียน expression)"
+  ],
+  "B11": [
+    "<b>Eparterial bronchus</b> = <b>right superior lobar bronchus</b> แขนงเดียวที่แตกออก <b>เหนือ</b> pulmonary artery",
+    "แขนงอื่นทั้งหมดเป็น hyparterial"
+  ],
+  "B12": [
+    "<b>Right main bronchus</b> กว้างกว่า สั้นกว่า และ <b>ตั้งชันกว่า</b> → สิ่งแปลกปลอมตกลงข้างขวา"
+  ],
+  "B13": [
+    "สันรูปกระดูกงูเรือตรงจุดแยกของ trachea = <b>carina</b>"
+  ],
+  "B14": [
+    "ใน root ปอดขวา หลอดลมที่อยู่สูงสุด เหนือ pulmonary artery = <b>eparterial bronchus</b>"
+  ],
+  "B15": [
+    "แขนงที่ <b>ยาวกว่าและแนวราบกว่า</b> = <b>left main bronchus</b>"
+  ],
+  "B16": [
+    "ในขั้วปอด หลอดลมที่แตกจาก main bronchus แล้ว = <b>lobar bronchus</b>"
+  ],
+  "B17": [
+    "เลือดแดงจากปอดกลับหัวใจ = <b>pulmonary vein</b> อยู่ <b>ต่ำสุดและหน้าสุด</b> ใน lung root (C)"
+  ],
+  "B18": [
+    "Trachea เริ่มที่ขอบล่างของ cricoid ระดับ <b>C6</b> และแยกที่ carina ระดับ sternal angle (T4–T5)"
+  ],
+  "B19": [
+    "<b>Arch of azygos vein</b> โค้งข้าม <b>บน</b> lung root ขวาไปเข้า SVC → ก้อนเหนือ root ขวากดตัวนี้ก่อน"
+  ],
+  "B20": [
+    "เลือดดำจากผนังอกด้านหลัง → <b>azygos vein</b> (C) ขึ้นไปเข้า SVC"
+  ],
+  "B21": [
+    "เลือดแดงเลี้ยงหลอดลม = <b>bronchial artery</b> แตกจาก descending aorta (B)"
+  ],
+  "B22": [
+    "<b>Chylothorax</b> = chyle (น้ำเหลืองขุ่นขาวมีไขมัน) ใน pleural cavity → <b>thoracic duct</b> บาดเจ็บ/อุดตัน"
+  ],
+  "B23": [
+    "น้ำเหลืองจากเนื้อปอด → <b>bronchopulmonary (hilar) nodes</b> → tracheobronchial nodes → bronchomediastinal trunk",
+    "ในข้อสอบเขียนผิดเป็น “duct”"
+  ],
+  "B24": [
+    "<b>Right lymphatic duct</b> เทเข้า <b>right venous angle</b> (รอยต่อ subclavian + internal jugular vein)",
+    "เฉลย PS81 = subclavian vein · เฉลยเก่าตอบ brachiocephalic (จุดนี้คือจุดเริ่มของ brachiocephalic)"
+  ],
+  "B25": [
+    "ปมประสาทใหญ่บนสุดของ sympathetic trunk บนคอซี่โครงซี่แรก = <b>stellate (cervicothoracic) ganglion</b>"
+  ],
+  "B26": [
+    "ท่อเล็กเป็นปล้องระหว่าง aorta กับ azygos vein บนตัวกระดูกสันหลัง = <b>thoracic duct</b>"
+  ]
+});
+
+/* ---------- H ---------- */
+Object.assign(window.THAI_Q, {
+  "H1": [
+    "ผิวด้าน <b>lingual (บน/หน้า)</b> และขอบบนด้าน laryngeal โดนอาหาร → <b>stratified squamous</b>",
+    "ผิวด้าน <b>laryngeal ส่วนล่าง</b> หันเข้าทางเดินหายใจ → <b>pseudostratified ciliated columnar</b>"
+  ],
+  "H2": [
+    "ลูกศรชี้ <b>ขอบบนของ epiglottis</b> ซึ่งโดนอาหาร → <b>stratified squamous</b>"
+  ],
+  "H3": [
+    "ลูกศรอยู่ผิวด้าน <b>laryngeal</b> ของ epiglottis ใต้ขอบบน → <b>pseudostratified ciliated columnar</b>",
+    "ถ้าอยู่ด้าน lingual หรือขอบบนจะเป็น stratified squamous"
+  ],
+  "H4": [
+    "<b>Nostril / nasal vestibule</b> บุด้วย <b>ผิวหนัง (keratinized stratified squamous)</b> มีขน vibrissae",
+    "Meatus, sinus และ vestibular fold เป็น respiratory epithelium"
+  ],
+  "H5": [
+    "หลายชั้น ผิวบนแบน <b>ไม่มีชั้น keratin</b> = <b>stratified squamous ชนิดเปียก (non-keratinized)</b>"
+  ],
+  "H6": [
+    "<b>True vocal cord</b> รับแรงเสียดสีตลอด → <b>non-keratinized stratified squamous</b>",
+    "Vestibule = keratinized · roof = olfactory · terminal bronchiole = simple cuboidal"
+  ],
+  "H7": [
+    "เยื่อบุสูง มีต่อมเต็ม lamina propria = <b>olfactory mucosa</b> ที่หลังคาโพรงจมูก ใกล้ superior concha / <b>sphenoethmoidal recess</b>"
+  ],
+  "H8": [
+    "A = <b>Bowman (olfactory) gland</b> สร้างสารน้ำที่ <b>ละลาย odorant</b> ให้ไปถึง cilia ของ receptor แล้วชะล้างออก"
+  ],
+  "H9": [
+    "เป็น <b>olfactory epithelium</b> ขนบนผิวคือ <b>non-motile cilia</b> ของ olfactory receptor neuron",
+    "Respiratory epithelium มี motile cilia"
+  ],
+  "H10": [
+    "Olfactory epithelium อยู่ที่ <b>หลังคาโพรงจมูก</b> (septum ส่วนบนและ superior concha)"
+  ],
+  "H11": [
+    "ท่อกว้างมี <b>C-shaped hyaline cartilage</b> และ esophagus อยู่ด้านหลัง = <b>trachea</b>"
+  ],
+  "H12": [
+    "ชั้นนอกสุดเป็น connective tissue หลวม = <b>adventitia</b> (trachea ไม่มี muscularis externa)"
+  ],
+  "H13": [
+    "เยื่อบุพับไปมา มีวง smooth muscle <b>ไม่มี cartilage ไม่มีต่อม</b> และไม่มี alveoli แตกออก = <b>bronchiole</b>"
+  ],
+  "H14": [
+    "A = แถบ <b>smooth muscle</b> รอบ bronchiole (bronchiole ไม่มี cartilage)"
+  ],
+  "H15": [
+    "<b>Respiratory bronchiole</b> = <b>simple cuboidal</b> (มี club/Clara cell) และมี alveoli แตกออกจากผนัง",
+    "Cartilage หมดที่ระดับ bronchus · bronchiole เล็กกว่า ~1 mm"
+  ],
+  "H16": [
+    "ท่อเยื่อบุ cuboidal ที่ผนังมี alveoli แทรก = <b>respiratory bronchiole</b>"
+  ],
+  "H17": [
+    "ทางเดินหายใจเล็กที่ผนังเริ่มมี alveoli = <b>respiratory bronchiole</b>"
+  ],
+  "H18": [
+    "ทางผ่านที่ผนัง <b>เป็นรูเปิดของ alveoli ทั้งหมด</b> มีแค่ปุ่ม smooth muscle คั่น = <b>alveolar duct</b>"
+  ],
+  "H19": [
+    "กลุ่ม alveoli ปลายตันที่ปลาย alveolar duct = <b>alveolar sac</b>"
+  ],
+  "H20": [
+    "Neonatal RDS = <b>surfactant ไม่พอ</b> เพราะ <b>type II pneumocyte</b> ยังไม่สมบูรณ์ → ถุงลมแฟบ"
+  ],
+  "H21": [
+    "เซลล์ทรงกลม/cuboidal ที่มุมของ alveoli = <b>type II pneumocyte</b>",
+    "Type I แบนบางมากคลุมพื้นที่ส่วนใหญ่"
+  ],
+  "H22": [
+    "Type II pneumocyte <b>หลั่ง surfactant</b> และเป็น progenitor ของ type I"
+  ],
+  "H23": [
+    "เซลล์ที่อยู่อิสระในผนังและช่อง alveoli = <b>alveolar macrophage (dust cell)</b>"
+  ],
+  "H24": [
+    "Dust cell = <b>macrophage</b> กินฝุ่นและเชื้อโรค",
+    "CC16 เป็นโปรตีนของ club cell · surfactant มาจาก type II"
+  ],
+  "H25": [
+    "ชั้นเซลล์บางที่คลุมผิวนอกของเนื้อปอด = <b>mesothelium ของ visceral pleura</b>"
+  ],
+  "H26": [
+    "Mesothelium หลั่ง <b>serous fluid หล่อลื่น</b> ให้ pleura สองชั้นเลื่อนกันได้"
+  ]
+});
+
+/* ---------- G ---------- */
+Object.assign(window.THAI_Q, {
+  "G1": [
+    "<b>Boyle</b>: T คงที่ → P₁V₁ = P₂V₂ → ปริมาตรลด ความดันเพิ่ม",
+    "A = Gay-Lussac · E = Dalton"
+  ],
+  "G2": [
+    "ขยายทรวงอก → ปริมาตรเพิ่ม → <b>ความดันในถุงลมต่ำกว่าบรรยากาศ</b> → อากาศไหลเข้า (Boyle)",
+    "Charles = V กับ T · Dalton = partial pressure · Henry = การละลาย"
+  ],
+  "G3": [
+    "เมื่ออากาศอิ่มตัวด้วยไอน้ำที่ 37 °C (PH2O = 47 mmHg) ความดันของแก๊สแห้งที่เหลือคือ 760 − 47 = 713 mmHg",
+    "ดังนั้น PO2 ในหลอดลมชื้น = 0.2093 × 713 = <b>149.2 mmHg</b>"
+  ],
+  "G4": [
+    "ถูก: การเติมไอน้ำ 47 mmHg ในทางเดินหายใจส่วนต้นเจือจางความดันย่อยของออกซิเจนจาก 159.1 mmHg เหลือ 149.2 mmHg ก่อนถึงถุงลม"
+  ],
+  "G5": [
+    "PIO₂ = 0.20 × (760 − 47) = 142.6 mmHg",
+    "PAO₂ = PIO₂ − PACO₂ × 1.2 (เมื่อ FiO₂ &lt; 0.6) = 142.6 − 48 ≈ <b>95</b>",
+    "ถ้าใช้สูตรย่อ − PACO₂/R จะได้ ~93 (เฉลย AC80 คือ 95)"
+  ],
+  "G6": [
+    "PIO₂ = 0.30 × 713 = 213.9",
+    "PAO₂ = 213.9 − 44/0.8 = 158.9 (หรือ − 44 × 1.2 = 161) ≈ <b>160</b>"
+  ],
+  "G7": [
+    "<b>Henry</b>: ปริมาณก๊าซที่ละลาย ∝ partial pressure (C = α × P)",
+    "Graham = การแพร่ ∝ 1/√MW"
+  ]
+});
+
+/* ---------- M ---------- */
+Object.assign(window.THAI_Q, {
+  "M1": [
+    "<b>FRC</b> = ปริมาตรที่เหลือหลังหายใจออกปกติ (D ถูก)",
+    "A ผิดเพราะ forced expiration ทำให้ intrapleural เป็นบวก · C: esophageal pressure ใช้แทน <b>intrapleural</b> ไม่ใช่ alveolar",
+    "E ผิด: ปริมาตรสูงสุดตอนสิ้นสุดหายใจเข้า ซึ่ง alveolar pressure = 0"
+  ],
+  "M2": [
+    "Alveolar pressure ลบแค่ตอนหายใจเข้า · esophageal ≈ intrapleural · transpulmonary (PA − Ppl) เป็นบวกเสมอ",
+    "เหลือข้อ D = นิยาม <b>FRC</b>"
+  ],
+  "M3": [
+    "กล้ามเนื้อคลายหมด + alveolar pressure = บรรยากาศ → สิ้นสุดหายใจออกปกติ → <b>FRC</b> = ERV + RV",
+    "RV = เหลือหลังหายใจออก <b>สุดแรง</b>"
+  ],
+  "M4": [
+    "ที่ FRC <b>ปอดหดเข้า</b> และ <b>ผนังอกเด้งออก</b> แรงดึงสวนทางกันทำให้ intrapleural pressure ติดลบ (~ −5 cmH₂O)"
+  ],
+  "M5": [
+    "หายใจเข้าคือช่วง A → C · flow สูงสุดช่วง <b>กลางการหายใจเข้า</b> ที่ความดันลดลงชันที่สุด = <b>B</b>",
+    "C = สิ้นสุดหายใจเข้า flow = 0 (เฉลยเก่าตอบ C)"
+  ],
+  "M6": [
+    "Transpulmonary = <b>PA − Ppl</b>",
+    "สิ้นสุดหายใจเข้า PA = 0 และ Ppl ต่ำสุด = −8 → 0 − (−8) = <b>8</b>"
+  ],
+  "M7": [
+    "หายใจออกสุดแรง = <b>กล้ามเนื้อหน้าท้อง</b> (rectus + obliques) ดัน diaphragm ขึ้น",
+    "Diaphragm, SCM, external intercostal เป็นกล้ามเนื้อหายใจเข้า"
+  ],
+  "M8": [
+    "Surfactant ลด surface tension → <b>ลด recoil ของถุงลม</b> → compliance เพิ่ม → elastic work ลด"
+  ],
+  "M9": [
+    "Compliance = ΔV/ΔP = <b>ความชันของกราฟ</b> → S ชันสุด &gt; T &gt; U"
+  ],
+  "M10": [
+    "ภาพ <b>obstructive + CO₂ คั่ง</b> แบบ COPD",
+    "Emphysema ทำลาย elastic fiber → <b>compliance เพิ่มขึ้น</b> ไม่ใช่ลดลง (ข้อ D ผิด)",
+    "Dead space ↑, dynamic compression, Hb-O₂ affinity ↓ (CO₂ สูง), FRC ↑ (air trapping) ถูกทั้งหมด"
+  ],
+  "M11": [
+    "Forced expiration → intrapleural pressure เป็นบวก → บีบหลอดลมที่ <b>equal pressure point</b> = <b>dynamic compression</b>",
+    "ออกแรงเพิ่มก็ไม่ทำให้ flow เพิ่ม (effort-independent)"
+  ],
+  "M12": [
+    "หลอดลมหดตัว → รัศมีลด → resistance ↑ (∝ 1/r⁴) → <b>resistive work ↑</b>",
+    "Compliance/elastic work เป็นเรื่องความยืดหยุ่น · anatomic dead space ลดลงเล็กน้อย"
+  ],
+  "M13": [
+    "<b>Vesicular</b>: เบา เสียงต่ำ หายใจเข้ายาวกว่าออก",
+    "Bronchial: ดัง เสียงสูง expiration ยาว"
+  ]
+});
+
+/* ---------- E ---------- */
+Object.assign(window.THAI_Q, {
+  "E1": [
+    "V/Q ปกติ ~0.8 → Q 5 L/min → <b>V̇A ≈ 4 L/min</b>",
+    "V̇A = (TV − dead space) × RR → (550 − 150) × 10 = 4,000 mL/min"
+  ],
+  "E2": [
+    "Ventilation ↑ แต่ CO₂ production คงที่ → PACO₂ ↓ → <b>ETCO₂ ↓</b>",
+    "PAO₂ ↑, work of breathing ↑, V/Q ↑ (เฉลยเก่าตอบ PAO₂ ซึ่งผิด)"
+  ],
+  "E3": [
+    "Fick: ∝ <b>A × ΔP × solubility / (thickness × √MW)</b>",
+    "Membrane หนาขึ้น (fibrosis, edema) → การแพร่ลดลง"
+  ],
+  "E4": [
+    "Graham: √(32/44) ≈ <b>0.85</b> · solubility CO₂ ≈ <b>24</b> เท่าของ O₂",
+    "0.85 × 24 ≈ <b>20 เท่า</b>"
+  ],
+  "E5": [
+    "DLCO สูงเมื่อ <b>เลือดในหลอดเลือดฝอยปอดมากขึ้น</b>: exercise, <b>fever</b>, polycythemia, pulmonary hemorrhage, L→R shunt",
+    "PE, emphysema, fibrosis, anemia → DLCO ต่ำ"
+  ],
+  "E6": [
+    "ออกกำลังกาย → เลือดไหลเร็ว → <b>transit time สั้นลง</b>",
+    "ที่สูง gradient O₂ น้อย → แพร่ไม่ทัน (diffusion-limited) → PaO₂ ตก · ที่ระดับน้ำทะเลยังทัน"
+  ],
+  "E7": [
+    "ที่ apex ทั้ง V และ Q ต่ำกว่า แต่ <b>Q ลดมากกว่า</b> → <b>V/Q สูงสุดที่ apex</b> (~3)",
+    "Apex: intrapleural ติดลบมากกว่า, alveoli ใหญ่แต่ compliance ต่ำกว่า"
+  ],
+  "E8": [
+    "Apex: intrapleural ติดลบมากกว่า → alveoli ถูกยืดมาก → <b>alveoli ใหญ่สุดที่ apex</b>",
+    "Ventilation และ blood flow สูงกว่าที่ <b>base</b>",
+    "ในข้อสอบ recall เขียนว่า smaller ซึ่งขัดกับสไลด์ หน้า 43"
+  ],
+  "E9": [
+    "<b>Bohr</b> → <b>physiological dead space fraction</b>: VD/VT = (PaCO₂ − PECO₂)/PaCO₂",
+    "<b>Fowler</b> (single-breath N₂ washout) → anatomical dead space"
+  ],
+  "E10": [
+    "Dead space ~150 mL จาก TV 500 mL → VD/VT ≈ <b>0.3 (30%)</b>"
+  ],
+  "E11": [
+    "V/Q ปกติ ~0.8 · <b>V/Q สูง (C)</b> → คล้าย dead space → PO₂ สูง PCO₂ ต่ำ",
+    "V/Q ต่ำ (B) → คล้าย shunt → PO₂ ต่ำ PCO₂ สูง"
+  ],
+  "E12": [
+    "C (V/Q = 2) ได้อากาศเกินเลือด → <b>wasted ventilation</b>",
+    "B (V/Q = 0.5) เลือดเกินอากาศ → wasted perfusion (คล้าย shunt)"
+  ],
+  "E13": [
+    "ถุงลมเต็มไปด้วยน้ำแต่ยังมีเลือดไหลผ่าน → V/Q ≈ 0 → <b>physiological shunt</b>",
+    "ถ้ามี HPV จะช่วยลด shunt (โจทย์ให้ไม่คิด)"
+  ],
+  "E14": [
+    "Pneumonia: alveoli มีเลือดแต่ไม่มีอากาศ + ไม่มี HPV → <b>physiological shunt ↑</b>",
+    "Anatomical shunt = เลือดไม่ผ่าน alveoli เลย (bronchial, Thebesian veins)"
+  ],
+  "E15": [
+    "ปอดแฟบ → ขยายไม่ได้ → ได้อากาศน้อยแต่เลือดยังไหล → <b>V/Q mismatch</b> → PaO₂ ↓"
+  ]
+});
+
+/* ---------- T ---------- */
+Object.assign(window.THAI_Q, {
+  "T1": [
+    "<b>PaO₂</b> ขึ้นกับปอด (PAO₂ และการแพร่) ไม่ได้ขึ้นกับปริมาณ Hb → anemia ไม่เปลี่ยน PaO₂",
+    "Anemia → Hb ↓ → <b>O₂ content ↓</b> และ O₂ delivery ↓"
+  ],
+  "T2": [
+    "O<sub>2</sub> จับที่ <b>&alpha;-subunit ก่อน</b> เพราะมี heme pocket กว้างกว่า &beta;-subunit จากนั้น <b>Fe<sup>2+</sup> ขยับลงมา 0.6 &Aring;</b> เข้าสู่ระนาบ porphyrin (เปลี่ยนจาก high-spin เป็น low-spin)",
+    "ส่งผลให้ salt bridges (&alpha;–&alpha; และ &alpha;–&beta;) ขาดออก, &alpha;&beta; หมุนไป <b>15&deg;</b>, 2,3-BPG หลุดออก และ heme pocket ของ &beta;-subunit เปิดกว้างขึ้น"
+  ],
+  "T3": [
+    "<b>CO<sub>2</sub></b> จับกับหมู่ &minus;NH<sub>2</sub> ที่ปลาย N-terminal ของ globin ได้เป็น carbaminohemoglobin · ส่วน <b>2,3-BPG</b> จับแบบ non-covalent กับสาย &beta;-globin ของ deoxyhemoglobin",
+    "O<sub>2</sub> และ CO จับที่อะตอม <b>Fe<sup>2+</sup></b> ของ heme ส่วน H<sup>+</sup> จับกับกรดอะมิโนที่รับโปรตอนบนสาย globin"
+  ],
+  "T4": [
+    "<b>Left shift</b> = P50 ↓ = affinity ↑ (จับ O₂ แน่นขึ้น ปล่อยยากขึ้น)"
+  ],
+  "T5": [
+    "2,3-BPG จับ deoxy-Hb (T state) → <b>affinity ↓</b> → right shift → <b>ปล่อย O₂ ให้เนื้อเยื่อมากขึ้น</b>"
+  ],
+  "T6": [
+    "HbF (α₂γ₂) <b>จับ 2,3-BPG ได้น้อย</b> → affinity สูง → <b>left shift</b> → ดึง O₂ จากเลือดแม่ได้"
+  ],
+  "T7": [
+    "HbF ยังเป็น tetramer ที่มี cooperativity → <b>sigmoid</b> แต่ <b>shift ซ้าย</b>",
+    "Rectangular hyperbola = myoglobin"
+  ],
+  "T8": [
+    "CO จับ heme แน่นกว่า O₂ ~200–250 เท่า และทำให้ site ที่เหลือ <b>จับ O₂ แน่นขึ้น</b> → <b>left shift + affinity ↑</b> → ปล่อย O₂ ยาก"
+  ],
+  "T9": [
+    "เผา kerosene ในบ้าน → <b>CO</b> → จับ Hb แน่นกว่า O₂ 200–250 เท่า → ขนส่ง O₂ ไม่ได้",
+    "CO ทำให้กราฟ shift <b>ซ้าย</b> ไม่ใช่ขวา"
+  ],
+  "T10": [
+    "CO₂ ~<b>70% เป็น HCO₃⁻</b> (carbonic anhydrase ใน RBC + chloride shift) · ~23% carbamino-Hb · ~7% ละลาย"
+  ],
+  "T11": [
+    "<b>Haldane</b>: O₂ จับ Hb → Hb ปล่อย CO₂ ที่ปอด",
+    "C, D = <b>Bohr effect</b> (CO₂/H⁺ เปลี่ยนการจับ O₂)"
+  ],
+  "T12": [
+    "<b>Bohr</b>: pH ต่ำ / CO₂ สูง → <b>O₂ affinity ↓</b> (right shift)",
+    "A = Haldane effect"
+  ]
+});
+
+/* ---------- C ---------- */
+Object.assign(window.THAI_Q, {
+  "C1": [
+    "Pulmonary circulation: <b>ความดันต่ำ ความต้านทานต่ำ แต่ flow เท่ากัน</b> (= cardiac output)"
+  ],
+  "C2": [
+    "<b>Alveolar pressure ↑</b> → บีบ alveolar capillary → PVR ↑",
+    "Arterial/venous pressure ↑ → recruitment + distension → PVR ↓"
+  ],
+  "C3": [
+    "CO สูง → capillary ที่ปิด <b>เปิดออก (recruitment)</b> + ที่เปิดอยู่ <b>ขยาย (distension)</b> → PVR ↓",
+    "A = ทุกช่องเปิดและกว้าง"
+  ],
+  "C4": [
+    "Zone 1: P<sub>A</sub> &gt; Pa &gt; Pv · Zone 2: Pa &gt; P<sub>A</sub> &gt; Pv · <b>Zone 3: Pa &gt; Pv &gt; P<sub>A</sub></b>",
+    "Zone 3 (ฐานปอด) flow = Pa − Pv เลือดไหลเต็มที่"
+  ],
+  "C5": [
+    "<b>ระยะแรก (Interstitial edema)</b>: น้ำขังในช่องว่าง perivascular และ peribronchial เห็นเป็น <b>peribronchial cuffing</b> และชดเชยโดย <b>ท่อน้ำเหลือง (lymphatics)</b> ระบายไปที่ hilar lymph nodes",
+    "<b>ระยะท้าย (Alveolar edema)</b>: น้ำล้นเข้าท่วมถุงลมทีละใบทำให้เกิด <b>shunt</b> รุนแรง และชดเชยโดยการปั๊มน้ำออกผ่าน <b>Na<sup>+</sup>/K<sup>+</sup>-ATPase</b> ของเซลล์เยื่อบุถุงลม"
+  ],
+  "C6": [
+    "ถูก: ในภาวะปกติ แรงสุทธิของสมการ Starling ในปอดมีทิศดันน้ำออกนอกหลอดเลือดฝอยเล็กน้อย",
+    "ทำให้เกิดการไหลของน้ำเหลืองปอดอย่างต่อเนื่องประมาณ <b>20 mL/h</b> เพื่อรักษาให้ถุงลมแห้งอยู่เสมอ"
+  ]
+});
+
+/* ---------- P ---------- */
+Object.assign(window.THAI_Q, {
+  "P1": [
+    "Simple spirometer วัดได้เฉพาะปริมาตรอากาศที่เคลื่อนผ่านปาก จึงวัด <b>RV</b> ที่ค้างในปอดหลังเป่าสุดไม่ได้",
+    "ความจุใดก็ตามที่มี RV เป็นองค์ประกอบ ได้แก่ <b>FRC (ERV + RV)</b> และ <b>TLC (VC + RV)</b> จึงวัดด้วย simple spirometry ไม่ได้เช่นกัน ต้องใช้ body plethysmography"
+  ],
+  "P2": [
+    "<b>IC</b> = TV + IRV = 0.5 + 2.5 = <b>3.0 L</b> · <b>FRC</b> = ERV + RV = 1.2 + 1.6 = <b>2.8 L</b> · <b>VC</b> = IRV + TV + ERV = 2.5 + 0.5 + 1.2 = <b>4.2 L</b>",
+    "ถ้าถาม TLC จะเท่ากับ VC + RV = 4.2 + 1.6 = 5.8 L"
+  ],
+  "P3": [
+    "สมการอ้างอิง <b>GLI2012</b> ใช้เพียง 4 ปัจจัย: <b>อายุ (age), เพศ (sex), ส่วนสูง (height) และเชื้อชาติ (ethnicity)</b>",
+    "น้ำหนักตัว (weight) ชั่งเพื่อบันทึกข้อมูลผู้ป่วยแต่ไม่ได้อยู่ในสมการคำนวณขนาดปอดมาตรฐาน"
+  ],
+  "P4": [
+    "ถูก: <b>Acute MI ภายใน 1 เดือน</b>, ผ่าตัดสมองหรือทรวงอกภายใน <b>4 สัปดาห์</b> และผ่าตัดตาภายใน <b>4–8 สัปดาห์</b> เป็นข้อห้ามสัมพัทธ์ทั้งหมด เพราะการเบ่งเป่าลมแรงเพิ่มความดันในช่องอก สมอง และลูกตา"
+  ],
+  "P5": [
+    "เกณฑ์ ATS/ERS 2019: สูดเข้าถึง TLC ใน <b>&le; 2 s</b> · Good start: <b>BEV &le; 5% ของ FVC หรือ 0.100 L</b> (แล้วแต่ค่าใดมากกว่า) · Good end (EOFE): <b>plateau &le; 0.025 L ใน 1 s สุดท้าย</b> หรือเป่านาน <b>&ge; 15 s</b>",
+    "Repeatability ในผู้ใหญ่: ผลต่างของค่าสูงสุด 2 อันดับแรกของทั้ง FVC และ FEV<sub>1</sub> ต้อง <b>&le; 0.150 L</b> (ทดสอบ 3–8 ครั้ง)"
+  ],
+  "P6": [
+    "รายงาน <b>FEV₁ สูงสุด (4.00)</b> และ <b>FVC สูงสุด (4.43)</b> ไม่ต้องมาจาก blow เดียวกัน และห้ามเฉลี่ย",
+    "Repeatable: 4.00 vs 3.93 และ 4.43 vs 4.39 ต่างกัน &lt; 0.150 L",
+    "Trial 3–4 ratio 96–97% แต่ FVC เล็ก = เป่าหยุดเร็ว"
+  ],
+  "P7": [
+    "Step 1: FEV₁/FVC <b>80.53</b> (&gt; 75) → ไม่ obstructive",
+    "Step 2: FVC <b>93%</b> pred (&gt; 80) → ไม่ restrictive",
+    "Step 5: FEF₂₅–₇₅% <b>70%</b> (&gt; 65) → ไม่มี small airway disease → <b>ปกติ</b>"
+  ],
+  "P8": [
+    "Step 1: ratio <b>41.96</b> → obstruction · Step 2: FVC 81% → pure obstruction",
+    "Step 3: FEV₁ <b>43%</b> pred → <b>severe</b> (35–49)",
+    "Step 4: FEV₁ +8% (+80 mL), FVC +1% → <b>ไม่ตอบสนองต่อยาขยายหลอดลม</b>"
+  ],
+  "P9": [
+    "Step 1: ratio <b>53.29</b> (ไม่ใช่ 68 ในช่อง %Pred) → obstruction · Step 2: FVC 100% → pure",
+    "Step 3: FEV₁ <b>69%</b> → <b>moderate</b>",
+    "Step 4: FEV₁ 1.69 → 1.90 = <b>+210 mL และ +12.4%</b> → ตอบสนองต่อยาขยายหลอดลม"
+  ],
+  "P10": [
+    "Step 1: ratio <b>82.81</b> → ไม่ obstructive",
+    "Step 2: FVC <b>62%</b> (&lt; 80) → restriction (ยืนยันด้วย TLC)",
+    "Step 3: restriction วัดความรุนแรงจาก <b>FVC %pred</b> → 62% = <b>moderate</b>"
+  ],
+  "P11": [
+    "Step 1: ratio <b>83.11</b> → ไม่ obstructive · Step 2: FVC <b>60%</b> → restriction",
+    "Step 3: FVC 60% → <b>moderate restriction</b>"
+  ],
+  "P12": [
+    "FEV₁/FVC = 2.54/3.72 = <b>68%</b> (&lt; 70–75) → obstruction + สูบบุหรี่หนัก → <b>COPD</b>"
+  ],
+  "P13": [
+    "Ratio = 0.60/3.0 = <b>20%</b> → obstruction · FVC 75% → corrected = 75 + (70 − 20) = 125 → pure obstruction",
+    "FEV₁ <b>18%</b> → <b>very severe</b> (&lt; 35)",
+    "FEV₁ +250 mL และ +42% → <b>ตอบสนอง</b> ตามเกณฑ์ ≥ 12% และ ≥ 200 mL (เฉลยดิบตอบ D ตามเกณฑ์ &gt;10% of predicted)"
+  ],
+  "P14": [
+    "หลังให้ยา ratio ยัง ≈ 27% → obstruction ยังหนักและ <b>ไม่หายกลับเป็นปกติ</b> → <b>COPD</b>",
+    "Asthma มักกลับใกล้ปกติ · fibrosis และ myasthenia ให้ restriction"
+  ],
+  "P15": [
+    "Ratio 54% → obstruction · FVC 97% → pure · FEV₁ <b>61%</b> → <b>moderate</b>",
+    "FEV₁ +660 mL (+32%) → <b>ตอบสนอง</b> (เข้าได้กับ asthma)"
+  ],
+  "P16": [
+    "Ratio 2.2/2.5 = 88% → ไม่ obstructive · FVC 80% → ไม่ restrictive",
+    "FEF₂₅–₇₅% <b>50%</b> (&lt; 65) → <b>small airway disease</b>"
+  ],
+  "P17": [
+    "Ratio <b>76%</b> → ไม่ obstructive (FEV₁ ต่ำตามปอดที่เล็ก)",
+    "FVC <b>64%</b> → <b>restriction</b> (moderate) ยืนยันด้วย TLC"
+  ],
+  "P18": [
+    "อัมพาตสายเสียง (vocal cord paralysis) เป็น <b>variable extrathoracic obstruction</b>: ขณะหายใจเข้า ความดันในท่อลมเป็นลบ (&minus;) เมื่อเทียบกับความดันบรรยากาศรอบคอ (+) จึงดูดสายเสียงให้ตีบเข้าหากัน เกิดเสียง <b>stridor</b> และกราฟ <b>ขาหายใจเข้าแบนราบ (flat inspiratory curve)</b>",
+    "ขณะหายใจออก ความดันบวกในท่อลมดันสายเสียงให้ถ่างออก กราฟขาหายใจออกจึงปกติ"
+  ],
+  "P19": [
+    "Combined = <b>ห่วงเล็ก</b> (volume น้อย จาก restriction) + <b>ขาหายใจออกเว้าและต่ำ</b> (obstruction)",
+    "A มีทั้งสองอย่าง"
+  ],
+  "P20": [
+    "ทั้งขาหายใจออกและหายใจเข้า <b>แบนเป็นกล่อง</b> → <b>fixed upper airway obstruction</b> (เช่น tracheal stenosis)"
+  ],
+  "P21": [
+    "Baseline: ขาหายใจออก <b>เว้า</b> → obstructive",
+    "หลัง salbutamol ห่วงขยายเข้าหา reference → <b>ตอบสนองต่อยาขยายหลอดลม</b>"
+  ],
+  "P22": [
+    "ทั้งสองขาแบน → <b>fixed obstruction</b> · TB เก่าทำให้ trachea/main bronchus ตีบจากแผลเป็น"
+  ]
+});
+
+/* ---------- R ---------- */
+Object.assign(window.THAI_Q, {
+  "R1": [
+    "<b>Pre-Botzinger complex</b> ซึ่งอยู่ในส่วนกลาง (intermediate) ของ <b>ventral respiratory group (VRG)</b> ทำหน้าที่เป็น <b>pacemaker (central pattern generator)</b> สร้างจังหวะการหายใจพื้นฐาน",
+    "NTS คือ DRG · Botzinger complex อยู่ใน rostral VRG (หายใจออก) · NRA อยู่ใน caudal VRG (หายใจออก)"
+  ],
+  "R2": [
+    "<b>DRG (NTS)</b> อยู่ใน dorsal medulla รับสัญญาณจาก CN IX และ CN X แล้วส่งคำสั่งหายใจเข้าผ่าน <b>phrenic nerve (C3–C5)</b> ไปยังกะบังลม",
+    "<b>Apneustic center (lower pons)</b> กระตุ้น DRG ให้หายใจเข้ายาวขึ้น ส่วน <b>pneumotaxic center (upper pons)</b> ยับยั้งการหายใจเข้าเพื่อควบคุมปริมาตรและอัตราการหายใจ"
+  ],
+  "R3": [
+    "H⁺ ในเลือด <b>ผ่าน BBB ไม่ได้</b> → metabolic acidosis กระตุ้น <b>carotid body</b> (peripheral chemoreceptor, CN IX)",
+    "Central chemoreceptor ตอบสนองต่อ H⁺ ใน CSF ที่มาจาก CO₂"
+  ],
+  "R4": [
+    "Hypoxemia กระตุ้น peripheral → หายใจเร็ว → CO₂ ต่ำ → <b>CSF pH สูง</b> → central chemoreceptor <b>ยับยั้ง</b>การหายใจ",
+    "Central chemoreceptor ไม่ได้รับรู้ O₂"
+  ],
+  "R5": [
+    "LV failure → pulmonary capillary pressure ↑ → interstitial edema → กระตุ้น <b>J receptor</b> (vagal C-fiber) → <b>rapid shallow breathing</b>",
+    "Fine crepitation = ถุงลมที่แฟบจากน้ำเปิดออกตอนหายใจเข้า"
+  ],
+  "R6": [
+    "COPD คั่ง CO₂ เรื้อรัง → central chemoreceptor <b>ชิน CO₂</b> → พึ่ง <b>hypoxic drive</b> ผ่าน peripheral chemoreceptor",
+    "ให้ O₂ จน SpO₂ 99% → peripheral ถูกกระตุ้นน้อยลง → หายใจลด → CO₂ ↑ (CO₂ narcosis) และ HPV หายไป → V/Q แย่ลง"
+  ],
+  "R7": [
+    "Ventilation ↑ ได้ 15–20 เท่า แต่ CO ↑ ~5 เท่า → <b>ventilation เพิ่มมากกว่า CO</b>",
+    "Lactate ↑ ตอนออกหนัก · การหายใจที่เพิ่มส่วนใหญ่มาจาก neural ไม่ใช่ pH"
+  ],
+  "R8": [
+    "Hyperventilation → <b>PCO₂ ↓</b> และจาก alveolar gas equation → <b>PO₂ ↑</b>",
+    "เฉลยดิบตอบ C ซึ่งเป็นผลของ hypoventilation"
+  ],
+  "R9": [
+    "<b>Apneusis</b> มีลักษณะหายใจเข้าค้างยาว (prolonged inspiratory plateaus) สลับกับการหายใจออกสั้นๆ",
+    "เกิดจากรอยโรคที่ทำลาย <b>pneumotaxic center ในพอนส์ส่วนบน</b> (ร่วมกับการขาดสัญญาณยับยั้งจาก CN X) ทำให้ apneustic center ในพอนส์ส่วนล่างกระตุ้นการหายใจเข้าโดยไม่มีตัวตัดจบ"
+  ]
+});
+
+/* ---------- A ---------- */
+Object.assign(window.THAI_Q, {
+  "A1": [
+    "ร่างกายสร้าง CO₂ ~<b>13,000 mmol/วัน</b> → <b>carbonic acid (volatile acid)</b> ขับออกทางปอด",
+    "Fixed acid (sulfuric, phosphoric, lactic) มีแค่ ~1 mmol/kg/วัน ขับทางไต"
+  ],
+  "A2": [
+    "Lactic acid เข้า <b>ECF</b> → buffer หลักของ ECF = <b>bicarbonate</b> (มีมาก + ขับ CO₂ ทางปอดได้ = open system)"
+  ],
+  "A3": [
+    "สไลด์: ใน ICF <b>phosphate</b> มีบทบาทสำคัญ (ในเซลล์และปัสสาวะ) และ protein เช่น Hb มีมากในเซลล์",
+    "เฉลยนักศึกษาตอบ phosphate · ECF ใช้ bicarbonate เป็นหลัก"
+  ],
+  "A4": [
+    "pKa ของ H₂PO₄⁻ ⇌ HPO₄²⁻ = <b>6.8</b> · pH 7.4 &gt; pKa → <b>HPO₄²⁻</b> มากกว่า (~4:1)"
+  ],
+  "A5": [
+    "Hb มี <b>histidine</b> มาก (imidazole group pKa ใกล้ pH ร่างกาย) → รับ/ปล่อย H⁺ ได้",
+    "Hb อยู่ใน RBC = intracellular buffer"
+  ],
+  "A6": [
+    "Acidosis → proximal tubule <b>สลาย glutamine ↑</b> → NH₄⁺ ขับทิ้ง + <b>HCO₃⁻ ใหม่</b> กลับเข้าเลือด",
+    "Ventilation ↑, Na⁺–H⁺ exchange ↑ (ไม่ใช่ลด)"
+  ],
+  "A7": [
+    "ไตขับกรดผ่าน <b>titratable acid (phosphate)</b> และ <b>NH₄⁺</b>",
+    "<b>Sulfate</b> เป็น anion ของ fixed acid ไม่ได้เป็น buffer ที่พา H⁺ ออก"
+  ],
+  "A8": [
+    "Metabolic acidosis → <b>hyperventilation</b> (Kussmaul) → PCO₂ ↓",
+    "Winter: 1.5 × 12 + 8 ± 2 = 24–28 mmHg"
+  ],
+  "A9": [
+    "pH ↓ + HCO₃⁻ ↓ → <b>metabolic acidosis</b>",
+    "Winter: 1.5 × 16 + 8 ± 2 = <b>30–34</b> · PCO₂ จริง 40 สูงกว่า → มี respiratory acidosis ร่วม"
+  ],
+  "A10": [
+    "pH ↓ + PCO₂ ↑ → respiratory acidosis",
+    "Acute: HCO₃⁻ ↑ 1 ต่อ 10 mmHg → คาด ~25.5 ✓ (chronic คาด ~29) → <b>acute</b>"
+  ],
+  "A11": [
+    "PCO₂ ↑ 20 → acute คาด HCO₃⁻ ≈ <b>26</b> · chronic คาด ≈ 31",
+    "ค่าจริง 26 → <b>acute respiratory acidosis</b>"
+  ],
+  "A12": [
+    "COPD = <b>chronic respiratory acidosis</b> → ไตชดเชย HCO₃⁻ ↑ ~3.5 ต่อ 10 mmHg → pH เกือบปกติ",
+    "B = acute (HCO₃⁻ ยังไม่ขึ้น)"
+  ],
+  "A13": [
+    "Chronic respiratory acidosis: HCO₃⁻ ↑ <b>3–4 ต่อ 10 mmHg</b> ≈ ΔPCO₂/3",
+    "A = acute acidosis (/10) · D = acute alkalosis (/5 ต่อ 10 = 2) · C = chronic alkalosis"
+  ],
+  "A14": [
+    "ที่สูง → respiratory alkalosis · อยู่นาน → ไตขับ HCO₃⁻ (ลด 4–5 ต่อ 10 mmHg) → pH กลับเกือบปกติ = <b>ข้อ 3</b>",
+    "ข้อ 1 (HCO₃⁻ ลดนิดเดียว) = ภาพ acute · เฉลยนักศึกษาตอบข้อ 1"
+  ],
+  "A15": [
+    "<b>Aspirin (salicylate)</b> กระตุ้นศูนย์หายใจโดยตรง → hyperventilation → respiratory alkalosis",
+    "Neuromuscular/COPD → resp acidosis · methanol → met acidosis · vomiting → met alkalosis"
+  ],
+  "A16": [
+    "แขวนคอ → ทางเดินหายใจถูกปิด → <b>CO₂ คั่ง (PaCO₂ ↑)</b>, PaO₂ ↓",
+    "Acute → HCO₃⁻ แทบไม่เปลี่ยน"
+  ],
+  "A17": [
+    "pH ↑ + HCO₃⁻ ↑ → metabolic alkalosis",
+    "ยาขับปัสสาวะ (thiazide/loop) → volume ↓ + <b>ไตเสีย H⁺ และ K⁺</b>"
+  ],
+  "A18": [
+    "Anion gap ส่วนใหญ่คือ <b>unmeasured anion</b> และ <b>albumin</b> เป็นตัวใหญ่สุด",
+    "Albumin ต่ำ → AG ต่ำลง → บัง HAGMA → ต้อง correct AG (เฉลยดิบตอบ A)"
+  ],
+  "A19": [
+    "DKA = metabolic acidosis (pH ↓, HCO₃⁻ ↓, PCO₂ ↓) · <b>diarrhea</b> เสีย HCO₃⁻ → ทิศทางเดียวกัน (แต่เป็น NAGMA)",
+    "Vomiting, antacid → alkalosis"
+  ],
+  "A20": [
+    "pH ↓, HCO₃⁻ ↓ → metabolic acidosis · Winter 20 ± 2 → PCO₂ 18 พอดี",
+    "AG = 140 − 102 − 8 = <b>30</b> · Δ ratio = 18/16 ≈ 1.1 → <b>pure HAGMA</b> (DKA)"
+  ],
+  "A21": [
+    "pH ↑, HCO₃⁻ ↑ → <b>metabolic alkalosis</b> (อาเจียนเสีย HCl)",
+    "คาด PCO₂ = 40 + 0.7 × 14 ≈ 50 ± 2 → 48 = <b>respiratory compensation</b> พอดี"
+  ],
+  "A22": [
+    "pH ↓ + HCO₃⁻ ↓ → metabolic acidosis · Winter = 27.5 ± 2 → PCO₂ 28 = <b>ชดเชยพอดี</b>",
+    "ตัวเลือกที่ใกล้สุดคือ E (respiratory alkalosis ในที่นี้คือการชดเชย ไม่ใช่โรคซ้อน)"
+  ],
+  "A23": [
+    "Delta ratio &lt; 0.4 → HCO₃⁻ ลดโดย AG ไม่เพิ่ม = <b>NAGMA (hyperchloremic) ล้วน</b>",
+    "NH₄Cl → เติม HCl → NAGMA"
+  ]
+});
+
+/* ---------- S ---------- */
 Object.assign(window.THAI_Q, {
   "S1": [
-    "ในการออกกำลังกายแบบแอโรบิกระดับปานกลาง (ต่ำกว่า anaerobic threshold) การระบายอากาศถุงลมเพิ่มขึ้นเป็นสัดส่วนพอดีกับการใช้ออกซิเจนและการสร้าง CO₂",
-    "ดังนั้นค่า <b>PaO₂, PaCO₂ และ pH ในเลือดแดงจึงคงที่ใกล้เคียงค่าปกติขณะพัก</b>"
+    "<b>Ventilation</b> เพิ่มได้ &gt;15 เท่า (ทั้ง rate และ depth) · CO ~5 เท่า · vascular resistance ลดลง"
   ],
   "S2": [
-    "การวิ่งระยะสั้นเต็มกำลังที่ใช้เวลา <b>8–10 วินาที</b> อาศัยพลังงานจากระบบ <b>phosphagen (ATP และ phosphocreatine ที่สะสมไว้)</b> เป็นหลัก",
-    "ส่วนระบบ glycogen–lactic acid ใช้ในงานหนักช่วง 1.3–1.6 นาที"
+    "ช่วงแรกของการออกกำลังกาย ventilation เพิ่ม <b>ก่อน</b> blood gas เปลี่ยน → มาจาก <b>neural</b>: motor cortex + <b>proprioceptor</b> ของข้อและกล้ามเนื้อ"
   ],
   "S3": [
-    "ถูก: เมื่อเกิน anaerobic threshold กรดแลกติกจะทำปฏิกิริยากับ HCO₃⁻ ได้ CO₂ ส่วนเกิน และ H⁺ จะกระตุ้น carotid bodies ทำให้หายใจเพิ่มขึ้นอย่างมากจน <b>PaCO₂ ลดลงต่ำกว่า 40 mmHg</b>"
+    "ที่สูง → hypoxia → peripheral chemoreceptor → <b>หายใจเร็ว → CO₂ ↓ → respiratory alkalosis</b>",
+    "ไตชดเชย (ขับ HCO₃⁻) ใช้เวลาหลายวัน"
   ],
   "S4": [
-    "เมื่อขึ้นที่สูงเฉียบพลัน ภาวะพร่องออกซิเจนจะกระตุ้น peripheral chemoreceptors ให้หายใจเร็วจนขับ CO₂ ออกมาก",
-    "เกิดภาวะ <b>hypocapnia และ respiratory alkalosis</b> ซึ่งไปยับยั้ง central chemoreceptors ไว้ชั่วคราวในช่วงแรก"
+    "ที่สูง → <b>2,3-BPG ↑ → right shift</b> ช่วยปล่อย O₂",
+    "Hyperventilation (respiratory alkalosis) · hypoxia → pulmonary <b>vasoconstriction</b>"
   ],
   "S5": [
-    "<b>HAPE (High-Altitude Pulmonary Edema)</b> เกิดจากภาวะพร่องออกซิเจนทั่วปอดกระตุ้นให้เกิด <b>hypoxic pulmonary vasoconstriction (HPV) อย่างรุนแรงและไม่สม่ำเสมอ</b>",
-    "บริเวณที่หลอดเลือดหดตัวน้อยกว่าจึงรับเลือดด้วยความดันสูงมากจนของเหลวรั่วออกจากหลอดเลือดฝอย (non-cardiogenic pulmonary edema)"
+    "ภายในนาทีถึงวัน → <b>hyperventilation</b> จาก peripheral chemoreceptor",
+    "Polycythemia และ oxidative enzyme ใช้เวลาเป็นสัปดาห์ · 2,3-BPG ↑ → shift <b>ขวา</b>"
   ],
   "S6": [
-    "ถูก: ยา <b>acetazolamide</b> ยับยั้งเอนไซม์ carbonic anhydrase ที่ไต ทำให้ขับ HCO₃⁻ ออกทางปัสสาวะเพิ่มขึ้น ช่วยแก้ภาวะ respiratory alkalosis และเร่งการปรับตัวบนที่สูง"
+    "ทุก 10 m ของน้ำทะเลเพิ่ม 1 atm → 50 m = 1 + 5 = <b>6 atm</b>",
+    "PIO₂ = 0.21 × 6 = <b>1.26 atm</b> (Dalton)"
   ],
   "S7": [
-    "ตาม <b>Boyle's law (P₁V₁ = P₂V₂)</b> เมื่อขึ้นจากความลึก 30 เมตร (4 ATM) สู่ผิวน้ำ (1 ATM) โดยกลั้นหายใจ อากาศในปอดจะขยายตัวถึง 4 เท่า",
-    "ทำให้ถุงลมฉีกขาด (pulmonary barotrauma) เกิด <b>pneumothorax และ arterial gas embolism</b>"
+    "ขณะหลับ: <b>FRC ↓</b> (นอนราบ + tone ลด), upper airway resistance ↑, ventilatory drive ต่อ CO₂/O₂ ↓, อุณหภูมิ ↓",
+    "RR ไม่ได้ลดคงที่ เปลี่ยนตาม sleep stage"
   ],
   "S8": [
-    "ก๊าซฮีเลียม (ใน <b>Heliox</b>) มี<b>ความสามารถในการละลายในไขมันต่ำกว่าไนโตรเจนมาก</b> (ป้องกัน nitrogen narcosis และลดฟองแก๊สสะสม) และมี<b>ความหนาแน่นต่ำกว่า</b> (ลดความต้านทานและลดงานในการหายใจที่ความดันสูง)"
+    "หายใจครั้งแรก → PVR ↓ → เลือดกลับเข้า LA มากขึ้น → <b>LA pressure &gt; RA</b> → ดันลิ้น <b>foramen ovale ปิด</b> ทันที",
+    "Ductus arteriosus ปิดตามมาในหลายชั่วโมงถึงวัน"
   ],
   "S9": [
-    "ในระยะ <b>REM sleep</b> สมองส่งสัญญาณยับยั้งลงมาทำให้กล้ามเนื้อลายทั่วร่างกายรวมถึง <b>intercostal muscles และกล้ามเนื้อขยายคอหอย (pharyngeal dilators) เกิดภาวะไร้ความตึงตัว (atonia)</b>",
-    "โดย<b>ยกเว้นกะบังลม (diaphragm)</b> ที่ยังทำงานอยู่ จึงทำให้การหายใจพึ่งพากะบังลมเกือบทั้งหมดและคอหอยยุบตัวอุดกั้นได้ง่ายที่สุด"
-  ],
-  "S10": [
-    "ถูก: ในระยะ <b>NREM sleep</b> การขาดแรงกระตุ้นจากการตื่น (wakefulness drive) และความต้านทานทางเดินหายใจส่วนบนที่เพิ่มขึ้น ทำให้ minute ventilation ลดลง ~10–15% และ <b>PaCO₂ เพิ่มขึ้นประมาณ 3–5 mmHg</b>"
-  ],
-  "S11": [
-    "สาย <b>γ-globin ของ HbF (α₂γ₂)</b> จับกับ <b>2,3-BPG ได้น้อยกว่า</b>สาย β-globin ของ HbA",
-    "ทำให้ HbF มีความสามารถในการจับออกซิเจนสูงกว่า (กราฟเลื่อนไปทางซ้าย, P₅₀ ≈ 19 mmHg เทียบกับ 27 mmHg ในผู้ใหญ่) จึงดึงออกซิเจนจากเลือดแม่ผ่านรกได้ดี"
-  ],
-  "S12": [
-    "เมื่อทารกสูดลมหายใจแรก ถุงลมขยายตัวและได้รับออกซิเจนทำให้ <b>PVR ลดลงอย่างมาก</b> เลือดไหลกลับเข้า left atrium เพิ่มขึ้น",
-    "พร้อมกับการหนีบสายสะดือตัดวงจรรกที่มีความต้านทานต่ำออกไป ทำให้ <b>SVR เพิ่มขึ้น</b> จนความดันใน <b>left atrium สูงกว่า right atrium</b> ดันลิ้นของ <b>foramen ovale</b> ให้ปิดลง"
-  ],
-  "S13": [
-    "ถูก: เมื่อ CO₂ แพร่จากเลือดทารกไปสู่เลือดแม่ที่รก เลือดแม่จะมีความเป็นกรดเพิ่มขึ้น (เลื่อนกราฟ HbA ไปทางขวาเพื่อปล่อย O₂) ขณะที่เลือดทารกมีความเป็นด่างเพิ่มขึ้น (เลื่อนกราฟ HbF ไปทางซ้ายเพื่อรับ O₂) เรียกว่า <b>double Bohr effect</b>"
+    "ปอดเริ่มทำงาน → PO₂ ↑, PVR ↓ → shunt ปิด: <b>ductus arteriosus</b> → ligamentum arteriosum, foramen ovale → fossa ovalis"
   ]
 });

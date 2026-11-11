@@ -10,12 +10,12 @@ Question-first peer-tutoring material for the 13 non-radiology **Respiratory Sys
 |---|---|
 | **Student deck** (shown in the video) | https://punnawit9285.github.io/rs-peer-tutoring/student.html |
 | **Tutor deck** (second screen: answers, Thai notes, script) | https://punnawit9285.github.io/rs-peer-tutoring/tutor.html |
-| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/student.pdf?v=3d80dc24 |
+| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/student.pdf?v=e2e87f89 |
 | **Radiologic Anatomy companion deck** | https://punnawit9285.github.io/rs-radiology-peer-tutoring/ |
 
 Open the student and tutor decks in the same browser and tick *Follow student* in the tutor deck: it jumps to whatever card the student deck shows.
 
-## Sections (63 concepts · 172 questions · 685 cloze blanks · 83 figures)
+## Sections (63 concepts · 219 questions · 681 cloze blanks · 178 figure uses)
 
 | ID | Section | Source handout |
 |---|---|---|
@@ -33,7 +33,15 @@ Open the student and tutor decks in the same browser and tick *Follow student* i
 | A | Acid-Base Regulation | Acid-base regulation (88 slides) |
 | S | Respiratory System Under Stress | RS under stress (16 slides) |
 
-Every question is written from the lecture handouts and tagged with its slide page (e.g. `URT p.18`, `Mechanics p.24`, `Gas exchange p.41`, `Acid-base p.61`).
+## Where the questions come from
+
+The problems are the **past papers**: the AC79, AC80 and AC81 MCQ recalls (with the peer-support keys) and the AC79, AC80 and AC81 spot tests. Each question sits right after the concept card it tests and is tagged with its source (`AC81`, `AC79 · AC81`, `AC79 spot` …). Questions asked in more than one year are merged into one item tagged with every year. Spot-test photos and exam figures are cropped from the recall PDFs.
+
+- **Kept from the slides**: 15 slide-written questions, only on cards that no past paper tests (gas humidification, hemoglobin structure, pulmonary edema, the respiratory centres and breathing patterns, lung volumes, spirometry preparation).
+- **PFT section**: rebuilt as a five-step way to read a spirometry report, worked through the six cases of the lecture quiz (slides 14–15), whose real reports are the problems after the card.
+- **Recall notes**: where a recalled key disagrees with the lecture, or the recall is incomplete, the item says so in a *Recall note* and teaches the principle; the original wording is kept (Thai stems with an English gloss).
+- **Excluded**: items whose stem, figure or key was not recalled well enough to learn from (for example AC80 acid–base 4, AC81 “identify carina”, AC79 titratable acid).
+- Cards gained a short *From the past papers* note where a question tests something the slide text does not spell out.
 
 ## Pages
 

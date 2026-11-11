@@ -12,19 +12,41 @@ CVS.add({ id: 'M', short: 'Mechanics', title: 'Mechanics of Breathing: Pressures
       '<li><b>Positive-pressure ventilation (PPV)</b>: ventilator raises P<sub>ao</sub> above atmospheric (e.g. +30 cmH<sub>2</sub>O) so P<sub>pl</sub> rises (+5 cmH<sub>2</sub>O passive); if the patient also inspires actively (P<sub>pl</sub> = &minus;20), P<sub>L</sub> = 30 &minus; (&minus;20) = 50 cmH<sub>2</sub>O.</li></ul></div>' +
       '<div class="stack">' + CVS.fig('mech-muscles', 'Muscles of inspiration (left) and muscles of expiration (right).', 'mech', 2) +
       CVS.fig('mech-cycle', 'Volume, intrapleural pressure, and alveolar pressure changes during a normal spontaneous breath.', 'mech', 9) + '</div></div>' +
-      CVS.fig('mech-ppv', 'Pressures during passive positive-pressure ventilation compared with spontaneous breathing.', 'mech', 11) },
-  { t: 'q', id: 'M1', src: 'Mechanics p.2–5', core: true,
-    q: 'Which muscles contract during quiet inspiration, maximal inspiration, and maximal (forced) expiration?',
-    o: ['Quiet inspiration: diaphragm & external intercostals; maximal inspiration adds sternocleidomastoid, serratus anterior & scalenes; maximal expiration: internal intercostals & abdominal muscles', 'Quiet inspiration: diaphragm & internal intercostals; maximal inspiration adds rectus abdominis; maximal expiration: external intercostals & scalenes', 'Quiet inspiration: sternocleidomastoid & scalenes; quiet expiration: internal intercostals; maximal expiration: diaphragm', 'Quiet inspiration: diaphragm only; quiet expiration: rectus abdominis & external obliques; maximal inspiration: internal intercostals', 'Quiet inspiration: external & internal intercostals; maximal inspiration: transversus abdominis; maximal expiration: serratus anterior'], a: 0,
-    ex: 'Slide 5: quiet inspiration uses the diaphragm and external intercostals; maximal inspiration recruits sternocleidomastoid, serratus anterior, and scalenes; quiet expiration is passive relaxation; maximal expiration contracts the internal intercostals and abdominal muscles (rectus abdominis, external and internal obliques).' },
-  { t: 'q', id: 'M2', src: 'Mechanics p.8–10', core: true,
-    q: 'At the end of a normal quiet exhalation (at FRC / EELV, before the next inspiration begins), what are alveolar pressure (PA), intrapleural pressure (Ppl), and transpulmonary pressure (PL = PA − Ppl)?',
-    o: ['PA = 0 cmH2O, Ppl = −5 cmH2O, and PL = +5 cmH2O', 'PA = −1 cmH2O, Ppl = −8 cmH2O, and PL = −7 cmH2O', 'PA = +5 cmH2O, Ppl = 0 cmH2O, and PL = +5 cmH2O', 'PA = 0 cmH2O, Ppl = +5 cmH2O, and PL = −5 cmH2O', 'PA = −5 cmH2O, Ppl = −5 cmH2O, and PL = 0 cmH2O'], a: 0,
-    ex: 'At rest (FRC / EELV) with no airflow, PA equals atmospheric pressure (0 cmH2O), inward lung recoil against outward chest wall recoil creates Ppl = −5 cmH2O (−3.5 mmHg), and PL = PA − Ppl = 0 − (−5) = +5 cmH2O.' },
-  { t: 'tf', id: 'M3', src: 'Mechanics p.11–12',
-    q: 'During passive positive-pressure mechanical ventilation without patient respiratory effort, intrapleural pressure becomes more negative during inspiration just as in spontaneous breathing.', a: false,
-    ex: 'False: during passive positive-pressure ventilation, positive airway pressure pushes the lungs and chest wall outward, making intrapleural pressure positive (e.g. from −5 to +5 cmH2O). Only when the patient makes a spontaneous inspiratory effort during PPV does Ppl become strongly negative.' },
-
+      CVS.fig('mech-ppv', 'Pressures during passive positive-pressure ventilation compared with spontaneous breathing.', 'mech', 11) + '<p class="note"><b>From the past papers</b> · Pleural pressure is negative at rest because the elastic recoil of the lung pulls inward while the chest wall springs outward (AC81).</p>' },
+  { t: 'q', id: 'M1', src: 'AC79', core: true, keep: true,
+    q: 'Which of the following statements is correct?',
+    o: ['Intrapleural pressure is always sub-atmospheric.', 'Transpulmonary pressure increases during expiration.', 'Intrapulmonary pressure is almost equivalent to intra-esophageal pressure', 'Lung volume that is left after quiet expiration is FRC.', 'Lung volume is the highest when the alveolar pressure at that moment is the most negative.'], a: 3,
+    ex: 'D is the definition of FRC. A fails in forced expiration (intrapleural pressure turns positive). B: transpulmonary pressure falls in expiration. C: esophageal pressure tracks intrapleural, not alveolar, pressure. E: volume is highest at end-inspiration, when alveolar pressure is back to zero.' },
+  { t: 'q', id: 'M2', src: 'AC81', keep: true,
+    q: 'Which statement is true about quiet respiration in an adult?',
+    o: ['Alveolar pressure is always sub-atmospheric.', 'Intrapleural pressure is higher than intraesophageal pressure.', 'Transpulmonary pressure is sub-atmospheric', 'Volume left in the lungs after quiet expiration is called functional residual capacity.'], a: 3,
+    ex: 'Alveolar pressure is negative only during inspiration and positive during expiration; esophageal pressure is used as a stand-in for intrapleural pressure; transpulmonary pressure (PA − Ppl) stays positive.' },
+  { t: 'q', id: 'M3', src: 'AC79 · AC80', keep: true,
+    q: 'What is the amount of gas left in the lungs after normal expiration called?',
+    o: ['ERV', 'RV', 'TV', 'FRC', 'IRV'], a: 3,
+    ex: 'After a normal (quiet) expiration, with the muscles relaxed and alveolar pressure equal to atmospheric, the volume left is the FRC = ERV + RV. RV is what remains after a maximal expiration.',
+    flag: 'AC80 asked it in Thai: “If all breathing muscles are relaxed and alveolar pressure equals atmospheric pressure, what volume is left in the lung?”' },
+  { t: 'q', id: 'M4', src: 'AC81', core: true, keep: true,
+    q: 'What causes the intrapleural pressure to be subatmospheric during rest?<br>i = lung and chest wall pull outward<br>ii = lung and chest wall pull inward<br>iii = lung elastic recoil tends to pull the lung inward and away from the chest wall<br>iv = thoracic wall elastic recoil tends to pull the chest wall outward and away from the lung',
+    o: ['i', 'ii', 'iii', 'iv', 'iii and iv'], a: 4,
+    ex: 'At FRC the lung recoils inward and the chest wall springs outward. Pulling the two pleural layers apart in opposite directions makes the pressure between them negative (about −5 cmH₂O).' },
+  { t: 'q', id: 'M5', src: 'AC79', keep: true,
+    q: 'Consider the graph shown below regarding the changes of intrapleural pressure in each breathing cycle. The inspiratory airflow is the maximum at which point of the graph?',
+    fig: CVS.fig('ac79-pleuralgraph', 'AC79: intrapleural pressure through one breath, points A–E.', 'ac79', 7),
+    o: ['A', 'B', 'C', 'D', 'E'], a: 1,
+    ex: 'Inspiration runs from A down to C. Flow is fastest in mid-inspiration, where intrapleural (and alveolar) pressure is falling most steeply: B. At C inspiration ends and flow is zero.',
+    flag: 'PS81 edit keys B; an older AC79 key gave C. C is end-inspiration, where flow stops.' },
+  { t: 'q', id: 'M6', src: 'AC80', core: true, keep: true,
+    q: 'จากภาพ transpulmonary pressure ขณะหายใจเข้าจนสุดเป็นเท่าไร (mm H₂O) <span class="muted">From the figure, what is the transpulmonary pressure at the end of a full inspiration? (the graph is in cmH₂O)</span>',
+    fig: CVS.fig('ac80-ppl', 'AC80: intrapleural pressure during one breath (−5 to −8 cmH₂O).', 'ac80', 4),
+    o: ['5', '6', '7', '8', '9'], a: 3,
+    ex: 'Transpulmonary pressure = alveolar − intrapleural. At end-inspiration alveolar pressure is back to 0 and intrapleural pressure is at its lowest, −8: 0 − (−8) = 8.',
+    flag: 'The recall wrote mm H₂O; the graph is in cmH₂O.' },
+  { t: 'q', id: 'M7', src: 'AC79 · AC81', keep: true,
+    q: 'A girl is blowing a balloon as much as she can that it makes the balloon volume close to the total lung capacity. Which of the following muscles can create the most expiratory effort?',
+    o: ['Diaphragm + rectus abdominis', 'Diaphragm + sternocleidomastoid', 'Internal intercostal + rectus abdominis', 'Internal abdominal oblique + rectus abdominis', 'Diaphragm + external intercostal'], a: 3,
+    ex: 'Maximal expiration comes from the abdominal muscles (rectus, obliques, transversus), which push the diaphragm up. The internal intercostals help, but the abdominal wall is far stronger. The diaphragm, SCM and external intercostals are inspiratory.',
+    flag: 'AC81 asked the same (“rectus abdominis + internal oblique muscle”).' },
   { t: 'c', id: 'M-C2', title: 'Elastic recoil, surface tension, surfactant and the relaxation curve', src: 'Mechanics p.13–19',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
       '<li><b>Lung elastic recoil</b> comes from tissue elastin/collagen fibers and alveolar liquid {{surface tension}}.</li>' +
@@ -33,18 +55,11 @@ CVS.add({ id: 'M', short: 'Mechanics', title: 'Mechanics of Breathing: Pressures
       '<li><b>Thoracic elastic recoil</b>: at rest, the chest wall pulls {{outward}}, opposing the {{inward}} pull of the lungs.</li>' +
       '<li><b>Lung-thorax relaxation curve</b>: at {{FRC}} (~40% VC), lung pull equals chest wall pull in magnitude (net relaxation pressure = 0); the chest wall alone reaches its neutral position at ~60–70% VC, while an unsealed lung collapses to {{minimal air}}.</li></ul></div>' +
       CVS.fig('mech-relax', 'Lung-thorax relaxation pressure curve showing the balance of lung and chest wall recoil at FRC.', 'mech', 18) + '</div>' },
-  { t: 'q', id: 'M4', src: 'Mechanics p.14, 16', core: true,
-    q: 'According to the lecture (slide 16), why do small alveoli expand more readily than large alveoli during inspiration?',
-    o: ['Small alveoli have a higher amount of surfactant (DPPC) per unit surface area, resulting in a lower elastic recoil force than large alveoli', 'Small alveoli have no surfactant and therefore generate a higher collapsing pressure', 'Large alveoli have thicker smooth muscle rings that prevent expansion', 'Intrapleural pressure is positive around small alveoli and negative around large alveoli', 'Small alveoli are lined solely by Type II cuboidal cells with no surface tension'], a: 0,
-    ex: 'Slide 16 emphasizes that smaller alveoli have more surfactant per surface area than larger alveoli, making their elastic recoil force smaller than that of larger alveoli so their volume increases more during inspiration.' },
-  { t: 'q', id: 'M5', src: 'Mechanics p.17–19', core: true,
-    q: 'At functional residual capacity (FRC) on the lung-thorax relaxation pressure curve, how are the elastic recoil forces of the lungs and thoracic wall related, and what happens if the pleural space is unsealed (pneumothorax)?',
-    o: ['Inward lung recoil is equal and opposite to outward thoracic recoil; unsealing the chest lets the lung collapse inward to minimal air while the chest wall springs outward', 'Both lung and chest wall recoil pull inward; unsealing the chest causes both to collapse', 'Both lung and chest wall are at zero recoil individually; unsealing the chest causes no volume change', 'Lung recoil pulls outward and chest wall recoil pulls inward; unsealing the chest hyperinflates the lung', 'Inward lung recoil is twice outward chest wall recoil; unsealing the chest collapses the rib cage'], a: 0,
-    ex: 'At FRC (point B on slide 18), inward lung recoil equals outward thoracic recoil (combined pressure = 0). If the pleural seal is broken (slide 19), the unopposed lung collapses to minimal air while the chest wall expands toward its own equilibrium (~60–70% VC).' },
-  { t: 'tf', id: 'M6', src: 'Mechanics p.14',
-    q: 'Absence of pulmonary surfactant (dipalmitoyl phosphatidylcholine, DPPC) increases alveolar surface tension and increases the elastic recoil force of the lung.', a: true,
-    ex: 'True: without surfactant (DPPC), water molecules attract strongly at the air-liquid interface, raising surface tension and lung elastic recoil force (making the lung stiff and prone to collapse).' },
-
+  { t: 'q', id: 'M8', src: 'AC81', keep: true,
+    q: 'What is the role of surfactant?',
+    o: ['Decrease alveolar recoil', 'Increase alveolar elastic work force'], a: 0,
+    ex: 'Surfactant lowers surface tension, which reduces the recoil of the alveoli, raises compliance and cuts the elastic work of breathing.',
+    flag: 'Only two options were recalled.' },
   { t: 'c', id: 'M-C3', title: 'Lung and chest wall compliance (static vs dynamic)', src: 'Mechanics p.20–25',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
       '<li><b>Definition</b>: compliance {{C = &Delta;V / &Delta;P}} (in {{L/cmH2O}}), measuring distensibility ({{inversely proportional}} to elastic recoil). On the normal curve (p.20), &Delta;V = 0.5 L for &Delta;P<sub>TP</sub> = 2.5 cmH<sub>2</sub>O gives C<sub>L</sub> = {{0.2 L/cmH2O}}.</li>' +
@@ -52,19 +67,16 @@ CVS.add({ id: 'M', short: 'Mechanics', title: 'Mechanics of Breathing: Pressures
       '<li><b>Static compliance</b>: measured during {{no airflow}} (breath-hold), reflecting pure elastic properties.</li>' +
       '<li><b>Dynamic compliance</b>: measured during {{active breathing}} at points of zero flow; influenced by both elastic recoil and airway resistance.</li>' +
       '<li><b>Disease shifts</b>: {{emphysema}} destroys alveolar walls &rarr; &darr; elastic recoil &rarr; {{increased compliance}} (curve shifts up/left); {{pulmonary fibrosis}} stiffens the lung &rarr; &uarr; elastic recoil &rarr; {{decreased compliance}} (curve shifts down/right).</li></ul></div>' +
-      CVS.fig('mech-compliance', 'Static lung compliance curves in alveolar septal destruction, normal lung, and interstitial stiffening.', 'mech', 24) + '</div>' },
-  { t: 'q', id: 'M7', src: 'Mechanics p.20, 22, 24', core: true,
-    q: 'If isolated lung compliance is 0.2 L/cmH2O and thoracic wall compliance is 0.2 L/cmH2O, what is the combined lung-thorax compliance, and how does static lung compliance change in emphysema vs pulmonary fibrosis?',
-    o: ['Combined compliance is 0.1 L/cmH2O; static compliance increases in emphysema and decreases in pulmonary fibrosis', 'Combined compliance is 0.4 L/cmH2O; static compliance decreases in emphysema and increases in pulmonary fibrosis', 'Combined compliance is 0.2 L/cmH2O; static compliance increases in both emphysema and pulmonary fibrosis', 'Combined compliance is 0.1 L/cmH2O; static compliance decreases in emphysema and increases in pulmonary fibrosis', 'Combined compliance is 0.04 L/cmH2O; static compliance is unchanged in both diseases'], a: 0,
-    ex: '1/C_total = 1/C_lung + 1/C_thorax = 1/0.2 + 1/0.2 = 10, so C_total = 0.1 L/cmH2O. Emphysema destroys elastic septa (↓ recoil → ↑ compliance), whereas pulmonary fibrosis adds collagen (↑ recoil → ↓ compliance).' },
-  { t: 'tf', id: 'M8', src: 'Mechanics p.24',
-    q: 'Because compliance is directly proportional to lung elastic recoil force, a patient with emphysema has lower static lung compliance than normal.', a: false,
-    ex: 'False: compliance is inversely proportional to elastic recoil (C ∝ 1 / elastic recoil). Emphysema destroys alveolar walls, reducing elastic recoil and increasing static lung compliance.' },
-  { t: 'q', id: 'M9', src: 'Mechanics p.23, 25', core: true,
-    q: 'How is static lung compliance distinguished experimentally from dynamic lung compliance?',
-    o: ['Static compliance is measured during a breath-hold with no airflow, whereas dynamic compliance is measured during rhythmic breathing', 'Static compliance includes airway resistance, whereas dynamic compliance reflects only chest wall recoil', 'Static compliance is measured only during forced expiration, whereas dynamic compliance is measured at RV', 'Dynamic compliance uses esophageal pressure, whereas static compliance uses arterial blood pressure', 'Static compliance is higher in pulmonary fibrosis than in emphysema'], a: 0,
-    ex: 'Static compliance is measured when airflow is interrupted (breath-hold) so resistive pressure drops are zero; dynamic compliance is measured during ongoing breathing.' },
-
+      CVS.fig('mech-compliance', 'Static lung compliance curves in alveolar septal destruction, normal lung, and interstitial stiffening.', 'mech', 24) + '</div>' + '<p class="note"><b>From the past papers</b> · Compliance is the slope of the pressure–volume curve: the steeper the curve, the more compliant the lung (AC81).</p>' },
+  { t: 'q', id: 'M9', src: 'AC81', core: true, keep: true,
+    q: 'Compare the lung compliance.',
+    fig: CVS.fig('ac81-compliance', 'AC81: pressure–volume curves of three lungs, S, T and U.', 'ac81', 8),
+    o: ['S>T>U', 'S<T<U', 'S=T=U', 'S<T>U', 'S>T<U'], a: 0,
+    ex: 'Compliance = ΔV/ΔP, the slope of the curve. S rises most steeply, then T, then U.' },
+  { t: 'q', id: 'M10', src: 'AC79 (made up partly by the recall team)', core: true, keep: true,
+    q: 'A 49-year-old man comes to the doctor from worsening dyspnea upon exertion for the past 2 months. Chest examination reveals decreased chest wall movement and wheezing noise when breathing. The pulmonary function test and arterial blood gas results are as follows:<div class="tblwrap"><table class="tbl compact"><thead><tr><th>Parameter</th><th>Predicted</th><th>Measured</th><th>% Predicted</th><th>Post-BD</th></tr></thead><tbody><tr><td>FVC</td><td>4.99 L</td><td>4.12 L</td><td>83%</td><td>3.95 L</td></tr><tr><td>FEV₁</td><td>3.97 L</td><td>2.12 L</td><td>53%</td><td>2.75 L</td></tr><tr><td>FEV₁/FVC</td><td></td><td>51%</td><td></td><td>70%</td></tr></tbody></table></div>ABG: pH 7.37, pCO₂ 50 mmHg, [HCO₃⁻] 28 mEq/L. Which of the following is <b>incorrect</b> regarding the pathophysiology underlying this patient’s symptoms and test results?',
+    o: ['Increased alveolar dead space', 'Dynamic compression of airways', 'Decreased Hb-O₂ affinity', 'Decreased compliance of lungs', 'Increased FRC'], a: 3,
+    ex: 'This is obstructive disease with CO₂ retention (COPD pattern). Emphysema destroys elastic tissue, so lung compliance goes up, not down. Dead space, dynamic compression, a right-shifted curve from high CO₂, and air trapping (raised FRC) all fit.' },
   { t: 'c', id: 'M-C4', title: 'Airway resistance, radial traction and dynamic compression in COPD', src: 'Mechanics p.26–37',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
       '<li><b>Poiseuille law</b>: Flow = &Delta;P / R and {{R = 8&eta;l / (&pi;r4)}} — airway radius {{r to the fourth power}} is the dominant determinant of resistance.</li>' +
@@ -73,18 +85,10 @@ CVS.add({ id: 'M', short: 'Mechanics', title: 'Mechanics of Breathing: Pressures
       '<li><b>COPD &amp; autonomic tone</b>: loss of elastic recoil in COPD/emphysema causes early airway closure and {{air trapping}} (dynamic hyperinflation); {{parasympathetic}} stimulation causes bronchoconstriction (&uarr; R) while {{sympathetic}} stimulation causes bronchodilation (&darr; R).</li></ul></div>' +
       '<div class="stack">' + CVS.fig('mech-resistance', 'Airway resistance vs airway generation and velocity vs aggregate cross-sectional area.', 'mech', 28) +
       CVS.fig('mech-compress', 'Passive vs forced expiration showing positive pleural pressure and dynamic airway compression.', 'mech', 31) + '</div></div>' },
-  { t: 'q', id: 'M10', src: 'Mechanics p.26–29', core: true,
-    q: 'Where is the largest share of airway resistance located in a healthy respiratory tract, and why do small airways (<2 mm diameter) contribute only about 10% of total resistance?',
-    o: ['Upper airways (nose-mouth ~50%, glottis ~25%, bronchi >2 mm ~15%); small airways <2 mm contribute only ~10% because thousands of parallel branches create a huge total cross-sectional area', 'Terminal bronchioles (~80% of total resistance) because each individual tube has the smallest radius', 'Alveolar ducts (~60% of total resistance) because gas flow is turbulent there', 'Trachea (~75% of total resistance) because its cross-sectional area is 180 cm2', 'Small airways <2 mm (~50%) and nose-mouth (~10%) because Poiseuille’s law does not apply to bronchioles'], a: 0,
-    ex: 'By Poiseuille’s law a single small bronchiole has high resistance, but because small airways (<2 mm) are arranged in tens of thousands of parallel branches with a huge aggregate cross-sectional area, they account for only ~10% of total resistance (while nose-mouth is 50%, glottis 25%, and airways >2 mm 15%).' },
-  { t: 'q', id: 'M11', src: 'Mechanics p.30–31, 37', core: true,
-    q: 'Why does forced expiration worsen airway narrowing and cause air trapping in a patient with COPD / emphysema?',
-    o: ['High positive intrapleural pressure compresses non-cartilaginous airways whose intraluminal pressure drops rapidly due to low alveolar elastic recoil and loss of radial traction', 'Forced expiration makes intrapleural pressure strongly negative, sucking the airway walls together', 'Sympathetic discharge during forced expiration constricts bronchial smooth muscle', 'Surfactant is squeezed out of the trachea during forced expiration, collapsing the cricoid ring', 'Alveolar pressure becomes negative during forced expiration while pleural pressure stays at zero'], a: 0,
-    ex: 'During forced expiration, Ppl becomes strongly positive (e.g. +25 cmH2O). In COPD/emphysema, loss of alveolar elastic recoil reduces the driving pressure (Palv = Pel + Ppl) and loss of radial tethering allows positive Ppl to collapse small airways early, trapping air.' },
-  { t: 'tf', id: 'M12', src: 'Mechanics p.32',
-    q: 'Parasympathetic nervous stimulation causes bronchial smooth muscle contraction (bronchoconstriction) and increases airway resistance, whereas sympathetic stimulation causes bronchodilation and decreases airway resistance.', a: true,
-    ex: 'True: vagal parasympathetic fibers constrict bronchial smooth muscle (increasing resistance), whereas sympathetic beta-2 stimulation relaxes it (decreasing resistance).' },
-
+  { t: 'q', id: 'M11', src: 'AC80 · AC81', core: true, keep: true,
+    q: 'What is the most important factor limiting forced expiration from total lung capacity to residual volume?',
+    o: ['Action of diaphragm', 'Dynamic compression of the airway', 'Elasticity of the airway', 'Rate of contraction of expiratory muscles', 'Increases sympathetic stimulation of smooth muscles of the airway'], a: 1,
+    ex: 'In forced expiration intrapleural pressure turns positive and squeezes the airways at the equal-pressure point. Beyond that point more effort only compresses the airway further, so flow is effort-independent.' },
   { t: 'c', id: 'M-C5', title: 'Airflow patterns, normal breath sounds and work of breathing', src: 'Mechanics p.38–44',
     html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl"><thead><tr><th>Breath sound</th><th>Insp : Exp &amp; pitch</th><th>Normal location</th></tr></thead><tbody>' +
       '<tr><td><b>Vesicular</b></td><td>{{Insp &gt; Exp}}, soft, low (&le;200 Hz)</td><td>{{Over most of both lungs}}</td></tr>' +
@@ -96,11 +100,12 @@ CVS.add({ id: 'M', short: 'Mechanics', title: 'Mechanics of Breathing: Pressures
       '<li><b>Work of breathing at rest</b> (Work = P &times; V, p.40): {{65%}} overcomes elastic resistance, {{25%}} overcomes airway resistance, and {{10%}} overcomes tissue viscous resistance.</li>' +
       '<li><b>Disease loops</b> (p.43): restrictive disease (pulmonary fibrosis) increases {{elastic work}}; obstructive disease (COPD) increases {{airway resistance work}} and active expiratory work.</li></ul></div>' +
       CVS.fig('mech-work', 'Pressure-volume work-of-breathing loops in restrictive lung disease (a) and obstructive lung disease (b).', 'mech', 43) + '</div>' },
-  { t: 'q', id: 'M13', src: 'Mechanics p.40, 43', core: true,
-    q: 'During quiet breathing at rest, what are the percentages of total work of breathing spent on elastic resistance, airway resistance, and tissue viscous resistance, and which component rises predominantly in pulmonary fibrosis vs COPD?',
-    o: ['65% elastic, 25% airway resistance, 10% tissue viscosity; pulmonary fibrosis increases elastic work, whereas COPD increases airway resistance work', '25% elastic, 65% airway resistance, 10% tissue viscosity; pulmonary fibrosis increases airway resistance work, whereas COPD increases elastic work', '50% elastic, 50% airway resistance, 0% tissue viscosity; both diseases increase only tissue viscous work', '80% elastic, 10% airway resistance, 10% tissue viscosity; COPD reduces total work of breathing below normal', '10% elastic, 25% airway resistance, 65% tissue viscosity; pulmonary fibrosis decreases elastic work'], a: 0,
-    ex: 'Slide 40: quiet breathing uses ~65% for elastic resistance, ~25% for airway resistance, and ~10% for tissue viscosity. Slide 43: pulmonary fibrosis increases elastic work (wider negative Ppl swing), while COPD increases resistive and active expiratory work.' },
-  { t: 'open', id: 'M14', src: 'Mechanics p.38–39',
-    q: 'Compare laminar, transitional, and turbulent airflow in the tracheobronchial tree, and state the normal auscultation site and inspiratory-to-expiratory relationship of vesicular vs bronchial breath sounds.',
-    ans: 'Laminar flow occurs in small peripheral airways at low velocity and depends on gas viscosity; turbulent flow occurs in the trachea and large airways at high velocity and depends on gas density; transitional flow occurs at airway bifurcations and depends on both viscosity and density. Vesicular sounds are soft, low-pitched (≤200 Hz) with inspiration longer than expiration (Insp > Exp) heard over most of the lung fields; bronchial sounds are loud, high-pitched (≥400 Hz) with expiration longer than inspiration (Exp > Insp) and a silent gap, heard normally over the manubrium.' }
+  { t: 'q', id: 'M12', src: 'AC80', keep: true,
+    q: 'Which of the following will increase as a result from contraction of bronchial smooth muscle?',
+    o: ['Lung compliance', 'Airway diameter', 'Elastic work of breathing', 'Resistive work of breathing', 'Anatomic dead space'], a: 3,
+    ex: 'Bronchoconstriction narrows the airways, and resistance rises steeply (R ∝ 1/r⁴), so the resistive (non-elastic) work of breathing goes up. Compliance and elastic work are properties of the stretchy tissue; the anatomic dead space falls slightly.' },
+  { t: 'q', id: 'M13', src: 'AC81', keep: true,
+    q: 'What is the characteristic of vesicular breath sounds?',
+    o: ['Soft, low pitch', 'High pitch', 'Expiratory time longer than inspiratory time'], a: 0,
+    ex: 'Vesicular sounds, heard over most of the lung, are soft and low-pitched, with inspiration longer than expiration. Bronchial sounds are loud and high-pitched with a long expiratory phase.' }
 ]});

@@ -120,3 +120,10 @@ table.toc td:first-child { white-space: normal; }
 .bksec { margin-top: 10px; }
 .part + .bksec { margin-top: 18px; }
 .xkp { margin: 2px 0 6px; padding: 5px 10px 5px 1.6em; background: var(--ven-soft); border-left: 3px solid var(--ven); border-radius: 6px; line-height: 1.5; font-family: "IBM Plex Sans Thai", var(--f-body); break-inside: avoid; }
+
+/* a quiz item that reuses the figure printed with the item before it */
+.pfigref { margin: 4px 0 6px; font: 500 .82em var(--f-mono); color: var(--ink2); }
+
+/* a quiz item whose figure must stay readable (spirometry reports): full width */
+.pq.wide { column-span: all; }
+.pq.wide .pfig img { max-height: 118mm; }
