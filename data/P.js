@@ -3,18 +3,12 @@ CVS.add({ id: 'P', short: 'PFTs', title: 'Pulmonary Function Tests & Spirometry 
   blurb: 'What spirometry measures, how a good test is done, how to read a report in five steps (with the lecture’s six worked cases), and flow-volume loops.',
   items: [
   { t: 'c', id: 'P-C1', title: 'Standard lung volumes, capacities, and what spirometry measures', src: 'PFT p.2–4',
-    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl"><thead><tr><th>Parameter</th><th>Definition &amp; formula</th><th>Typical range</th></tr></thead><tbody>' +
-      '<tr><td><b>Tidal volume (TV)</b></td><td>Air entering and leaving the lungs with each normal breath</td><td class="num">0.4–0.5 L</td></tr>' +
-      '<tr><td><b>Inspiratory reserve volume (IRV)</b></td><td>Extra air inspired above TV during maximal inspiration</td><td class="num">1.9–2.5 L</td></tr>' +
-      '<tr><td><b>Expiratory reserve volume (ERV)</b></td><td>Extra air expired below TV during maximal expiration</td><td class="num">1.1–1.5 L</td></tr>' +
-      '<tr><td><b>Residual volume (RV)</b></td><td>Gas remaining in the lungs after a maximal expiration ({{cannot be measured by spirometry}})</td><td class="num">1.5–1.9 L</td></tr>' +
-      '<tr><td><b>Inspiratory capacity (IC)</b></td><td>Maximal volume inspired from resting end-expiration = {{TV + IRV}}</td><td class="num">2.3–3.0 L</td></tr>' +
-      '<tr><td><b>Functional residual capacity (FRC)</b></td><td>Gas remaining after a normal tidal expiration = {{ERV + RV}} (requires plethysmography)</td><td class="num">2.6–3.4 L</td></tr>' +
-      '<tr><td><b>Vital capacity (VC / FVC)</b></td><td>Maximal volume expired after maximal inspiration = {{IRV + TV + ERV}} (or IC + ERV)</td><td class="num">3.4–4.5 L</td></tr>' +
-      '<tr><td><b>Total lung capacity (TLC)</b></td><td>Volume in the lungs after maximal inspiration = {{VC + RV}} (or IC + FRC)</td><td class="num">4.9–6.4 L</td></tr></tbody></table></div>' +
-      '<ul class="pts"><li>A <b>lung capacity</b> is always the sum of {{two or more physiologic volumes}}.</li>' +
-      '<li>Because a spirometer only measures air moving past the lips, it cannot determine <b>RV, FRC, or TLC</b>; measuring those requires {{body plethysmography}}, helium dilution, or nitrogen washout.</li>' +
-      '<li>Dynamic forced parameters: <b>FEV<sub>1</sub></b> (volume expelled in the first second), <b>FEV<sub>1</sub>/FVC</b>, <b>PEF</b> (peak expiratory flow), and <b>{{FEF25–75%}}</b> (mean flow over the middle half of FVC, sensitive to {{small airways &lt; 2 mm}}).</li></ul></div>' +
+    html: '<div class="two"><div class="stack"><ul class="pts">' +
+      '<li><b>4 volumes</b>: TV (normal breath) · IRV (extra in) · ERV (extra out) · {{RV}} (what never leaves).</li>' +
+      '<li><b>Capacities</b> = {{two or more volumes}} added together:<ul>' +
+      '<li>IC = {{TV + IRV}}</li><li>FRC = {{ERV + RV}}</li><li>VC = {{IRV + TV + ERV}}</li><li>TLC = {{VC + RV}}</li></ul></li>' +
+      '<li><b>Spirometer</b> measures only air moving through the mouth → anything containing RV (RV, FRC, TLC) {{cannot be measured}} → needs {{body plethysmography}} or gas dilution.</li>' +
+      '<li><b>Forced blow gives</b>: FEV<sub>1</sub>, FVC, FEV<sub>1</sub>/FVC, PEF, and {{FEF25–75%}} (the small airways).</li></ul></div>' +
       CVS.fig('pft-volumes', 'Workings of a simple water-bell spirometer and standard lung volumes and capacities on a spirogram.', 'pft', 4) + '</div>' },
   { t: 'q', id: 'P1', src: 'PFT p.4', core: true,
     q: 'Which set of lung volumes and capacities CANNOT be measured by simple spirometry?',
@@ -26,11 +20,13 @@ CVS.add({ id: 'P', short: 'PFTs', title: 'Pulmonary Function Tests & Spirometry 
     ex: 'IC = TV + IRV = 0.5 + 2.5 = 3.0 L; FRC = ERV + RV = 1.2 + 1.6 = 2.8 L; VC = IRV + TV + ERV = 2.5 + 0.5 + 1.2 = 4.2 L (and TLC = VC + RV = 5.8 L).' },
   { t: 'c', id: 'P-C2', title: 'Before the test: who should not blow, what to stop, what to avoid', src: 'PFT p.5–6',
     html: '<div class="two"><div class="stack">' +
-      '<div class="mini"><h4>Why some patients should not blow yet</h4><p>A maximal forced blow sharply raises the pressure inside the chest, the skull and the eyes. So spirometry waits after an {{acute myocardial infarction within 1 month}}, with an untreated {{pneumothorax}} or pulmonary embolism, with a {{cerebral aneurysm}}, within {{4 weeks}} of brain or chest surgery, within 4–8 weeks of eye surgery, in pregnancy beyond {{28 weeks}}, and while an infection such as untreated TB may be active.</p></div>' +
-      '<div class="mini"><h4>The hour before</h4><ul><li>No smoking or vaping and no hard exercise for {{1 hour}}; no intoxicants for 8 hours; no clothes that squeeze the chest.</li>' +
-      '<li>For a <b>diagnostic</b> test, stop the bronchodilators first (table): short-acting β₂-agonist {{4–6 h}}, short-acting antimuscarinic 12 h, long-acting β₂-agonist 24 h, long-acting antimuscarinic {{36–48 h}}, theophylline 12 h (slow-release 24 h).</li>' +
-      '<li>{{Inhaled steroids}} and anti-leukotrienes do not need to be stopped.</li></ul></div>' +
-      '<p class="note">Every number on the report is compared with a <b>predicted</b> value for someone of the same {{age, sex, height and ethnicity}} (GLI 2012). Weight is written on the report but does not set the predicted value.</p></div>' +
+      '<div class="mini"><h4>Who should not blow yet</h4><p>Forced blow → pressure ↑ in chest, skull and eyes → wait if:</p><ul>' +
+      '<li>{{heart attack}} in the last month</li><li>untreated {{pneumothorax}} or pulmonary embolism</li>' +
+      '<li>{{cerebral aneurysm}}</li><li>recent brain, chest or eye surgery</li><li>late pregnancy</li><li>possible active TB</li></ul></div>' +
+      '<div class="mini"><h4>Before the test</h4><ul><li>No smoking or hard exercise for {{1 hour}}.</li>' +
+      '<li>Diagnostic test → stop {{bronchodilators}} first (short-acting for hours, long-acting for a day or more; see the table).</li>' +
+      '<li>{{Inhaled steroids}} can be continued.</li></ul></div>' +
+      '<p class="note">Predicted values come from {{age, sex, height and ethnicity}} (GLI 2012). Weight does not count.</p></div>' +
       CVS.fig('pft-withhold', 'Bronchodilator withholding times before diagnostic spirometry.', 'pft', 6) + '</div>' },
   { t: 'q', id: 'P3', src: 'PFT p.6',
     q: 'Which patient characteristic does NOT determine the predicted spirometry reference values (GLI2012)?',
@@ -40,16 +36,17 @@ CVS.add({ id: 'P', short: 'PFTs', title: 'Pulmonary Function Tests & Spirometry 
     q: 'Acute myocardial infarction 2 weeks ago, thoracic surgery 3 weeks ago, or cataract surgery 3 weeks ago are relative contraindications to performing spirometry.', a: true,
     ex: 'True. Acute MI within 1 month, cerebral or thoracic surgery within 4 weeks, and eye surgery within 4–8 weeks are all listed as relative contraindications because forced expiration abruptly increases intrathoracic, intracranial, and intraocular pressures.' },
   { t: 'c', id: 'P-C3', title: 'One good blow, three times over: acceptability, repeatability and the best values', src: 'PFT p.7–9, 14',
-    html: '<div class="two"><div class="stack"><ol class="steps"><li><b>Fill up</b>: breathe in fast to {{total lung capacity}}, within 2 s. A slow 4–6 s pause at the top lowers PEF and FEV₁.</li>' +
-      '<li><b>Blast</b>: blow out as hard and as fast as possible, sitting upright (no leaning forward).</li>' +
-      '<li><b>Keep going</b>: keep blowing until nothing more comes out, then breathe in fully again.</li></ol>' +
-      '<div class="tblwrap"><table class="tbl compact"><thead><tr><th>Is this blow acceptable?</th><th>Rule</th></tr></thead><tbody>' +
-      '<tr><td>Good start</td><td>No hesitation: back-extrapolated volume ≤ {{5% of FVC or 0.100 L}}</td></tr>' +
-      '<tr><td>Good end</td><td>One of: a plateau (≤ 0.025 L in the last second), expiratory time ≥ {{15 s}}, or an FVC as big as the best earlier blow</td></tr>' +
-      '<tr><td>No artifacts</td><td>No {{cough in the first second}}, glottic closure, leak or blocked mouthpiece</td></tr>' +
-      '<tr><td>Full first breath</td><td>The breath in after the blow (FIVC) may exceed FVC by no more than 0.100 L or 5%</td></tr></tbody></table></div></div>' +
-      '<div class="stack"><div class="mini art"><h4>How many blows</h4><p>At least {{3}} acceptable blows, at most {{8}}. The set is <b>repeatable</b> when the two biggest FVC values agree within {{0.150 L}}, and so do the two biggest FEV₁ values.</p></div>' +
-      '<div class="mini ven"><h4>Which numbers go on the report</h4><p>The {{largest FEV₁}} and the {{largest FVC}} of the acceptable blows, even when they come from {{different blows}}. Never the average.</p></div>' +
+    html: '<div class="two"><div class="stack"><ol class="steps"><li><b>Fill up</b> fast to {{total lung capacity}} (no long pause: it lowers PEF and FEV₁).</li>' +
+      '<li><b>Blast</b> out as hard and fast as possible.</li>' +
+      '<li><b>Keep going</b> until nothing more comes out, then breathe in fully.</li></ol>' +
+      '<div class="tblwrap"><table class="tbl compact"><thead><tr><th>Acceptable blow</th><th>Check</th></tr></thead><tbody>' +
+      '<tr><td>Good start</td><td>back-extrapolated volume ≤ {{5% of FVC or 0.100 L}}</td></tr>' +
+      '<tr><td>Good end</td><td>plateau (≤ 0.025 L in the last second) or blow ≥ {{15 s}}</td></tr>' +
+      '<tr><td>No artifacts</td><td>no {{cough in the first second}}, leak or glottic closure</td></tr></tbody></table></div></div>' +
+      '<div class="stack"><div class="mini art"><h4>How many blows</h4><ul><li>{{3}} to 8 acceptable blows.</li>' +
+      '<li>Repeatable: top two FVC and top two FEV₁ each within {{0.150 L}}.</li></ul></div>' +
+      '<div class="mini ven"><h4>What goes on the report</h4><ul><li>The {{largest FEV₁}} and the {{largest FVC}}.</li>' +
+      '<li>They may come from {{different blows}}. Never average.</li></ul></div>' +
       CVS.fig('pft-accept', 'Blows that fail acceptability: variable effort, early end, cough, glottic closure, tongue in the mouthpiece, leak.', 'pft', 8) + '</div></div>' },
   { t: 'q', id: 'P5', src: 'PFT p.7–9', core: true,
     q: 'According to the 2019 ATS/ERS spirometry guidelines, which statement regarding acceptability and adult repeatability criteria is correct?',
@@ -61,16 +58,17 @@ CVS.add({ id: 'P', short: 'PFTs', title: 'Pulmonary Function Tests & Spirometry 
     o: ['FEV₁ 4.00 L and FVC 4.43 L', 'FEV₁ 3.93 L and FVC 4.39 L (the first blow)', 'FEV₁ 3.92 L and FVC 4.21 L (the averages)', 'FEV₁ 3.84 L and FVC 3.97 L (the blow with the highest FEV₁/FVC)', 'FEV₁ 4.00 L and FVC 4.04 L'], a: 0,
     ex: 'Report the largest FEV₁ (4.00, trial 2) and the largest FVC (4.43, trial 2); they may come from different blows, and you never average. Repeatability passes: FEV₁ 4.00 vs 3.93 and FVC 4.43 vs 4.39 each differ by under 0.150 L. Trials 3 and 4 have a ratio of 96–97% with a smaller FVC, the sign of a blow that stopped early.' },
   { t: 'c', id: 'P-C4', title: 'Reading a spirometry report in five steps', src: 'PFT p.10–11, lecture quiz p.14–15',
-    html: '<p>Read the report as a checklist. Each step asks one question and uses one number from one column. The lecture cases below walk through it.</p>' +
-      '<div class="tblwrap"><table class="tbl"><thead><tr><th>Step</th><th>Question</th><th>Which number</th><th>Rule from the lecture</th></tr></thead><tbody>' +
-      '<tr><td class="num">1</td><td>Is the airflow <b>obstructed</b>?</td><td>FEV₁/FVC: the {{actual ratio}} in the Pre column</td><td>Below {{70–75}} (below the lower limit of normal) → obstruction</td></tr>' +
-      '<tr><td class="num">2</td><td>Is the lung <b>small</b> (restriction)?</td><td>FVC %(Pre/Pred)</td><td>Below {{80%}} → restriction, to be confirmed by {{TLC}}. If step 1 found obstruction, first correct it: corrected %FVC = %pred FVC + [70 − FEV₁/FVC]. Above 80% → pure obstruction; 80% or less → {{combined}} obstructive and restrictive defect.</td></tr>' +
-      '<tr><td class="num">3</td><td>How <b>severe</b>?</td><td>Obstruction: {{FEV₁ %pred}} · Restriction: {{FVC %pred}}</td><td>Mild ≥ 70 · Moderate {{50–69}} · Severe {{35–49}} · Very severe &lt; 35</td></tr>' +
-      '<tr><td class="num">4</td><td>Does it <b>reverse</b> with a bronchodilator?</td><td>FEV₁ or FVC, Pre against Post</td><td>Rise of ≥ {{12% and ≥ 200 mL}} → bronchodilator response (reversible obstruction). % change = (post − pre) ÷ pre × 100</td></tr>' +
-      '<tr><td class="num">5</td><td>Ratio and FVC normal: are the <b>small airways</b> involved?</td><td>FEF₂₅–₇₅% %(Pre/Pred)</td><td>Below {{65%}} → small airway disease; otherwise normal spirometry</td></tr></tbody></table></div>' +
-      '<p class="trap">The FEV₁/FVC row also has a %(Pre/Pred) column (68 in case 4). That is the ratio as a percent of the <i>predicted ratio</i>. Step 1 uses the ratio itself (53.29 in case 4), not that column.</p>' +
-      '<p class="note">The flowchart adds the ERS/ATS 2021 option: a change of more than 10% of the <i>predicted</i> value in FEV₁ or FVC also counts as a response. The worked cases use the percent-and-millilitre rule in step 4.</p>' +
-      CVS.fig('pft-algo', 'The lecture’s interpretation flowchart.', 'pft', 10) },
+    html: '<div class="cols2"><div class="mini art"><h4>Read it in order</h4><ol class="steps tight">' +
+      '<li><b>Slow?</b> FEV₁/FVC &lt; {{70}} → obstruction</li>' +
+      '<li><b>Small?</b> FVC &lt; {{80%}} → restriction → confirm with {{TLC}}</li>' +
+      '<li><b>How bad?</b> obstruction → {{FEV₁ %pred}} · restriction → FVC %pred</li>' +
+      '<li><b>Reversible?</b> FEV₁ ↑ ≥ {{12%}} <i>and</i> ≥ {{200 mL}}</li>' +
+      '<li><b>All normal?</b> FEF₂₅–₇₅ &lt; {{65%}} → small airways</li></ol></div>' +
+      '<div class="mini ven"><h4>Two traps</h4><ul>' +
+      '<li>Step 1 uses the {{actual ratio}} (e.g. 53), not its %Pred column (e.g. 68).</li>' +
+      '<li>Obstruction + low FVC → trapped air can fake a small lung → corrected %FVC = %FVC + (70 − ratio) → still &lt; 80 → {{mixed}} defect.</li></ul></div></div>' +
+      '<div class="flowx" data-flow="pft"></div>' +
+      '<details class="figmore"><summary>The lecture’s own flowchart (PFT slide 10)</summary>' + CVS.fig('pft-algo', 'The lecture’s interpretation flowchart.', 'pft', 10) + '</details>' },
   { t: 'q', id: 'P7', src: 'PFT lecture quiz 2', core: true, wide: true, keep: true,
     q: 'Thai male, 29 years, height 162 cm, weight 80 kg. Interpret this spirometry report.',
     fig: CVS.fig('pft-case2', 'PFT lecture quiz, case 2.', 'pft', 14),
@@ -123,12 +121,13 @@ CVS.add({ id: 'P', short: 'PFTs', title: 'Pulmonary Function Tests & Spirometry 
     ex: 'Ratio 76% (not below 75): no obstruction, so the low FEV₁ just follows the small lung. FVC 64% predicted: restriction (moderate), to be confirmed by TLC.' },
   { t: 'c', id: 'P-C5', title: 'Flow-volume loops: obstructive, restrictive, and central airway obstruction', src: 'PFT p.11–13',
     html: '<div class="stack">' + CVS.fig('pft-loops', 'Flow-volume loops in obstructive disease, bronchodilator responsiveness, restrictive subtypes, and the three patterns of central airway obstruction.', 'pft', 12) +
-      '<div class="tblwrap"><table class="tbl"><thead><tr><th>Condition</th><th>Expiratory limb (top)</th><th>Inspiratory limb (bottom)</th><th>Key mechanism / clinical clue</th></tr></thead><tbody>' +
-      '<tr><td><b>Obstructive disease</b></td><td>Reduced PEF with {{scooped-out (concave)}} downslope</td><td>Normal (shifted left if hyperinflated)</td><td>Dynamic compression of small intrathoracic airways; improves post-BD if reversible</td></tr>' +
-      '<tr><td><b>Restrictive disease</b></td><td>Narrow volume width; {{steep witch-hat}} slope in parenchymal fibrosis</td><td>Narrowed in volume</td><td><b>(a) Parenchymal</b>: high recoil gives steep slope; <b>(b) Chest wall</b>: parallel slope; <b>(c) Neuromuscular</b>: {{PEF not sharp}}</td></tr>' +
-      '<tr><td><b>Variable extrathoracic obstruction</b></td><td>Normal</td><td>{{Flat inspiratory curve}}</td><td>During inspiration, negative airway pressure (&minus;) below atmospheric pressure (+) pulls extrathoracic trachea inward &rarr; {{inspiratory stridor}}</td></tr>' +
-      '<tr><td><b>Variable intrathoracic obstruction</b></td><td>{{Flat expiratory curve}}</td><td>Normal</td><td>During expiration, high positive pleural pressure (+) exceeds airway pressure (&minus;) and compresses intrathoracic airway &rarr; {{expiratory wheezes}}</td></tr>' +
-      '<tr><td><b>Fixed upper airway obstruction</b></td><td>Flattened</td><td>Flattened ({{box-like loop}})</td><td>Rigid stenosis at any level resists diameter change during both inspiration and expiration</td></tr></tbody></table></div></div>' },
+      '<div class="tblwrap"><table class="tbl compact"><thead><tr><th>Pattern</th><th>Breath out (top)</th><th>Breath in (bottom)</th><th>Why</th></tr></thead><tbody>' +
+      '<tr><td><b>Obstructive</b></td><td>{{scooped-out}}</td><td>normal</td><td>small airways squeezed when blowing</td></tr>' +
+      '<tr><td><b>Restrictive</b></td><td>narrow; {{witch’s hat}} in fibrosis</td><td>narrow</td><td>small lung; stiff lung → steep slope</td></tr>' +
+      '<tr><td><b>Variable extrathoracic</b> (vocal cord palsy)</td><td>normal</td><td>{{flat}}</td><td>breath in → airway pressure below air → neck airway sucked in → {{stridor}}</td></tr>' +
+      '<tr><td><b>Variable intrathoracic</b></td><td>{{flat}}</td><td>normal</td><td>breath out → pleural pressure squeezes the airway</td></tr>' +
+      '<tr><td><b>Fixed</b> (stenosis, old TB scar)</td><td>flattened</td><td>flattened</td><td>rigid narrowing → {{box-shaped}} loop</td></tr></tbody></table></div>' +
+      '<p class="note">Combined defect = small loop + scooped breath-out limb. A bronchodilator response = the loop grows back toward normal.</p></div>' },
   { t: 'q', id: 'P18', src: 'PFT p.12–13', core: true,
     q: 'A patient with vocal cord paralysis presents with inspiratory stridor. Which flow-volume loop pattern is expected, and what transmural pressure mechanism explains it?',
     o: ['Flat inspiratory curve with a normal expiratory curve — negative intraluminal airway pressure during inspiration pulls the compliant extrathoracic airway inward against higher atmospheric pressure', 'Flat expiratory curve with a normal inspiratory curve — positive pleural pressure during forced expiration compresses the extrathoracic trachea', 'Flattening of both inspiratory and expiratory curves — vocal cord paralysis acts as a rigid intrathoracic ring', 'Scooped-out concave expiratory curve with normal PEF — small airway dynamic compression', 'Narrow "witch\'s hat" loop shifted to the right — increased lung elastic recoil'], a: 0,

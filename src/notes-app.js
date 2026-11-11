@@ -85,7 +85,7 @@
   function thxHtml(it) {
     var tx = window.THAI_EXPLAIN && window.THAI_EXPLAIN[it.id];
     if (!tx || !tx.length) return '';
-    return '<details class="thx" open><summary><span class="thx-h">Explanation</span><span class="thx-s">ภาษาไทย &#183; ' + tx.length + ' ย่อหน้า</span></summary><div class="thx-body">' + tx.map(function (p) { return '<p>' + p + '</p>'; }).join('') + '</div></details>';
+    return '<details class="thx" open><summary><span class="thx-h">Explanation</span><span class="thx-s">ภาษาไทย &#183; ' + tx.length + ' ข้อ</span></summary><ul class="thx-body">' + tx.map(function (p) { return '<li>' + p + '</li>'; }).join('') + '</ul></details>';
   }
   function renderC(it) {
     var kp = THAI_CONCEPT[it.id];
@@ -283,8 +283,9 @@
   });
   document.addEventListener('keydown', function (e) {
     var tag = e.target && e.target.tagName;
-    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || e.metaKey || e.ctrlKey || e.altKey) return;
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || e.metaKey || e.ctrlKey || e.altKey || e.defaultPrevented) return;
     var k = e.key;
+    if ((k === ' ' || k === 'Enter') && e.target.closest && e.target.closest('.flowx')) return;  /* buttons and boxes of an interactive flowchart */
     if (!zoom.hidden) { if (k === 'Escape' || k === ' ' || k === 'Enter') { e.preventDefault(); closeZoom(); } return; }
     if (view !== 'present') { if (k === 'b' || k === 'B') setView('present'); return; }
     if (k === 'ArrowRight' || k === 'PageDown' || k === ' ' || k === 'Enter') { go(1); e.preventDefault(); return; }
@@ -294,7 +295,7 @@
   var tx = null;
   document.addEventListener('touchstart', function (e) {
     if (view !== 'present' || e.touches.length !== 1) { tx = null; return; }
-    var t = e.target; if (t && t.closest && t.closest('.tblwrap, .tabs')) { tx = null; return; }
+    var t = e.target; if (t && t.closest && t.closest('.tblwrap, .tabs, .fx-scroll')) { tx = null; return; }
     tx = [e.touches[0].clientX, e.touches[0].clientY];
   }, { passive: true });
   document.addEventListener('touchend', function (e) {

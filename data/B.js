@@ -3,15 +3,17 @@ CVS.add({ id: 'B', short: 'Lung & bronchi', title: 'Lungs, Pleural Recesses, Bro
   blurb: 'Pleural reflections and 6-8-10 / 8-10-12 surface markings, mediastinal impressions on right vs left lungs, eparterial vs hyparterial bronchi, bronchial vessels and azygos system, and thoracic lymphatics and nerves.',
   items: [
   { t: 'c', id: 'B-C1', title: 'Pleurae, surface markings (6-8-10 / 8-10-12) and pleural tap', src: 'Lung & bronchi p.2–10',
-    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl"><thead><tr><th>Reference line</th><th>Inferior border of lung</th><th>Inferior border of pleura</th></tr></thead><tbody>' +
-      '<tr><td><b>Midclavicular line (MCL)</b></td><td>Rib {{6}}</td><td>Rib {{8}}</td></tr>' +
-      '<tr><td><b>Midaxillary line (MAL)</b></td><td>Rib 8</td><td>Rib {{10}}</td></tr>' +
-      '<tr><td><b>Paravertebral line</b></td><td>Rib 10</td><td>Rib {{12}}</td></tr></tbody></table></div>' +
-      '<ul class="pts">' +
-      '<li><b>Layers &amp; dome</b>: parietal pleura (separated from the chest wall by {{extrapleural fascia}}) and visceral pleura; the cervical dome ({{cupola}}) rises {{1 inch}} above the medial third of the clavicle.</li>' +
-      '<li><b>Recesses &amp; fluid</b>: {{costomediastinal}} and {{costodiaphragmatic}} recesses; excess fluid causes hydrothorax, haemothorax, pyothorax (empyema), or {{chylothorax}} (lymph).</li>' +
-      '<li><b>Pleural tap (thoracentesis)</b>: needle enters the {{8th, 9th or 10th}} intercostal space at the midaxillary line above the superior rib border (vs 7th/8th ICS posterior axillary/mid-scapular in Thoracic wall p.23).</li></ul></div>' +
-      '<div class="stack">' + CVS.fig('lung-recess', 'Inferior surface markings of lung and parietal pleura across three vertical lines.', 'lung', 6) + CVS.fig('lung-tap', 'Needle path into the pleural recess above the upper costal margin.', 'lung', 10) + '</div></div>' },
+    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl compact"><thead><tr><th>Line</th><th>Lung ends at rib</th><th>Pleura ends at rib</th></tr></thead><tbody>' +
+      '<tr><td>Midclavicular</td><td>{{6}}</td><td>{{8}}</td></tr>' +
+      '<tr><td>Midaxillary</td><td>8</td><td>{{10}}</td></tr>' +
+      '<tr><td>Paravertebral</td><td>10</td><td>{{12}}</td></tr></tbody></table></div>' +
+      '<ul class="pts"><li>Pleura goes 2 ribs lower than the lung → the gap is a recess.</li>' +
+      '<li><b>Two layers</b>: parietal lines the wall (its rib part = {{costal pleura}}); {{visceral}} covers the lung and dips into the fissures.</li>' +
+      '<li><b>Recesses</b>: {{costodiaphragmatic}} (lowest → fluid collects here first) and {{costomediastinal}}.</li>' +
+      '<li>Dome of pleura ({{cupola}}) rises above the clavicle into the neck.</li>' +
+      '<li>Lymph in the pleural space = {{chylothorax}}.</li></ul></div>' +
+      '<div class="stack">' + CVS.fig('lung-recess', 'Inferior surface markings of lung and parietal pleura across three vertical lines.', 'lung', 6) + CVS.fig('lung-tap', 'Needle path into the pleural recess above the upper costal margin.', 'lung', 10) + '</div></div>' +
+      '<p class="note">Broken rib → tears the pleura on the ribs → the costal part of the outer layer (AC79–AC81).</p>' },
   { t: 'q', id: 'B1', src: 'AC79 · AC81', core: true, keep: true,
     q: 'A patient has been sent to the ER due to a rib fracture with pneumothorax. Which part of the pleura is most likely to be damaged?',
     o: ['Visceral pleura', 'Costal pleura', 'Diaphragmatic pleura', 'Mediastinal pleura', 'Cervical pleura'], a: 1,
@@ -35,10 +37,11 @@ CVS.add({ id: 'B', short: 'Lung & bronchi', title: 'Lungs, Pleural Recesses, Bro
     ex: 'B is the membrane lining the inner chest wall over the intercostal muscles: the parietal (costal) pleura.' },
   { t: 'c', id: 'B-C2', title: 'Lung surfaces, fissures and mediastinal impressions', src: 'Lung & bronchi p.11–20',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Lobes &amp; fissures</b>: right lung has 3 lobes divided by oblique and {{horizontal}} fissures; left lung has 2 lobes divided by an oblique fissure, with an anterior {{cardiac notch}} and {{lingula}} on the superior lobe.</li>' +
-      '<li><b>Root (hilum) &amp; sleeve</b>: transmits bronchi, pulmonary &amp; bronchial vessels, lymphatics, and plexuses; inferiorly the parietal-to-visceral reflection hangs down as the {{pulmonary ligament}}.</li>' +
-      '<li><b>Right mediastinal impressions</b>: {{arch of azygos vein}} arching over the root, {{superior vena cava}} (SVC), {{brachiocephalic vein}}, and {{esophagus}} behind the hilum.</li>' +
-      '<li><b>Left mediastinal impressions</b>: {{aortic arch}} above the root, {{descending aorta}} behind, {{subclavian artery}} sulcus heading to the apex, and a deep cardiac impression.</li></ul></div>' +
+      '<li><b>Right lung</b>: 3 lobes; oblique + {{horizontal}} fissure.</li>' +
+      '<li><b>Left lung</b>: 2 lobes; upper lobe has the {{cardiac notch}} with the {{lingula}} below it.</li>' +
+      '<li><b>Root</b>: pleura hangs down below it as the {{pulmonary ligament}}.</li>' +
+      '<li><b>Grooves on the right</b> (veins): {{azygos}} arch over the root, {{SVC}}, esophagus.</li>' +
+      '<li><b>Grooves on the left</b> (arteries): {{aortic arch}} over the root, {{descending aorta}} behind it, {{subclavian artery}} near the apex, deep cardiac hollow (left ventricle).</li></ul></div>' +
       '<div class="stack">' + CVS.fig('lung-impressions', 'Mediastinal surface of the right lung showing venous and esophageal grooves.', 'lung', 18) + CVS.fig('lung-impressions-lt', 'Mediastinal surface of the left lung showing arterial grooves and tongue-like projection.', 'lung', 20) + '</div></div>' },
   { t: 'q', id: 'B5', src: 'AC79', core: true, keep: true,
     q: 'Where is the cardiac notch located in the lungs?',
@@ -72,11 +75,13 @@ CVS.add({ id: 'B', short: 'Lung & bronchi', title: 'Lungs, Pleural Recesses, Bro
     flag: 'Options as recalled: “expression” means impression; the last two options are garbled in the recall.' },
   { t: 'c', id: 'B-C3', title: 'Tracheobronchial tree, sternal angle and hilar relations', src: 'Lung & bronchi p.21–30',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Conducting vs respiratory zones</b>: conducting part runs from trachea → main → lobar → segmental bronchi → {{terminal bronchioles}}; respiratory part begins at {{respiratory bronchioles}} → alveolar ducts → alveolar sacs → alveoli.</li>' +
-      '<li><b>Sternal angle (of Louis, {{DT4}})</b>: marks the manubriosternal joint, 2nd rib, beginning/end of aortic arch, inferior border of superior mediastinum, and tracheal bifurcation ({{carina}}; trachea length given as {{12 cm}} here vs 10 cm in URT p.41).</li>' +
-      '<li><b>Main bronchi &amp; segments</b>: right main bronchus is {{wider, shorter, and more vertical}} (foreign body predisposition) and supplies {{10 segments}} (3+2+5); left lung has {{8 segments}} (4+4).</li>' +
-      '<li><b>Hilar relationship to pulmonary artery</b>: the right superior lobar bronchus arises above the right pulmonary artery and is called the {{eparterial bronchus}}; all other lobar bronchi pass below the pulmonary artery ({{hyparterial bronchi}}).</li></ul></div>' +
-      CVS.fig('lung-hilum', 'Comparison of right and left hilar structures and lobar bronchial positions.', 'lung', 28) + '</div>' + '<p class="note"><b>From the past papers</b> · The left main bronchus is longer and more horizontal. In the lung root the pulmonary veins lie lowest and most anterior. The trachea starts at C6, at the cricoid (Lung p.23; AC79 and AC81 spot).</p>' },
+      '<li><b>Tree</b>: trachea (starts at {{C6}}) → main → lobar → segmental bronchi → bronchioles.</li>' +
+      '<li><b>Sternal angle (T4/T5)</b>: trachea divides here at the {{carina}}.</li>' +
+      '<li><b>Right main bronchus</b> = {{wider, shorter, more vertical}} → inhaled peanuts go right.</li>' +
+      '<li><b>Segments</b>: right {{10}}, left 8.</li>' +
+      '<li><b>Right upper lobe bronchus</b> runs above the pulmonary artery → {{eparterial bronchus}}. All other lobar bronchi run below it.</li>' +
+      '<li><b>Root, front → back</b>: pulmonary {{veins}} lowest and most anterior; the left main bronchus is long and {{horizontal}}.</li></ul></div>' +
+      CVS.fig('lung-hilum', 'Comparison of right and left hilar structures and lobar bronchial positions.', 'lung', 28) + '</div>' },
   { t: 'q', id: 'B11', src: 'AC80', core: true, keep: true,
     q: 'A mass is found in eparterial bronchus, which structure is affected?',
     o: ['Right superior bronchus', 'Right middle bronchus', 'Right inferior bronchus', 'Left superior bronchus', 'Left inferior bronchus'], a: 0,
@@ -118,13 +123,11 @@ CVS.add({ id: 'B', short: 'Lung & bronchi', title: 'Lungs, Pleural Recesses, Bro
     ex: 'The trachea begins at the lower border of the cricoid cartilage, at C6.',
     flag: 'Recall wording kept. The trachea starts at C6 and divides at the carina at about the sternal angle (T4–T5).' },
   { t: 'c', id: 'B-C4', title: 'Bronchial vessels and the azygos venous system', src: 'Lung & bronchi p.31–37',
-    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl"><thead><tr><th>Vessel</th><th>Right side</th><th>Left side</th></tr></thead><tbody>' +
-      '<tr><td><b>Bronchial arteries</b> (supply tree, visceral pleura, pulmonary a.)</td><td><b>1 artery</b> from {{3rd right posterior intercostal}} artery</td><td><b>2 arteries</b> directly from {{thoracic aorta}} (at {{T5 or T6}})</td></tr>' +
-      '<tr><td><b>Bronchial veins</b></td><td>Drain into {{azygos vein}}</td><td>Drain into {{accessory hemiazygos}} vein</td></tr></tbody></table></div>' +
-      '<ul class="pts">' +
-      '<li><b>Right-sided collector</b>: receives right posterior intercostal, right subcostal, and {{right ascending lumbar}} veins (plus both left-sided tributaries) and arches over the right lung root to empty into the {{SVC}}.</li>' +
-      '<li><b>{{Hemiazygos vein}}</b>: drains left ascending lumbar, left subcostal, and {{left 9th–11th}} posterior intercostal veins, then crosses to the right side.</li>' +
-      '<li><b>Upper left collector</b>: drains {{left 5th–8th}} posterior intercostal veins (and left bronchial veins), then crosses to the right side.</li></ul></div>' +
+    html: '<div class="two"><div class="stack"><ul class="pts">' +
+      '<li><b>Bronchial arteries</b> feed the lung tissue itself: left ← {{thoracic aorta}}; right ← a {{posterior intercostal}} artery.</li>' +
+      '<li><b>Bronchial veins</b>: right → {{azygos}} vein; left → {{accessory hemiazygos}} vein.</li>' +
+      '<li><b>Back of the chest wall</b>: left-side veins cross the midline → join the right-side vein → it arches over the right lung root → {{SVC}}.</li>' +
+      '<li>Mass just above the right root → presses that {{venous arch}} first.</li></ul></div>' +
       CVS.fig('lung-azygos', 'Drainage of right and left bronchial veins into the posterior thoracic venous system.', 'lung', 34) + '</div>' },
   { t: 'q', id: 'B19', src: 'AC79 · AC81', core: true, keep: true,
     q: 'A patient diagnosed with a tumor immediately above the right lung root. Which structure is most likely to be affected?',
@@ -144,12 +147,12 @@ CVS.add({ id: 'B', short: 'Lung & bronchi', title: 'Lungs, Pleural Recesses, Bro
     flag: 'Key from the AC81 spot short answer key.' },
   { t: 'c', id: 'B-C5', title: 'Thoracic lymphatics, pulmonary plexuses and splanchnic nerves', src: 'Lung & bronchi p.38–48',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Thoracic lymph nodes</b>: <b>parietal</b> ({{parasternal}}, intercostal, phrenic) vs <b>visceral</b> (anterior mediastinal/brachiocephalic, posterior mediastinal, {{tracheobronchial}}).</li>' +
-      '<li><b>Lymphatic ducts</b>: the first parietal group plus anterior mediastinal and hilar/carinal nodes unite into bilateral {{bronchomediastinal}} trunks, which join the {{right lymphatic duct}} on the right and the {{thoracic duct}} (arising from the {{cisterna chyli}} at L2) on the left.</li>' +
-      '<li><b>{{Phrenic nerve}} (C3–C5)</b>: motor and sensory to the diaphragm, plus sensory to pericardium and mediastinal pleura.</li>' +
-      '<li><b>Pulmonary plexuses</b>: parasympathetic ({{vagus nerve}}) produces {{bronchoconstriction}} and vasodilation; sympathetic produces {{bronchodilation}} and vasoconstriction.</li>' +
-      '<li><b>Thoracic splanchnic nerves</b>: {{greater splanchnic}} (T5–T9) and {{lesser splanchnic}} (T10–T11) supply abdominal viscera below the diaphragm.</li></ul></div>' +
-      CVS.fig('lung-lymph', 'Major lymphatic trunks and main collecting ducts at the venous angles.', 'lung', 40) + '</div>' + '<p class="note"><b>From the past papers</b> · Lung lymph drains to the bronchopulmonary (hilar) nodes, then the nodes around the tracheal bifurcation (AC80). The stellate (cervicothoracic) ganglion sits at the top of the sympathetic trunk, on the neck of the first rib (AC79 spot).</p>' },
+      '<li><b>Lung lymph</b>: lung → {{bronchopulmonary}} (hilar) nodes → tracheobronchial nodes → bronchomediastinal trunk.</li>' +
+      '<li><b>Ducts</b><ul><li>{{thoracic duct}}: from the cisterna chyli; lies between aorta and azygos; injury → chyle in the pleura.</li>' +
+      '<li>{{right lymphatic duct}} → right {{venous angle}} (subclavian + internal jugular).</li></ul></li>' +
+      '<li><b>Autonomic to the lung</b><ul><li>Vagus → {{bronchoconstriction}}.</li><li>Sympathetic → {{bronchodilation}}.</li></ul></li>' +
+      '<li><b>Sympathetic trunk</b>: {{stellate ganglion}} at the top, on the neck of the 1st rib; greater and lesser splanchnic nerves → abdominal viscera.</li></ul></div>' +
+      CVS.fig('lung-lymph', 'Major lymphatic trunks and main collecting ducts at the venous angles.', 'lung', 40) + '</div>' },
   { t: 'q', id: 'B22', src: 'AC80 · AC81', core: true, keep: true,
     q: 'A patient presents with chylothorax. Which structure is most likely to be affected?',
     o: ['Inferior vena cava', 'Thoracic duct', 'Azygos vein', 'Hemiazygos vein', 'Accessory hemiazygos vein'], a: 1,

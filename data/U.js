@@ -4,12 +4,13 @@ CVS.add({ id: 'U', short: 'Upper tract', title: 'Upper Respiratory Tract: Nose, 
   items: [
   { t: 'c', id: 'U-C1', title: 'Nasal cavity boundaries, septum and lateral conchae', src: 'URT p.4–10',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Openings</b>: anterior nares (nostrils) lead into the {{vestibule}} lined with coarse hairs ({{vibrissae}}); posterior nares ({{choanae}}) open into the nasopharynx.</li>' +
-      '<li><b>Roof</b>: nasal, frontal, ethmoid and sphenoid bones; lined by {{olfactory}} epithelium. Fracture of the {{cribriform plate}} of the ethmoid causes {{anosmia}} and {{CSF rhinorrhea}}.</li>' +
-      '<li><b>Floor</b>: hard palate (palatine process of maxilla and horizontal plate of palatine bone).</li>' +
-      '<li><b>Medial wall (septum)</b>: {{perpendicular plate}} of ethmoid superoposteriorly, {{vomer}} inferoposteriorly, and {{septal cartilage}} anteriorly.</li>' +
-      '<li><b>Lateral wall</b>: superior and middle conchae (parts of ethmoid) plus the independent {{inferior concha}} bone.</li></ul></div>' +
-      CVS.fig('urt-septum', 'Bony and cartilaginous framework of the medial wall and coronal section.', 'urt', 8) + '</div>' + '<p class="note"><b>From the past papers</b> · Each meatus lies under its concha. The inferior meatus receives only the nasolacrimal duct (URT p.13), so pus there comes from the lacrimal system, not a sinus (AC79 spot, AC80).</p>' },
+      '<li><b>Air path</b>: nostrils → {{vestibule}} (hairs) → nasal cavity → {{choanae}} → nasopharynx.</li>' +
+      '<li><b>Septum</b> = {{perpendicular plate}} of ethmoid (back, up) + {{vomer}} (back, down) + {{septal cartilage}} (front).</li>' +
+      '<li><b>Lateral wall</b>: superior and middle conchae belong to the ethmoid; the {{inferior concha}} is a bone of its own.</li>' +
+      '<li>Each meatus lies <b>under</b> the concha of the same name.</li>' +
+      '<li><b>Roof</b> = {{cribriform plate}} → fracture → {{anosmia}} + {{CSF rhinorrhea}}.</li></ul></div>' +
+      CVS.fig('urt-septum', 'Bony and cartilaginous framework of the medial wall and coronal section.', 'urt', 8) + '</div>' +
+      '<p class="note"><b>From the past papers</b> · Inferior meatus → only the nasolacrimal duct opens there → pus there comes from the tear duct, not a sinus (AC79 spot, AC80).</p>' },
   { t: 'q', id: 'U1', src: 'AC79 spot', core: true, keep: true,
     q: 'Identify this structure A.',
     fig: CVS.fig('ac79s-st2', 'AC79 spot test, station 2.', 'ac79s', 4),
@@ -31,14 +32,14 @@ CVS.add({ id: 'U', short: 'Upper tract', title: 'Upper Respiratory Tract: Nose, 
     ex: 'The probe runs down from the lacrimal sac to the inferior opening under the inferior concha: the nasolacrimal duct.',
     flag: 'Options as recalled (“viteline duct” is the vitelline duct of the embryo, not a nasal structure).' },
   { t: 'c', id: 'U-C2', title: 'Paranasal sinus drainage and Kiesselbach epistaxis plexus', src: 'URT p.11–17',
-    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl"><thead><tr><th>Site in nasal cavity</th><th>Structure(s) opening here</th></tr></thead><tbody>' +
-      '<tr><td><b>{{Sphenoethmoidal recess}}</b></td><td>{{Sphenoidal sinus}}</td></tr>' +
-      '<tr><td><b>Superior meatus</b></td><td>{{Posterior ethmoidal air cells}}</td></tr>' +
-      '<tr><td><b>Middle meatus — {{ethmoidal bulla}}</b></td><td>{{Middle ethmoidal}} air cells</td></tr>' +
-      '<tr><td><b>Middle meatus — {{hiatus semilunaris}}</b></td><td>{{Frontal sinus}}, {{anterior ethmoidal}} air cells, {{maxillary sinus}}</td></tr>' +
-      '<tr><td><b>Inferior meatus</b></td><td>{{Nasolacrimal duct}}</td></tr></tbody></table></div>' +
-      '<ul class="pts"><li><b>{{Kiesselbach area}} (Little area)</b> on the anteroinferior septum is the most common site of epistaxis, fed by 5 arteries: anterior &amp; posterior ethmoidal (from ophthalmic), sphenopalatine &amp; greater palatine (from internal maxillary), and septal branch of {{superior labial}} (from facial).</li>' +
-      '<li><b>Clinical</b>: pituitary surgery passes through the sphenoid (transsphenoidal hypophysectomy); HSV-1 or VZV can spread to the brain via olfactory or trigeminal nerves.</li></ul></div>' +
+    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl compact"><thead><tr><th>Opening in</th><th>What drains there</th></tr></thead><tbody>' +
+      '<tr><td>Sphenoethmoidal recess</td><td>{{sphenoid sinus}}</td></tr>' +
+      '<tr><td>Superior meatus</td><td>{{posterior ethmoidal}} cells</td></tr>' +
+      '<tr><td>Middle meatus: {{ethmoidal bulla}}</td><td>middle ethmoidal cells</td></tr>' +
+      '<tr><td>Middle meatus: {{hiatus semilunaris}}</td><td>{{frontal sinus}}, {{anterior ethmoidal}} cells, {{maxillary sinus}}</td></tr>' +
+      '<tr><td>Inferior meatus</td><td>{{nasolacrimal duct}} only</td></tr></tbody></table></div>' +
+      '<ul class="pts"><li><b>{{Kiesselbach area}}</b> (front of the septum): branches of several arteries meet → commonest site of nosebleed.</li>' +
+      '<li>Pituitary surgery reaches the sella through the sphenoid (transsphenoidal route).</li></ul></div>' +
       '<div class="stack">' + CVS.fig('urt-meatus', 'Openings of paranasal sinuses and tear drainage on the lateral wall.', 'urt', 13) + CVS.fig('urt-epistaxis', 'Arterial anastomoses on the anterior septum in nosebleed.', 'urt', 16) + '</div></div>' },
   { t: 'q', id: 'U5', src: 'AC81', core: true, keep: true,
     q: 'The patient has been diagnosed with pus in the sphenoethmoidal recess. Which paranasal sinus is most likely to be infected?',
@@ -67,12 +68,14 @@ CVS.add({ id: 'U', short: 'Upper tract', title: 'Upper Respiratory Tract: Nose, 
     flag: 'Key from the AC81 spot short answer key. The maxillary ostium lies further back along the same hiatus.' },
   { t: 'c', id: 'U-C3', title: 'Pharynx subdivisions, Waldeyer ring and pharyngeal recesses', src: 'URT p.18–24',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Nasopharynx</b> (air only): roof/posterior wall holds the {{pharyngeal tonsil}} (adenoid); lateral wall features the {{auditory tube}} (Eustachian) opening, {{torus tubarius}} (cartilage elevation with tubal tonsil), salpingopharyngeal fold, and {{fossa of Rosenmuller}} (pharyngeal recess).</li>' +
-      '<li><b>Oropharynx</b> (air &amp; food): bounded anteriorly by the oropharyngeal isthmus and {{lingual tonsil}} at the tongue root; lateral wall holds the {{palatine tonsil}} between the palatoglossal and palatopharyngeal arches.</li>' +
-      '<li><b>Laryngopharynx</b> (C4–C6): lies behind the larynx; on either side of the laryngeal inlet is the {{piriform recess}} (fossa), a classic trap for swallowed {{foreign bodies}} (along with tongue base and tonsillar crypts).</li>' +
-      '<li><b>Muscles &amp; lymphoid ring</b>: outer circular constrictors and inner longitudinal muscles supplied by {{CN IX and CN X}}; lymphoid tissue forms {{Waldeyer ring}}.</li></ul>' +
-      '<p class="trap"><b>Clinical</b>: Nasopharyngeal carcinoma (NPC) most commonly arises in the pharyngeal recess and is strongly associated with {{Epstein-Barr virus}} (EBV) infection.</p></div>' +
-      CVS.fig('urt-pharynx', 'Landmarks of the nasopharynx, oropharynx, and laryngopharynx.', 'urt', 19) + '</div>' + '<p class="note"><b>From the past papers</b> · The salpingopharyngeal fold covers the salpingopharyngeus muscle, which arises from the cartilage of the tube itself (AC81 spot).</p>' },
+      '<li><b>Nasopharynx</b> (air only)<ul><li>Roof: {{pharyngeal tonsil}} (adenoid).</li>' +
+      '<li>Side wall, front → back: {{auditory tube}} opening → {{torus tubarius}} → {{pharyngeal recess}} (fossa of Rosenmüller).</li></ul></li>' +
+      '<li><b>Oropharynx</b> (air + food)<ul><li>{{palatine tonsil}} between the two arches; {{lingual tonsil}} on the tongue root.</li></ul></li>' +
+      '<li><b>Laryngopharynx</b><ul><li>{{piriform recess}} beside the laryngeal inlet → swallowed fish bones lodge there.</li></ul></li>' +
+      '<li>The tonsils together form a ring: {{Waldeyer ring}}.</li></ul>' +
+      '<p class="trap"><b>Clinical</b>: the recess behind the torus → commonest site of nasopharyngeal carcinoma → linked to {{EBV}}.</p></div>' +
+      CVS.fig('urt-pharynx', 'Landmarks of the nasopharynx, oropharynx, and laryngopharynx.', 'urt', 19) + '</div>' +
+      '<p class="note"><b>From the past papers</b> · The fold running down from the torus covers salpingopharyngeus, which starts on the tube’s cartilage (AC81 spot).</p>' },
   { t: 'q', id: 'U10', src: 'AC79', core: true, keep: true,
     q: 'A patient has a small mass in the oropharynx. Which structure is <b>LEAST</b> likely the cause of this mass?',
     o: ['Uvula', 'Epiglottis', 'Palatine tonsil', 'Lingual tonsil', 'Pharyngeal tonsil'], a: 4,
@@ -120,11 +123,15 @@ CVS.add({ id: 'U', short: 'Upper tract', title: 'Upper Respiratory Tract: Nose, 
     ex: 'The fold running down from the torus tubarius covers the salpingopharyngeus (salpinx = tube), which arises from the cartilage of the auditory tube.' },
   { t: 'c', id: 'U-C4', title: 'Laryngeal cartilages, fibro-elastic membranes and cavity', src: 'URT p.25–35',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>9 cartilages (C3–C6)</b>: 3 unpaired ({{thyroid cartilage}}, {{cricoid cartilage}}, {{epiglottis}}) and 3 paired ({{arytenoid}}, corniculate, cuneiform). The first two unpaired plus most of the ladle-shaped pair are {{hyaline cartilage}}; the rest are {{elastic cartilage}}.</li>' +
-      '<li><b>Membranes</b>: the {{quadrangular membrane}} runs from the lateral border of the epiglottic leaf to the ladle-shaped cartilage, its lower free edge forming the {{vestibular ligament}} (false cord). The {{conus elasticus}} forms the {{median cricothyroid ligament}} anteriorly and the {{vocal ligament}} (true cord) superiorly.</li>' +
-      '<li><b>Interior</b>: laryngeal ventricle separates false folds (rima vestibuli) from true folds (rima glottidis). True cords are lined by {{stratified squamous}} epithelium, and the glottic region has no lymphatic drainage.</li>' +
-      '<li><b>Emergency airway</b>: emergency cricothyroidotomy pierces the cricothyroid membrane into the subglottis.</li></ul></div>' +
-      '<div class="stack">' + CVS.fig('urt-larynx-cart', 'Laryngeal skeleton, fibro-elastic membranes, and ligaments.', 'urt', 28) + CVS.fig('urt-larynx-cor', 'Coronal section showing laryngeal vestibule, ventricle, and cords.', 'urt', 31) + '</div></div>' + '<p class="note"><b>From the past papers</b> · In the opened larynx the vestibular (false) fold lies above the ventricle and the vocal (true) fold below it; the trachea continues below the cricoid ring (AC79 and AC81 spot).</p>' },
+      '<li><b>Unpaired</b>: {{thyroid}} (the shield) · {{cricoid}} (the only complete ring) · {{epiglottis}}.</li>' +
+      '<li><b>Paired</b>: {{arytenoid}} (the cords attach here), corniculate, cuneiform.</li>' +
+      '<li><b>Inside, top → bottom</b>: vestibular (false) fold → ventricle → vocal (true) fold → subglottis.</li>' +
+      '<li><b>Membranes</b><ul><li>{{quadrangular membrane}} → its lower edge = vestibular ligament.</li>' +
+      '<li>{{conus elasticus}} → its upper edge = {{vocal ligament}}.</li></ul></li>' +
+      '<li>True cords are lined by {{stratified squamous}} epithelium.</li>' +
+      '<li><b>Emergency airway</b>: cut the membrane just above the complete ring (cricothyroidotomy).</li></ul></div>' +
+      '<div class="stack">' + CVS.fig('urt-larynx-cart', 'Laryngeal skeleton, fibro-elastic membranes, and ligaments.', 'urt', 28) + CVS.fig('urt-larynx-cor', 'Coronal section showing laryngeal vestibule, ventricle, and cords.', 'urt', 31) + '</div></div>' +
+      '<p class="note"><b>From the past papers</b> · Opened larynx: false fold above the ventricle, true fold below it, trachea below the complete ring (AC79 and AC81 spot).</p>' },
   { t: 'q', id: 'U19', src: 'AC79 spot', keep: true,
     q: 'Identify this structure A.',
     fig: CVS.fig('ac79s-st4', 'AC79 spot test, station 4.', 'ac79s', 6),
@@ -152,13 +159,15 @@ CVS.add({ id: 'U', short: 'Upper tract', title: 'Upper Respiratory Tract: Nose, 
     ex: 'In the coronal section B points to the lower fold, under the ventricle: the vocal fold.',
     flag: 'The recalled stem repeated “Which paranasal sinus opening lies on B?”; the options show the real question was to identify B.' },
   { t: 'c', id: 'U-C5', title: 'Intrinsic laryngeal muscles, nerves and trachea', src: 'URT p.36–44',
-    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl"><thead><tr><th>Intrinsic muscle</th><th>Main action on cords / rima glottidis</th><th>Motor nerve</th></tr></thead><tbody>' +
-      '<tr><td><b>{{Posterior cricoarytenoid}}</b></td><td><b>Sole abductor</b> — {{opens rima glottidis}}</td><td>Inferior (recurrent) laryngeal n.</td></tr>' +
-      '<tr><td><b>Lateral cricoarytenoid</b> &amp; <b>transverse/oblique arytenoids</b></td><td>Adductors — {{close rima glottidis}}</td><td>Inferior (recurrent) laryngeal n.</td></tr>' +
-      '<tr><td><b>{{Cricothyroid}}</b></td><td>{{Tenses}} (lengthens) vocal folds</td><td>{{External laryngeal}} n.</td></tr>' +
-      '<tr><td><b>{{Thyroarytenoid}}</b> &amp; <b>{{vocalis}}</b></td><td>{{Relaxes}} (shortens) vocal folds</td><td>Inferior (recurrent) laryngeal n.</td></tr></tbody></table></div>' +
-      '<ul class="pts"><li><b>Sensory innervation</b>: {{internal laryngeal}} nerve above the vocal folds; inferior (recurrent) laryngeal nerve below the vocal folds.</li>' +
-      '<li><b>Trachea (C6 to T4/T5 sternal angle)</b>: 16–20 C-shaped hyaline rings (length 10 cm in URT p.41 vs 12 cm in Lung p.23) bridged posteriorly by smooth {{trachealis}} muscle abutting the esophagus; bifurcates at the {{carina}}.</li></ul></div>' +
+    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl compact"><thead><tr><th>Muscle</th><th>Action</th><th>Nerve</th></tr></thead><tbody>' +
+      '<tr><td><b>{{Posterior cricoarytenoid}}</b></td><td>{{opens}} the rima (the only one)</td><td>recurrent</td></tr>' +
+      '<tr><td>Lateral cricoarytenoid, arytenoids</td><td>close the rima</td><td>recurrent</td></tr>' +
+      '<tr><td><b>{{Cricothyroid}}</b></td><td>{{tenses}} the cords</td><td>{{external laryngeal}}</td></tr>' +
+      '<tr><td>Thyroarytenoid, vocalis</td><td>{{relaxes}} the cords</td><td>recurrent</td></tr></tbody></table></div>' +
+      '<ul class="pts"><li><b>Recurrent laryngeal n.</b> → all intrinsic muscles except the tensor → injury → hoarse voice, cord cannot abduct.</li>' +
+      '<li><b>The tensor’s nerve</b> runs with the superior thyroid artery → caught when the artery is tied → weak, low-pitched voice.</li>' +
+      '<li><b>Sensation</b>: {{internal laryngeal}} n. above the cords, recurrent below.</li>' +
+      '<li><b>Trachea</b>: C6 → {{carina}} at the sternal angle; C-shaped rings closed behind by {{trachealis}} muscle.</li></ul></div>' +
       '<div class="stack">' + CVS.fig('urt-larynx-musc', 'Actions of intrinsic laryngeal muscles on the laryngeal inlet and vocal ligaments.', 'urt', 37) + CVS.fig('urt-larynx-nerve', 'Superior and recurrent laryngeal nerve branches and arterial supply.', 'urt', 39) + '</div></div>' },
   { t: 'q', id: 'U24', src: 'AC81 spot', keep: true,
     q: 'Identify structure A.',

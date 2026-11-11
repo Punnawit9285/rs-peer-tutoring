@@ -10,12 +10,12 @@ Question-first peer-tutoring material for the 13 non-radiology **Respiratory Sys
 |---|---|
 | **Student deck** (shown in the video) | https://punnawit9285.github.io/rs-peer-tutoring/student.html |
 | **Tutor deck** (second screen: answers, Thai notes, script) | https://punnawit9285.github.io/rs-peer-tutoring/tutor.html |
-| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/student.pdf?v=a6654b2e |
+| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/student.pdf?v=8c9dc024 |
 | **Radiologic Anatomy companion deck** | https://punnawit9285.github.io/rs-radiology-peer-tutoring/ |
 
 Open the student and tutor decks in the same browser and tick *Follow student* in the tutor deck: it jumps to whatever card the student deck shows.
 
-## Sections (63 concepts · 219 questions · 681 cloze blanks · 178 figure uses)
+## Sections (63 concepts · 219 questions · 515 cloze blanks · 179 figure uses)
 
 | ID | Section | Source handout |
 |---|---|---|
@@ -39,6 +39,7 @@ The problems are the **past papers**: the AC79, AC80 and AC81 MCQ recalls (with 
 
 - **Kept from the slides**: 15 slide-written questions, only on cards that no past paper tests (gas humidification, hemoglobin structure, pulmonary edema, the respiratory centres and breathing patterns, lung volumes, spirometry preparation).
 - **PFT section**: rebuilt as a five-step way to read a spirometry report, worked through the six cases of the lecture quiz (slides 14–15), whose real reports are the problems after the card.
+- **Interactive flowcharts**: P-C4 (spirometry) and A-C5 (ABG, the handout's p.76 summary chart) carry a clickable flowchart. Click any box for why that step exists; load a lecture case, a handout example (acid-base Ex 1–10) or a past-paper item, or type your own numbers, then press *Next step* to walk the path with the real values. The PFT chart also sketches the volume–time curve and flow–volume loop for each pattern. The PDF prints the chart without the controls.
 - **Recall notes**: where a recalled key disagrees with the lecture, or the recall is incomplete, the item says so in a *Recall note* and teaches the principle; the original wording is kept (Thai stems with an English gloss).
 - **Excluded**: items whose stem, figure or key was not recalled well enough to learn from (for example AC80 acid–base 4, AC81 “identify carina”, AC79 titratable acid).
 - Cards gained a short *From the past papers* note where a question tests something the slide text does not spell out.
@@ -58,4 +59,4 @@ node build.js all  # student.html, index.html, tutor.html, dist/deck.html, dist/
 tools/pdf.sh       # student.pdf: two headless-Chrome passes for real page numbers (CHROME=... to override)
 ```
 
-Content lives in `data/<section>.js` (cards and questions), `src/thai-data.js` (Thai bullets, key points, section intros; shared by both decks and the PDF), `src/thai-explain.js`, `src/tutor-notes.js` and `src/tutor-script.js`. The engine is adapted from [cvs-peer-tutoring](https://github.com/Punnawit9285/cvs-peer-tutoring) and [rs-radiology-peer-tutoring](https://github.com/Punnawit9285/rs-radiology-peer-tutoring).
+The flowcharts live in `src/flows.js` and `src/flows.css` (`node tools/flowtest.js` prints the path and verdict for every preset case). Content lives in `data/<section>.js` (cards and questions), `src/thai-data.js` (Thai bullets, key points, section intros; shared by both decks and the PDF), `src/thai-explain.js`, `src/tutor-notes.js` and `src/tutor-script.js`. The engine is adapted from [cvs-peer-tutoring](https://github.com/Punnawit9285/cvs-peer-tutoring) and [rs-radiology-peer-tutoring](https://github.com/Punnawit9285/rs-radiology-peer-tutoring).

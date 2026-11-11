@@ -4,12 +4,14 @@ CVS.add({ id: 'T', short: 'Gas transport', title: 'Hemoglobin, Oxygen Dissociati
   items: [
   { t: 'c', id: 'T-C1', title: 'Physical gas transport, 9-step diffusion path & RBC carrying capacity', src: 'Gas transport p.2–11, 14',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Gas–liquid interface</b>: {{partial pressure}} is the force driving gas molecules to dissolve into a liquid phase, whereas {{tension}} is the force causing dissolved gas molecules to escape from the liquid; at equilibrium the two forces are equal.</li>' +
-      '<li><b>9-step diffusion path</b> from alveolus to Hb: (1) alveolar air &rarr; (2) {{surfactant layer}} &rarr; (3) alveolar membrane &rarr; (4) interstitial fluid &rarr; (5) capillary membrane &rarr; (6) plasma &rarr; (7) RBC membrane &rarr; (8) intracellular fluid &rarr; (9) hemoglobin.</li>' +
-      '<li><b>O<sub>2</sub> diffusing capacity</b> in a young adult rises from {{20 mL/min/mmHg}} at rest to {{65 mL/min/mmHg}} during exercise because expanded capillary networks increase surface area and stretched alveoli thin the membrane.</li>' +
-      '<li><b>Decreased diffusion rate</b>: diminished alveolar surface area (pneumonia, atelectasis, lung tumor, tuberculosis) vs {{alveolar-capillary block}} (pulmonary edema, interstitial pulmonary fibrosis, {{silicosis}}).</li>' +
-      '<li><b>Role of RBCs</b>: RBCs bind dissolved O<sub>2</sub> temporarily and reversibly, shifting the plasma equilibrium so more gas dissolves and increasing blood O<sub>2</sub> transport capacity {{65-fold}}.</li></ul></div>' +
-      CVS.fig('trans-rbc', 'RBCs bind dissolved gas reversibly, shifting the equilibrium so much more gas can dissolve and be transported.', 'trans', 11) + '</div>' + '<p class="note"><b>From the past papers</b> · Anemia lowers hemoglobin, so O₂ content and O₂ delivery fall, but PaO₂, which is set by the lungs, is unchanged (AC81).</p>' },
+      '<li><b>Gas ↔ liquid</b>: {{partial pressure}} pushes gas into the liquid; {{tension}} pushes it back out → equal at equilibrium.</li>' +
+      '<li><b>Path, alveolus → Hb</b>: alveolar air → {{surfactant}} → alveolar wall → interstitium → capillary wall → plasma → RBC membrane → inside the RBC → Hb.</li>' +
+      '<li><b>Exercise</b> → more capillaries open + thinner stretched walls → diffusing capacity {{rises}} about 3×.</li>' +
+      '<li><b>Diffusion falls</b> with<ul><li>less area (pneumonia, atelectasis, tumour)</li>' +
+      '<li>a thick wall = {{alveolar-capillary block}} (edema, fibrosis, silicosis).</li></ul></li>' +
+      '<li><b>RBCs</b> soak up dissolved O<sub>2</sub> → more can dissolve → blood carries about {{65×}} more O<sub>2</sub>.</li>' +
+      '<li><b>Anemia</b> → less Hb → O<sub>2</sub> {{content}} and delivery fall, but P<sub>aO2</sub> (set by the lung) stays {{normal}}.</li></ul></div>' +
+      CVS.fig('trans-rbc', 'RBCs bind dissolved gas reversibly, shifting the equilibrium so much more gas can dissolve and be transported.', 'trans', 11) + '</div>' },
   { t: 'q', id: 'T1', src: 'AC81', core: true, keep: true,
     q: 'A woman comes with anemia. Blood test reveals she has iron deficiency. Which one is not affected?',
     o: ['Total content of oxygen in blood', 'Oxygen saturation', 'Hemoglobin production', 'Oxygen delivering to tissue', 'Arterial pO₂'], a: 4,
@@ -17,12 +19,15 @@ CVS.add({ id: 'T', short: 'Gas transport', title: 'Hemoglobin, Oxygen Dissociati
     flag: 'Raw student key: E. In uncomplicated anemia SaO₂ is usually normal too; arterial PO₂ is the safest “not affected” answer.' },
   { t: 'c', id: 'T-C2', title: 'Hemoglobin A structure & molecular mechanism of oxygenation', src: 'Gas transport p.12–21',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Hemoglobin A (HbA)</b>: quaternary tetramer (&alpha;<sub>2</sub>&beta;<sub>2</sub>; &alpha; = 141 AA, &beta; = 146 AA), MW {{64,500 Da}} (5.5 nm), with 4 heme groups each containing ferrous iron (<b>Fe<sup>2+</sup></b>) coordinated to proximal histidine.</li>' +
-      '<li><b>Reversible O<sub>2</sub> binding</b>: O<sub>2</sub> attachment to Fe<sup>2+</sup> is {{oxygenation}} (not oxidation &mdash; Fe<sup>2+</sup> valence does not change) and occurs in {{0.01 s}}.</li>' +
-      '<li><b>Step 1 (first subunit)</b>: driven by the P<sub>O2</sub> gradient, the first O<sub>2</sub> binds the {{alpha chain}} first because its heme pocket is wider than that of the &beta;-subunit.</li>' +
-      '<li><b>Step 2 (Fe<sup>2+</sup> movement)</b>: in deoxyHb, steric repulsion keeps Fe<sup>2+</sup> {{0.6 &Aring;}} above the porphyrin ring in a {{high-spin}} state; O<sub>2</sub> binding converts Fe<sup>2+</sup> to a {{low-spin}} state and pulls it into the flat porphyrin plane.</li>' +
-      '<li><b>Step 3 (T &rarr; R transition)</b>: breaking of &alpha;&ndash;&alpha; and &alpha;&ndash;&beta; {{salt bridges}}, {{15&deg;}} rotation of &alpha;&beta; dimers, expulsion of 2,3-BPG from between the &beta;-chains, narrowing of the &beta;&ndash;&beta; gap (0.07 nm), and widening of the &beta;-subunit heme pocket.</li>' +
-      '<li>This positive {{cooperativity}} (like tearing a block of 4 stamps) converts low-affinity deoxyHb (T-state) into high-affinity oxyHb (R-state) and yields a <b>sigmoidal</b> dissociation curve.</li></ul></div>' +
+      '<li><b>HbA</b> = {{α2β2}}: 4 globins, 4 hemes, each with <b>Fe<sup>2+</sup></b>.</li>' +
+      '<li>O<sub>2</sub> on Fe<sup>2+</sup> = {{oxygenation}}, not oxidation (iron stays Fe<sup>2+</sup>).</li>' +
+      '<li><b>Binding sites</b>: O<sub>2</sub> and CO → heme iron · CO<sub>2</sub> → {{N-terminal amino group}} of globin · 2,3-BPG → between the {{β chains}} of deoxyHb.</li></ul>' +
+      '<p><b>Why the first O<sub>2</sub> makes the rest easier</b>:</p>' +
+      '<ol class="steps tight"><li>First O<sub>2</sub> binds the {{α}} subunit (wider heme pocket).</li>' +
+      '<li>Fe<sup>2+</sup> goes {{high-spin}} → low-spin → drops into the flat porphyrin ring.</li>' +
+      '<li>Pulls the histidine → {{salt bridges}} break → dimers rotate → 2,3-BPG pushed out.</li>' +
+      '<li>T state (low affinity) → {{R state}} (high affinity) → next O<sub>2</sub> binds more easily.</li></ol>' +
+      '<p>That is {{cooperativity}} → the curve is {{sigmoid}}.</p></div>' +
       CVS.fig('trans-heme', 'Iron atom movement into the flat porphyrin plane upon oxygen binding.', 'trans', 18) + '</div>' },
   { t: 'q', id: 'T2', src: 'Gas transport p.16–19', core: true,
     q: 'During the oxygenation of deoxyhemoglobin A (&alpha;<sub>2</sub>&beta;<sub>2</sub>), which sequence of molecular events occurs first and triggers the cooperative transition to oxyhemoglobin?',
@@ -42,11 +47,13 @@ CVS.add({ id: 'T', short: 'Gas transport', title: 'Hemoglobin, Oxygen Dissociati
     ex: 'O2 and CO bind to the Fe2+ atom of heme (forming oxyhemoglobin and carboxyhemoglobin); CO2 binds to the N-terminal −NH2 group of globin chains (forming carbaminohemoglobin); H+ binds to proton-acceptor amino acids of globin (stabilizing deoxyhemoglobin); and 2,3-BPG binds non-covalently to the β-globin chains of deoxyhemoglobin.' },
   { t: 'c', id: 'T-C3', title: 'P50, oxygen dissociation shifts & 2,3-BPG regulation', src: 'Gas transport p.22–33',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>P<sub>50</sub></b> is the P<sub>O2</sub> at which Hb is 50% saturated; normal P<sub>50</sub> = {{27 mmHg}}.</li>' +
-      '<li><b>Right shift (P<sub>50</sub> &gt; 27, e.g. 48 mmHg)</b> = <b>decreased O<sub>2</sub> affinity</b> (enhances O<sub>2</sub> unloading to active tissues): caused by <b>&uparrow; [H<sup>+</sup>] (low pH), &uparrow; P<sub>CO2</sub>, &uparrow; temperature, and &uparrow; 2,3-BPG</b>. <b>Left shift (P<sub>50</sub> &lt; 27, e.g. 16 mmHg)</b> = increased affinity from the opposite changes.</li>' +
-      '<li><b>Molecular mechanisms</b>: when protonated at low pH, {{His146}} (His HC3) on the &beta;-subunit forms a stabilizing ion pair with {{Asp94}} (Asp FG1) that locks deoxyHb in the {{T-state}}; CO<sub>2</sub> binds the {{N-terminal amino group}} of globin to form carbaminohemoglobin.</li>' +
-      '<li><b>2,3-BPG</b> (from RBC {{anaerobic glycolysis}}) is a highly charged anion that binds {{non-covalently}} in a {{1:1}} ratio to the &beta;-chains of deoxyHb.</li>' +
-      '<li><b>2,3-BPG regulation</b>: <b>increased</b> by hormones ({{thyroid hormone, growth hormone, and androgens}}), exercise, anemia, hypoxia, and high altitude; <b>decreased</b> by {{acidosis}}.</li></ul></div>' +
+      '<li><b>P<sub>50</sub></b> = P<sub>O2</sub> at 50% saturation; normal ≈ {{27}} mmHg.</li>' +
+      '<li><b>Right shift</b>: P<sub>50</sub> ↑ → affinity {{↓}} → more O<sub>2</sub> unloaded to tissue.<ul>' +
+      '<li>Caused by ↑ {{H<sup>+</sup>}}, ↑ CO<sub>2</sub>, ↑ {{temperature}}, ↑ 2,3-BPG (“an exercising muscle”).</li></ul></li>' +
+      '<li><b>Left shift</b>: P<sub>50</sub> ↓ → affinity {{↑}} → Hb holds on.</li>' +
+      '<li><b>Low pH</b> → protonated His146 forms an ion pair → locks Hb in the {{T state}}.</li>' +
+      '<li><b>2,3-BPG</b><ul><li>made by {{glycolysis}} in the RBC; binds deoxyHb.</li>' +
+      '<li>↑ in anemia, hypoxia, high altitude, exercise; ↓ in {{acidosis}}.</li></ul></li></ul></div>' +
       '<div class="stack">' + CVS.fig('trans-odc', 'Oxygen dissociation curves showing normal affinity and left vs right shifts.', 'trans', 22) + CVS.fig('trans-bpg', 'Conversion of 1,3-BPG to 2,3-BPG in red blood cells and its right-shifting effect.', 'trans', 23) + '</div></div>' },
   { t: 'q', id: 'T4', src: 'AC81', core: true, keep: true,
     q: 'The oxygen dissociation curve shifts significantly to the left. Which of the following changes is most associated with the changes?',
@@ -57,13 +64,13 @@ CVS.add({ id: 'T', short: 'Gas transport', title: 'Hemoglobin, Oxygen Dissociati
     o: ['Increase oxygen unloading to tissue', 'Decrease oxygen unloading to tissue', 'Increase oxygen affinity'], a: 0,
     ex: '2,3-BPG binds deoxyhemoglobin, stabilizing the T state: affinity falls, the curve shifts right, and more O₂ is released to tissues.' },
   { t: 'c', id: 'T-C4', title: 'Hemoglobin variants, CO poisoning, abnormal hemoglobins & myoglobin', src: 'Gas transport p.34–39',
-    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl"><thead><tr><th>Protein / Variant</th><th>Subunits / Structure</th><th>Key physiological or clinical feature</th></tr></thead><tbody>' +
-      '<tr><td><b>Embryonic Hb</b></td><td>{{Gower 1 (&zeta;2&epsilon;2), Gower 2 (&alpha;2&epsilon;2), Portland (&zeta;2&gamma;2)}}</td><td>Produced in the embryonic yolk sac</td></tr>' +
-      '<tr><td><b>Fetal Hb (HbF)</b></td><td>{{&alpha;2&gamma;2}} (&lt;1% in adults)</td><td>Does <b>not bind (or loosely binds) 2,3-BPG</b> &rarr; <b>left shift</b> &amp; higher O<sub>2</sub> affinity than maternal HbA</td></tr>' +
-      '<tr><td><b>Adult HbA / HbA<sub>2</sub> / HbA<sub>1c</sub></b></td><td>HbA &alpha;<sub>2</sub>&beta;<sub>2</sub> (~{{97%}}), HbA<sub>2</sub> {{&alpha;2&delta;2}} (2–2.5%)</td><td>HbA<sub>1c</sub> (&alpha;<sub>2</sub>&beta;<sub>2</sub> + glucose) rises up to 12% in diabetes mellitus</td></tr>' +
-      '<tr><td><b>Carboxyhemoglobin</b></td><td>Hb bound to CO at Fe<sup>2+</sup></td><td>CO binds Hb with {{210 times}} higher affinity than O<sub>2</sub> &rarr; left shift &amp; severe tissue hypoxia</td></tr>' +
-      '<tr><td><b>MetHb &amp; SulfHb</b></td><td>MetHb: {{Fe3+}} replaces Fe<sup>2+</sup></td><td>SulfHb: sulfur replaces ferrous atom after exposure to {{hydroxylamine sulfate}} ((NH<sub>2</sub>OH)<sub>2</sub>H<sub>2</sub>SO<sub>4</sub>)</td></tr>' +
-      '<tr><td><b>Myoglobin</b> (heart &amp; skeletal muscle)</td><td>Monomer: {{153 amino acids}}, MW {{16,700 Da}}, 1 heme</td><td><b>Rectangular {{hyperbolic}}</b> curve (higher affinity than HbA, tight binding at low &amp; high P<sub>O2</sub>), <b>no cooperativity</b>, does <b>not</b> bind H<sup>+</sup> or CO<sub>2</sub></td></tr></tbody></table></div></div>' +
+    html: '<div class="two"><div class="stack"><ul class="pts">' +
+      '<li><b>Fetal Hb</b> = {{α2γ2}} → binds 2,3-BPG poorly → affinity ↑ → curve shifts {{left}} (still sigmoid) → fetus takes O<sub>2</sub> from the mother.</li>' +
+      '<li><b>Adult</b>: HbA α2β2 (most), HbA<sub>2</sub> {{α2δ2}}; HbA<sub>1c</sub> = glycated HbA → ↑ in diabetes.</li>' +
+      '<li><b>CO</b> (indoor stove, smoke) → binds Hb about {{200×}} more tightly than O<sub>2</sub> →<ul>' +
+      '<li>less O<sub>2</sub> carried</li><li>curve shifts the same way as fetal Hb → what is carried is not released → tissue hypoxia.</li></ul></li>' +
+      '<li><b>MetHb</b> = iron oxidised to {{Fe3+}} → cannot carry O<sub>2</sub>.</li>' +
+      '<li><b>Myoglobin</b> (muscle): one chain, one heme → {{no cooperativity}} → {{hyperbolic}} curve, higher affinity than HbA.</li></ul></div>' +
       CVS.fig('trans-myoglobin', 'Myoglobin monomer structure and its oxygen dissociation curve compared with HbA.', 'trans', 38) + '</div>' },
   { t: 'q', id: 'T6', src: 'AC80', core: true, keep: true,
     q: 'Which of the following is true regarding fetal hemoglobin (HbF) compared to adult hemoglobin (HbA)?',
@@ -84,10 +91,12 @@ CVS.add({ id: 'T', short: 'Gas transport', title: 'Hemoglobin, Oxygen Dissociati
     flag: 'Only two options were recalled.' },
   { t: 'c', id: 'T-C5', title: 'CO2 transport in blood, Bohr effect & Haldane effect', src: 'Gas transport p.40–43',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Three forms of CO<sub>2</sub> in blood</b> (Gas transport p.41): (1) {{7%}} physically dissolved in plasma; (2) {{23%}} bound to globin N-terminal &minus;NH<sub>2</sub> as <b>carbaminohemoglobin</b>; (3) {{70%}} converted to <b>bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b> in RBCs (<i>note: Gas exchange p.33 lists 5% dissolved, 3% carbaminoHb, and &gt;90% HCO<sub>3</sub><sup>&minus;</sup>; in both lectures HCO<sub>3</sub><sup>&minus;</sup> is the major form</i>).</li>' +
-      '<li><b>RBC bicarbonate pathway &amp; chloride shift</b>: RBC {{carbonic anhydrase}} catalyzes CO<sub>2</sub> + H<sub>2</sub>O &rightleftharpoons; H<sub>2</sub>CO<sub>3</sub> &rightleftharpoons; H<sup>+</sup> + HCO<sub>3</sub><sup>&minus;</sup>; H<sup>+</sup> is buffered by deoxyHb (HHb) while HCO<sub>3</sub><sup>&minus;</sup> exits the RBC in exchange for {{Cl&minus;}} entering.</li>' +
-      '<li><b>{{Bohr effect}}</b> (occurs in {{systemic capillaries}}): adding metabolically produced <b>H<sup>+</sup> and CO<sub>2</sub> decreases O<sub>2</sub>–Hb affinity</b> (right shift), promoting O<sub>2</sub> release to tissues.</li>' +
-      '<li><b>{{Haldane effect}}</b> (occurs in <b>alveolar capillaries</b>): <b>oxygenation of Hb decreases its affinity for CO<sub>2</sub> and H<sup>+</sup></b>, releasing H<sup>+</sup> to combine with HCO<sub>3</sub><sup>&minus;</sup> &rarr; H<sub>2</sub>CO<sub>3</sub> &rarr; CO<sub>2</sub> + H<sub>2</sub>O for exhalation.</li></ul></div>' +
+      '<li><b>CO<sub>2</sub> travels as</b>: {{bicarbonate}} (most, ~70%) · carbamino-Hb · dissolved.</li>' +
+      '<li><b>In the RBC</b>: CO<sub>2</sub> + H<sub>2</sub>O → ({{carbonic anhydrase}}) → H<sup>+</sup> + HCO<sub>3</sub><sup>−</sup><ul>' +
+      '<li>H<sup>+</sup> → buffered by deoxyHb.</li><li>HCO<sub>3</sub><sup>−</sup> → leaves the cell, {{Cl−}} comes in (chloride shift).</li></ul></li>' +
+      '<li><b>{{Bohr}} effect</b> (tissues): ↑ CO<sub>2</sub>, ↑ H<sup>+</sup> → O<sub>2</sub> affinity ↓ → O<sub>2</sub> {{released}}.</li>' +
+      '<li><b>{{Haldane}} effect</b> (lungs): Hb picks up O<sub>2</sub> → holds less CO<sub>2</sub> and H<sup>+</sup> → CO<sub>2</sub> {{unloaded}} to be breathed out.</li></ul>' +
+      '<p class="note">Memory hook: the tissue effect = CO<sub>2</sub> changes O<sub>2</sub> binding; the lung effect = O<sub>2</sub> changes CO<sub>2</sub> binding.</p></div>' +
       '<div class="stack">' + CVS.fig('trans-co2', 'Three mechanisms of carbon dioxide transport in red blood cells and plasma.', 'trans', 41) + CVS.fig('trans-bohr-haldane', 'Coupling of oxygen and carbon dioxide transport between lungs and tissues.', 'trans', 43) + '</div></div>' },
   { t: 'q', id: 'T10', src: 'AC80', core: true, keep: true,
     q: 'CO₂ ลำเลียงมากที่สุดในรูปไหน <span class="muted">In which form is most CO₂ transported?</span>',

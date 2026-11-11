@@ -4,15 +4,18 @@ CVS.add({ id: 'M', short: 'Mechanics', title: 'Mechanics of Breathing: Pressures
   items: [
   { t: 'c', id: 'M-C1', title: 'Respiratory muscles and pressures in spontaneous vs positive-pressure breathing', src: 'Mechanics p.1–12',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Architecture</b>: {{23}} airway generations ending in {{300 million}} alveoli with {{50 to 100 m2}} diffusing surface area.</li>' +
-      '<li><b>Quiet inspiration</b>: {{diaphragm}} and {{external intercostals}} contract. <b>Maximal inspiration</b> adds {{sternocleidomastoid}}, {{serratus anterior}}, and {{scalenes}}.</li>' +
-      '<li><b>Quiet expiration</b>: passive muscle relaxation. <b>Maximal expiration</b>: {{internal intercostals}} and abdominal muscles (rectus abdominis, external &amp; internal obliques) contract.</li>' +
-      '<li><b>At rest (FRC = EELV)</b>: P<sub>A</sub> = {{0 cmH2O}}, P<sub>pl</sub> = {{-5 cmH2O}} (&minus;3.5 mmHg), transpulmonary pressure P<sub>L</sub> = P<sub>A</sub> &minus; P<sub>pl</sub> = {{+5 cmH2O}}.</li>' +
-      '<li><b>Quiet inspiration</b> (Boyle law): P<sub>pl</sub> falls to &minus;8 to &minus;10 cmH<sub>2</sub>O, P<sub>A</sub> drops to {{-1 cmH2O}}, 500 mL flows in; during expiration P<sub>A</sub> rises to +1 cmH<sub>2</sub>O.</li>' +
-      '<li><b>Positive-pressure ventilation (PPV)</b>: ventilator raises P<sub>ao</sub> above atmospheric (e.g. +30 cmH<sub>2</sub>O) so P<sub>pl</sub> rises (+5 cmH<sub>2</sub>O passive); if the patient also inspires actively (P<sub>pl</sub> = &minus;20), P<sub>L</sub> = 30 &minus; (&minus;20) = 50 cmH<sub>2</sub>O.</li></ul></div>' +
+      '<li><b>Muscles</b><ul><li>Quiet in: {{diaphragm}} + external intercostals. Quiet out: passive recoil.</li>' +
+      '<li>Forced out: {{abdominal muscles}} (rectus, obliques) push the dome up.</li></ul></li>' +
+      '<li><b>At rest (FRC)</b><ul><li>Lung pulls in, chest wall springs out → pleural pressure {{negative}} (about −5 cmH<sub>2</sub>O).</li>' +
+      '<li>Alveolar pressure = {{0}} → no flow.</li></ul></li>' +
+      '<li><b>Breathing in</b>: chest expands → pleural pressure falls further → alveolar pressure {{below 0}} → air flows in (Boyle).</li>' +
+      '<li>Flow is fastest in {{mid-inspiration}}; it stops at end-inspiration (alveolar pressure back to 0).</li>' +
+      '<li><b>Transpulmonary pressure</b> = alveolar − pleural → end-inspiration: 0 − (−8) = {{+8}}.</li>' +
+      '<li><b>Ventilator (PPV)</b>: blows air in → pleural pressure {{rises}} instead of falling.</li></ul></div>' +
       '<div class="stack">' + CVS.fig('mech-muscles', 'Muscles of inspiration (left) and muscles of expiration (right).', 'mech', 2) +
       CVS.fig('mech-cycle', 'Volume, intrapleural pressure, and alveolar pressure changes during a normal spontaneous breath.', 'mech', 9) + '</div></div>' +
-      CVS.fig('mech-ppv', 'Pressures during passive positive-pressure ventilation compared with spontaneous breathing.', 'mech', 11) + '<p class="note"><b>From the past papers</b> · Pleural pressure is negative at rest because the elastic recoil of the lung pulls inward while the chest wall springs outward (AC81).</p>' },
+      CVS.fig('mech-ppv', 'Pressures during passive positive-pressure ventilation compared with spontaneous breathing.', 'mech', 11) +
+      '<p class="note">Volume left after a quiet breath out, with the muscles relaxed = <b>FRC</b>. Esophageal pressure is used as a stand-in for pleural pressure.</p>' },
   { t: 'q', id: 'M1', src: 'AC79', core: true, keep: true,
     q: 'Which of the following statements is correct?',
     o: ['Intrapleural pressure is always sub-atmospheric.', 'Transpulmonary pressure increases during expiration.', 'Intrapulmonary pressure is almost equivalent to intra-esophageal pressure', 'Lung volume that is left after quiet expiration is FRC.', 'Lung volume is the highest when the alveolar pressure at that moment is the most negative.'], a: 3,
@@ -49,11 +52,11 @@ CVS.add({ id: 'M', short: 'Mechanics', title: 'Mechanics of Breathing: Pressures
     flag: 'AC81 asked the same (“rectus abdominis + internal oblique muscle”).' },
   { t: 'c', id: 'M-C2', title: 'Elastic recoil, surface tension, surfactant and the relaxation curve', src: 'Mechanics p.13–19',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Lung elastic recoil</b> comes from tissue elastin/collagen fibers and alveolar liquid {{surface tension}}.</li>' +
-      '<li><b>Surfactant</b> — mainly {{dipalmitoyl phosphatidylcholine}} ({{DPPC}}) from Type II cells — inserts hydrophobic tails at the air-water interface to lower interfacial tension and reduce lung elastic recoil.</li>' +
-      '<li><b>Small vs large alveoli</b> (p.16): smaller alveoli have {{more surfactant per unit area}} than larger alveoli, giving smaller alveoli a {{lower elastic recoil force}} so they expand {{more easily}} during inspiration.</li>' +
-      '<li><b>Thoracic elastic recoil</b>: at rest, the chest wall pulls {{outward}}, opposing the {{inward}} pull of the lungs.</li>' +
-      '<li><b>Lung-thorax relaxation curve</b>: at {{FRC}} (~40% VC), lung pull equals chest wall pull in magnitude (net relaxation pressure = 0); the chest wall alone reaches its neutral position at ~60–70% VC, while an unsealed lung collapses to {{minimal air}}.</li></ul></div>' +
+      '<li><b>Lung recoil</b> = elastic fibres + {{surface tension}} of the alveolar fluid.</li>' +
+      '<li><b>Surfactant</b> ({{DPPC}}, from type II cells) → lowers that tension → {{less recoil}} → lung easier to inflate.</li>' +
+      '<li>Small alveoli carry {{more surfactant}} per area → they don’t collapse into big ones.</li>' +
+      '<li><b>Chest wall</b> springs {{outward}}; lung pulls {{inward}}.</li>' +
+      '<li><b>At {{FRC}}</b> the two pulls are equal and opposite → relaxed resting point of the whole system.</li></ul></div>' +
       CVS.fig('mech-relax', 'Lung-thorax relaxation pressure curve showing the balance of lung and chest wall recoil at FRC.', 'mech', 18) + '</div>' },
   { t: 'q', id: 'M8', src: 'AC81', keep: true,
     q: 'What is the role of surfactant?',
@@ -62,12 +65,13 @@ CVS.add({ id: 'M', short: 'Mechanics', title: 'Mechanics of Breathing: Pressures
     flag: 'Only two options were recalled.' },
   { t: 'c', id: 'M-C3', title: 'Lung and chest wall compliance (static vs dynamic)', src: 'Mechanics p.20–25',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Definition</b>: compliance {{C = &Delta;V / &Delta;P}} (in {{L/cmH2O}}), measuring distensibility ({{inversely proportional}} to elastic recoil). On the normal curve (p.20), &Delta;V = 0.5 L for &Delta;P<sub>TP</sub> = 2.5 cmH<sub>2</sub>O gives C<sub>L</sub> = {{0.2 L/cmH2O}}.</li>' +
-      '<li><b>Combined lung-thorax compliance</b>: {{1/C(lung-thorax) = 1/C(lung) + 1/C(thorax)}}, so total system compliance (~0.1 L/cmH<sub>2</sub>O) is always less than either alone.</li>' +
-      '<li><b>Static compliance</b>: measured during {{no airflow}} (breath-hold), reflecting pure elastic properties.</li>' +
-      '<li><b>Dynamic compliance</b>: measured during {{active breathing}} at points of zero flow; influenced by both elastic recoil and airway resistance.</li>' +
-      '<li><b>Disease shifts</b>: {{emphysema}} destroys alveolar walls &rarr; &darr; elastic recoil &rarr; {{increased compliance}} (curve shifts up/left); {{pulmonary fibrosis}} stiffens the lung &rarr; &uarr; elastic recoil &rarr; {{decreased compliance}} (curve shifts down/right).</li></ul></div>' +
-      CVS.fig('mech-compliance', 'Static lung compliance curves in alveolar septal destruction, normal lung, and interstitial stiffening.', 'mech', 24) + '</div>' + '<p class="note"><b>From the past papers</b> · Compliance is the slope of the pressure–volume curve: the steeper the curve, the more compliant the lung (AC81).</p>' },
+      '<li><b>Compliance</b> = {{ΔV / ΔP}} = the {{slope}} of the pressure-volume curve → steeper = easier to stretch.</li>' +
+      '<li>Compliance is the opposite of {{elastic recoil}}.</li>' +
+      '<li>Lung + chest wall in series → total compliance is {{lower}} than either alone.</li>' +
+      '<li><b>Static</b> = measured with {{no airflow}}. <b>Dynamic</b> = during breathing → airway resistance also counts.</li>' +
+      '<li><b>Disease</b><ul><li>{{Emphysema}}: walls destroyed → less recoil → compliance {{↑}}.</li>' +
+      '<li>{{Fibrosis}}: stiff lung → more recoil → compliance {{↓}}.</li></ul></li></ul></div>' +
+      CVS.fig('mech-compliance', 'Static lung compliance curves in alveolar septal destruction, normal lung, and interstitial stiffening.', 'mech', 24) + '</div>' },
   { t: 'q', id: 'M9', src: 'AC81', core: true, keep: true,
     q: 'Compare the lung compliance.',
     fig: CVS.fig('ac81-compliance', 'AC81: pressure–volume curves of three lungs, S, T and U.', 'ac81', 8),
@@ -79,10 +83,13 @@ CVS.add({ id: 'M', short: 'Mechanics', title: 'Mechanics of Breathing: Pressures
     ex: 'This is obstructive disease with CO₂ retention (COPD pattern). Emphysema destroys elastic tissue, so lung compliance goes up, not down. Dead space, dynamic compression, a right-shifted curve from high CO₂, and air trapping (raised FRC) all fit.' },
   { t: 'c', id: 'M-C4', title: 'Airway resistance, radial traction and dynamic compression in COPD', src: 'Mechanics p.26–37',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Poiseuille law</b>: Flow = &Delta;P / R and {{R = 8&eta;l / (&pi;r4)}} — airway radius {{r to the fourth power}} is the dominant determinant of resistance.</li>' +
-      '<li><b>Sites of airway resistance</b> (p.29): nose-mouth {{50%}}, glottis {{25%}}, trachea &amp; bronchi &gt;2 mm {{15%}}, small airways &lt;2 mm only {{10%}} because vast parallel branching gives huge {{total cross-sectional area}} (e.g. 180 cm<sup>2</sup> at generation 16 vs 2.54 cm<sup>2</sup> in trachea).</li>' +
-      '<li><b>Inspiration vs forced expiration</b>: during inspiration, negative P<sub>pl</sub> and alveolar {{radial traction}} (mechanical tethering) pull airways open; during forced expiration, positive P<sub>pl</sub> (+25 cmH<sub>2</sub>O) causes {{dynamic compression}} when P<sub>pl</sub> exceeds intraluminal airway pressure.</li>' +
-      '<li><b>COPD &amp; autonomic tone</b>: loss of elastic recoil in COPD/emphysema causes early airway closure and {{air trapping}} (dynamic hyperinflation); {{parasympathetic}} stimulation causes bronchoconstriction (&uarr; R) while {{sympathetic}} stimulation causes bronchodilation (&darr; R).</li></ul></div>' +
+      '<li><b>Poiseuille</b>: R ∝ 1 / r<sup>4</sup> → halve the radius → resistance ×{{16}}.</li>' +
+      '<li><b>Most resistance</b> is in the {{nose, mouth and large airways}}.</li>' +
+      '<li>Small airways add little → so many in {{parallel}} → huge total cross-section.</li>' +
+      '<li><b>Breathing in</b>: negative pleural pressure + {{radial traction}} from alveoli → airways held open.</li>' +
+      '<li><b>Forced breath out</b>: pleural pressure turns positive → squeezes the airway → {{dynamic compression}} → more effort gives no more flow.</li>' +
+      '<li><b>COPD</b>: less recoil → airways close early → {{air trapping}}.</li>' +
+      '<li><b>Nerves</b>: parasympathetic → {{constrict}} (R ↑); sympathetic → dilate (R ↓).</li></ul></div>' +
       '<div class="stack">' + CVS.fig('mech-resistance', 'Airway resistance vs airway generation and velocity vs aggregate cross-sectional area.', 'mech', 28) +
       CVS.fig('mech-compress', 'Passive vs forced expiration showing positive pleural pressure and dynamic airway compression.', 'mech', 31) + '</div></div>' },
   { t: 'q', id: 'M11', src: 'AC80 · AC81', core: true, keep: true,
@@ -90,15 +97,14 @@ CVS.add({ id: 'M', short: 'Mechanics', title: 'Mechanics of Breathing: Pressures
     o: ['Action of diaphragm', 'Dynamic compression of the airway', 'Elasticity of the airway', 'Rate of contraction of expiratory muscles', 'Increases sympathetic stimulation of smooth muscles of the airway'], a: 1,
     ex: 'In forced expiration intrapleural pressure turns positive and squeezes the airways at the equal-pressure point. Beyond that point more effort only compresses the airway further, so flow is effort-independent.' },
   { t: 'c', id: 'M-C5', title: 'Airflow patterns, normal breath sounds and work of breathing', src: 'Mechanics p.38–44',
-    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl"><thead><tr><th>Breath sound</th><th>Insp : Exp &amp; pitch</th><th>Normal location</th></tr></thead><tbody>' +
-      '<tr><td><b>Vesicular</b></td><td>{{Insp &gt; Exp}}, soft, low (&le;200 Hz)</td><td>{{Over most of both lungs}}</td></tr>' +
-      '<tr><td><b>Bronchovesicular</b></td><td>Insp = Exp, medium pitch</td><td>{{1st–2nd ICS anteriorly}} &amp; between scapulae</td></tr>' +
-      '<tr><td><b>Bronchial</b></td><td>{{Exp &gt; Insp}} (with gap), loud, high (&ge;400 Hz)</td><td>Over {{manubrium}}</td></tr>' +
-      '<tr><td><b>Tracheal</b></td><td>Insp = Exp, very loud, high pitch</td><td>Over {{extrathoracic trachea}} in neck</td></tr></tbody></table></div>' +
-      '<ul class="pts">' +
-      '<li><b>Airflow regimes</b> (p.38): {{laminar flow}} in small peripheral airways (&Delta;P &propto; viscosity), {{turbulent flow}} in trachea/large airways at high flow (&Delta;P &propto; gas density), and {{transitional flow}} at branch points.</li>' +
-      '<li><b>Work of breathing at rest</b> (Work = P &times; V, p.40): {{65%}} overcomes elastic resistance, {{25%}} overcomes airway resistance, and {{10%}} overcomes tissue viscous resistance.</li>' +
-      '<li><b>Disease loops</b> (p.43): restrictive disease (pulmonary fibrosis) increases {{elastic work}}; obstructive disease (COPD) increases {{airway resistance work}} and active expiratory work.</li></ul></div>' +
+    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl compact"><thead><tr><th>Sound</th><th>Character</th><th>Where</th></tr></thead><tbody>' +
+      '<tr><td><b>Vesicular</b></td><td>{{soft, low}}; in &gt; out</td><td>{{most of the lung}}</td></tr>' +
+      '<tr><td><b>Bronchovesicular</b></td><td>in = out</td><td>1st–2nd space front, between the scapulae</td></tr>' +
+      '<tr><td><b>Bronchial</b></td><td>{{loud, high}}; out &gt; in</td><td>over the {{manubrium}}</td></tr></tbody></table></div>' +
+      '<ul class="pts"><li><b>Flow</b>: {{laminar}} in small airways; {{turbulent}} in the trachea at high flow.</li>' +
+      '<li><b>Work of breathing</b><ul><li>Most of it goes into stretching the lung ({{elastic}} work).</li>' +
+      '<li>Bronchoconstriction → R ↑ → {{resistive}} work ↑.</li></ul></li>' +
+      '<li><b>Disease</b>: fibrosis → stretching work ↑; COPD → airway work ↑.</li></ul></div>' +
       CVS.fig('mech-work', 'Pressure-volume work-of-breathing loops in restrictive lung disease (a) and obstructive lung disease (b).', 'mech', 43) + '</div>' },
   { t: 'q', id: 'M12', src: 'AC80', keep: true,
     q: 'Which of the following will increase as a result from contraction of bronchial smooth muscle?',

@@ -99,6 +99,9 @@ table.toc td:first-child { white-space: normal; }
 .xch b { font-family: var(--f-mono); color: var(--art); margin-right: 6px; font-size: .9em; }
 .xc p { margin: 0 0 4px; line-height: 1.6; font-family: "IBM Plex Sans Thai", var(--f-body); orphans: 2; widows: 2; }
 .xc p b { font-weight: 600; }
+.xtx { margin: 0 0 4px; padding-left: 1.2em; line-height: 1.55; font-family: "IBM Plex Sans Thai", var(--f-body); display: grid; gap: 2px; }
+.xtx li { break-inside: avoid; }
+.xtx b { font-weight: 600; }
 
 /* Pin the wide-screen concept layouts: the A4 page (~703 px) would otherwise trip the phone breakpoints
    in base.css, so print would lay out differently from the on-screen fit measurement. No vh units either. */

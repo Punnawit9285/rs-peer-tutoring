@@ -99,6 +99,7 @@ acid-titratable     acid    39    0.18  0.16  0.88  0.94
 acid-nh4            acid    41    0.15  0.16  0.90  0.94
 acid-comp-table     acid    61    0.12  0.16  0.88  0.92
 acid-ag             acid    66    0.06  0.34  0.92  0.92
+acid-summary        acid    76    0.16  0.128 0.88  0.995 m=0.00,0.00,0.30,0.155 w=3000
 
 # Section S: RS Under Stress (stress.pdf)
 stress-exercise     stress  3     0.52  0.56  0.96  0.94

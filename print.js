@@ -8,6 +8,7 @@ global.window = global;
 JSON.parse(rd('data/sections.json')).forEach(f => eval(rd('data/' + f + '.js')));
 eval(rd('src/thai-data.js'));
 eval(rd('src/thai-explain.js'));
+eval(rd('src/flows.js'));  /* FLOWS.printHtml: static copy of the interactive flowcharts */
 const THAI_Q = window.THAI_Q, THAI_CONCEPT = window.THAI_CONCEPT;  /* shared with both decks: src/thai-data.js */
 const S = CVS.sections, LET = 'ABCDEFGH';
 const pages = process.argv[2] && fs.existsSync(process.argv[2]) ? JSON.parse(rd(process.argv[2])) : {};
@@ -43,6 +44,8 @@ function blankify(h, id) {
   BLANKS[id] = ans;
   return out + h.slice(i);
 }
+/* interactive flowchart → its chart alone; the extra lecture figure kept in a <details> stays out of the PDF */
+const forPrint = h => String(h).replace(/<div class="flowx" data-flow="(\w+)"><\/div>/g, (m, n) => FLOWS.printHtml(n)).replace(/<details class="figmore">[\s\S]*?<\/details>/g, '');
 let nB = 0;
 
 /* ---------- cover ---------- */
@@ -73,7 +76,7 @@ units.forEach(u => {
     (first ? '<div class="secband"><span class="chip kind">' + s.kind + '</span><span class="id">Section ' + s.id + '</span><b>' + s.title + '</b><span class="muted">' + s.blurb + '</span></div>' : '') +
     '<div class="eyebrow"><span class="id">' + it.id + '</span><span class="chip kind">Concept</span>' + (it.src ? '<span class="chip">' + it.src + '</span>' : '') + '<span class="sp"></span><span>' + s.title + '</span></div>' +
     '<h2>' + it.title + '</h2>' +
-    '<div class="cbody">' + eager(blankify(it.html, it.id)) + '</div>' +
+    '<div class="cbody">' + eager(blankify(forPrint(it.html), it.id)) + '</div>' +
     '<p class="cfoot">' + (BLANKS[it.id].length ? BLANKS[it.id].length + ' blanks · answers p. ' + pg('b-' + s.id) + ' · ' : '') + 'Thai explanation of this concept: p. ' + pg('x-' + s.id) + '</p></div></section>';
   nB += BLANKS[it.id].length;
   if (u.qs.length) h += '<section class="quiz" data-for="' + it.id + '"><header class="quizh"><span class="id">Quiz · ' + it.id + ' ·</span><b>' + it.title + '</b><span class="sp"></span><span class="muted">' + u.qs.length + (u.qs.length === 1 ? ' question' : ' questions') + ' · answers p. ' + pg('a-' + s.id) + '</span></header><div class="qcols">' + u.qs.map(qBlock).join('') + '</div></section>';
@@ -118,7 +121,7 @@ S.forEach(s => {
     const tx = window.THAI_EXPLAIN[it.id] || [];
     const kp = THAI_CONCEPT[it.id] || [];
     h += '<div class="xc"><div class="xch"><b>' + it.id + '</b>' + it.title + ' <span class="muted">· p. ' + pg('k-' + it.id) + '</span></div>' +
-      (kp.length ? '<ul class="xkp">' + kp.map(b => '<li>' + b + '</li>').join('') + '</ul>' : '') + tx.map(p => '<p>' + p + '</p>').join('') + '</div>';
+      (kp.length ? '<ul class="xkp">' + kp.map(b => '<li>' + b + '</li>').join('') + '</ul>' : '') + (tx.length ? '<ul class="xtx">' + tx.map(p => '<li>' + p + '</li>').join('') + '</ul>' : '') + '</div>';
   });
   h += '</div></section>';
 });
@@ -177,7 +180,7 @@ const fitJs = `(function () {
 const FONTS = fs.existsSync('dist/fonts/fonts.css') ? '<link rel="stylesheet" href="fonts/fonts.css">' :
   '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">';
 const html = '<!doctype html>\n<html lang="en" data-theme="light">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<title>RS I Anatomy, Histology &amp; Physiology · Peer support 82 · student handout</title>\n' + FONTS +
-  '\n<style>\n' + rd('src/base.css') + '\n' + rd('src/print.css') + '\n</style>\n</head>\n<body>\n<main class="sheet">\n' + h + '\n</main>\n<script>' + fitJs + '</script>\n</body>\n</html>\n';
+  '\n<style>\n' + rd('src/base.css') + '\n' + rd('src/flows.css') + '\n' + rd('src/print.css') + '\n</style>\n</head>\n<body>\n<main class="sheet">\n' + h + '\n</main>\n<script>' + fitJs + '</script>\n</body>\n</html>\n';
 if (/<\/script/i.test(h)) throw new Error('script close tag inside content');
 fs.writeFileSync('dist/print.html', html);
 console.log('dist/print.html', html.length, 'bytes ·', nQ, 'questions ·', nC, 'concepts');

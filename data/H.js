@@ -4,11 +4,14 @@ CVS.add({ id: 'H', short: 'Histology', title: 'Histology of the Respiratory Syst
   items: [
   { t: 'c', id: 'H-C1', title: 'Conducting vs respiratory portions and upper-tract epithelia', src: 'Histology p.2–15',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Air-conducting portion</b>: nose → {{terminal bronchioles}}. <b>Respiratory portion</b>: {{respiratory bronchioles}} → alveoli.</li>' +
-      '<li><b>Nasal vestibule</b>: {{keratinized stratified squamous}} epithelium.</li>' +
-      '<li><b>Respiratory mucosa</b> (most of nasal cavity, paranasal sinuses, nasopharynx, larynx): {{pseudostratified ciliated columnar}} epithelium with {{goblet cells}} (= respiratory epithelium).</li>' +
-      '<li><b>Olfactory mucosa</b> (upper part of {{superior nasal concha}}, upper nasal septum, {{sphenoethmoidal recess}}): pseudostratified columnar with {{non-motile cilia}}, numerous nuclei, {{no goblet cells}}, and {{Bowman glands}} in the lamina propria.</li>' +
-      '<li><b>Oropharynx</b> (with {{Waldeyer ring}} MALT), oral side of epiglottis, and {{true vocal cords}}: {{non-keratinized stratified squamous}} epithelium; laryngeal side of epiglottis has respiratory epithelium over an elastic cartilage core.</li></ul></div>' +
+      '<li><b>Conducting</b>: nose → {{terminal bronchioles}}. <b>Respiratory</b> (gas exchange): {{respiratory bronchioles}} → alveoli.</li>' +
+      '<li><b>Rule</b>: rubbed by food or air friction → stratified squamous; plain airway → respiratory epithelium.</li>' +
+      '<li><b>Nostril (vestibule)</b> = skin → {{keratinized}} stratified squamous.</li>' +
+      '<li><b>Most of the airway</b> → {{pseudostratified ciliated columnar}} + {{goblet cells}}.</li>' +
+      '<li><b>Oropharynx, true vocal cords, top of epiglottis</b> → {{non-keratinized}} stratified squamous.</li>' +
+      '<li><b>Olfactory roof</b> (superior concha, {{sphenoethmoidal recess}})<ul>' +
+      '<li>{{non-motile cilia}}, no mucus cells.</li>' +
+      '<li>{{Bowman glands}} → dissolve odorants for the receptors.</li></ul></li></ul></div>' +
       '<div class="stack">' + CVS.fig('histo-resp', 'Respiratory mucosa: ciliated pseudostratified columnar epithelium.', 'histo', 7) +
       CVS.fig('histo-olfactory', 'Olfactory mucosa with non-motile olfactory cilia and serous glands in the lamina propria.', 'histo', 8) + '</div></div>' +
       CVS.fig('histo-epiglottis', 'Epiglottis: stratified squamous on the oral (superior) surface vs respiratory epithelium on the laryngeal (inferior) surface.', 'histo', 13) },
@@ -65,11 +68,12 @@ CVS.add({ id: 'H', short: 'Histology', title: 'Histology of the Respiratory Syst
     o: ['Maxillary sinus', 'Oropharyng', 'Upper part of nasal cavity', 'Vocal fold'], a: 2,
     ex: 'Olfactory epithelium lines the roof of the nasal cavity: the upper septum and the superior concha.' },
   { t: 'c', id: 'H-C2', title: 'Trachea, intrapulmonary bronchi and regular bronchioles', src: 'Histology p.16–23',
-    html: '<div class="tblwrap"><table class="tbl"><thead><tr><th>Feature</th><th>Trachea &amp; primary bronchi</th><th>Intrapulmonary bronchus</th><th>Regular bronchiole</th></tr></thead><tbody>' +
-      '<tr><td><b>Hyaline cartilage</b></td><td>{{C-shaped}} ring</td><td>{{Discontinuous}} plates</td><td>{{Absent}} (none)</td></tr>' +
-      '<tr><td><b>Smooth muscle</b></td><td>Posterior {{trachealis}} muscle</td><td>Continuous circular layer between mucosa and cartilage</td><td>{{Prominent circular}} muscularis layer</td></tr>' +
-      '<tr><td><b>Epithelium</b></td><td>Respiratory epithelium on a {{thick basement membrane}}</td><td>Respiratory epithelium</td><td>Pseudostratified ciliated columnar with {{rare or no goblet cells}}</td></tr>' +
-      '<tr><td><b>Glands &amp; outer layer</b></td><td>Seromucous glands; shares {{adventitia}} with {{esophagus}}</td><td>Submucosal seromucous glands</td><td>{{No seromucous glands}}</td></tr></tbody></table></div>' +
+    html: '<div class="tblwrap"><table class="tbl compact"><thead><tr><th>Going deeper →</th><th>Trachea</th><th>Bronchus in the lung</th><th>Bronchiole</th></tr></thead><tbody>' +
+      '<tr><td><b>Cartilage</b></td><td>{{C-shaped}} rings</td><td>{{plates}}</td><td>{{none}}</td></tr>' +
+      '<tr><td><b>Smooth muscle</b></td><td>{{trachealis}} at the back</td><td>a ring</td><td>{{prominent}} ring</td></tr>' +
+      '<tr><td><b>Glands</b></td><td>yes</td><td>yes</td><td>{{none}}</td></tr>' +
+      '<tr><td><b>Outer layer</b></td><td>{{adventitia}}, shared with the {{esophagus}}</td><td></td><td></td></tr></tbody></table></div>' +
+      '<p class="note">Going down the tree: cartilage and glands disappear → smooth muscle takes over → that is why bronchioles can constrict in asthma.</p>' +
       CVS.fig('histo-airways', 'Cross-sectional comparison of trachea, intrapulmonary bronchus, and regular bronchiole.', 'histo', 22) },
   { t: 'q', id: 'H11', src: 'AC79 spot', keep: true,
     q: 'Identify this structure A.',
@@ -93,10 +97,11 @@ CVS.add({ id: 'H', short: 'Histology', title: 'Histology of the Respiratory Syst
     ex: 'A is the band of smooth muscle around the bronchiole; bronchioles have no cartilage.' },
   { t: 'c', id: 'H-C3', title: 'Terminal and respiratory bronchioles: Club (Clara) cells', src: 'Histology p.24–29',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Terminal bronchioles</b> (end of conducting portion): lined by {{simple columnar}} to {{simple cuboidal}} ciliated epithelium containing non-ciliated {{Clara cells}} ({{Club cells}}).</li>' +
-      '<li><b>Morphology</b>: {{dome-shaped}} apical projection with short blunt {{microvilli}} (no cilia).</li>' +
-      '<li><b>Four functions</b>: (1) secrete {{lipoprotein}} that helps surfactant prevent luminal adhesion, (2) act as {{stem-cell-like}} progenitors, (3) {{detoxify}} inhaled xenobiotics, and (4) secrete biomarker {{CC16}} (secretory protein).</li>' +
-      '<li><b>Respiratory bronchioles</b> (start of gas exchange): cuboidal wall interrupted by outpocketing alveoli. Clinical airway disorders include bronchitis, COPD, and asthma.</li></ul></div>' +
+      '<li><b>Terminal bronchiole</b> = last conducting airway; lining {{simple cuboidal}} (to low columnar).</li>' +
+      '<li><b>{{Club cells}}</b> (Clara): {{dome-shaped}}, no cilia. Jobs:<ul>' +
+      '<li>secrete a surfactant-like lipoprotein</li><li>{{detoxify}} inhaled chemicals</li>' +
+      '<li>act as {{stem cells}} for the lining</li><li>secrete {{CC16}}</li></ul></li>' +
+      '<li><b>{{Respiratory bronchiole}}</b> = cuboidal wall broken by alveoli → gas exchange starts here.</li></ul></div>' +
       CVS.fig('histo-clara', 'Terminal bronchiole epithelium showing non-ciliated apical projections among ciliated cells.', 'histo', 24) + '</div>' },
   { t: 'q', id: 'H15', src: 'AC81', core: true, keep: true,
     q: 'What is the characteristic of the respiratory bronchiole?',
@@ -114,12 +119,13 @@ CVS.add({ id: 'H', short: 'Histology', title: 'Histology of the Respiratory Syst
     ex: 'B is a small airway whose wall is already broken by alveoli: a respiratory bronchiole.' },
   { t: 'c', id: 'H-C4', title: 'Alveolar ducts, alveoli, pneumocytes, dust cells and pores of Kohn', src: 'Histology p.30–40',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Alveolar ducts &amp; sacs</b>: lined by {{simple squamous}} epithelium with smooth muscle knobs at alveolar openings.</li>' +
-      '<li><b>Pneumocyte Type I</b>: flattened squamous cells making up {{40%}} of alveolar cells but covering {{90–95%}} of the surface area for gas exchange.</li>' +
-      '<li><b>Pneumocyte Type II</b> (septal cell): {{simple cuboidal}} cells with lamellar bodies making up {{60%}} of cells but only {{5–10%}} of surface area; synthesize {{pulmonary surfactant}} (lowering surface tension by Laplace law) and divide as progenitors for Type I and II cells.</li>' +
-      '<li><b>Dust cells</b>: {{alveolar macrophages}} in the septa and airspaces.</li>' +
-      '<li><b>Pores of Kohn</b>: inter-alveolar openings providing {{collateral circulation}} to equalize pressure and prevent {{atelectasis}} (lung collapse).</li>' +
-      '<li><b>Alveolar pathology</b>: infant {{RDS}} (surfactant deficiency), emphysema, pulmonary edema, lobar pneumonia, and pneumoconioses (anthracosis, silicosis, asbestosis).</li></ul></div>' +
+      '<li><b>Alveolar duct</b>: wall made of alveolar openings + knobs of smooth muscle → ends in an {{alveolar sac}}.</li>' +
+      '<li><b>Type I pneumocyte</b>: {{flat}} → covers {{most of the surface}} → gas exchange.</li>' +
+      '<li><b>Type II pneumocyte</b>: {{cuboidal}}, lamellar bodies<ul>' +
+      '<li>makes {{surfactant}} → lowers surface tension.</li><li>{{progenitor}} → replaces both types.</li></ul></li>' +
+      '<li><b>Premature baby</b>: immature type II cells → not enough of that film → alveoli collapse → {{RDS}}.</li>' +
+      '<li><b>Dust cells</b> = {{alveolar macrophages}} → eat inhaled particles.</li>' +
+      '<li><b>Pores of Kohn</b>: holes between alveoli → collateral air flow → prevent {{atelectasis}}.</li></ul></div>' +
       CVS.fig('histo-alveoli', 'Type II pneumocyte secreting lamellar bodies, with Laplace law and alveolar stability.', 'histo', 35) + '</div>' },
   { t: 'q', id: 'H18', src: 'AC79 spot', keep: true,
     q: 'Identify this structure A.',
@@ -157,15 +163,14 @@ CVS.add({ id: 'H', short: 'Histology', title: 'Histology of the Respiratory Syst
     o: ['Surfactant', 'Protein cc16', 'Vitamin B1', 'Macrophage-like'], a: 3,
     ex: 'Dust cells are macrophages: they phagocytose inhaled particles and microbes. CC16 is the club cell protein; surfactant comes from type II cells.' },
   { t: 'c', id: 'H-C5', title: 'The air-blood barrier and the lung pleurae', src: 'Histology p.41–45',
-    html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Five layers of the air-blood barrier</b> (from alveolar lumen to erythrocyte, p.42):' +
-      '<ol><li>{{Alveolar fluid}} + {{surfactant}} layer</li>' +
-      '<li>{{Alveolar epithelium}} (Type I pneumocyte cytoplasm)</li>' +
-      '<li>Fused {{basal lamina x 2}} (of epithelial and endothelial layers)</li>' +
-      '<li>Capillary {{endothelium}}</li>' +
-      '<li>{{Plasma membrane}} of the {{red blood cell}} (RBC)</li></ol></li>' +
-      '<li><b>Lung pleurae</b> (visceral and parietal): serous membranes lined by {{mesothelium}} (simple squamous) over connective tissue that produces {{lubricant fluid}}.</li>' +
-      '<li><b>Pleural pathology</b>: pneumothorax, hydrothorax, hemothorax, and asbestos-related {{mesothelioma}}.</li></ul></div>' +
+    html: '<div class="two"><div class="stack"><p><b>Air-blood barrier, air → blood</b> (p.42):</p>' +
+      '<ol class="steps tight"><li>{{surfactant}} + fluid layer</li>' +
+      '<li>{{type I pneumocyte}}</li>' +
+      '<li>fused {{basal laminae}}</li>' +
+      '<li>capillary {{endothelium}}</li>' +
+      '<li>{{RBC membrane}}</li></ol>' +
+      '<ul class="pts"><li><b>Pleura</b> = {{mesothelium}} (simple squamous) → secretes {{lubricant}} fluid.</li>' +
+      '<li>Asbestos → {{mesothelioma}}.</li></ul></div>' +
       CVS.fig('histo-barrier', 'Structure of the alveolocapillary (air-blood) barrier between alveolar air and capillary blood.', 'histo', 41) + '</div>' },
   { t: 'q', id: 'H25', src: 'AC79 spot', keep: true,
     q: 'Identify this structure A.',

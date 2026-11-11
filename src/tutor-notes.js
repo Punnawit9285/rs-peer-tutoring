@@ -418,20 +418,22 @@ Object.assign(window.TUTOR_NOTES, {
     "ไอในวินาทีแรกทำให้ FEV₁ ใช้ไม่ได้ แต่ FVC อาจยังใช้ได้",
     "ทำไมไม่เฉลี่ย: ค่าที่ต่ำมักมาจากความพยายามไม่เต็มที่ ไม่ใช่ความแปรปรวนจริงของปอด"
   ] },
-  "P-C4": { b: [
-    "ถามติดปากทุกรายงาน: <b>Blocked? Small? How bad? Reversible? Small airways?</b>",
-    "ทำไม FEV₁/FVC มาก่อน: obstruction ทำให้ FVC ลดได้จาก air trapping (pseudo-restriction) จึงต้อง correct ก่อนตัดสินว่ามี restriction",
-    "Case 4: FEV₁ %pred เพิ่ม 69 → 78 = 9 จุด (ไม่ถึง 10% ตามเกณฑ์ 2021) แต่สไลด์นับเป็น response ตามเกณฑ์ ≥ 12% และ ≥ 200 mL → ในห้องใช้เกณฑ์นี้",
-    "Spirometry บอกได้แค่ <b>restrictive pattern</b>; การยืนยัน restriction ต้องวัด TLC (body plethysmography หรือ gas dilution)"
-  ], d: [
-    "FEV1/FVC < 70-75 ?",
-    "  NO  -> FVC < 80% ?  YES -> restriction (confirm TLC), grade by FVC%",
-    "          NO  -> FEF25-75 < 65% ?  YES -> small airway disease",
-    "                                   NO  -> normal",
-    "  YES -> corrected %FVC > 80% ?  NO -> combined defect",
-    "          YES -> pure obstruction, grade by FEV1%",
-    "                 BD >= 12% and >= 200 mL ? -> reversible / irreversible"
-  ] },
+  "P-C4": {
+    "b": [
+      "ถามติดปากทุกรายงาน: <b>Slow? Small? How bad? Reversible? Small airways?</b>",
+      "ทำไม ratio มาก่อน: obstruction ทำให้ FVC ลดได้จาก air trapping (pseudo-restriction) จึงต้อง correct ก่อนตัดสินว่ามี restriction",
+      "ในวิดีโอ: กด Case 4 แล้ว Next step ทีละขั้น ให้ผู้ชมเดาคำตอบของแต่ละกล่องก่อนกด · Case 4 BD ผ่านพอดี (+210 mL, +12.4%)",
+      "Spirometry บอกได้แค่ <b>restrictive pattern</b> การยืนยัน restriction ต้องวัด TLC"
+    ],
+    "d": [
+      "FEV1/FVC < 70 ?",
+      "  NO  -> FVC < 80% ?  YES -> restriction (confirm TLC), grade by FVC%",
+      "          NO  -> FEF25-75 < 65% ?  YES -> small airway disease",
+      "                                   NO  -> normal",
+      "  YES -> FVC < 80% ?  YES -> corrected %FVC = %FVC + (70 - ratio) < 80 ?  YES -> mixed",
+      "          otherwise pure obstruction, grade by FEV1% -> BD: +12% and +200 mL ?"
+    ]
+  },
   "P-C5": { b: [
     "หลักการจำ <b>Variable upper airway obstruction</b>: ดูว่าความดันด้านไหนชนะในแต่ละจังหวะ โดยส่วนที่อยู่นอกช่องอก (extrathoracic) เทียบกับความดันบรรยากาศ ($P_{\\text{atm}} = 0$) ส่วนที่อยู่ในช่องอก (intrathoracic) เทียบกับความดันเยื่อหุ้มปอด ($P_{\\text{pl}}$)",
     "Mnemonic ยอดฮิต: <b>\"E-I / I-E\"</b> &rarr; Variable <b>E</b>xtrathoracic แบนที่ขา <b>I</b>nspiration (ได้ยินเสียง <b>stridor</b> ตอนสูดเข้า) · Variable <b>I</b>ntrathoracic แบนที่ขา <b>E</b>xpiration (ได้ยินเสียง <b>wheezes</b> ตอนเป่าออก)",
@@ -534,29 +536,37 @@ Object.assign(window.TUTOR_NOTES, {
     "Titratable acid excr.    Distal / CD (A-IC)  H+-ATPase + urinary HPO4(2-)   YES (10-40 mEq/day)",
     "Ammonium (NH4+) excr.    PCT -> TAL -> CD    Glutamine -> NH4+ trapping     YES (20-50 up to 500/d)"
   ] },
-  "A-C3": { b: [
-    "ข้อควรระวังในสไลด์ของภาควิชา: สไลด์หน้า 55, 56 และ 60 พิมพ์คำกริยาภาษาอังกฤษสลับเป็น \"increase\" แทนที่จะเป็น \"decrease\" แต่สมการคำนวณที่มีเครื่องหมายลบและตารางสรุปหน้า 61 ถูกต้องทั้งหมด ให้จำหลักการสากลว่า <b>ในความผิดปกติเดี่ยว PaCO₂ และ [HCO₃⁻] จะขยับไปในทิศทางเดียวกันเสมอ</b>",
-    "วิธีจำตัวเลขการชดเชยของปอดและไตแบบรวบรัด (สูตร 1 – 3.5 – 2 – 4.5 สำหรับ respiratory): <b>Acidosis Acute = 1, Chronic = 3.5 · Alkalosis Acute = 2, Chronic = 4–5</b> (ต่อการเปลี่ยน PaCO₂ 10 mmHg)",
-    "ใน <b>metabolic alkalosis</b> การชดเชยด้วยการหายใจช้าลงมีขีดจำกัด เพราะถ้า PaCO₂ สูงขึ้นมากจน PaO₂ ลดต่ำกว่า 60 mmHg ร่างกายจะถูกกระตุ้นให้หายใจจากภาวะพร่องออกซิเจนแทน ดังนั้น PaCO₂ ชดเชยจึงมักไม่เกิน 50–55 mmHg"
-  ], d: [
-    "Primary disorder        Primary change     Expected compensation (from PaCO2 40, HCO3- 24)",
-    "Resp. acidosis (acute)  PaCO2 > 45 mmHg    HCO3- rises by 1 mmol/L per 10 mmHg rise in PaCO2",
-    "Resp. acidosis (chron)  PaCO2 > 45 mmHg    HCO3- rises by 3.5 (3-4) per 10 mmHg rise in PaCO2",
-    "Resp. alkalosis (acute) PaCO2 < 35 mmHg    HCO3- falls by 2 mmol/L per 10 mmHg fall in PaCO2",
-    "Resp. alkalosis (chron) PaCO2 < 35 mmHg    HCO3- falls by 4-5 mmol/L per 10 mmHg fall in PaCO2",
-    "Metabolic acidosis      HCO3- < 22 mmol/L  PaCO2 falls by 1.25 x dHCO3- (or 1.5 x HCO3- + 8 +/- 2)",
-    "Metabolic alkalosis     HCO3- > 26 mmol/L  PaCO2 rises by 0.75 x dHCO3-"
-  ] },
-  "A-C4": { b: [
-    "เนื่องจากประจุลบที่ไม่ได้วัดส่วนใหญ่คือ <b>albumin</b> ในผู้ป่วยที่มีภาวะอัลบูมินในเลือดต่ำ (hypoalbuminemia) ทุกๆ 1 g/dL ของอัลบูมินที่ต่ำกว่า 4 g/dL จะทำให้ค่า Anion Gap ปกติลดลงประมาณ <b>2.5 mEq/L</b> (ต้องแก้ค่า AG ก่อนแปลผลในผู้ป่วยวิกฤตหรือโรคตับ)",
-    "ในภาวะอาเจียนรุนแรง (สูญเสียกรด HCl จากกระเพาะอาหาร) จะเกิด <b>hypochloremic metabolic alkalosis</b> ซึ่งตอบสนองต่อการให้สารน้ำ 0.9% NaCl (saline-responsive metabolic alkalosis)",
-    "จำหลักการแปลผล <b>Urine Anion Gap (UAG)</b> ด้วยวลีสั้นๆ: <b>\"NeGative UAG = GI loss (ท้องเสีย)\"</b> เพราะมี NH₄⁺ (ซึ่งเป็นประจุบวกที่ไม่ได้อยู่ในสูตร) ออกมามากพร้อมกับ Cl⁻"
-  ] },
-  "A-C5": { b: [
-    "เคสที่ 3 ในสไลด์ (หน้า 82) เป็นตัวอย่างคลาสสิกของข้อสอบ: ถ้าดูแค่ <b>pH 7.40, PaCO₂ 40, HCO₃⁻ 24</b> จะเข้าใจผิดว่าปกติทั้งหมด แต่พอลบเลข <b>AG = 145 − (100 + 24) = 21</b> จะรู้ทันทีว่ามี HAGMA ซ่อนอยู่ และที่ HCO₃⁻ ไม่ลดลงเหลือ 15 ก็เพราะมี metabolic alkalosis จากการอาเจียนช่วยดึงขึ้นมาพอดี",
-    "วิธีคิด <b>Delta gap / Delta ratio</b> (ขั้นที่ 6): คำนวณ <b>\"Corrected [HCO₃⁻]\" = [HCO₃⁻] ที่วัดได้ + (AG − 12)</b> ถ้าบวกกลับแล้วได้มากกว่า 26 แสดงว่ามี <b>metabolic alkalosis</b> ซ้อนอยู่ แต่ถ้าบวกกลับแล้วยังน้อยกว่า 22 แสดงว่ามี <b>NAGMA</b> ซ้อนอยู่",
-    "เคสที่ 2 (หน้า 80: pH 7.12, PaCO₂ 40, HCO₃⁻ 12) สอนข้อควรระวังสำคัญทางคลินิก: ในผู้ป่วยที่มี metabolic acidosis รุนแรง ค่า <b>PaCO₂ = 40 mmHg ไม่ใช่ค่าปกติ</b> แต่แสดงว่าผู้ป่วยเริ่มเหนื่อยล้าจนไม่สามารถหอบชดเชยได้ (มี respiratory acidosis ซ้อนทับ) และใกล้ต้องใส่ท่อช่วยหายใจ"
-  ] }
+  "A-C3": {
+    "b": [
+      "สไลด์หน้า 55, 56 และ 60 พิมพ์ \"increase\" แทน \"decrease\" แต่สูตรที่มีเครื่องหมายลบและตารางหน้า 61 ถูก → ในความผิดปกติเดี่ยว PaCO₂ กับ HCO₃⁻ ขยับทางเดียวกันเสมอ",
+      "จำตัวเลข respiratory: <b>acidosis 1 / 3.3–4 · alkalosis 2 / 4–5</b> (acute / chronic, ต่อ PaCO₂ 10 mmHg)",
+      "metabolic alkalosis ใน handout: HCO₃⁻ ↑ 10 → PaCO₂ ↑ 6 (ตาราง 10 : 6 หน้า 61) ไม่ใช่ 0.7"
+    ],
+    "d": [
+      "Primary disorder        Expected compensation (from PaCO2 40, HCO3- 24)",
+      "Resp. acidosis acute    HCO3- +1 per 10 mmHg PaCO2 rise",
+      "Resp. acidosis chronic  HCO3- +3.3-4 per 10 mmHg   ( = (PaCO2 - 40)/3 + 24 )",
+      "Resp. alkalosis acute   HCO3- -2 per 10 mmHg PaCO2 fall",
+      "Resp. alkalosis chronic HCO3- -4-5 per 10 mmHg",
+      "Metabolic acidosis      PaCO2 = 1.5 x HCO3- + 8 +/- 2 (Winter)",
+      "Metabolic alkalosis     PaCO2 +6 per 10 HCO3- rise"
+    ]
+  },
+  "A-C4": {
+    "b": [
+      "albumin เป็นประจุลบหลักที่ไม่ได้วัด → albumin ต่ำกว่า 4 g/dL ทุก 1 g/dL → AG ลด 2.5 (handout หน้า 69–70: AG 12 แต่ albumin 2 → corrected 17 = HAGMA)",
+      "MUDPILES (handout หน้า 67): Methanol/Metformin, Uremia, DKA, Paracetamol, Isoniazid, Lactate, Ethanol/Ethylene glycol, Salicylate",
+      "NAGMA (หน้า 68): RTA type 1, NH₄Cl ingestion, diarrhea, saline ที่มี Cl⁻ มาก"
+    ]
+  },
+  "A-C5": {
+    "b": [
+      "handout ให้ Ex 1–10 เป็นตัวเลขอย่างเดียว ไม่มีเฉลย → ใช้ flowchart ในการ์ดนี้ไล่ทีละขั้นเป็นเฉลยตามกฎของ handout",
+      "Ex 3 (pH 7.35, PaCO₂ 50, HCO₃⁻ 28): pH อยู่ในช่วงปกติแต่ฝั่งกรด → chronic respiratory acidosis ที่ชดเชยแล้ว",
+      "Ex 9 (pH 7.39, PaCO₂ 34, HCO₃⁻ 20): Winter คาด 36–40 แต่ได้ 34 → metabolic acidosis + respiratory alkalosis",
+      "Ex 10: correct AG ด้วย albumin ก่อน (22 → 25) จึงได้ delta ratio 2.2 → มี metabolic alkalosis จากการอาเจียนซ่อนอยู่"
+    ]
+  }
 });
 
 /* ---------- S · Respiratory System Under Stress ---------- */

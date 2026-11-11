@@ -96,6 +96,7 @@ button, input { font: inherit; color: inherit; }
 .mini p { margin: 0; }
 .mini ul { margin: 0; padding-left: 1.1em; display: grid; gap: 4px; }
 .pts { margin: 0; padding-left: 1.2em; display: grid; gap: 7px; }
+.pts ul, .steps ul { margin: 4px 0 0; padding-left: 1.1em; display: grid; gap: 3px; }  /* sub-points */
 .steps { margin: 0; padding-left: 1.3em; display: grid; gap: 7px; }
 .steps.tight { gap: 3px; }
 .note { margin: 0; background: var(--ven-soft); border-radius: 10px; padding: 10px 14px; }
@@ -103,6 +104,8 @@ button, input { font: inherit; color: inherit; }
 .trap::before { content: "Exam trap \00B7  "; font-weight: 600; color: var(--warn); }
 .eqn { font: 600 1.65em var(--f-display); text-align: center; letter-spacing: .02em; padding: 6px 0; }
 .eqn span { color: var(--art); }
+.eqn .cz { color: transparent; }  /* a blank inside an equation stays hidden until revealed */
+.eqn .cz.on, .czopen .eqn .cz, .showall .eqn .cz { color: var(--art); }
 .speeds { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
 @media (max-width: 760px) { .speeds { grid-template-columns: 1fr; } }
 .speed { border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; background: var(--sheet); }
@@ -114,6 +117,7 @@ button, input { font: inherit; color: inherit; }
 .speed ul { margin: 0; padding-left: 1.1em; display: grid; gap: 3px; }
 .flow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 .flow.col { flex-direction: column; align-items: stretch; }
+.flow.col .fbox { flex: none; }  /* stacked flowchart: boxes keep their own height */
 .fbox { border: 1px solid var(--rule); background: var(--sheet); border-radius: 10px; padding: 8px 12px; flex: 1 1 140px; min-width: 0; }
 .fbox.start { background: var(--sheet2); }
 .fbox.end { background: var(--ok-soft); border-color: var(--ok); }
@@ -183,8 +187,8 @@ button, input { font: inherit; color: inherit; }
 .thx-h { font: 600 1.02em var(--f-display); color: var(--ok); }
 .thx-s { font: .74em var(--f-mono); color: var(--ink2); }
 .thx[open] summary { border-bottom: 1px dashed var(--rule); margin-bottom: 10px; }
-.thx-body { display: grid; gap: 9px; padding-bottom: 14px; line-height: 1.7; font-family: "IBM Plex Sans Thai", var(--f-body); }
-.thx-body p { margin: 0; }
+.thx-body { display: grid; gap: 6px; margin: 0; padding: 0 0 14px 1.2em; line-height: 1.65; font-family: "IBM Plex Sans Thai", var(--f-body); }
+.thx-body li::marker { color: var(--ok); }
 .thx-body b { font-weight: 600; color: var(--ink); }
 
 /* cover: counts + QR to the live deck (student deck start card and PDF cover) */

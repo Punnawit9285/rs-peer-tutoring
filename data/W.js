@@ -4,10 +4,12 @@ CVS.add({ id: 'W', short: 'Thoracic wall', title: 'Thoracic Wall, Intercostal Sp
   items: [
   { t: 'c', id: 'W-C1', title: 'Thoracic cage: sternum, rib classes and vertebral joints', src: 'Thoracic wall p.2–6',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Sternum</b>: {{manubrium}} (articulates with clavicle and 1st rib), {{sternal angle}} of Louis (junction with sternal body at the {{2nd rib}}), sternal body, and {{xiphoid process}}.</li>' +
-      '<li><b>12 pairs of ribs</b>: {{true ribs}} (ribs 1–7, attach directly to sternum via costal cartilages), {{false ribs}} (ribs 8–12), including {{floating ribs}} (ribs 11–12, free anterior ends).</li>' +
-      '<li><b>Typical ribs ({{ribs 3–9}})</b>: head with two articular facets separated by a crest, neck, tubercle, and shaft with an inferior {{costal groove}}.</li>' +
-      '<li><b>Posterior articulations</b>: rib head articulates with {{vertebral bodies}} (demifacets); rib tubercle articulates with the {{transverse process}} of the corresponding thoracic vertebra.</li></ul></div>' +
+      '<li><b>Sternum, top → bottom</b>: {{manubrium}} → {{sternal angle}} → body → {{xiphoid process}}.</li>' +
+      '<li>The angle = level of the {{2nd rib}} → start counting ribs here.</li>' +
+      '<li><b>Ribs</b><ul><li>{{true ribs}} (1–7): own cartilage to the sternum.</li>' +
+      '<li>{{false ribs}} (8–12): no direct sternal joint; 11–12 are {{floating ribs}}.</li></ul></li>' +
+      '<li><b>Typical rib</b>: head, neck, tubercle, shaft with a {{costal groove}} on its lower edge.</li>' +
+      '<li><b>Behind</b>: head → {{vertebral bodies}}; tubercle → {{transverse process}}.</li></ul></div>' +
       '<div class="stack">' + CVS.fig('wall-sternum', 'Divisions of the sternum and the sternal junction at the second costal cartilage.', 'wall', 3) + CVS.fig('wall-rib', 'Costovertebral and costotransverse articulations of a typical rib.', 'wall', 6) + '</div></div>' },
   { t: 'q', id: 'W1', src: 'AC80', core: true, keep: true,
     q: 'Which structure has 2nd rib attached to?',
@@ -35,11 +37,12 @@ CVS.add({ id: 'W', short: 'Thoracic wall', title: 'Thoracic Wall, Intercostal Sp
     ex: 'Count down from the sternal angle: the cartilage at A is the 2nd, so the next one down, at B, is the 3rd.',
     flag: 'Key from the AC81 spot short answer key; count from the sternal angle on the photo to check.' },
   { t: 'c', id: 'W-C2', title: 'Intercostal muscle layers and transversus thoracis', src: 'Thoracic wall p.7–11',
-    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl"><thead><tr><th>Layer</th><th>Fiber direction &amp; extent</th><th>Respiratory action</th></tr></thead><tbody>' +
-      '<tr><td><b>{{External intercostal}}</b> (outermost)</td><td>{{Inferiorly and anteriorly}} ("hands in pockets"); vertebral column to costochondral junction, then {{external intercostal membrane}}</td><td>{{Elevates ribs}} during inspiration</td></tr>' +
-      '<tr><td><b>{{Internal intercostal}}</b> (middle)</td><td>{{Superiorly and anteriorly}}; sternum to costal angle, then {{internal intercostal membrane}}</td><td>{{Depresses ribs}} during forced expiration</td></tr>' +
-      '<tr><td><b>{{Innermost intercostal}}</b> (deepest)</td><td>Same fiber orientation as middle layer; occupies lateral and back spaces</td><td>Assists rib depression</td></tr></tbody></table></div>' +
-      '<ul class="pts"><li><b>{{Transversus thoracis}}</b>: deep anterior sheet arising from lower sternal body and xiphoid to insert on {{ribs 2–6}}; innervated by intercostal nerves 3–6 to pull ribs down in forced expiration.</li></ul></div>' +
+    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl compact"><thead><tr><th>Layer</th><th>Fibres run</th><th>Job</th></tr></thead><tbody>' +
+      '<tr><td><b>{{External intercostal}}</b><br>outer</td><td>{{down and forward}}<br>(“hands in pockets”)</td><td>{{lifts ribs}}: inspiration</td></tr>' +
+      '<tr><td><b>{{Internal intercostal}}</b><br>middle</td><td>{{up and forward}}</td><td>{{pulls ribs down}}: forced expiration</td></tr>' +
+      '<tr><td><b>{{Innermost intercostal}}</b><br>deepest</td><td>like the middle layer</td><td>helps pull ribs down</td></tr></tbody></table></div>' +
+      '<ul class="pts"><li>Near the sternum the outer layer becomes a membrane → the muscle you see there is the middle layer.</li>' +
+      '<li><b>{{Transversus thoracis}}</b>: inside the front wall, back of the lower sternum → costal cartilages → forced expiration.</li></ul></div>' +
       CVS.fig('wall-intercostal', 'Three layers of intercostal muscles and their membranes in cross-section.', 'wall', 10) + '</div>' },
   { t: 'q', id: 'W6', src: 'AC79 spot', core: true, keep: true,
     q: 'Identify this structure A.',
@@ -67,21 +70,25 @@ CVS.add({ id: 'W', short: 'Thoracic wall', title: 'Thoracic Wall, Intercostal Sp
     o: ['External intercostal muscle', 'Internal intercostal muscle', 'Innermost intercostal muscle', 'Transversus thoracis muscle'], a: 3,
     ex: 'The photo shows the inner surface of the anterior chest wall; B is a slip of the transversus thoracis.' },
   { t: 'c', id: 'W-C3', title: 'Mechanics of quiet vs forceful breathing and accessory muscles', src: 'Thoracic wall p.12–14',
-    html: '<div class="stack"><ul class="pts">' +
-      '<li><b>Quiet (normal) inspiration</b>: driven primarily by contraction of the {{diaphragm}} together with the external intercostal muscles.</li>' +
-      '<li><b>Quiet (normal) expiration</b>: passive process driven by {{elastic recoil}} of the lungs and relaxation of the inspiratory muscles.</li>' +
-      '<li><b>Accessory muscles of {{forceful inspiration}}</b> (exercise or respiratory distress): {{sternocleidomastoid}} (SCM), {{scalene muscles}}, {{pectoralis minor}}, {{serratus anterior}} &amp; posterior, and {{levator costarum}}.</li>' +
-      '<li><b>Muscles of {{forceful expiration}}</b>: internal and innermost intercostals, transversus thoracis, and {{abdominal muscles}} (rectus abdominis, external oblique, internal oblique).</li></ul></div>' },
+    html: '<div class="cols2"><div class="mini art"><h4>Breathing in</h4><ul>' +
+      '<li><b>Quiet</b>: {{diaphragm}} + external intercostals.</li>' +
+      '<li><b>Forced</b>: add the accessory muscles: {{sternocleidomastoid}}, {{scalenes}}, {{pectoralis minor}}, serratus.</li></ul></div>' +
+      '<div class="mini ven"><h4>Breathing out</h4><ul>' +
+      '<li><b>Quiet</b>: passive → {{elastic recoil}} of the lung.</li>' +
+      '<li><b>Forced</b>: {{internal intercostals}} + innermost + transversus thoracis + {{abdominal muscles}}.</li></ul></div></div>' +
+      '<p class="note">Rule of thumb: anything that lifts the ribs breathes in; anything that pulls them down or pushes the abdomen up breathes out.</p>' },
   { t: 'q', id: 'W11', src: 'AC79 · AC81', core: true, keep: true,
     q: 'Which of the following muscles is used to elevate the rib?',
     o: ['External intercostal muscle', 'Internal intercostal muscle', 'Innermost intercostal muscle', 'Transversus thoracis muscle', 'Diaphragm'], a: 0,
     ex: 'The external intercostals raise the ribs in inspiration (bucket and pump handle). The internal, innermost and transversus thoracis depress the ribs in forced expiration; the diaphragm does not lift the ribs.' },
   { t: 'c', id: 'W-C4', title: 'Intercostal neurovascular bundle (VAN), vessels and nerve block', src: 'Thoracic wall p.15–20',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Plane &amp; order</b>: the main neurovascular bundle runs in the costal groove along the inferior border of the rib, between the {{internal and innermost}} intercostal layers, arranged superior-to-inferior as {{VAN}} (Vein, Artery, Nerve).</li>' +
-      '<li><b>Arteries</b>: {{anterior intercostal}} arteries branch from the {{internal thoracic artery}}; {{posterior intercostal}} arteries arise from the thoracic {{aorta}}.</li>' +
-      '<li><b>Veins</b>: anterior veins drain to the internal thoracic vein; posterior veins drain to the {{azygos}} vein on the right and {{hemiazygos and accessory hemiazygos}} veins on the left.</li>' +
-      '<li><b>Clinical needle placement</b>: an {{intercostal nerve block}} (or herpes zoster dermatomal pain) targets the {{lower border}} of the rib, whereas pleural procedures pass along the {{upper border}} of the rib below to avoid the bundle.</li></ul></div>' +
+      '<li><b>Where</b>: in the costal groove (lower edge of the rib), between the {{internal and innermost}} layers.</li>' +
+      '<li><b>Order, top → bottom</b>: {{VAN}} (vein, artery, nerve).</li>' +
+      '<li><b>Arteries</b>: front ← {{internal thoracic artery}}; back ← {{aorta}}.</li>' +
+      '<li><b>Veins</b>: back → {{azygos}} (right) / {{hemiazygos}} (left).</li>' +
+      '<li><b>Needles</b><ul><li>Nerve block → aim at the {{lower border}} of the rib (where the nerve is).</li>' +
+      '<li>Chest tap or drain → go over the {{upper border}} of the rib below (away from the bundle).</li></ul></li></ul></div>' +
       '<div class="stack">' + CVS.fig('wall-van', 'Arrangement of Vein, Artery, and Nerve in the costal groove.', 'wall', 18) + CVS.fig('wall-block', 'Infiltration at the inferior costal margin for an intercostal block.', 'wall', 20) + '</div></div>' },
   { t: 'q', id: 'W12', src: 'AC79 spot', core: true, keep: true,
     q: 'Identify these structures A.',
@@ -95,11 +102,14 @@ CVS.add({ id: 'W', short: 'Thoracic wall', title: 'Thoracic Wall, Intercostal Sp
     ex: 'B is the vertical pair of vessels beside the sternum: the internal thoracic artery and veins.' },
   { t: 'c', id: 'W-C5', title: 'Pleural procedures, flail chest and the diaphragm', src: 'Thoracic wall p.21–30',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>{{Thoracocentesis}} (pleural tap)</b>: needle aspiration of pleural effusion at the {{7th or 8th}} intercostal space along the {{posterior axillary}} or mid-scapular line (note: Lung p.10 teaches 8th–10th ICS at the midaxillary line).</li>' +
-      '<li><b>{{Tube thoracostomy}} (chest drain)</b>: evacuates air ({{pneumothorax}}) or blood ({{hemothorax}}) via the {{4th or 5th}} intercostal space at the {{anterior or mid-axillary}} line, hugging the upper rib border.</li>' +
-      '<li><b>{{Flail chest}}</b>: multiple rib fractures with isolated segment causing {{paradoxical movement}} (drawn inward on inspiration, pushed outward on expiration).</li>' +
-      '<li><b>Diaphragm</b>: dome with central tendon, right &amp; left crura (L2–L4), and 3 major openings (IVC in central tendon, esophageal hiatus in right crus, aortic hiatus behind crura); motor &amp; central sensory via {{phrenic nerve}} (C3–C5), peripheral sensory via lower 6 intercostal nerves.</li></ul></div>' +
-      '<div class="stack">' + CVS.fig('wall-flail', 'Isolated rib segment moving inward during inspiration and outward during expiration.', 'wall', 28) + CVS.fig('wall-diaphragm', 'Inferior view of the diaphragm showing crura, central tendon, and major openings.', 'wall', 29) + '</div></div>' + '<p class="note"><b>From the past papers</b> · A chest tube or tap crosses skin, the three intercostal layers, endothoracic fascia and the parietal (costal) pleura, never the visceral pleura (AC79–AC81). The right dome sits on the liver. Openings: IVC at T8 through the central tendon, esophagus with the vagal trunks at T10, aorta with the thoracic duct at T12 (AC79 spot).</p>' },
+      '<li><b>{{Thoracocentesis}}</b> (tap fluid): low, at the back (posterior axillary line).</li>' +
+      '<li><b>{{Tube thoracostomy}}</b> (drain air or blood): 4th–5th space, axillary line, over the upper border of the rib.</li>' +
+      '<li><b>Layers crossed</b>: skin → 3 intercostal layers → endothoracic fascia → {{parietal}} (costal) pleura. Never the {{visceral pleura}}.</li>' +
+      '<li><b>{{Flail chest}}</b>: several ribs broken in two places → a loose segment → {{paradoxical movement}} (in on inspiration, out on expiration).</li>' +
+      '<li><b>Diaphragm</b><ul><li>Motor: {{phrenic nerve}} only (C3–C5); passes in front of the lung root.</li>' +
+      '<li>Openings: IVC at {{T8}} (central tendon) · esophagus at {{T10}} · aorta at T12.</li>' +
+      '<li>Right dome sits on the {{liver}}.</li></ul></li></ul></div>' +
+      '<div class="stack">' + CVS.fig('wall-flail', 'Isolated rib segment moving inward during inspiration and outward during expiration.', 'wall', 28) + CVS.fig('wall-diaphragm', 'Inferior view of the diaphragm showing crura, central tendon, and major openings.', 'wall', 29) + '</div></div>' },
   { t: 'q', id: 'W14', src: 'AC79 · AC80 · AC81', core: true, keep: true,
     q: 'Which structure does not pass through during thoracostomy in a pneumothorax patient?',
     o: ['External intercostal', 'Internal intercostal', 'Innermost intercostal', 'Parietal pleura', 'Visceral pleura'], a: 4,

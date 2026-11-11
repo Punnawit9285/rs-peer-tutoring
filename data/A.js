@@ -1,14 +1,18 @@
 /* Section A: Acid-Base Regulation (681117-2 Acid base regulation Med 2025 student.pdf, 88 slides). */
 CVS.add({ id: 'A', short: 'Acid-base', title: 'Acid-Base Regulation', kind: 'Lecture',
-  blurb: 'Normal arterial pH, volatile vs fixed acids, the Henderson–Hasselbalch equation, extracellular and intracellular buffers, renal HCO₃⁻ reclamation and new HCO₃⁻ generation, the four primary acid-base disorders with compensation formulas, and the 6-step ABG & anion gap approach.',
+  blurb: 'Normal arterial pH, volatile vs fixed acids, the Henderson–Hasselbalch equation, extracellular and intracellular buffers, renal HCO₃⁻ reclamation and new HCO₃⁻ generation, the four primary acid-base disorders with compensation formulas, and the handout’s ABG flowchart with anion gap and delta ratio (interactive).',
   items: [
   { t: 'c', id: 'A-C1', title: 'Arterial pH, acid loads, and the Henderson–Hasselbalch equation', src: 'Acid-base p.4–19',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li>Normal arterial blood pH is {{7.35–7.45}} (mean 7.40, equivalent to [H⁺] = {{40 nEq/L}}); life-compatible pH spans {{6.80–7.80}}.</li>' +
-      '<li><b>{{Volatile acid}}</b> (CO₂ from aerobic metabolism, {{13,000}} mmol/day) is eliminated by the lungs; <b>non-volatile ({{fixed}}) acids</b> ({{50–100}} mEq/day from protein/phospholipid catabolism: sulfuric, phosphoric, uric, lactic, and ketoacids) are excreted by the kidneys.</li>' +
-      '<li><b>Henderson–Hasselbalch equation</b>: pH = {{6.1}} + log([HCO₃⁻] / ({{0.03}} × PaCO₂)); at [HCO₃⁻] = 24 mmol/L and PaCO₂ = 40 mmHg, the base-to-acid ratio is {{20:1}} (log 20 = 1.3 → pH 7.40).</li>' +
-      '<li>Three lines of defense: <b>chemical buffers</b> act within {{seconds}}, <b>respiratory regulation</b> within {{minutes}}, and <b>renal regulation</b> over hours to days.</li></ul></div>' +
-      CVS.fig('acid-buffers', 'Extracellular, intracellular, and renal tubular buffer systems with their pKa values.', 'acid', 16) + '</div>' + '<p class="note"><b>From the past papers</b> · Buffers: bicarbonate is the main buffer of extracellular fluid; plasma proteins such as albumin add to it; phosphate plays little role in ECF but matters in cells and urine; proteins such as hemoglobin (38 histidines, the most important buffer after bicarbonate) buffer inside cells (Acid-base p.14, 24; AC79–AC81).</p>' },
+      '<li><b>Normal pH</b> {{7.35–7.45}}.</li>' +
+      '<li><b>Two kinds of acid</b><ul><li>{{Volatile}}: CO<sub>2</sub> (as carbonic acid) → by far the biggest load → cleared by the {{lungs}}.</li>' +
+      '<li>{{Fixed}}: sulfuric, phosphoric, lactic, keto acids → small load → cleared by the {{kidneys}}.</li></ul></li>' +
+      '<li><b>Henderson–Hasselbalch</b>: pH = 6.1 + log(HCO₃⁻ / 0.03 × PaCO₂) → normal ratio {{20 : 1}} → pH 7.40.</li>' +
+      '<li><b>Defence by speed</b>: buffers {{seconds}} → breathing minutes → renal hours to days.</li>' +
+      '<li><b>Buffers</b><ul><li>Outside cells: {{bicarbonate}} (main; breathing removes its CO<sub>2</sub>).</li>' +
+      '<li>Inside cells: phosphate and proteins, e.g. Hb (many {{histidines}}).</li>' +
+      '<li>At pH 7.4 phosphate is mostly {{HPO₄²⁻}} (pKa 6.8).</li></ul></li></ul></div>' +
+      CVS.fig('acid-buffers', 'Extracellular, intracellular, and renal tubular buffer systems with their pKa values.', 'acid', 16) + '</div>' },
   { t: 'q', id: 'A1', src: 'AC79', keep: true,
     q: 'Which one is the most important metabolic acid load in the body?',
     o: ['Lactic acid', 'Sulfuric acid', 'Carbonic acid', 'Acetic acid', 'Phosphoric acid'], a: 2,
@@ -31,11 +35,16 @@ CVS.add({ id: 'A', short: 'Acid-base', title: 'Acid-Base Regulation', kind: 'Lec
     o: ['It is a form of titratable acid that is easy to secrete.', 'The pKa is similar to blood pH.', 'Hemoglobin has a lot of histidine residues.', 'It is a type of extracellular buffer that is commonly found in the body.', 'Hemoglobin can bind to carbon dioxide.'], a: 2,
     ex: 'Hemoglobin’s many histidine residues have imidazole groups with a pKa near physiological pH, so they take up and release H⁺. It is an intracellular (red cell) buffer.' },
   { t: 'c', id: 'A-C2', title: 'Renal HCO₃⁻ reclamation vs new HCO₃⁻ generation', src: 'Acid-base p.31–44',
-    html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li>Filtered HCO₃⁻ load is ~{{4,320}} mEq/day (180 L/day × 24 mEq/L); <b>{{85%}}</b> is reabsorbed in the proximal convoluted segment, {{10%}} in the thick ascending limb, and {{4.9%}} in the distal/collecting segments (&gt;99.9% conserved).</li>' +
-      '<li>Proximal reclamation uses apical {{NHE3}} (Na⁺–H⁺ exchanger) and brush-border {{CA IV}} (plus cytosolic CA II); it conserves filtered HCO₃⁻ without net H⁺ excretion.</li>' +
-      '<li><b>New HCO₃⁻ generation</b> requires excreting H⁺ with urinary buffers: (1) <b>{{titratable acid}}</b> (mainly HPO₄²⁻ → H₂PO₄⁻, pKa {{6.8}}, 10–40 mEq/day; minimum urine pH {{4.4–4.5}}) and (2) <b>NH₄⁺ excretion</b> from proximal {{glutamine}} metabolism (20–50 mEq/day baseline, inducible up to {{500}} mEq/day in chronic acidosis).</li>' +
-      '<li>In the collecting duct, <b>type A intercalated cells</b> secrete H⁺ (via H⁺-ATPase and H⁺/K⁺-ATPase) during acidosis, whereas <b>type B intercalated cells</b> secrete HCO₃⁻ via apical {{pendrin}} during alkalosis.</li></ul></div>' +
+    html: '<div class="two"><div class="stack"><p>The kidney has two jobs:</p>' +
+      '<div class="cols2"><div class="mini art"><h4>1 · Reclaim filtered HCO₃⁻</h4><ul>' +
+      '<li>Mostly in the {{proximal tubule}} (about 85%).</li>' +
+      '<li>Via {{NHE3}} (Na⁺–H⁺ exchanger) + carbonic anhydrase.</li><li>No net acid leaves the body.</li></ul></div>' +
+      '<div class="mini ven"><h4>2 · Make new HCO₃⁻</h4><ul>' +
+      '<li>Each H⁺ excreted → one new HCO₃⁻ to the blood.</li>' +
+      '<li>H⁺ leaves as {{titratable acid}} (phosphate) or ammonium (NH₄⁺).</li>' +
+      '<li>Ammonium comes from {{glutamine}} → ↑ a lot in chronic acidosis.</li></ul></div></div>' +
+      '<ul class="pts"><li><b>Collecting duct</b>: type A cells secrete {{H⁺}} (acidosis); type B cells secrete HCO₃⁻ via {{pendrin}} (alkalosis).</li>' +
+      '<li>Sulfate is not a urine buffer → carries no H⁺ out.</li></ul></div>' +
       '<div class="stack">' +
       CVS.fig('acid-hco3-reabs', 'Segmental reabsorption of filtered HCO₃⁻ along the nephron and proximal mechanism.', 'acid', 35) +
       CVS.fig('acid-titratable', 'Formation of urinary phosphate buffer and generation of new HCO₃⁻ in α-intercalated cells.', 'acid', 39) +
@@ -52,12 +61,15 @@ CVS.add({ id: 'A', short: 'Acid-base', title: 'Acid-Base Regulation', kind: 'Lec
     ex: 'Urinary acid leaves as titratable acid (mainly phosphate) and ammonium. Sulfate is an anion of a fixed acid, not a buffer that carries H⁺ out.' },
   { t: 'c', id: 'A-C3', title: 'The four primary acid-base disorders and expected compensation', src: 'Acid-base p.46–61',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Respiratory acidosis</b> (↑PaCO₂ &gt; {{45 mmHg}}): <b>acute</b> ↑[HCO₃⁻] by {{1}} mmol/L per 10 mmHg ↑PaCO₂; <b>chronic</b> (&gt;3–5 days) ↑[HCO₃⁻] by {{3.5 mmol/L}} (or 3–4) per 10 mmHg ↑PaCO₂.</li>' +
-      '<li><b>Respiratory alkalosis</b> (↓PaCO₂ &lt; {{35 mmHg}}): <b>acute</b> ↓[HCO₃⁻] by {{2 mmol/L}} per 10 mmHg ↓PaCO₂; <b>chronic</b> ↓[HCO₃⁻] by {{4–5 mmol/L}} per 10 mmHg ↓PaCO₂.</li>' +
-      '<li><b>Metabolic acidosis</b> (↓[HCO₃⁻] &lt; {{22 mmol/L}}): respiratory compensation via {{Kussmaul}} hyperventilation lowers PaCO₂ by {{1.25 mmHg}} per 1 mmol/L ↓[HCO₃⁻] (or 5 mmHg per 4 mmol/L ↓[HCO₃⁻]; <b>{{Winter’s}} formula</b>: PaCO₂ = 1.5×[HCO₃⁻] + 8 ± 2).</li>' +
-      '<li><b>Metabolic alkalosis</b> (↑[HCO₃⁻] &gt; {{26 mmol/L}}): hypoventilation raises PaCO₂ by {{0.75 mmHg}} per 1 mmol/L ↑[HCO₃⁻] (or 3 mmHg per 4 mmol/L ↑[HCO₃⁻]).</li></ul>' +
-      '<p class="trap">Slide 55, 56 &amp; 60 prose contain direction typos ("increase" instead of "decrease"); always follow the minus sign in the equations and the summary table on slide 61: compensation always moves the secondary variable in the <b>same direction</b> as the primary change.</p></div>' +
-      CVS.fig('acid-comp-table', 'Summary table of the four primary acid-base disorders and their compensation ratios.', 'acid', 61) + '</div>' + '<p class="note"><b>From the past papers</b> · Causes: respiratory alkalosis from hyperventilation (fever, high altitude, anxiety, acute aspirin poisoning); metabolic alkalosis from loss of gastric acid (vomiting), alkaline drugs, aldosterone excess or steroids (Acid-base p.53, 58; AC80, AC81).</p>' },
+      '<li><b>pH follows the ratio</b> HCO₃⁻ ÷ PCO₂ → compensation moves the other value the {{same direction}} → ratio back toward 20 : 1 (never overshoots).</li>' +
+      '<li><b>Respiratory acidosis</b>: hypoventilation → PCO₂ ↑ → kidney adds HCO₃⁻<ul><li>per 10 mmHg PCO₂ ↑ → HCO₃⁻ ↑ {{1}} (acute) · ↑ {{3.3–4}} (chronic)</li></ul></li>' +
+      '<li><b>Respiratory alkalosis</b>: hyperventilation → PCO₂ ↓ → kidney excretes HCO₃⁻<ul><li>per 10 mmHg PCO₂ ↓ → HCO₃⁻ ↓ {{2}} (acute) · ↓ {{4–5}} (chronic)</li></ul></li>' +
+      '<li><b>Metabolic acidosis</b>: HCO₃⁻ ↓ → {{Kussmaul}} breathing → PCO₂ ↓<ul><li>{{Winter}}: expected PCO₂ = 1.5 × HCO₃⁻ + 8 ± 2</li></ul></li>' +
+      '<li><b>Metabolic alkalosis</b>: HCO₃⁻ ↑ → hypoventilation → PCO₂ ↑<ul><li>per 10 HCO₃⁻ ↑ → PCO₂ ↑ about {{6}}</li></ul></li>' +
+      '<li>Actual value outside the expected one → a {{second disorder}}.</li></ul></div>' +
+      CVS.fig('acid-comp-table', 'Summary table of the four primary acid-base disorders and their compensation ratios.', 'acid', 61) + '</div>' +
+      '<p class="note"><b>From the past papers</b> · Causes → resp. alkalosis: anxiety, fever, altitude, acute {{aspirin}} poisoning · met. alkalosis: {{vomiting}}, antacids, aldosterone/steroids, diuretics · resp. acidosis: blocked airway (hanging), COPD, CNS-depressant drugs (Acid-base p.49–58, 76; AC79–AC81).</p>' +
+      '<p class="trap">Some slide sentences (p.55, 56, 60) say “increase” where the formula has a minus sign → trust the formulas and the table (p.61).</p>' },
   { t: 'q', id: 'A8', src: 'AC81', core: true, keep: true,
     q: 'A 45-year-old male patient ABG result is as follows, pH = 7.25, HCO₃⁻ 12 mEq/L. The main abnormality is metabolic acidosis. What is the expected respiratory compensation?',
     o: ['Hypoventilation to retain CO₂', 'Hyperventilation to reduce pCO₂', 'No compensation needed', 'Increased renal H⁺ excretion', 'Increase minute ventilation without increasing RR'], a: 1,
@@ -99,12 +111,13 @@ CVS.add({ id: 'A', short: 'Acid-base', title: 'Acid-Base Regulation', kind: 'Lec
     q: 'A woman had treatment for hypertension. pH 7.48, pCO₂ 48, HCO₃⁻ 33. What is the cause of the ABG result?',
     o: ['Renal loss of H⁺ from diuretic', 'Diarrhea', 'Decreased ventilation from drug overdose', 'CO₂ retention', 'Lactate accumulation'], a: 0,
     ex: 'Alkalemia with high HCO₃⁻ and compensating PCO₂: metabolic alkalosis. Thiazide and loop diuretics cause it through volume contraction and renal H⁺ (and K⁺) loss.' },
-  { t: 'c', id: 'A-C4', title: 'Plasma anion gap: HAGMA vs NAGMA and urine anion gap', src: 'Acid-base p.64–70',
+  { t: 'c', id: 'A-C4', title: 'Plasma anion gap, HAGMA vs NAGMA, and the delta ratio', src: 'Acid-base p.64–75',
     html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Plasma Anion Gap (AG)</b> = [Na⁺] − ([Cl⁻] + [HCO₃⁻]); normal range in the handout is {{12 ± 4}} mEq/L ({{8–16}} mEq/L, where unmeasured anions exceed unmeasured cations, largely plasma {{albumin}}).</li>' +
-      '<li><b>High anion gap metabolic acidosis (HAGMA)</b> (normochloremic; acid HA adds unmeasured A⁻ that replaces HCO₃⁻): <b>{{KUSMALE}}</b> — {{Ketoacidosis}} (DKA, starvation, alcoholic), {{Uremia}}, {{Salicylate}}, {{Methanol}}, Aldehyde/alcohol, {{Lactic acidosis}}, and Ethylene glycol.</li>' +
-      '<li><b>Normal anion gap metabolic acidosis (NAGMA)</b> (hyperchloremic; lost HCO₃⁻ is replaced 1:1 by Cl⁻): severe {{diarrhea}}, renal tubular acidosis (RTA), or {{acetazolamide}} (carbonic anhydrase inhibition).</li>' +
-      '<li><b>Urine Anion Gap (UAG)</b> = ([Na⁺]ᵤ + [K⁺]ᵤ) − [Cl⁻]ᵤ estimates urinary NH₄⁺: a <b>{{negative}}</b> UAG (&lt; −20 mEq/L) shows intact renal NH₄⁺ excretion (GI HCO₃⁻ loss), whereas a <b>positive</b> UAG (&gt; +20 mEq/L) indicates impaired distal acid excretion (RTA).</li></ul></div>' +
+      '<li><b>Electroneutrality</b>: cations = anions → AG = Na⁺ − (Cl⁻ + HCO₃⁻) = the {{unmeasured anions}} → normal ≈ {{12}}.</li>' +
+      '<li><b>Acid that brings its own anion</b> (lactate, ketoacid) → the anion replaces HCO₃⁻ → Cl⁻ unchanged → <b>AG ↑</b> (HAGMA)<ul><li>{{MUDPILES}}: methanol/metformin, uremia, {{diabetic ketoacidosis}}, paracetamol, isoniazid, lactate, ethanol/ethylene glycol, salicylate</li></ul></li>' +
+      '<li><b>HCO₃⁻ lost</b> → {{Cl⁻}} replaces it → AG normal (hyperchloremic, NAGMA)<ul><li>{{diarrhea}}, renal tubular acidosis type 1, NH₄Cl ingestion, saline with excess Cl⁻</li></ul></li>' +
+      '<li><b>Albumin</b> = the main unmeasured anion → albumin ↓ → AG ↓ → a HAGMA can hide → corrected AG = AG + {{2.5}} × (4 − albumin).</li>' +
+      '<li><b>Delta ratio</b> = (AG − 12) ÷ (24 − HCO₃⁻) → &lt; {{0.4}} pure NAGMA · 0.4–0.8 both · 1–2 pure HAGMA · &gt; 2 + metabolic alkalosis.</li></ul></div>' +
       CVS.fig('acid-ag', 'Electrolyte Gamblegrams comparing Normal, High Anion Gap (normochloremic), and Normal Anion Gap (hyperchloremic) metabolic acidosis.', 'acid', 66) + '</div>' },
   { t: 'q', id: 'A18', src: 'AC81', core: true, keep: true,
     q: 'Why do we need to account for albumin when calculating anion gap?',
@@ -116,18 +129,16 @@ CVS.add({ id: 'A', short: 'Acid-base', title: 'Acid-Base Regulation', kind: 'Lec
     o: ['Shortness of breath', 'Vomiting', 'Hyperventilation', 'Anti-acid ingestion', 'Diarrhea'], a: 4,
     ex: 'DKA is a metabolic acidosis: pH, HCO₃⁻ and (compensating) PCO₂ all fall. Diarrhea loses HCO₃⁻ and gives the same direction (though with a normal anion gap). Vomiting and antacids cause alkalosis.',
     flag: 'PS81 edit keys E.' },
-  { t: 'c', id: 'A-C5', title: 'The 6-step ABG interpretation algorithm and clinical cases', src: 'Acid-base p.71–87',
-    html: '<div class="stack"><ul class="pts">' +
-      '<li><b>Step 1 — Check internal consistency</b>: [H⁺] ≈ 24 × PaCO₂ / [HCO₃⁻]. <b>Step 2 — Acidemia vs alkalemia</b>: pH &lt; {{7.35}} is acidemia; pH &gt; {{7.45}} is alkalemia.</li>' +
-      '<li><b>Step 3 — Identify primary process</b>: if PaCO₂ and pH move in {{opposite}} directions, it is respiratory; if [HCO₃⁻] and pH move in the {{same}} direction, it is metabolic.</li>' +
-      '<li><b>Step 4 — Calculate expected compensation</b>: if actual PaCO₂ or [HCO₃⁻] falls outside the expected compensation range, a concurrent disorder is present.</li>' +
-      '<li><b>Step 5 — Calculate AG</b> ([Na⁺] − ([Cl⁻] + [HCO₃⁻]), normal {{12 ± 4}} mEq/L). <b>Step 6 — If AG is elevated, check {{delta}} ratio (ΔAG / Δ[HCO₃⁻])</b>: compare (AG − 12) against (24 − [HCO₃⁻]) to detect a hidden concurrent alkalemic process (if [HCO₃⁻] is higher than expected) or concurrent NAGMA (if [HCO₃⁻] is lower than expected).</li></ul>' +
-      '<div class="tblwrap"><table class="tbl"><thead><tr><th>Handout case (p.78–87)</th><th>ABG &amp; electrolytes</th><th>Complete diagnosis</th></tr></thead><tbody>' +
-      '<tr><td>Case 1 (p.78) · Vomiting 1 wk</td><td>pH 7.50, PaCO₂ 48, HCO₃⁻ 37, Na⁺ 135, Cl⁻ 86 (AG 12)</td><td>{{Metabolic alkalosis}} with respiratory compensation (expected PaCO₂ ≈ 49.75 mmHg)</td></tr>' +
-      '<tr><td>Case 2 (p.80) · Pneumonia &amp; sepsis</td><td>pH 7.12, PaCO₂ 40, HCO₃⁻ 12, Na⁺ 140, Cl⁻ 103 (AG {{25 mEq/L}})</td><td>HAGMA + {{respiratory acidosis}} (expected PaCO₂ ≈ 25 mmHg, actual is 40)</td></tr>' +
-      '<tr><td>Case 3 (p.82) · Chronic renal disease + vomiting</td><td>pH 7.40, PaCO₂ 40, HCO₃⁻ 24, Na⁺ 145, Cl⁻ 100 (AG {{21 mEq/L}})</td><td>{{Mixed}} HAGMA + vomiting-induced alkalosis (normal pH/HCO₃⁻ hides elevated AG)</td></tr>' +
-      '<tr><td>Case 4 (p.84) · Acute bronchitis on COPD</td><td>pH 7.26, PaCO₂ 70, HCO₃⁻ 31, Na⁺ 137, Cl⁻ 95 (AG 11)</td><td>{{Acute-on-chronic}} hypercapnic acidosis (HCO₃⁻ 31 lies between acute 27 and chronic 34.5)</td></tr>' +
-      '<tr><td>Case 5 (p.86) · Diarrhea 5 d</td><td>pH 7.25, PaCO₂ 28, HCO₃⁻ 12, Na⁺ 140, Cl⁻ 116 (AG 12)</td><td>{{Hyperchloremic}} (normal AG) metabolic acidosis with respiratory compensation</td></tr></tbody></table></div></div>' },
+  { t: 'c', id: 'A-C5', title: 'Reading an ABG step by step: the handout’s flowchart', src: 'Acid-base p.61–87',
+    html: '<ol class="steps tight">' +
+      '<li><b>pH</b> → &lt; 7.35 acidemia · &gt; 7.45 alkalemia · in range but PCO₂/HCO₃⁻ abnormal → the side of {{7.40}} shows the primary.</li>' +
+      '<li><b>Primary</b> → which value explains the pH? PCO₂ (&gt; 40 acid, &lt; 40 alkaline) = {{respiratory}} · HCO₃⁻ (&lt; 24 acid, &gt; 24 alkaline) = metabolic.</li>' +
+      '<li><b>Compensation</b> → expected value (A-C3) → actual outside it → {{second disorder}}.</li>' +
+      '<li><b>Metabolic acidosis</b> → {{anion gap}} → {{delta ratio}} → pure or mixed.</li></ol>' +
+      '<div class="flowx" data-flow="ab"></div>' +
+      '<p class="note"><b>Try it</b> · Handout Ex 10 (diabetes, pneumonia, vomiting) → Winter → {{respiratory acidosis}} added · corrected AG 25 → Δ ratio 2.2 → {{metabolic alkalosis}} added → three disorders at once.</p>' +
+      '<p class="trap">The handout chart labels the metabolic-acidosis branch “HCO₃⁻ &gt; 24”. It means HCO₃⁻ &lt; 24.</p>' +
+      '<details class="figmore"><summary>The handout’s summary flowchart (p.76)</summary>' + CVS.fig('acid-summary', 'The handout’s one-page summary of the whole approach.', 'acid', 76) + '</details>' },
   { t: 'q', id: 'A20', src: 'AC81', core: true, keep: true,
     q: 'A patient comes with Diabetes type 1. ABG: pH 7.18, pCO₂ 18, HCO₃⁻ 8. Serum: Na⁺ 140, Cl⁻ 102, HCO₃⁻ 8. What is his condition?',
     o: ['Pure respiratory acidosis', 'Pure high anion gap metabolic acidosis', 'Mixed high anion gap metabolic acidosis with metabolic alkalosis', 'Mixed high anion gap metabolic acidosis with normal anion gap metabolic acidosis', 'Normal acid-base condition'], a: 1,
@@ -135,7 +146,7 @@ CVS.add({ id: 'A', short: 'Acid-base', title: 'Acid-Base Regulation', kind: 'Lec
   { t: 'q', id: 'A21', src: 'AC80 · AC81', core: true, keep: true,
     q: 'A 25-year-old woman with a history of vomiting for the past 3 days presents with the following arterial blood gas (ABG) results: pH 7.52, partial pressure of carbon dioxide 48 mmHg, bicarbonate concentration 38 mEq/L. Which of the following best describes her acid-base status?',
     o: ['Acute metabolic acidosis', 'Chronic respiratory alkalosis with compensation', 'Metabolic alkalosis with respiratory compensation', 'Acute respiratory acidosis', 'Mixed metabolic and respiratory alkalosis'], a: 2,
-    ex: 'Alkalemia with high HCO₃⁻: metabolic alkalosis (loss of gastric HCl). Expected PCO₂ = 40 + 0.7 × (38 − 24) ≈ 50 ± 2; 48 fits, so the raised PCO₂ is appropriate compensation.',
+    ex: 'Alkalemia with high HCO₃⁻: metabolic alkalosis (loss of gastric HCl). Expected PCO₂ ≈ 40 + 0.6 × (38 − 24) ≈ 48 (handout: +6 per 10 HCO₃⁻); 48 fits, so the raised PCO₂ is appropriate compensation.',
     flag: 'AC81 asked the same case (pH 7.52, PCO₂ 48, HCO₃⁻ 37) with simpler options.' },
   { t: 'q', id: 'A22', src: 'AC80', keep: true,
     q: 'A 30-year-old woman presents with the following arterial blood gas results: pH 7.22, partial pressure of carbon dioxide 28 mmHg, bicarbonate concentration 13 mEq/L. Which of the following best describes her acid-base status?',

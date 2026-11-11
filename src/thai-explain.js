@@ -1,459 +1,488 @@
-/* Part 1 Thai explain: Sections U, W, B */
+/* Thai explanations, one short line per idea: bold topic, then the cause → effect chain.
+   Part 1: U, W, B, H, G */
 window.THAI_EXPLAIN = window.THAI_EXPLAIN || {};
 
 /* ---------- U · Upper Respiratory Tract ---------- */
 Object.assign(window.THAI_EXPLAIN, {
   "U-C1": [
-    "<b>ภาพรวมของโพรงจมูก</b> โพรงจมูกเปิดออกด้านหน้าทาง anterior nares (nostrils) เข้าสู่ส่วนต้นที่เรียกว่า vestibule ซึ่งมีขนจมูกแข็ง (vibrissae) ช่วยกรองฝุ่น และเปิดออกด้านหลังทาง posterior nares (choanae) เข้าสู่ nasopharynx",
-    "<b>หลังคาและจุดเสี่ยงทางคลินิก</b> หลังคาโพรงจมูกประกอบด้วยกระดูก nasal, frontal, ethmoid และ sphenoid โดยดาดด้วย olfactory epithelium สำหรับรับกลิ่น หากเกิดอุบัติเหตุกระดูก cribriform plate ของ ethmoid แตก จะทำให้สูญเสียการได้กลิ่น (anosmia) และมีน้ำไขสันหลังรั่วออกทางจมูก (CSF rhinorrhea)",
-    "<b>พื้นและผนังกั้นกลาง</b> พื้นโพรงจมูกคือเพดานแข็ง (hard palate) ซึ่งเกิดจาก palatine process ของ maxilla ต่อกับ horizontal plate ของ palatine bone ส่วนผนังกั้นกลาง (nasal septum) ประกอบด้วย perpendicular plate ของ ethmoid ด้านบนหลัง, vomer ด้านล่างหลัง และ septal cartilage ด้านหน้า",
-    "<b>ผนังด้านข้างและ conchae</b> ผนังด้านข้างมีแผ่นกระดูกม้วนยื่นออกมา 3 ชั้น คือ superior, middle และ inferior nasal conchae ข้อควรระวังคือ superior และ middle conchae เป็นส่วนของกระดูก ethmoid แต่ inferior concha เป็นกระดูกอีกชิ้นหนึ่งที่เป็นอิสระ"
+    "<b>ทางลม</b>: รูจมูก → vestibule (มีขนกรองฝุ่น) → โพรงจมูก → choanae → nasopharynx",
+    "<b>ผนังกั้น (septum)</b> มี 3 ชิ้น: perpendicular plate ของ ethmoid (หลังบน) + vomer (หลังล่าง) + septal cartilage (หน้า)",
+    "<b>ผนังด้านข้าง</b>: superior และ middle concha เป็นส่วนของ ethmoid ส่วน inferior concha เป็นกระดูกแยกชิ้น → meatus แต่ละอันอยู่<b>ใต้</b> concha ชื่อเดียวกัน",
+    "<b>หลังคา = cribriform plate</b> → กระดูกหัก → เส้นประสาทรับกลิ่นขาด (anosmia) + น้ำไขสันหลังไหลออกจมูก (CSF rhinorrhea)",
+    "<b>Inferior meatus</b> → มีแค่ nasolacrimal duct เปิด → หนองตรงนี้มาจากท่อน้ำตา ไม่ใช่ไซนัส"
   ],
   "U-C2": [
-    "<b>หลักการจำรูเปิดข้างจมูก</b> ใต้ concha แต่ละชั้นคือช่องที่เรียกว่า meatus และเหนือต่อ superior concha คือแอ่ง sphenoethmoidal recess การจำว่าไซนัสไหนเปิดที่ชั้นใดเป็นหัวใจสำคัญของการอ่าน CT sinus และการตรวจส่องกล้องโพรงจมูก",
-    "<b>ชั้นบนสุดและ superior meatus</b> Sphenoidal sinus เปิดเข้าที่ sphenoethmoidal recess ด้านบนหลังสุด ส่วนกลุ่มเซลล์อากาศ posterior ethmoidal air cells เปิดเข้าที่ superior nasal meatus",
-    "<b>Middle meatus มีสองโครงสร้างย่อย</b> บนปุ่มนูน ethmoidal bulla เป็นรูเปิดของ middle ethmoidal air cells ส่วนร่องโค้งข้างใต้ที่เรียกว่า hiatus semilunaris รับรูเปิดถึง 3 แห่ง ได้แก่ frontal sinus, anterior ethmoidal air cells และ maxillary sinus",
-    "<b>Inferior meatus</b> ช่องล่างสุดไม่ได้รับรูเปิดจากไซนัส แต่รับรูเปิดของท่อน้ำตา (nasolacrimal duct) จึงอธิบายได้ว่าทำไมเวลาร้องไห้จึงมีน้ำมูกไหลร่วมด้วย",
-    "<b>Kiesselbach area และความสัมพันธ์ทางคลินิก</b> ผนังกั้นจมูกส่วนหน้าล่าง (Little หรือ Kiesselbach area) เป็นจุดที่เกิดเลือดกำเดาไหล (epistaxis) บ่อยที่สุด เพราะเป็นจุดประสานของหลอดเลือดแดง 5 เส้น คือ anterior และ posterior ethmoidal (จาก ophthalmic a.), sphenopalatine และ greater palatine (จาก maxillary a.) และ septal branch ของ superior labial (จาก facial a.)"
+    "<b>ไซนัสหลัง</b>: sphenoid → sphenoethmoidal recess · posterior ethmoidal cells → superior meatus",
+    "<b>Middle meatus รับมากที่สุด</b>: ethmoidal bulla ← middle ethmoidal cells · hiatus semilunaris ← frontal + anterior ethmoidal + maxillary",
+    "<b>Inferior meatus</b> → nasolacrimal duct เท่านั้น",
+    "<b>Kiesselbach area</b> (ด้านหน้าของ septum) → แขนงหลอดเลือดหลายเส้นมาชนกัน → เลือดกำเดาไหลบ่อยที่สุด",
+    "<b>Sphenoid sinus</b> อยู่ใต้ sella → เป็นทางผ่าตัดต่อมใต้สมอง (transsphenoidal)"
   ],
   "U-C3": [
-    "<b>การแบ่งคอหอย 3 ส่วน</b> คอหอย (pharynx) เป็นท่อกล้ามเนื้อรูปกรวย แบ่งเป็น nasopharynx (หลังโพรงจมูก เป็นทางผ่านของอากาศอย่างเดียว), oropharynx (หลังช่องปาก) และ laryngopharynx หรือ hypopharynx (หลังกล่องเสียง ทั้งสองส่วนล่างเป็นทางผ่านของทั้งอากาศและอาหาร)",
-    "<b>Nasopharynx และมะเร็งหลังโพรงจมูก</b> ผนังด้านบนและด้านหลังมี pharyngeal tonsil (เรียก adenoid เมื่อโตในเด็ก) ผนังด้านข้างมีรูเปิดของ auditory (Eustachian) tube ล้อมรอบด้วยสันกระดูกอ่อน torus tubarius และด้านหลังต่อสันนี้เป็นแอ่ง pharyngeal recess (fossa of Rosenmuller) ซึ่งเป็นตำแหน่งต้นกำเนิดที่พบบ่อยที่สุดของมะเร็งหลังโพรงจมูก (NPC) ที่สัมพันธ์กับเชื้อ EBV",
-    "<b>Oropharynx และ Waldeyer ring</b> ด้านหน้าติดต่อกับช่องปากผ่าน oropharyngeal isthmus โดยมี lingual tonsil อยู่ที่โคนลิ้น และผนังด้านข้างมี palatine tonsil วางอยู่ระหว่าง palatoglossal กับ palatopharyngeal arches เมื่อรวมกับ pharyngeal และ tubal tonsils จะกลายเป็นวงเนื้อเยื่อน้ำเหลืองที่เรียกว่า Waldeyer ring",
-    "<b>Laryngopharynx และสิ่งแปลกปลอม</b> อยู่ระดับ C4–C6 ด้านหน้าคือทางเข้ากล่องเสียง (laryngeal inlet) สองข้างของทางเข้ามีแอ่งรูป ลูกแพร์ชื่อ piriform recess (fossa) ซึ่งเป็นตำแหน่งคลาสสิกที่ก้างปลาหรือสิ่งแปลกปลอมชอบไปติด (ร่วมกับโคนลิ้นและ tonsillar crypts)",
-    "<b>ชั้นกล้ามเนื้อของคอหอย</b> กล้ามเนื้อคอหอยเป็นกล้ามเนื้อลายภายใต้การควบคุมของจิตใจ (เลี้ยงด้วย CN IX และ CN X) เรียงตัวสลับกับทางเดินอาหารส่วนอื่น คือมีชั้นนอกเป็นวงกลม (superior, middle, inferior constrictors) และชั้นในเป็นตามยาว"
+    "<b>Nasopharynx (ลมอย่างเดียว)</b>: หลังคามี pharyngeal tonsil (adenoid) · ผนังข้างจากหน้าไปหลัง: รูเปิด auditory tube → torus tubarius → pharyngeal recess",
+    "<b>Pharyngeal recess (fossa of Rosenmüller)</b> → ตำแหน่งที่พบมะเร็งโพรงหลังจมูกบ่อยที่สุด → สัมพันธ์กับ EBV",
+    "<b>Oropharynx (ลม + อาหาร)</b>: palatine tonsil อยู่ระหว่าง 2 arches · lingual tonsil ที่โคนลิ้น → ก้างปลามักติดใน tonsillar crypts",
+    "<b>Laryngopharynx</b>: piriform recess ข้าง laryngeal inlet → สิ่งแปลกปลอมที่กลืนมักติดตรงนี้",
+    "<b>Waldeyer ring</b> = tonsil ทั้งหมดเรียงเป็นวงล้อมทางเข้า → ด่านภูมิคุ้มกันแรก"
   ],
   "U-C4": [
-    "<b>โครงกระดูกอ่อน 9 ชิ้นของกล่องเสียง</b> กล่องเสียง (C3–C6) มีกระดูกอ่อนเดี่ยวขนาดใหญ่ 3 ชิ้น คือ thyroid, cricoid และ epiglottis และกระดูกอ่อนคู่ขนาดเล็ก 3 คู่ คือ arytenoid, corniculate และ cuneiform โดย thyroid, cricoid และส่วนหลักของ arytenoid เป็น hyaline cartilage ส่วน epiglottis, corniculate, cuneiform และยอดของ arytenoid เป็น elastic cartilage",
-    "<b>แผ่นพังผืดยืดหยุ่น 2 แผ่น</b> แผ่นบนคือ quadrangular membrane ขึงระหว่างขอบข้างของ epiglottis กับ arytenoid โดยขอบล่างอิสระหนาตัวเป็น vestibular ligament (แกนของสายเสียงปลอม) ส่วนแผ่นล่างคือ conus elasticus ขึงจาก cricoid ขึ้นไปมีขอบบนอิสระเป็น vocal ligament (แกนของสายเสียงแท้) และหนาตัวด้านหน้าตรงกลางเป็น median cricothyroid ligament",
-    "<b>ภายในโพรงกล่องเสียง</b> แบ่งเป็น 3 ชั้น: vestibule ด้านบน, laryngeal ventricle ตรงกลางที่คั่นระหว่างสายเสียงปลอม (vestibular folds, ช่องตรงกลางเรียก rima vestibuli) กับสายเสียงแท้ (vocal folds, ช่องตรงกลางเรียก rima glottidis) และ infraglottic cavity ด้านล่าง",
-    "<b>ความสำคัญทางคลินิกของสายเสียงแท้และ cricothyroidotomy</b> สายเสียงแท้บุด้วย stratified squamous epithelium และบริเวณ glottic region ไม่มีท่อน้ำเหลืองมารับ (no lymphatic drainage) ส่วนในภาวะอุดกั้นทางเดินหายใจส่วนบนฉุกเฉิน แพทย์จะเจาะผ่าน median cricothyroid ligament เข้าสู่ subglottis เรียกว่า emergency cricothyroidotomy"
+    "<b>กระดูกอ่อนเดี่ยว</b>: thyroid (โล่) · cricoid (วงแหวนสมบูรณ์วงเดียว) · epiglottis",
+    "<b>กระดูกอ่อนคู่</b>: arytenoid (เป็นที่เกาะของสายเสียง) + corniculate + cuneiform",
+    "<b>ภายในกล่องเสียง บน → ล่าง</b>: vestibular fold (สายเสียงปลอม) → ventricle → vocal fold (สายเสียงแท้) → subglottis",
+    "<b>เยื่อ 2 แผ่น</b>: quadrangular membrane → ขอบล่าง = vestibular ligament · conus elasticus → ขอบบน = vocal ligament",
+    "<b>ทางเดินหายใจฉุกเฉิน</b> → เจาะ cricothyroid membrane (เหนือ cricoid) เข้า subglottis"
   ],
   "U-C5": [
-    "<b>กลุ่มกล้ามเนื้อภายในกล่องเสียง (intrinsic muscles)</b> ทำหน้าที่ปรับขนาดของ laryngeal inlet, ปรับความตึงของสายเสียง และเปิด-ปิด rima glottidis",
-    "<b>การเปิดและปิด rima glottidis</b> กล้ามเนื้อมัดเดียวที่เปิด (abduct) rima glottidis คือ posterior cricoarytenoid muscle จึงเป็นกล้ามเนื้อที่สำคัญที่สุดต่อการหายใจ ส่วนมัดที่หุบ (adduct) ปิดช่องสายเสียงได้แก่ lateral cricoarytenoid และ transverse/oblique arytenoid muscles",
-    "<b>การดึงตึงและหย่อนสายเสียง</b> Cricothyroid muscle ดึง thyroid cartilage ให้ก้มมาด้านหน้า ทำให้สายเสียงตึงและยาวขึ้น (เสียงสูง) ส่วน thyroarytenoid และ vocalis muscles ดึง arytenoid มาด้านหน้า ทำให้สายเสียงหย่อนและสั้นลง",
-    "<b>เส้นประสาทและการบาดเจ็บจากการผ่าตัดไทรอยด์</b> External laryngeal nerve (วิ่งคู่กับ superior thyroid a.) เลี้ยงเฉพาะ cricothyroid muscle หากบาดเจ็บจะทำให้ดึงสายเสียงให้ตึงไม่ได้ เสียงจึงเป็นโทนเดียว (monotone) ส่วนกล้ามเนื้อมัดอื่นทั้งหมดเลี้ยงด้วย inferior (recurrent) laryngeal nerve (วิ่งคู่กับ inferior thyroid a.) ด้านการรับความรู้สึก เหนือสายเสียงแท้รับโดย internal laryngeal nerve และใต้สายเสียงแท้รับโดย inferior laryngeal nerve",
-    "<b>ท่อลม (trachea)</b> เริ่มต้นต่อจาก cricoid cartilage ที่ระดับ C6 ลงไปแยกเป็นหลอดลมหลักซ้าย-ขวาที่ carina ระดับ sternal angle (หมอนรองกระดูก T4–T5) ประกอบด้วยกระดูกอ่อนรูปตัว C จำนวน 16–20 ชิ้น โดยด้านหลังเปิดโล่งและมีกล้ามเนื้อเรียบ trachealis ขึงอยู่เพื่อให้หลอดอาหารด้านหลังขยายตัวได้ขณะกลืน (หมายเหตุ: สไลด์ URT p.41 ระบุความยาว 10 cm ส่วนสไลด์ Lung p.23 ระบุ 12 cm)"
+    "<b>Posterior cricoarytenoid</b> → กล้ามเนื้อ<b>ตัวเดียว</b>ที่เปิด rima glottidis (abductor)",
+    "<b>Cricothyroid</b> → ดึงสายเสียงให้ตึง → เสียงสูง · เลี้ยงโดย external laryngeal n. ซึ่งวิ่งคู่ superior thyroid artery → ผูกเส้นเลือดพลาดตอนผ่าตัดไทรอยด์ → เสียงแหบต่ำ ตึงไม่ได้",
+    "<b>Recurrent laryngeal n.</b> → เลี้ยงกล้ามเนื้อภายในทุกมัดยกเว้น cricothyroid → บาดเจ็บ → เสียงแหบ + กางสายเสียงไม่ได้ → หายใจลำบาก",
+    "<b>Sensory</b>: เหนือสายเสียง = internal laryngeal n. · ใต้สายเสียง = recurrent laryngeal n.",
+    "<b>Trachea</b>: เริ่มที่ C6 → แยกที่ carina ระดับ sternal angle · วงกระดูกอ่อนรูปตัว C ปิดด้านหลังด้วย trachealis"
   ]
 });
 
-/* ---------- W · Thoracic Wall & Diaphragm ---------- */
+/* ---------- W · Thoracic Wall ---------- */
 Object.assign(window.THAI_EXPLAIN, {
   "W-C1": [
-    "<b>กระดูกหน้าอกและมุมหลุยส์</b> Sternum แบ่งเป็น 3 ส่วน คือ manubrium (ต่อกับ clavicle และซี่โครงซี่ที่ 1), body และ xiphoid process รอยต่อระหว่าง manubrium กับ body นูนเป็นสันคลำได้ชัดเจนเรียกว่า sternal angle (of Louis) ซึ่งตรงกับกระดูกอ่อนซี่โครงซี่ที่ 2 จึงใช้เป็นจุดตั้งต้นในการคลำนับซี่โครง",
-    "<b>การจำแนกซี่โครง 12 คู่</b> ซี่โครงคู่ที่ 1–7 เรียกว่า true ribs เพราะมี costal cartilage ไปต่อกับ sternum โดยตรง ส่วนคู่ที่ 8–12 เรียกว่า false ribs โดยคู่ที่ 8–10 เกาะผ่านกระดูกอ่อนของซี่ที่อยู่เหนือขึ้นไป และคู่ที่ 11–12 มีปลายด้านหน้าลอยอิสระในกล้ามเนื้อผนังท้องจึงเรียกว่า floating (free) ribs",
-    "<b>ลักษณะของ typical ribs (ซี่ที่ 3–9)</b> ประกอบด้วย head (มี 2 articular facets คั่นด้วยสัน crest), neck, tubercle และตัวกระดูก (shaft) ซึ่งที่ขอบล่างด้านในมีร่อง costal groove สำหรับคุ้มครองหลอดเลือดและเส้นประสาท",
-    "<b>ข้อต่อของซี่โครงด้านหลัง</b> ส่วน head ของซี่โครงเกิดข้อต่อกับ demifacets บนตัวกระดูกสันหลังระดับอก (vertebral bodies) และส่วน tubercle เกิดข้อต่อกับ transverse process ของกระดูกสันหลังอกระดับเดียวกัน"
+    "<b>Sternum บน → ล่าง</b>: manubrium → sternal angle → body → xiphoid process",
+    "<b>Sternal angle</b> = ระดับซี่โครงที่ 2 → จุดเริ่มนับซี่โครงเวลาตรวจร่างกาย",
+    "<b>True ribs (1–7)</b> มี costal cartilage ต่อ sternum ของตัวเอง · <b>false ribs (8–12)</b> ไม่ต่อตรง · 11–12 = floating ribs",
+    "<b>ซี่โครงทั่วไป</b>: head → neck → tubercle → shaft ที่มี costal groove ใต้ขอบล่าง (ทางของเส้นเลือด-เส้นประสาท)",
+    "<b>ข้อต่อด้านหลัง</b>: head ต่อ vertebral bodies · tubercle ต่อ transverse process"
   ],
   "W-C2": [
-    "<b>โครงสร้าง 3 ชั้นของกล้ามเนื้อซี่โครง</b> ช่องระหว่างซี่โครงมีกล้ามเนื้อวางซ้อนกัน 3 ชั้นเหมือนกล้ามเนื้อผนังหน้าท้อง ได้แก่ external, internal และ innermost intercostal muscles",
-    "<b>External intercostal (ชั้นนอกสุด)</b> เส้นใยวิ่งเฉียงลงล่างและมาด้านหน้า (เหมือนล้วงกระเป๋ากางเกง) เริ่มจากแนวกระดูกสันหลังด้านหลังมาสิ้นสุดที่ costochondral junction แล้วเปลี่ยนเป็นแผ่นพังผืด external (anterior) intercostal membrane ไปจนถึง sternum ทำหน้าที่ยกซี่โครงขึ้นขณะหายใจเข้า",
-    "<b>Internal intercostal (ชั้นกลาง)</b> เส้นใยวิ่งตั้งฉากกับชั้นนอก คือเฉียงขึ้นบนและมาด้านหน้า เริ่มจาก sternum ด้านหน้าไปจนถึงมุมซี่โครงด้านหลัง (angle of rib) แล้วเปลี่ยนเป็น internal (posterior) intercostal membrane ทำหน้าที่ดึงซี่โครงลงในการหายใจออกแรง",
-    "<b>Innermost intercostal และ transversus thoracis (ชั้นในสุด)</b> ด้านข้างและด้านหลังคือ innermost intercostal ซึ่งมีทิศทางและหน้าที่เหมือนชั้นกลาง ส่วนด้านหน้าคือกล้ามเนื้อ transversus thoracis ที่แผ่จากด้านหลังของ xiphoid และส่วนล่างของ sternal body ขึ้นไปเกาะที่ซี่โครงซี่ที่ 2–6 (เลี้ยงด้วย intercostal n. 3–6) ช่วยดึงซี่โครงลงขณะหายใจออกแรง"
+    "<b>External intercostal (ชั้นนอก)</b>: ใยวิ่งลงล่างไปหน้า (ล้วงกระเป๋า) → ยกซี่โครง → หายใจเข้า",
+    "<b>Internal intercostal (ชั้นกลาง)</b>: ใยวิ่งขึ้นบนไปหน้า → ดึงซี่โครงลง → หายใจออกแรง",
+    "<b>Innermost (ชั้นในสุด)</b>: ใยทิศเดียวกับชั้นกลาง → ช่วยดึงซี่โครงลง",
+    "<b>ใกล้ sternum</b> ชั้นนอกกลายเป็นเยื่อ → กล้ามเนื้อที่เห็นตรงนั้นคือชั้นกลาง",
+    "<b>Transversus thoracis</b>: ผนังด้านในหน้าอก จากหลัง sternum ส่วนล่าง → costal cartilages → ช่วยหายใจออกแรง"
   ],
   "W-C3": [
-    "<b>การหายใจเข้าและออกในภาวะปกติ (quiet breathing)</b> การหายใจเข้าปกติอาศัยการหดตัวของกะบังลม (diaphragm) เป็นหลัก ร่วมกับการทำงานของ external intercostal muscles ส่วนการหายใจออกปกติเป็นกระบวนการ passive ที่เกิดจากการคลายตัวของกะบังลมและผนังทรวงอก ร่วมกับแรงหดกลับตามธรรมชาติ (elastic recoil) ของเนื้อปอด",
-    "<b>เมื่อไหร่ต้องใช้กล้ามเนื้อช่วยหายใจ</b> ในขณะออกกำลังกายหนักหรือมีโรคทางเดินหายใจ ร่างกายต้องเพิ่มปริมาตรการหายใจเข้าและเร่งการขับลมออก จึงต้องระดมกล้ามเนื้อที่เกาะกับซี่โครงหรือกระดูกหน้าอกมาช่วย",
-    "<b>กล้ามเนื้อช่วยหายใจเข้าแรง (forceful inspiration)</b> ได้แก่ sternocleidomastoid (ยก sternum), scalene muscles (ยกซี่โครงคู่แรกๆ), pectoralis minor, serratus anterior, serratus posterior และ levator costarum",
-    "<b>กล้ามเนื้อสำหรับการหายใจออกแรง (forceful expiration)</b> ใช้กล้ามเนื้อที่ดึงซี่โครงลง ได้แก่ internal intercostal, innermost intercostal และ transversus thoracis ร่วมกับกล้ามเนื้อหน้าท้อง (rectus abdominis, external oblique, internal oblique) ที่ดันกะบังลมให้ยกสูงขึ้น"
+    "<b>หายใจเข้าปกติ</b>: diaphragm หดตัว (หลัก) + external intercostals",
+    "<b>หายใจออกปกติ</b>: ไม่ใช้กล้ามเนื้อ → ปอดหดกลับเองด้วย elastic recoil",
+    "<b>หายใจเข้าแรง</b>: เพิ่ม accessory muscles → SCM, scalenes, pectoralis minor, serratus → ยกทรวงอกสูงขึ้น",
+    "<b>หายใจออกแรง</b>: internal + innermost intercostals + transversus thoracis + กล้ามเนื้อหน้าท้อง → ดัน diaphragm ขึ้น",
+    "<b>หลักจำ</b>: ยกซี่โครง = หายใจเข้า · ดึงซี่โครงลงหรือดันท้องขึ้น = หายใจออก"
   ],
   "W-C4": [
-    "<b>ตำแหน่งและลำดับของ VAN bundle</b> มัดหลอดเลือดและเส้นประสาทซี่โครงวิ่งหลบอยู่ใน costal groove ที่ขอบล่างของซี่โครง ในระนาบระหว่างชั้น internal กับ innermost intercostal muscles โดยเรียงตัวจากบนลงล่างเป็น Vein, Artery และ Nerve (VAN)",
-    "<b>ระบบหลอดเลือดแดงและดำ</b> Anterior intercostal arteries แยกมาจาก internal thoracic artery (หลอดเลือดดำเทเข้า internal thoracic vein) ส่วน posterior intercostal arteries แยกมาจาก thoracic aorta โดยหลอดเลือดดำด้านหลังฝั่งขวาเทเข้า azygos vein และฝั่งซ้ายเทเข้า hemiazygos หรือ accessory hemiazygos veins",
-    "<b>เส้นประสาทซี่โครงและโรคงูสวัด</b> Intercostal nerves คือ ventral primary rami ของเส้นประสาทไขสันหลังระดับอก ให้แขนงมอเตอร์เลี้ยงกล้ามเนื้อซี่โครง และให้ lateral กับ anterior cutaneous branches รับความรู้สึกที่ผิวหนังตามแนว dermatome ซึ่งเป็นแนวตุ่มน้ำใสที่พบในโรคติดเชื้อ herpes zoster (งูสวัด)",
-    "<b>หลักการแทงเข็มทางคลินิก</b> หากต้องการทำ intercostal nerve block เพื่อระงับปวด ต้องฉีดยาชาที่ขอบล่างของซี่โครง (lower border) เพื่อให้โดนเส้นประสาทใน costal groove แต่ถ้าต้องการเจาะเข้าโพรงเยื่อหุ้มปอดต้องแทงชิดขอบบนของซี่โครง (upper border) เพื่อหลบ VAN bundle"
+    "<b>ตำแหน่ง</b>: neurovascular bundle วิ่งใน costal groove ใต้ขอบล่างซี่โครง ระหว่างชั้น internal กับ innermost",
+    "<b>เรียงบน → ล่าง = VAN</b>: Vein → Artery → Nerve → เส้นประสาทอยู่ต่ำสุด",
+    "<b>Artery</b>: ด้านหน้ามาจาก internal thoracic a. · ด้านหลังมาจาก aorta",
+    "<b>Vein ด้านหลัง</b> → ขวาเข้า azygos · ซ้ายเข้า hemiazygos",
+    "<b>การแทงเข็ม</b>: nerve block → เล็งขอบล่างซี่โครง (ที่เส้นประสาทอยู่) · เจาะปอด/ใส่ท่อ → แทงชิดขอบบนของซี่ล่าง → หลบ bundle"
   ],
   "W-C5": [
-    "<b>เยื่อหุ้มปอดและโพรงเยื่อหุ้มปอด</b> เยื่อหุ้มปอดมี 2 ชั้น คือ parietal pleura (บุผนังทรวงอก กะบังลม และ mediastinum) กับ visceral pleura (หุ้มผิวปอด) ช่องว่างระหว่างสองชั้นคือ pleural cavity",
-    "<b>Thoracocentesis เทียบกับ tube thoracostomy</b> การใช้เข็มเจาะดูดน้ำในโพรงเยื่อหุ้มปอด (thoracocentesis) ตามสไลด์บทนี้ทำที่ช่องซี่โครงที่ 7 หรือ 8 (7th/8th ICS) แนว posterior axillary หรือ mid-scapular line (หมายเหตุ: สไลด์ Lung p.10 ระบุ 8th–10th ICS แนว midaxillary line) ส่วนการใส่ท่อระบายลมหรือเลือด (tube thoracostomy) ทำที่ช่องซี่โครงที่ 4 หรือ 5 (4th/5th ICS) แนว anterior หรือ mid-axillary line ชิดขอบบนของซี่โครง",
-    "<b>Flail chest จากซี่โครงหักหลายซี่</b> เมื่อซี่โครงหักหลายซี่และเกิดชิ้นกระดูกที่แยกขาดจากโครงหลัก จะเกิดการเคลื่อนที่สวนทาง (paradoxical movement) คือผนังส่วนนั้นถูกดูดยุบเข้าด้านในขณะหายใจเข้า และถูกดันโป่งออกขณะหายใจออก ทำให้การระบายอากาศบกพร่องอย่างรุนแรง",
-    "<b>กะบังลม (diaphragm)</b> มี central tendon อยู่ตรงกลาง และมีขา (right และ left crura) เกาะที่กระดูกสันหลังระดับเอว (L2–L4) มีช่องทางผ่านหลัก 3 ช่อง คือ inferior vena cava ผ่าน central tendon, esophagus ผ่านกล้ามเนื้อของ right crus และ abdominal aorta ลอดด้านหลังระหว่าง crura ทั้งสองข้าง เลี้ยงด้วย phrenic nerve (C3–C5) ทั้งมอเตอร์และความรู้สึกส่วนกลาง ส่วนความรู้สึกบริเวณขอบรอบนอกรับโดย intercostal nerves คู่ล่างๆ"
+    "<b>Thoracocentesis</b> (ดูดน้ำ) → แทงต่ำด้านหลัง · <b>tube thoracostomy</b> (ระบายลม/เลือด) → ช่องซี่โครง 4–5 แนว axillary ชิดขอบบนของซี่ล่าง",
+    "<b>ชั้นที่เข็มผ่าน</b>: ผิวหนัง → กล้ามเนื้อ 3 ชั้น → endothoracic fascia → parietal (costal) pleura → <b>ไม่ผ่าน</b> visceral pleura",
+    "<b>Flail chest</b>: ซี่โครงหลายซี่หัก 2 ตำแหน่ง → ชิ้นลอย → หายใจเข้ายุบ หายใจออกโป่ง (paradoxical movement)",
+    "<b>Diaphragm</b>: motor มาจาก phrenic n. (C3–C5) อย่างเดียว → phrenic วิ่งหน้า lung root",
+    "<b>รูเปิด</b>: IVC T8 (central tendon) · esophagus T10 (มี vagal trunks) · aorta T12 · โดมขวาสูงกว่าเพราะมีตับรองอยู่"
   ]
 });
 
-/* ---------- B · Lung & Bronchial Tree ---------- */
+/* ---------- B · Lungs, pleura, bronchial tree ---------- */
 Object.assign(window.THAI_EXPLAIN, {
   "B-C1": [
-    "<b>ชั้นของเยื่อหุ้มปอดและ cupola</b> Parietal pleura แยกจากโครงสร้างผนังทรวงอกชั้นนอกด้วยเนื้อเยื่อเกี่ยวพันหลวมๆ ที่เรียกว่า extrapleural fascia ส่วน visceral pleura ยึดติดแน่นกับผิวปอด ยอดโดมของเยื่อหุ้มปอดด้านบน (cupola) ยื่นพ้นส่วนในหนึ่งในสาม (medial third) ของกระดูกไหปลาร้าขึ้นมาประมาณ 1 นิ้ว",
-    "<b>ร่องสำรองและขอบล่าง 6-8-10 / 8-10-12</b> บริเวณที่ parietal pleura พับบรรจบกันโดยที่เนื้อปอดยังขยายไปไม่ถึงขณะหายใจปกติเรียกว่า pleural recesses ได้แก่ costomediastinal และ costodiaphragmatic recesses โดยขอบล่างของปอดอยู่ที่ซี่โครงซี่ที่ 6, 8, 10 และขอบล่างของเยื่อหุ้มปอดอยู่ที่ซี่โครงซี่ที่ 8, 10, 12 ตามแนว midclavicular, midaxillary และ paravertebral lines ตามลำดับ",
-    "<b>ของเหลวผิดปกติในโพรงเยื่อหุ้มปอด</b> การสะสมของอากาศเรียกว่า pneumothorax, น้ำใสเรียกว่า hydrothorax, เลือดเรียกว่า haemothorax, หนองเรียกว่า pyothorax (empyema) และน้ำเหลืองเรียกว่า chylothorax",
-    "<b>การเจาะระบายน้ำ (pleural tap / thoracentesis)</b> ตามสไลด์ Lung p.10 แนะนำให้แทงเข็มเข้าสู่ costodiaphragmatic recess ที่ช่องซี่โครงที่ 8, 9 หรือ 10 (8th–10th ICS) ในแนว midaxillary line เหนือขอบบนของซี่โครง เพื่อหลีกเลี่ยงการบาดเจ็บต่อปอด ตับ ม้าม กะบังลม และมัดหลอดเลือดประสาทซี่โครง"
+    "<b>เลข 6-8-10 / 8-10-12</b>: ขอบล่างปอดที่ midclavicular / midaxillary / paravertebral = ซี่ 6-8-10 · ขอบล่าง pleura = 8-10-12",
+    "<b>Pleura ต่ำกว่าปอด 2 ซี่</b> → ช่องว่างตรงนั้นคือ recess",
+    "<b>Costodiaphragmatic recess</b> อยู่ต่ำสุด → น้ำในช่องเยื่อหุ้มปอดไปรวมตรงนี้ก่อน",
+    "<b>2 ชั้น</b>: parietal บุผนัง (ส่วนที่ติดซี่โครง = costal pleura) · visceral หุ้มปอดและมุดเข้า fissure → ซี่โครงหักแทงทะลุ costal pleura",
+    "<b>Cupola</b> โผล่เหนือ clavicle เข้าไปในคอ · น้ำเหลืองในช่องเยื่อหุ้มปอด = chylothorax"
   ],
   "B-C2": [
-    "<b>รูปร่างภายนอกและกลีบปอด</b> ปอดแต่ละข้างมียอด (apex) สูงพ้นกระดูกไหปลาร้า (ระดับ T1) และฐาน (base) วางอยู่บนกะบังลม ปอดขวามี 3 กลีบโดยมี oblique และ horizontal fissures เป็นร่องแบ่ง ส่วนปอดซ้ายมี 2 กลีบคั่นด้วย oblique fissure และที่ขอบหน้าของกลีบบนซ้ายมีรอยเว้า cardiac notch กับส่วนยื่นคล้ายลิ้นที่เรียกว่า lingula",
-    "<b>ขั้วปอดและ pulmonary ligament</b> ที่ผิวด้านใน (mediastinal surface) มีขั้วปอด (hilum / root of lung) เป็นจุดผ่านเข้าออกของหลอดลม หลอดเลือดปอด หลอดเลือดหลอดลม ท่อน้ำเหลือง และร่างแหประสาท โดยที่ขอบล่างของขั้วปอดมีเยื่อหุ้มปอดพับย้อยลงมาเป็นแผ่นคู่เรียกว่า pulmonary ligament",
-    "<b>รอยกดทับบนผิวด้านในของปอดขวา</b> เนื่องจากปอดขวาอยู่ชิดกับระบบหลอดเลือดดำใหญ่และหลอดอาหาร ผิวด้านในจึงมีร่องกดทับของ arch of azygos vein (โค้งข้ามเหนือขั้วปอดขวา), superior vena cava (SVC), brachiocephalic vein และ esophagus",
-    "<b>รอยกดทับบนผิวด้านในของปอดซ้าย</b> ปอดซ้ายอยู่ชิดกับหัวใจซ้ายและระบบหลอดเลือดแดงใหญ่ จึงมีแอ่งกดทับของหัวใจขนาดใหญ่ ร่องโค้งของ aortic arch เหนือขั้วปอด ร่องของ descending aorta ด้านหลังขั้วปอด และร่องของ subclavian artery ที่ทอดขึ้นสู่ยอดปอด"
+    "<b>ปอดขวา</b> 3 lobes (oblique + horizontal fissure) · <b>ปอดซ้าย</b> 2 lobes",
+    "<b>ปอดซ้าย</b>: upper lobe มี cardiac notch และ lingula อยู่ใต้ notch",
+    "<b>Pulmonary ligament</b> = pleura ที่ห้อยลงใต้ lung root",
+    "<b>รอยกดปอดขวา</b> = หลอดเลือดดำ: azygos arch คร่อม root, SVC, esophagus",
+    "<b>รอยกดปอดซ้าย</b> = หลอดเลือดแดง: aortic arch คร่อม root, descending aorta ด้านหลัง, subclavian a. ใกล้ยอดปอด, รอยหัวใจลึก (LV)"
   ],
   "B-C3": [
-    "<b>การแบ่งโซนตามหน้าที่</b> ทางเดินหายใจส่วนล่างแบ่งเป็น conducting part (ตั้งแต่ trachea → main → lobar → segmental bronchi → สิ้นสุดที่ terminal bronchioles) และ respiratory part ที่มีการแลกเปลี่ยนก๊าซ (เริ่มตั้งแต่ respiratory bronchioles → alveolar ducts → alveolar sacs → alveoli)",
-    "<b>ระดับมุมกระดูกหน้าอก (sternal angle, DT4)</b> เป็นระนาบอ้างอิงที่สำคัญมาก เพราะตรงกับรอยต่อ manubrium/body ของ sternum, ซี่โครงซี่ที่ 2, จุดเริ่มและสิ้นสุดของ aortic arch, ขอบล่างของ superior mediastinum และจุดที่ท่อลมแยกเป็นสองแขนง (carina) ทั้งนี้ท่อลมเริ่มจาก C6 มีกระดูกอ่อนรูปตัว C 16–20 ชิ้น และยาว 12 cm ตามสไลด์บทนี้",
-    "<b>ความต่างของหลอดลมหลักและจำนวน segments</b> Right main bronchus กว้างกว่า สั้นกว่า และวางตัวชันกว่าข้างซ้าย สิ่งแปลกปลอมที่สำลักจึงตกลงไปในหลอดลมขวาได้ง่ายกว่า เมื่อแตกแขนงเป็น lobar และ segmental bronchi ปอดขวามี 10 segments (บน 3, กลาง 2, ล่าง 5) และปอดซ้ายมี 8 segments (บน 4, ล่าง 4)",
-    "<b>Eparterial เทียบกับ hyparterial bronchus</b> ที่ขั้วปอดขวา หลอดลมกลีบบนขวา (right superior lobar bronchus) แยกออกอยู่เหนือระดับของ right pulmonary artery จึงมีชื่อเฉพาะว่า eparterial bronchus ส่วนหลอดลมกลีบอื่นๆ ทั้งหมด (กลีบกลางและล่างขวา รวมถึงกลีบบนและล่างซ้าย) ล้วนวิ่งอยู่ใต้ต่อ pulmonary artery จึงเรียกว่า hyparterial bronchi"
+    "<b>ทางลม</b>: trachea (เริ่ม C6) → main → lobar → segmental bronchi → bronchioles",
+    "<b>Sternal angle (T4/5)</b> → ระดับที่ trachea แยกที่ carina",
+    "<b>Right main bronchus</b> กว้าง สั้น ตั้งตรงกว่า → สำลักถั่วมักลงขวา · left main ยาวและแนวนอนกว่า",
+    "<b>Segments</b>: ขวา 10 · ซ้าย 8",
+    "<b>Eparterial bronchus</b> = right upper lobe bronchus อยู่<b>เหนือ</b> pulmonary artery · lobar bronchi อื่นอยู่ใต้ · pulmonary veins อยู่ต่ำและหน้าสุดของ root"
   ],
   "B-C4": [
-    "<b>ระบบไหลเวียนเลือดสองระบบของปอด</b> Pulmonary arteries นำเลือดออกซิเจนต่ำจาก right ventricle ไปแลกเปลี่ยนก๊าซที่ถุงลมแล้วกลับเข้าสู่ left atrium ทาง superior และ inferior pulmonary veins (ข้างละ 2 เส้น) ส่วนเนื้อเยื่อของต้นไม้หลอดลม เยื่อหุ้มปอดชั้นใน และผนังหลอดเลือดปอดได้รับเลือดแดงไปเลี้ยงจาก bronchial arteries",
-    "<b>ความไม่สมมาตรของ bronchial arteries และ veins</b> ข้างขวามี right bronchial artery เพียง 1 เส้น ซึ่งแยกมาจาก 3rd right posterior intercostal artery ส่วนข้างซ้ายมี left bronchial arteries 2 เส้น แยกโดยตรงจาก thoracic aorta ที่ระดับ T5 หรือ T6 ด้านเลือดดำ right bronchial veins เทเข้าสู่ azygos vein ส่วน left bronchial veins เทเข้าสู่ accessory hemiazygos vein",
-    "<b>Azygos vein (ฝั่งขวา)</b> รับเลือดจาก right posterior intercostal veins, right subcostal vein และ right ascending lumbar vein (รวมถึงเลือดที่ข้ามมาจากฝั่งซ้าย) แล้วโค้งข้ามเหนือขั้วปอดขวาไปเทเข้า superior vena cava (SVC)",
-    "<b>Hemiazygos และ accessory hemiazygos veins (ฝั่งซ้าย)</b> Hemiazygos vein อยู่ด้านล่าง รับเลือดจาก left ascending lumbar, left subcostal และ left 9th–11th posterior intercostal veins ส่วน accessory hemiazygos vein อยู่ด้านบน รับเลือดจาก left 5th–8th posterior intercostal veins (และ left bronchial veins) ก่อนที่ทั้งสองเส้นจะทอดข้ามแนวกลางไปเทเข้า azygos vein"
+    "<b>Bronchial arteries</b> เลี้ยงเนื้อปอดเอง → ซ้ายมาจาก thoracic aorta โดยตรง · ขวามาจาก posterior intercostal a.",
+    "<b>Bronchial veins</b>: ขวา → azygos · ซ้าย → accessory hemiazygos",
+    "<b>ระบบ azygos</b> ระบายผนังทรวงอกด้านหลัง → ฝั่งซ้ายข้ามแนวกลางมาเข้า azygos → azygos โค้งข้าม lung root ขวา → SVC",
+    "<b>ก้อนเหนือ lung root ขวา</b> → กด azygos arch ก่อน"
   ],
   "B-C5": [
-    "<b>ต่อมน้ำเหลืองในช่องอก 2 กลุ่ม</b> แบ่งเป็น parietal nodes ที่ผนังช่องอก (ได้แก่ parasternal, intercostal และ phrenic nodes) กับ visceral nodes ที่อวัยวะใน mediastinum (ได้แก่ anterior mediastinal หรือ brachiocephalic, posterior mediastinal และ tracheobronchial nodes) ซึ่งเป็นทางแพร่กระจายที่สำคัญของมะเร็งปอด",
-    "<b>ท่อน้ำเหลืองใหญ่ซ้ายและขวา</b> น้ำเหลืองจากกลุ่ม parasternal, anterior mediastinal และ tracheobronchial nodes จะรวมกันเป็น bronchomediastinal lymph trunks ทั้งสองข้าง โดยข้างขวาเทเข้าสู่ right lymphatic duct (ร่วมกับ right jugular และ subclavian trunks) ส่วนข้างซ้ายเทเข้าสู่ thoracic duct ซึ่งตั้งต้นจากถุงน้ำเหลือง cisterna chyli ที่ระดับกระดูกสันหลัง L2",
-    "<b>Phrenic nerve (C3–C5)</b> ทอดลงมาในช่องอกเพื่อให้ใยประสาททั้ง motor และ sensory แก่กะบังลม และยังให้ใยรับความรู้สึก (sensory) แก่เยื่อหุ้มหัวใจ (pericardium) และเยื่อหุ้มปอดด้านใน (mediastinal pleura)",
-    "<b>Pulmonary plexuses และ splanchnic nerves</b> ร่างแหประสาทปอดที่ขั้วปอดเกิดจากใยประสาท parasympathetic จาก vagus nerve (กระตุ้นให้เกิด bronchoconstriction และ vasodilation) ร่วมกับใย sympathetic (กระตุ้นให้เกิด bronchodilation และ vasoconstriction) นอกจากนี้ปมประสาท sympathetic ระดับอกยังให้แขนง greater splanchnic nerve (จาก T5–T9) และ lesser splanchnic nerve (จาก T10–T11) ทะลุกะบังลมลงไปเลี้ยงอวัยวะในช่องท้อง"
+    "<b>น้ำเหลืองปอด</b>: เนื้อปอด → bronchopulmonary (hilar) nodes → tracheobronchial nodes → bronchomediastinal trunk",
+    "<b>Thoracic duct</b>: เริ่มจาก cisterna chyli → วิ่งระหว่าง aorta กับ azygos → บาดเจ็บ → chylothorax",
+    "<b>Right lymphatic duct</b> → เทเข้า venous angle ขวา (subclavian + internal jugular)",
+    "<b>Autonomic</b>: vagus → หลอดลมหดตัว · sympathetic → หลอดลมขยาย",
+    "<b>Sympathetic trunk</b>: stellate ganglion อยู่บนสุด บนคอซี่โครงที่ 1 · greater/lesser splanchnic → ไปอวัยวะช่องท้อง"
   ]
 });
 
-/* Part 2 Thai explain: Sections H, G, M */
-window.THAI_EXPLAIN = window.THAI_EXPLAIN || {};
-
-/* ---------- H · Histology of the Respiratory System ---------- */
+/* ---------- H · Histology ---------- */
 Object.assign(window.THAI_EXPLAIN, {
   "H-C1": [
-    "<b>การแบ่งส่วนทางเดินหายใจตามหน้าที่</b> Air-conducting portion เริ่มตั้งแต่จมูกไปสิ้นสุดที่ terminal bronchioles ทำหน้าที่นำอากาศ กรอง อุ่น และเพิ่มความชื้น ส่วน respiratory portion เริ่มตั้งแต่ respiratory bronchioles ไปจนถึง alveoli ทำหน้าที่แลกเปลี่ยนแก๊ส",
-    "<b>เยื่อบุในโพรงจมูกส่วนต้นและ respiratory mucosa</b> Nasal vestibule บุด้วย keratinized stratified squamous epithelium เพื่อรับสัมผัสอากาศภายนอก ส่วนโพรงจมูกส่วนใหญ่ ไซนัสข้างจมูก nasopharynx และกล่องเสียงส่วนใหญ่บุด้วย respiratory epithelium คือ pseudostratified ciliated columnar epithelium with goblet cells",
-    "<b>Olfactory mucosa สำหรับรับกลิ่น</b> อยู่เฉพาะส่วนบนของ superior nasal concha, ผนังกั้นจมูกส่วนบน และ sphenoethmoidal recess บุด้วย pseudostratified columnar epithelium ที่มี non-motile cilia นิวเคลียสเรียงตัวหนาแน่น ไม่มี goblet cells และมีต่อมน้ำใส Bowman glands ในชั้น lamina propria",
-    "<b>บริเวณที่รับแรงเสียดสีและฝาปิดกล่องเสียง (epiglottis)</b> Oropharynx (ซึ่งมีวงน้ำเหลือง Waldeyer ring), ผิวด้านช่องปากของ epiglottis และสายเสียงแท้ (true vocal cords) บุด้วย non-keratinized stratified squamous epithelium ส่วนผิวด้านกล่องเสียงของ epiglottis เปลี่ยนเป็น respiratory epithelium คลุมแกนกลางที่เป็น elastic cartilage"
+    "<b>Conducting</b>: จมูก → terminal bronchioles (ไม่แลกก๊าซ) · <b>respiratory</b>: respiratory bronchioles → alveoli",
+    "<b>หลักจำ</b>: ตรงไหนโดนอาหารหรือแรงเสียดสี → stratified squamous · ทางลมทั่วไป → respiratory epithelium",
+    "<b>Vestibule</b> = ผิวหนัง → keratinized stratified squamous · <b>oropharynx, สายเสียงแท้, ด้านบน epiglottis</b> → non-keratinized",
+    "<b>ทางลมส่วนใหญ่</b> → pseudostratified ciliated columnar + goblet cells",
+    "<b>Olfactory mucosa</b> (หลังคาจมูก, superior concha, sphenoethmoidal recess) → cilia ไม่ขยับ, ไม่มี goblet cell · Bowman glands → ละลายกลิ่นให้ถึงตัวรับ"
   ],
   "H-C2": [
-    "<b>ท่อลมและหลอดลมหลัก (trachea &amp; primary bronchi)</b> มีกระดูกอ่อน hyaline รูปตัว C (C-shaped ring) ด้านหลังเชื่อมด้วยกล้ามเนื้อเรียบ trachealis เยื่อบุเป็น respiratory epithelium บนชั้น basement membrane ที่หนาเด่นชัด",
-    "<b>ชั้นใต้เยื่อบุและชั้นนอกของท่อลม</b> มีต่อม seromucous ในชั้นใต้เยื่อบุ และด้านหลังใช้ชั้นเนื้อเยื่อเกี่ยวพัน adventitia ร่วมกับหลอดอาหาร (esophagus)",
-    "<b>หลอดลมในเนื้อปอด (intrapulmonary bronchus)</b> กระดูกอ่อน hyaline เปลี่ยนจากวงตัว C เป็นแผ่นไม่ต่อเนื่อง (discontinuous plates) ล้อมรอบด้วยชั้นกล้ามเนื้อเรียบที่เรียงเป็นวงต่อเนื่องระหว่างชั้นเยื่อบุกับกระดูกอ่อน และยังมีต่อมใต้เยื่อบุ",
-    "<b>หลอดลมฝอยปกติ (regular bronchiole)</b> จุดตัดสำคัญคือไม่มีกระดูกอ่อน (absent cartilage) และไม่มีต่อม seromucous แล้ว เยื่อบุเป็น pseudostratified ciliated columnar ที่แทบไม่มีหรือไม่มี goblet cells เลย โดยมีชั้นกล้ามเนื้อเรียบล้อมรอบโดดเด่น (ซึ่งหดเกร็งในโรคหอบหืด)"
+    "<b>ลึกลงไปในต้นหลอดลม</b> → กระดูกอ่อนลดลง: trachea (ตัว C) → bronchus (แผ่น) → bronchiole (ไม่มี)",
+    "<b>ต่อมก็หายไป</b>: trachea และ bronchus มีต่อม · bronchiole ไม่มี",
+    "<b>กล้ามเนื้อเรียบเด่นขึ้น</b>: trachea มีแค่ trachealis ด้านหลัง → bronchiole เป็นวงชัด → หดตัวได้มาก (หอบหืด)",
+    "<b>Trachea</b>: ชั้นนอกสุดเป็น adventitia ใช้ร่วมกับ esophagus (ไม่มี muscularis externa)"
   ],
   "H-C3": [
-    "<b>Terminal bronchioles (ปลายสุดของส่วนนำอากาศ)</b> บุด้วย simple columnar ถึง simple cuboidal ciliated epithelium และมีเซลล์ไร้ขนที่เรียกว่า Clara cells หรือ Club cells แทรกอยู่",
-    "<b>รูปร่างของ Clara / Club cells</b> ยอดเซลล์โค้งนูนเป็นโดม (dome-shaped) ยื่นเข้าในโพรงท่อ และมี short blunt microvilli (ไม่มี cilia)",
-    "<b>หน้าที่ 4 ประการของ Clara / Club cells ตามสไลด์</b> (1) หลั่ง lipoprotein ช่วยสารลดแรงตึงผิวป้องกันผนังท่อตีบติดกัน (2) ทำหน้าที่คล้ายเซลล์ต้นกำเนิด (stem-cell-like progenitors) (3) กำจัดสารพิษที่สูดดมเข้ามา (detoxify) และ (4) หลั่งโปรตีนตัวชี้วัดทางคลินิก CC16",
-    "<b>Respiratory bronchioles (จุดเริ่มต้นของการแลกเปลี่ยนแก๊ส)</b> ผนังท่อบุด้วยเซลล์รูปลูกบาศก์ที่มีถุงลม (alveoli) โป่งออกเป็นระยะ จึงเป็นส่วนแรกของทางเดินหายใจที่แลกเปลี่ยนแก๊สได้"
+    "<b>Terminal bronchiole</b> = ทางลมนำอากาศอันสุดท้าย → บุด้วย simple cuboidal ถึง low columnar",
+    "<b>Club (Clara) cell</b>: ทรงโดม ไม่มี cilia",
+    "<b>หน้าที่ Club cell</b> → หลั่ง lipoprotein คล้าย surfactant · กำจัดสารพิษที่หายใจเข้า · เป็น stem cell ของเยื่อบุ · หลั่ง CC16",
+    "<b>Respiratory bronchiole</b> → ผนัง cuboidal มี alveoli แทรก → เริ่มแลกก๊าซตรงนี้"
   ],
   "H-C4": [
-    "<b>Alveolar ducts และ alveolar sacs</b> บุด้วย simple squamous epithelium โดยมีปุ่มกล้ามเนื้อเรียบ (smooth muscle knobs) ล้อมรอบปากทางเข้าถุงลม",
-    "<b>Pneumocyte Type I</b> เป็นเซลล์แบนบาง (simple squamous) คิดเป็น 40% ของจำนวนเซลล์ถุงลมทั้งหมด แต่แผ่กว้างคลุมพื้นที่ผิวถึง 90–95% เพื่อทำหน้าที่แลกเปลี่ยนแก๊ส",
-    "<b>Pneumocyte Type II (septal cell)</b> เป็นเซลล์รูปลูกบาศก์ (simple cuboidal) ที่มี lamellar bodies คิดเป็น 60% ของจำนวนเซลล์แต่คลุมพื้นที่ผิวเพียง 5–10% ทำหน้าที่สร้าง surfactant ลดแรงตึงผิวตามกฎของ Laplace และแบ่งตัวซ่อมแซมทั้ง Type I และ Type II",
-    "<b>Dust cells และ pores of Kohn</b> Dust cells คือ alveolar macrophages ที่คอยเก็บกินฝุ่นและเชื้อโรค ส่วน pores of Kohn คือรูเปิดเชื่อมระหว่างถุงลมข้างเคียง ช่วยให้เกิดการไหลเวียนอากาศสำรอง (collateral circulation) เพื่อปรับความดันให้เท่ากันและป้องกันภาวะปอดแฟบ (atelectasis)"
+    "<b>Alveolar duct</b> → ผนังเป็นรูเปิดของ alveoli มีกล้ามเนื้อเรียบเป็นปุ่ม → ปลายตันเป็น alveolar sac",
+    "<b>Type I pneumocyte</b>: แบน → คลุมพื้นที่ผิวส่วนใหญ่ → แลกก๊าซ",
+    "<b>Type II pneumocyte</b>: ทรงลูกบาศก์ มี lamellar bodies → สร้าง surfactant → ลดแรงตึงผิว · เป็น progenitor แทน type I ได้",
+    "<b>ทารกคลอดก่อนกำหนด</b>: type II ยังไม่โต → surfactant ไม่พอ → alveoli แฟบ → RDS",
+    "<b>Dust cell</b> = alveolar macrophage → กินฝุ่น · <b>pores of Kohn</b> → ลมไหลข้าม alveoli → กันปอดแฟบ (atelectasis)"
   ],
   "H-C5": [
-    "<b>ชั้นฝั่งถุงลมของ air-blood barrier (สไลด์หน้า 42)</b> ออกซิเจนจากโพรงถุงลมต้องผ่านชั้นที่ (1) ของเหลวเคลือบถุงลมพร้อมสารลดแรงตึงผิว (alveolar fluid + surfactant) และชั้นที่ (2) เยื่อบุถุงลม (alveolar epithelium ของ Type I pneumocyte)",
-    "<b>ชั้นฐานและชั้นฝั่งหลอดเลือดฝอย</b> ถัดไปคือชั้นที่ (3) ชั้นฐานที่เชื่อมรวมกัน 2 ชั้น (fused basal lamina x 2 ของเยื่อบุถุงลมและเยื่อบุหลอดเลือด), ชั้นที่ (4) เยื่อบุหลอดเลือดฝอย (capillary endothelium) และชั้นที่ (5) เยื่อหุ้มเซลล์เม็ดเลือดแดง (plasma membrane of RBC)",
-    "<b>โครงสร้างและหน้าที่ของเยื่อหุ้มปอด (pleurae)</b> ทั้ง visceral และ parietal pleura เป็น serous membranes ที่บุด้วยเซลล์แบนชั้นเดียวเรียกว่า mesothelium ทำหน้าที่สร้างของเหลวหล่อลื่น (lubricant fluid) ลดการเสียดสีขณะหายใจ",
-    "<b>พยาธิสภาพของเยื่อหุ้มปอด</b> ได้แก่ ลมในโพรงเยื่อหุ้มปอด (pneumothorax), น้ำใส (hydrothorax), เลือด (hemothorax) และมะเร็งเยื่อหุ้มปอด (mesothelioma) ซึ่งสัมพันธ์กับการสูดดมแร่ใยหิน (asbestos)"
+    "<b>Air-blood barrier จากลม → เลือด</b>: surfactant + ของเหลว → type I pneumocyte → basal laminae ที่เชื่อมกัน → endothelium → เยื่อหุ้ม RBC",
+    "<b>ยิ่งบาง ยิ่งแพร่เร็ว</b> → ผนังหนาขึ้น (fibrosis, น้ำท่วม) → แลกก๊าซช้าลง",
+    "<b>Pleura</b> = mesothelium (simple squamous) → หลั่งน้ำหล่อลื่น → 2 ชั้นเลื่อนผ่านกันได้",
+    "<b>Asbestos</b> → mesothelioma"
   ]
 });
 
-/* ---------- G · Gas Phase, Partial Pressures & Gas-Liquid Equilibrium ---------- */
+/* ---------- G · Gas phase ---------- */
 Object.assign(window.THAI_EXPLAIN, {
   "G-C1": [
-    "<b>สภาวะมาตรฐาน STP และ STPD</b> STP คืออุณหภูมิ 273.25 K (0 °C) และความดันสัมบูรณ์ 101.3 kPa (1 bar = 1 atm = 760 mmHg = 14.9 psi) ส่วน STPD คือ 0 °C (273 K), 1 atm (760 mmHg) และเป็นแก๊สแห้งสนิท (dry)",
-    "<b>สภาวะ BTPS ในทางสรีรวิทยาการหายใจ</b> BTPS คือสภาวะของแก๊สในปอดจริงที่อุณหภูมิร่างกาย 37 °C (310 K) ความดันบรรยากาศขณะนั้น และอิ่มตัวด้วยไอน้ำ (PH2O = 47 mmHg)",
-    "<b>กฎของแก๊สอุดมคติ</b> กฎของ Boyle (อุณหภูมิคงที่): P1V1 = P2V2 · กฎของ Charles (ความดันคงที่): V1/T1 = V2/T2 โดยใช้อุณหภูมิเคลวิน (ตัดศูนย์ที่ −273 °C) · กฎของ Gay-Lussac: P1/T1 = P2/T2 · กฎของ Avogadro: 1 โมลที่ STP มีปริมาตร 22.4 L · สมการ PV = nRT โดย R = 0.082 L·atm/(K·mol) หรือ 8.314 J/(K·mol)",
-    "<b>แก๊สจริงและถังคาร์บอนไดออกไซด์เหลว</b> แก๊สจริงจะเบี่ยงเบนจาก PV/RT = 1 เมื่อความดันสูง สำหรับถัง CO2 เหลวที่อุณหภูมิ 20 °C (ต่ำกว่าอุณหภูมิวิกฤต 31 °C) จะมีความดันไอคงที่อยู่ที่ 830 psi (56.5 atm)"
+    "<b>STPD</b> = 0 °C, 760 mmHg, แห้ง · <b>BTPS</b> = 37 °C, ความดันห้อง, อิ่มตัวด้วยไอน้ำ (47 mmHg)",
+    "<b>Boyle</b> (T คงที่): ปริมาตรเพิ่ม → ความดันลด → ทรวงอกขยาย → ความดันในถุงลมต่ำกว่าบรรยากาศ → ลมไหลเข้า",
+    "<b>Charles</b> (P คงที่): T ขึ้น → V ขึ้น · <b>Gay-Lussac</b> (V คงที่): T ขึ้น → P ขึ้น",
+    "<b>Ideal gas</b>: PV = nRT · 1 mole = 22.4 L ที่ STP · ก๊าซจริงเบี่ยงเบนเมื่อความดันสูง"
   ],
   "G-C2": [
-    "<b>อากาศแห้งในบรรยากาศตามกฎของ Dalton</b> ที่ระดับน้ำทะเล (760 mmHg) อากาศแห้งมีออกซิเจน 20.93% (PO2 = 159.1 mmHg), คาร์บอนไดออกไซด์ 0.03–0.04% (0.3 mmHg) และไนโตรเจน 79.03% (600.6 mmHg)",
-    "<b>Isothermic saturation boundary (จุดอิ่มตัวของอากาศที่หายใจเข้า)</b> อยู่ต่ำกว่ารอยแยกหลอดลม (carina) เล็กน้อย ณ จุดนี้อากาศที่สูดเข้ามาจะมีอุณหภูมิถึง 37 °C ความชื้นสัมพัทธ์ 100% ปริมาณไอน้ำ 44 mg/L และสร้างความดันไอน้ำ (PH2O) เท่ากับ 47 mmHg",
-    "<b>การคำนวณ PO2 ในอากาศชื้นของหลอดลม</b> เมื่อไอน้ำกินความดันไป 47 mmHg ความดันของแก๊สแห้งที่เหลือจะเท่ากับ 760 − 47 = 713 mmHg ดังนั้น PO2 ในหลอดลมชื้นจึงลดลงเป็น 0.2093 × 713 = 149.2 mmHg (และ PN2 ลดลงเป็น 563.5 mmHg)",
-    "<b>การลดหลั่นของความดันย่อยเมื่อถึงถุงลม (gas cascade)</b> เมื่อเข้าสู่ถุงลม ออกซิเจนถูกดูดซึมเข้าเลือดและคาร์บอนไดออกไซด์แพร่เข้ามาแทนที่ (PACO2 = 40.0 mmHg) ทำให้ PAO2 ในถุงลมลดลงเหลือประมาณ 101.2 mmHg"
+    "<b>Dalton</b>: P ของก๊าซ = สัดส่วน × ความดันรวม → อากาศแห้ง P<sub>O2</sub> ≈ 0.21 × 760 ≈ 159",
+    "<b>จมูกและทางลม</b> อุ่นและเติมความชื้น → ใต้ carina อิ่มตัวที่ 37 °C → ไอน้ำ 47 mmHg",
+    "<b>ไอน้ำแย่งที่</b> → ก๊าซแห้งเหลือ 760 − 47 = 713 → P<sub>O2</sub> = 0.21 × 713 ≈ 149 → ลดลงก่อนแลกก๊าซเสียอีก",
+    "<b>ในถุงลม</b> CO<sub>2</sub> เข้ามาแทนที่ (≈ 40) → P<sub>AO2</sub> ≈ 100"
   ],
   "G-C3": [
-    "<b>สมการแก๊สในถุงลมฉบับเต็ม (Alveolar gas equation)</b> PAO2 = FiO2(PB − PH2O) − PaCO2/R + F โดยใช้ PaCO2 (40 mmHg) แทน PACO2 และค่า respiratory exchange ratio (R) = VCO2 / VO2 = 183 / 230 ≈ 0.8",
-    "<b>ตัวแก้ความคลาดเคลื่อน F (correction factor)</b> ชดเชยความต่างของความเข้มข้นไนโตรเจนเมื่อ R ไม่เท่ากับ 1 ซึ่งปกติมีค่าประมาณ 2 mmHg (<3 mmHg) เมื่อรวม F = 2 mmHg จะได้ PAO2 = 149.2 − (40/0.8) + 2 = 101.2 mmHg แต่ถ้าตัด F ทิ้งจะได้ PAO2 = 99.2 mmHg",
-    "<b>สูตรดัดแปลงทางคลินิก (ตามสไลด์หน้า 22 และ 24)</b> เมื่อผู้ป่วยได้รับ FiO2 ≤ 0.6 ให้ใช้สูตร PAO2 = FiO2(PB − 47) − PaCO2 × 1.2 (ที่อากาศห้องจะได้ 101.2 mmHg พอดี) แต่เมื่อ FiO2 > 0.6 ค่า F จะลดลงจนตัดทิ้งได้ ให้ใช้สูตร PAO2 = FiO2(PB − 47) − PaCO2 โดยไม่ต้องคูณ 1.2",
-    "<b>กฎการแพร่ของ Graham</b> ที่อุณหภูมิและความดันคงที่ อัตราการแพร่ของแก๊สในสถานะแก๊สจะแปรผกผันกับรากที่สองของมวลโมเลกุล (R1/R2 = sqrt(M2/M1))"
+    "<b>สมการ</b>: P<sub>AO2</sub> = F<sub>iO2</sub>(P<sub>B</sub> − 47) − P<sub>aCO2</sub>/R · R ≈ 0.8",
+    "<b>อากาศห้อง</b>: 149 − 40/0.8 ≈ 100 mmHg",
+    "<b>สูตรข้อสอบ</b> (F<sub>iO2</sub> ≤ 0.6): ใช้ × 1.2 แทน ÷ R · F<sub>iO2</sub> &gt; 0.6 → ลบ P<sub>aCO2</sub> ตรงๆ",
+    "<b>Logic</b>: P<sub>aCO2</sub> สูง → CO<sub>2</sub> แย่งที่ในถุงลม → P<sub>AO2</sub> ต่ำ · ให้ O<sub>2</sub> มากขึ้น → P<sub>AO2</sub> สูง",
+    "<b>Graham</b>: ก๊าซหนัก → แพร่ช้า (อัตรา ∝ 1/√MW)"
   ],
   "G-C4": [
-    "<b>กฎของ Henry และการละลายของออกซิเจนในเลือด</b> ปริมาณแก๊สที่ละลายน้ำได้แปรผันตรงกับความดันย่อย (C = αP) สำหรับออกซิเจนในเลือดที่ 38 °C มีค่า αO2 = 0.00302 mL O2 / dL blood / mmHg (ดังนั้นที่ PaO2 = 100 mmHg จะมีออกซิเจนละลายอยู่ 0.3 mL/dL)",
-    "<b>เปรียบเทียบความสามารถในการละลายในพลาสมา</b> ที่ 38 °C (1 atm) CO2 มีค่าการละลายในพลาสมา 0.490 mL/mL เทียบกับ O2 ที่ 0.021 mL/mL (CO2 จึงละลายได้ดีกว่าประมาณ 23 เท่า) ส่วน N2 ละลายได้น้อยมากเพียง 0.0127 mL/mL",
-    "<b>รูปแบบของแก๊สทั้งหมดในเลือดและถังออกซิเจน</b> ปริมาณแก๊สรวมในเลือดประกอบด้วย 3 ส่วน คือ ส่วนที่ละลายน้ำโดยตรง (dissolved) + ส่วนที่จับกับโปรตีน (bound) + ส่วนที่เปลี่ยนรูปทางเคมี (chemically modified) สำหรับตัวคูณถังออกซิเจน: ถัง D = 0.16 L/psi (2000 psi ได้ 320 L), ถัง E = 0.28 L/psi และถัง G = 2.41 L/psi",
-    "<b>อุปกรณ์ให้ออกซิเจนทางคลินิก</b> สายให้ออกซิเจนทางจมูก (nasal cannula) เปิดที่ 2–6 L/min ให้ FiO2 0.28–0.44 (ห้ามเกิน 6 L/min เพราะทำให้เยื่อบุจมูกแห้งและระคายเคือง) ส่วนหน้ากากธรรมดา (simple face mask) เปิดที่ 3–8 L/min ให้ FiO2 0.30–0.80"
+    "<b>Henry</b>: C = αP → ก๊าซละลายมากขึ้นตามความดันย่อย",
+    "<b>O<sub>2</sub> ละลายน้อยมาก</b> (0.003 mL/dL/mmHg) → P<sub>aO2</sub> 100 ละลายได้แค่ 0.3 mL/dL → ต้องอาศัย Hb",
+    "<b>CO<sub>2</sub></b> ละลายได้ดีกว่า O<sub>2</sub> ราว 20 เท่า",
+    "<b>ก๊าซในเลือด</b> = ละลาย + จับโปรตีน + เปลี่ยนรูปเคมี (CO<sub>2</sub> → HCO<sub>3</sub><sup>−</sup>)",
+    "<b>การให้ O<sub>2</sub></b>: nasal cannula → F<sub>iO2</sub> เพิ่มตาม flow แต่ยังต่ำ · face mask ได้สูงกว่า"
   ]
 });
 
-/* ---------- M · Mechanics of Breathing ---------- */
+/* Part 2: M, E, T, C */
+
+/* ---------- M · Mechanics ---------- */
 Object.assign(window.THAI_EXPLAIN, {
   "M-C1": [
-    "<b>โครงสร้างการแตกแขนงของหลอดลม</b> ท่อทางเดินหายใจแตกแขนง 23 รุ่น (generations) ไปสิ้นสุดที่ถุงลมประมาณ 300 ล้านถุง คิดเป็นพื้นที่แลกเปลี่ยนแก๊ส 50–100 ตารางเมตร",
-    "<b>กล้ามเนื้อหายใจเข้าและออก</b> การหายใจเข้าปกติใช้กะบังลม (diaphragm) และ external intercostals หากหายใจเข้าเต็มที่จะดึง sternocleidomastoid, serratus anterior และ scalenes มาช่วย ส่วนการหายใจออกปกติเป็นการคลายตัวแบบ passive แต่ถ้าเบ่งหายใจออกเต็มที่จะใช้ internal intercostals ร่วมกับกล้ามเนื้อหน้าท้อง (rectus abdominis, external และ internal obliques)",
-    "<b>ความดันขณะพักและขณะหายใจเองตามธรรมชาติ</b> ที่จุดสิ้นสุดการหายใจออกปกติ (FRC หรือ EELV) ความดันถุงลม PA = 0 cmH2O, ความดันในโพรงเยื่อหุ้มปอด Ppl = −5 cmH2O (−3.5 mmHg) และความดันคร่อมผนังปอด (transpulmonary pressure, PL = PA − Ppl) = +5 cmH2O เมื่อหายใจเข้า Ppl ลดลงเป็น −8 ถึง −10 cmH2O ดึงให้ PA ลดลงเป็น −1 cmH2O อากาศจึงไหลเข้าปอด 500 mL",
-    "<b>การหายใจด้วยความดันบวก (positive-pressure ventilation)</b> เครื่องช่วยหายใจอัดความดันบวกเข้าทางเดินหายใจ (เช่น Pao = +30 cmH2O) ดันปอดและผนังทรวงอกออก ทำให้ในภาวะที่ผู้ป่วยไม่ช่วยหายใจเลย ค่า Ppl จะกลายเป็นบวก (+5 cmH2O) แต่ถ้าผู้ป่วยสูดหายใจเข้าสู้กับเครื่องจน Ppl ติดลบถึง −20 cmH2O ค่า PL จะพุ่งสูงถึง 30 − (−20) = 50 cmH2O"
+    "<b>กล้ามเนื้อ</b>: หายใจเข้าปกติ = diaphragm + external intercostals · หายใจออกปกติ = ไม่ใช้แรง · หายใจออกแรง = กล้ามเนื้อหน้าท้องดัน diaphragm ขึ้น",
+    "<b>ตอนพัก (FRC)</b>: ปอดดึงเข้า + ผนังอกดีดออก → แรงดึงตรงข้ามกัน → ความดันใน pleura ติดลบ (≈ −5 cmH<sub>2</sub>O) · ความดันถุงลม = 0 → ไม่มีลมไหล",
+    "<b>หายใจเข้า</b>: อกขยาย → pleura ติดลบมากขึ้น → ความดันถุงลมต่ำกว่า 0 → ลมไหลเข้า (Boyle) → ลมไหลเร็วสุดกลางช่วงหายใจเข้า → หยุดเมื่อถุงลมกลับเป็น 0",
+    "<b>Transpulmonary pressure</b> = ถุงลม − pleura → ปลายหายใจเข้า: 0 − (−8) = 8",
+    "<b>เครื่องช่วยหายใจ (PPV)</b> → อัดลมเข้า → ความดัน pleura <b>สูงขึ้น</b> แทนที่จะลดลง"
   ],
   "M-C2": [
-    "<b>แรงหดกลับยืดหยุ่นของปอดและสารลดแรงตึงผิว</b> แรงหดกลับของปอด (lung elastic recoil) มาจากเส้นใยอีลาสติน/คอลลาเจนและแรงตึงผิวของของเหลวในถุงลม สารลดแรงตึงผิว (surfactant) ซึ่งส่วนใหญ่คือ dipalmitoyl phosphatidylcholine (DPPC) จากเซลล์ Type II จะแทรกตัวที่ผิวสัมผัสอากาศกับน้ำเพื่อลดแรงตึงผิวและลดแรงหดกลับของปอด",
-    "<b>ทำไมถุงลมเล็กจึงขยายตัวง่ายกว่าถุงลมใหญ่ (สไลด์หน้า 16)</b> ถุงลมขนาดเล็กมีปริมาณ surfactant ต่อพื้นที่ผิวหนาแน่นกว่าถุงลมขนาดใหญ่ ทำให้ถุงลมขนาดเล็กมีแรงหดกลับยืดหยุ่น (elastic recoil force) ต่ำกว่าถุงลมขนาดใหญ่ จึงขยายปริมาตรรับอากาศขณะหายใจเข้าได้ดีกว่า",
-    "<b>แรงดีดออกของผนังทรวงอก</b> ขณะพักที่ปริมาตรปกติ ผนังทรวงอกมีทิศทางแรงดึงดีดออกด้านนอก (outward recoil) ซึ่งต้านกับแรงดึงหดเข้าด้านใน (inward recoil) ของเนื้อปอด",
-    "<b>กราฟความดันผ่อนคลายของปอดและทรวงอก (relaxation pressure curve)</b> ที่ปริมาตร FRC (~40% VC) แรงหดเข้าของปอดจะเท่ากับแรงดีดออกของผนังทรวงอกพอดี (ความดันรวมของระบบ = 0) หากเกิดรอยรั่วเข้าช่องเยื่อหุ้มปอด (pneumothorax) ปอดจะหดแฟบเข้าหาขั้วปอดเหลือเพียง minimal air ขณะที่ผนังทรวงอกจะดีดขยายออกไปที่จุดสมดุลของตัวเอง (~60–70% VC)"
+    "<b>แรงหดตัวของปอด</b> = elastic fibers + แรงตึงผิวของน้ำในถุงลม",
+    "<b>Surfactant (DPPC จาก type II)</b> → แทรกที่ผิวน้ำ-อากาศ → แรงตึงผิวลด → ปอดหดกลับน้อยลง → ขยายง่ายขึ้น",
+    "<b>ถุงลมเล็ก</b> มี surfactant ต่อพื้นที่มากกว่า → ไม่ยุบไปรวมกับถุงลมใหญ่",
+    "<b>ผนังอกดีดออก ปอดดึงเข้า</b> → ที่ FRC สองแรงเท่ากันพอดี → จุดพักของทั้งระบบ"
   ],
   "M-C3": [
-    "<b>นิยามของ compliance (ความสามารถในการขยายตัว)</b> C = ΔV / ΔP มีหน่วยเป็น L/cmH2O โดยแปรผกผันกับแรงหดกลับยืดหยุ่น (elastic recoil) ในปอดปกติเมื่อความดันเปลี่ยน 2.5 cmH2O ปริมาตรจะเปลี่ยน 0.5 L คิดเป็น lung compliance = 0.2 L/cmH2O",
-    "<b>Compliance รวมของระบบปอดและทรวงอก</b> เนื่องจากปอดซ้อนอยู่ในทรวงอก การคำนวณจึงใช้สูตรตัวเก็บประจุต่ออนุกรม: 1/C(lung-thorax) = 1/C(lung) + 1/C(thorax) เมื่อแต่ละส่วนเท่ากับ 0.2 L/cmH2O ค่าความยืดหยุ่นรวมของระบบจึงเท่ากับ 0.1 L/cmH2O (น้อยกว่าของแต่ละส่วนเดี่ยวๆ เสมอ)",
-    "<b>Static เทียบกับ dynamic compliance</b> Static compliance วัดขณะกลั้นหายใจนิ่งๆ (ไม่มีการไหลของอากาศ) จึงสะท้อนความยืดหยุ่นล้วนๆ ส่วน dynamic compliance วัดระหว่างที่มีการหายใจเข้าออกต่อเนื่อง",
-    "<b>การเปลี่ยนแปลงของกราฟในโรคปอด</b> ในโรคถุงลมโป่งพอง (emphysema) ผนังถุงลมถูกทำลายทำให้แรงหดกลับลดลง ค่า compliance จึงเพิ่มขึ้น (กราฟชันขึ้นและเลื่อนไปทางซ้าย) ส่วนโรคปอดพังผืด (pulmonary fibrosis) เนื้อปอดแข็งทำให้แรงหดกลับเพิ่มขึ้น ค่า compliance จึงลดลง (กราฟแบนลงและเลื่อนไปทางขวา)"
+    "<b>Compliance</b> = ΔV/ΔP = ความชันของกราฟ P-V → ชันมาก = ยืดง่าย · ตรงข้ามกับ elastic recoil",
+    "<b>ปอด + ผนังอก</b> ต่อกันแบบอนุกรม → compliance รวมน้อยกว่าแต่ละอย่าง",
+    "<b>Static</b> = วัดตอนลมหยุดไหล (กลั้นหายใจ) · <b>dynamic</b> = วัดระหว่างหายใจ → ความต้านทานทางลมมีผลด้วย",
+    "<b>Emphysema</b> → ผนังถุงลมถูกทำลาย → recoil ลด → compliance <b>เพิ่ม</b> · <b>fibrosis</b> → ปอดแข็ง → compliance <b>ลด</b>"
   ],
   "M-C4": [
-    "<b>กฎของ Poiseuille</b> ความต้านทาน R = 8ηl / (πr^4) ดังนั้นรัศมีหลอดลม (r ยกกำลัง 4) จึงเป็นตัวกำหนดความต้านทานที่สำคัญที่สุดของการไหลในท่อ",
-    "<b>การกระจายตัวของความต้านทานตามขนาดหลอดลม</b> ในทางเดินหายใจปกติ ความต้านทานอยู่ที่จมูกและปาก 50%, glottis 25%, trachea และ bronchi (>2 mm) 15% ส่วนหลอดลมขนาดเล็ก (<2 mm) มีความต้านทานรวมเพียง 10% เพราะแตกแขนงขนานกันจำนวนมหาศาลจนพื้นที่หน้าตัดรวมใหญ่มาก (เช่น 180 cm2 ที่รุ่นที่ 16 เทียบกับ 2.54 cm2 ที่ท่อลม)",
-    "<b>แรงดึงรั้งรอบท่อและการกดเบียดหลอดลมขณะเบ่งหายใจออก</b> ขณะหายใจเข้า ความดัน Ppl ที่ติดลบมากขึ้นและแรงดึงรั้งจากผนังถุงลมรอบข้าง (radial traction) จะช่วยดึงหลอดลมให้เปิดกว้าง แต่ขณะเบ่งหายใจออกแรง (forced expiration) ค่า Ppl จะกลายเป็นบวกสูง (เช่น +25 cmH2O) ไปกดหลอดลมส่วนที่ไม่มีกระดูกอ่อนให้ตีบแคบลง (dynamic compression)",
-    "<b>กลไกการเกิดลมค้างใน COPD และการควบคุมด้วยระบบประสาทอัตโนมัติ</b> ในผู้ป่วย COPD/emphysema เนื้อปอดเสีย elastic recoil และเสีย radial traction ทำให้ความดันในหลอดลมลดลงเร็วและถูก Ppl บวกกดปิดตั้งแต่เนิ่นๆ เกิดลมค้างในปอด (air trapping) สำหรับระบบประสาทอัตโนมัติ parasympathetic ทำให้หลอดลมหดตัว (เพิ่ม R) ส่วน sympathetic ทำให้หลอดลมคลายตัว (ลด R)"
+    "<b>Poiseuille</b>: R ∝ 1/r<sup>4</sup> → รัศมีลดครึ่ง → ความต้านทานเพิ่ม 16 เท่า",
+    "<b>ความต้านทานส่วนใหญ่</b> อยู่ที่จมูก ปาก และทางลมใหญ่ → ทางลมเล็กมีจำนวนมากต่อขนานกัน → พื้นที่หน้าตัดรวมมหาศาล → ต้านทานน้อย",
+    "<b>หายใจเข้า</b>: pleura ติดลบ + radial traction จากถุงลมรอบๆ → ดึงทางลมให้เปิด",
+    "<b>หายใจออกแรง</b>: pleura เป็นบวก → บีบทางลม (dynamic compression) → ออกแรงเพิ่มก็ไม่ไหลเร็วขึ้น · COPD recoil น้อย → ทางลมปิดเร็ว → air trapping",
+    "<b>Autonomic</b>: parasympathetic → หลอดลมหด (R ↑) · sympathetic → ขยาย (R ↓)"
   ],
   "M-C5": [
-    "<b>รูปแบบการไหลของอากาศ 3 ชนิด</b> Laminar flow พบในหลอดลมเล็กส่วนปลายที่ไหลช้า (ความดันลดขึ้นกับความหนืด), turbulent flow พบในท่อลมและหลอดลมใหญ่ที่ไหลเร็ว (ขึ้นกับความหนาแน่นของแก๊ส) และ transitional flow พบตามจุดแยกแขนง",
-    "<b>เสียงหายใจปกติทั้ง 4 ชนิด</b> (1) Vesicular sound: Insp > Exp เสียงค่อยและทุ้ม (≤200 Hz) ฟังได้ทั่วเนื้อปอด (2) Bronchovesicular sound: Insp = Exp ฟังได้ที่ช่องซี่โครงที่ 1–2 ด้านหน้าและระหว่างสะบักด้านหลัง (3) Bronchial sound: Exp > Insp มีช่วงเงียบคั่น เสียงดังและแหลม (≥400 Hz) ปกติฟังได้เหนือ manubrium และ (4) Tracheal sound: Insp = Exp เสียงดังมาก ฟังได้เหนือท่อลมที่คอ",
-    "<b>สัดส่วนงานที่ใช้ในการหายใจขณะพัก (work of breathing)</b> ขณะพัก งานทั้งหมดแบ่งเป็น 65% เพื่อเอาชนะแรงต้านทานยืดหยุ่น (elastic resistance), 25% เพื่อเอาชนะความต้านทานทางเดินหายใจ (airway resistance) และ 10% เพื่อเอาชนะความหนืดของเนื้อเยื่อ (tissue viscous resistance)",
-    "<b>การเปลี่ยนแปลงของกราฟงานในโรคปอด</b> ในโรคปอดจำกัดการขยายตัว (เช่น pulmonary fibrosis) ปอดแข็งจึงมี elastic work เพิ่มขึ้นมาก ส่วนในโรคหลอดลมอุดกั้น (เช่น COPD) ท่อตีบจึงมี airway resistance work และงานจากการใช้กล้ามเนื้อช่วยหายใจออกเพิ่มขึ้นมาก"
+    "<b>Vesicular</b>: เบา ทุ้ม เข้า &gt; ออก → ได้ยินทั่วปอด · <b>bronchial</b>: ดัง แหลม ออก &gt; เข้า → เหนือ manubrium",
+    "<b>Bronchovesicular</b>: เข้า = ออก → ช่องซี่โครง 1–2 ด้านหน้า และระหว่างสะบัก",
+    "<b>การไหล</b>: ทางลมเล็ก = laminar · trachea ที่ flow สูง = turbulent",
+    "<b>Work of breathing</b>: ส่วนใหญ่ใช้ยืดปอด (elastic) · หลอดลมหดตัว → R ↑ → งานเอาชนะความต้านทานเพิ่ม",
+    "<b>โรค</b>: fibrosis → งานยืดปอดเพิ่ม · COPD → งานต้านทางลมเพิ่ม"
   ]
 });
-
-/* Part 3 Thai explanations: Sections E, T, C (4-6 paragraphs per concept card, each opening with <b>...</b>). */
-window.THAI_EXPLAIN = window.THAI_EXPLAIN || {};
 
 /* ---------- E · Gas exchange ---------- */
 Object.assign(window.THAI_EXPLAIN, {
   "E-C1": [
-    "<b>กฎของ Dalton และการลดหลั่นของความดันย่อย O<sub>2</sub></b> ความดันย่อยของก๊าซเท่ากับความดันรวมคูณสัดส่วนความเข้มข้นของก๊าซ (F<sub>O2</sub> = 0.21) ในอากาศแห้งที่ระดับน้ำทะเล (760 mmHg) จึงมี P<sub>O2</sub> = 760 &times; 0.21 = 160 mmHg แต่เมื่อหายใจเข้าสู่ท่อลม อากาศจะอิ่มตัวด้วยไอน้ำที่อุณหภูมิร่างกาย (P<sub>H2O</sub> = 47 mmHg) ทำให้ความดันก๊าซแห้งเหลือ 760 &minus; 47 = 713 mmHg และความดันย่อยของ O<sub>2</sub> ในท่อลม (P<sub>IO2</sub>) ลดลงเหลือ 713 &times; 0.21 = 150 mmHg",
-    "<b>สมการก๊าซในถุงลม (Alveolar Gas Equation)</b> เมื่ออากาศลงไปถึงถุงลม O<sub>2</sub> จะถูกดูดซึมเข้าเลือดและมี CO<sub>2</sub> จากเลือดขับออกมาแทนที่ คำนวณได้จาก P<sub>AO2</sub> = P<sub>IO2</sub> &minus; (P<sub>ACO2</sub> / R) + F โดยค่า R (respiratory quotient) คืออัตราส่วนการสร้าง CO<sub>2</sub> ต่อการใช้ O<sub>2</sub> ในอาหารผสมปกติ R = 0.8 (คาร์โบไฮเดรต 1.0, โปรตีน ~0.8, ไขมัน 0.7) เมื่อแทนค่า P<sub>ACO2</sub> = 40 mmHg จะได้ P<sub>AO2</sub> = 150 &minus; (40 / 0.8) = 100 mmHg (หรือ 103 mmHg ในแผนภาพหน้า 8)",
-    "<b>ทำไม P<sub>aO2</sub> ในเลือดแดงจึงต่ำกว่า P<sub>AO2</sub> เล็กน้อย</b> แม้เลือดที่ไหลผ่านหลอดเลือดฝอยรอบถุงลมจะแลกเปลี่ยนก๊าซจนสมดุลกับถุงลมแล้ว แต่เมื่อวัดในเลือดแดงระบบไหลเวียน (P<sub>aO2</sub>) จะได้ประมาณ 97 mmHg เพราะมีเลือดประมาณ 2% ของ cardiac output ที่ลัดวงจรไม่ผ่านหลอดเลือดฝอยถุงลม เรียกว่า physiologic shunt ซึ่งมาจากเลือดดำของ bronchial artery ที่เลี้ยงหลอดลม และ coronary thebesian veins ที่เทเข้าหัวใจห้องซ้ายโดยตรง",
-    "<b>กฎของ Henry (ก๊าซที่ละลายในเลือด)</b> ปริมาณก๊าซที่ละลายในของเหลวแปรผันตรงกับความดันย่อยคูณค่าการละลาย สำหรับ O<sub>2</sub> มีค่าการละลาย 0.003 mL ต่อเลือด 100 mL ต่อ mmHg ดังนั้นที่ P<sub>aO2</sub> 100 mmHg จะมี O<sub>2</sub> ละลายอิสระเพียง 0.3 mL/dL โดยเฉพาะก๊าซในรูปละลายอิสระ (free form) เท่านั้นที่สร้างความดันย่อยในเลือด ส่วนที่จับกับฮีโมโกลบินจะไม่สร้างความดันย่อย",
-    "<b>การระบายอากาศในถุงลม (Alveolar Ventilation)</b> อากาศที่หายใจเข้าแต่ละครั้ง (Tidal Volume, TV) ไม่ได้ลงไปแลกเปลี่ยนก๊าซทั้งหมด เพราะส่วนหนึ่งค้างอยู่ในท่อลมที่เป็น dead space (DS) ดังนั้นปริมาตรอากาศใหม่ที่เข้าถุงลมจริงใน 1 นาที คือ Alveolar ventilation = (TV &minus; DS) &times; RR ซึ่งต่างจาก Minute ventilation ที่คิดรวมทั้งหมด (TV &times; RR)"
+    "<b>O<sub>2</sub> cascade</b>: อากาศแห้ง 160 → ทางลมชื้น 150 → ถุงลม 100 → เลือดแดง 97",
+    "<b>แต่ละขั้นลดเพราะ</b>: ไอน้ำแย่งที่ → CO<sub>2</sub> เข้าถุงลมแย่งที่ → เลือด ~2% ไม่ผ่านถุงลม (bronchial, Thebesian veins) = shunt ปกติ",
+    "<b>R</b> ขึ้นกับอาหาร: คาร์โบไฮเดรต 1.0 · ไขมัน 0.7",
+    "<b>Alveolar ventilation</b> = (TV − dead space) × RR · minute ventilation = TV × RR",
+    "<b>หายใจเร็ว</b> (CO<sub>2</sub> ผลิตเท่าเดิม) → CO<sub>2</sub> ถูกล้างออก → P<sub>ACO2</sub> และ end-tidal CO<sub>2</sub> ลด · P<sub>AO2</sub> เพิ่ม"
   ],
   "E-C2": [
-    "<b>โครงสร้างผนังกั้นระหว่างถุงลมกับหลอดเลือดฝอย</b> ก๊าซต้องแพร่ผ่าน blood-gas interface (alveolar epithelium, fused basement membrane และ capillary endothelium) ซึ่งบางมากเพียง 0.3 &mu;m และมีพื้นที่ผิวรวมทั้งปอดสูงถึง 50–100 m&sup2; เพื่อให้เกิดการแลกเปลี่ยนก๊าซได้เร็วที่สุด",
-    "<b>กฎการแพร่ของ Fick และกฎของ Graham</b> อัตราการแพร่ของก๊าซ (V&#775;<sub>gas</sub>) คำนวณจาก V&#775;<sub>gas</sub> = [D &times; A &times; (P<sub>1</sub> &minus; P<sub>2</sub>)] / T โดยแปรผันตรงกับสัมประสิทธิ์การแพร่ (D), พื้นที่ผิว (A) และความต่างความดันย่อย (P<sub>1</sub> &minus; P<sub>2</sub>) แต่แปรผกผันกับความหนาของเนื้อเยื่อ (T) ส่วนค่า D แปรผันตรงกับ Solubility หารด้วย &radic;MW",
-    "<b>ทำไม CO<sub>2</sub> จึงแพร่เร็วกว่า O<sub>2</sub> ถึง 20 เท่า</b> แม้ CO<sub>2</sub> จะมีมวลโมเลกุลมากกว่า O<sub>2</sub> (44 vs 32 ทำให้ &radic;MW ต่างกัน 1.17 เท่า) แต่ที่อุณหภูมิ 37&deg;C CO<sub>2</sub> มีความสามารถในการละลายน้ำสูงกว่า O<sub>2</sub> ถึง 24.2 เท่า (0.592 vs 0.0244) เมื่อนำมาคิดรวมกัน สัมประสิทธิ์การแพร่ (D) ของ CO<sub>2</sub> จึงสูงกว่า O<sub>2</sub> ประมาณ 20 เท่า (ส่วน CO = 0.81, N<sub>2</sub> = 0.53, He = 0.25)",
-    "<b>ความสามารถในการซึมผ่านของปอด (D<sub>L</sub> และ D<sub>LCO</sub>)</b> เมื่อยุบตัวแปรของเนื้อเยื่อปอดเข้าด้วยกันจะได้ D<sub>L</sub> = (D &times; A) / T หรือ V&#775;<sub>gas</sub> = D<sub>L</sub> &times; (P<sub>1</sub> &minus; P<sub>2</sub>) ในทางคลินิกเราวัดด้วยก๊าซคาร์บอนมอนอกไซด์ (D<sub>LCO</sub> หรือ T<sub>LCO</sub>) เพราะการดูดซึม CO เป็นแบบ diffusion-limited เสมอ ค่าปกติอยู่ที่ประมาณ 25 mL/min/mmHg (80–120% ของค่าคาดการณ์ในผู้ชาย และ 76–120% ในผู้หญิง)",
-    "<b>สาเหตุของ D<sub>LCO</sub> ต่ำและสูง (รวมถึงผลลวง)</b> D<sub>LCO</sub> ต่ำจริงเกิดจากพื้นที่ผิวลดลง (emphysema, ตัดปอด) หรือผนังหนาขึ้น (fibrosis) ส่วนต่ำหลอก (false low) เกิดจากความต่างความดันลดลง (สูบบุหรี่), เลือดมาปอดลดลง (Valsalva maneuver, ลิ่มเลือดอุดกั้นปอด, ความดันหลอดเลือดปอดสูง, R-to-L shunt นอกปอด) หรือภาวะซีด (anemia) ในทางกลับกัน D<sub>LCO</sub> สูงหลอก (&gt;120%) เกิดจากเลือดในปอดเพิ่มขึ้น (M&uuml;ller’s maneuver, เลือดออกในถุงลม, ออกกำลังกาย, ไข้, L-to-R shunt) หรือเม็ดเลือดแดงข้น (polycythemia)"
+    "<b>Fick</b>: การแพร่ ∝ พื้นที่ × ส่วนต่างความดัน × D / ความหนา",
+    "<b>แพร่ช้าลงเมื่อ</b> ผนังหนา (fibrosis, edema) หรือพื้นที่ลด (emphysema)",
+    "<b>CO<sub>2</sub> vs O<sub>2</sub></b>: CO<sub>2</sub> หนักกว่าเล็กน้อย (ช้าลงนิด) แต่ละลายดีกว่า ~24 เท่า → สุทธิแพร่เร็วกว่า ~20 เท่า",
+    "<b>D<sub>LCO</sub> ต่ำ</b>: พื้นที่น้อย (emphysema), ผนังหนา (fibrosis), เลือดน้อย (emboli), Hb ต่ำ (anemia)",
+    "<b>D<sub>LCO</sub> สูง</b>: เลือดในหลอดเลือดฝอยมากขึ้น → ออกกำลังกาย, ไข้, polycythemia, เลือดออกในปอด, L-to-R shunt"
   ],
   "E-C3": [
-    "<b>สมการปริมาณออกซิเจนในเลือด (O<sub>2</sub> Content)</b> ออกซิเจนในเลือดมี 2 ส่วน คือส่วนที่จับกับฮีโมโกลบิน (Hb 1 กรัมจับ O<sub>2</sub> ได้ 1.34 mL ที่ความอิ่มตัว 100%) และส่วนที่ละลายในพลาสมา (0.003 &times; P<sub>O2</sub>) ที่ค่า Hb ปกติ 15 g/dL เลือดแดง (P<sub>aO2</sub> 100, S<sub>aO2</sub> 100%) จะมี O<sub>2</sub> = (15 &times; 1.34 &times; 1.0) + (100 &times; 0.003) = 20.1 + 0.3 = 20.4 mL/dL ส่วนเลือดดำ (P<sub>vO2</sub> 40, S<sub>vO2</sub> 75%) มี O<sub>2</sub> = 15.07 + 0.12 = 15.19 mL/dL",
-    "<b>อัตราการรับ O<sub>2</sub> ต่อนาทีและเวลาที่เม็ดเลือดแดงอยู่ในหลอดเลือดฝอย</b> เมื่อเลือด 100 mL ไหลผ่านปอดจะรับ O<sub>2</sub> เพิ่มขึ้นประมาณ 5 mL (จาก ~15 เป็น ~20 mL/dL) ดังนั้นที่ cardiac output 5000 mL/min ปอดจะเติม O<sub>2</sub> เข้าสู่เลือดได้ 250 mL/min โดยเม็ดเลือดแดงใช้เวลาวิ่งผ่านหลอดเลือดฝอยปอด (transit time) ทั้งหมด 0.75 วินาที และในคนปกติ O<sub>2</sub> จะแพร่จนสมดุลภายในเวลาเพียง 0.25 วินาที (1/3 ของเวลาทั้งหมด)",
-    "<b>Perfusion-limited gas exchange</b> เกิดกับก๊าซที่แพร่เข้าสู่เลือดจนความดันย่อยสมดุลกับถุงลมตั้งแต่ต้นทางของหลอดเลือดฝอย ได้แก่ N<sub>2</sub>O, CO<sub>2</sub> และ O<sub>2</sub> ในสภาวะปกติ โดยเฉพาะ N<sub>2</sub>O ซึ่งไม่จับกับ Hb เลย เมื่อแพร่เข้าพลาสมาความดันย่อยจะพุ่งขึ้นทันทีจนสมดุลภายใน 0.075 วินาที (1/10 ของ transit time) หลังจากจุดสมดุลก๊าซจะไม่แพร่เพิ่มอีก การจะเพิ่มการขนส่งจึงต้องเพิ่มปริมาณเลือดที่ไหลมาปอดเท่านั้น",
-    "<b>Diffusion-limited gas exchange</b> เกิดกับก๊าซที่ไม่สามารถทำความดันย่อยให้สมดุลกับถุงลมได้ทันก่อนที่เม็ดเลือดแดงจะพ้นหลอดเลือดฝอย ได้แก่ CO (ทุกสภาวะ) และ O<sub>2</sub> ในภาวะผิดปกติ (เช่น emphysema ที่เสียพื้นที่ผิว, fibrosis ที่ผนังหนาขึ้น หรือการออกกำลังกายหนักมาก) สำหรับ CO เมื่อแพร่เข้าเม็ดเลือดแดงจะจับกับ Hb แน่นมากจนแทบไม่มี CO อิสระในพลาสมา ความดันย่อยในพลาสมาจึงไม่เพิ่มขึ้นและคงความต่างความดันให้แพร่ต่อไปตลอดความยาวหลอดเลือดฝอย"
+    "<b>O<sub>2</sub> content</b> = Hb × 1.34 × S<sub>O2</sub> + P<sub>O2</sub> × 0.003 → เลือดแดง ≈ 20 · เลือดดำ ≈ 15 → เลือด 100 mL ส่ง O<sub>2</sub> ≈ 5 mL",
+    "<b>Transit time</b>: เลือดอยู่ในหลอดเลือดฝอยปอด 0.75 s · O<sub>2</sub> สมดุลใน 0.25 s → มีเวลาเหลือเฟือ",
+    "<b>Perfusion-limited</b> (O<sub>2</sub> ตอนพัก, CO<sub>2</sub>, N<sub>2</sub>O) → สมดุลเร็ว → จะรับเพิ่มต้องเพิ่มเลือดไหลผ่านเท่านั้น",
+    "<b>Diffusion-limited</b> (CO เสมอ) → CO จับ Hb แน่นจนความดันในพลาสมาไม่ขึ้น → ส่วนต่างความดันไม่หมด",
+    "<b>O<sub>2</sub> กลายเป็น diffusion-limited</b> เมื่อผนังหนา ออกกำลังหนัก หรืออยู่ที่สูง → ที่สูง + ออกกำลังกาย → เลือดวิ่งเร็ว + ส่วนต่างความดันน้อย → สมดุลไม่ทัน → P<sub>aO2</sub> ตก"
   ],
   "E-C4": [
-    "<b>ผลของแรงโน้มถ่วงต่อความดันเยื่อหุ้มปอดและขนาดถุงลมขณะพัก</b> ในท่ายืน แรงโน้มถ่วงดึงเนื้อปอดลงด้านล่าง ทำให้ความดันในช่องเยื่อหุ้มปอด (intrapleural pressure) ที่ยอดปอดติดลบมากกว่าฐานปอด (&minus;10 vs &minus;2 cmH<sub>2</sub>O) ส่งผลให้ transpulmonary pressure (P<sub>A</sub> &minus; P<sub>pl</sub>) ที่ยอดปอดสูงกว่า (+10 vs +2 cmH<sub>2</sub>O) ดังนั้นในขณะพัก (FRC) ถุงลมที่ยอดปอดจึงถูกดึงให้กางออกมีขนาดใหญ่ที่สุด ส่วนถุงลมที่ฐานปอดมีขนาดเล็กที่สุด",
-    "<b>ความแตกต่างของการระบายอากาศ (Ventilation) จากยอดสู่ฐาน</b> เมื่อดูบนกราฟ Pressure-Volume ถุงลมที่ยอดปอดซึ่งกางใหญ่อยู่แล้วจะอยู่บนส่วนแบนด้านบนของกราฟ จึงมี compliance ต่ำ (ขยายยาก) ในขณะที่ถุงลมขนาดเล็กที่ฐานปอดอยู่บนช่วงชันของกราฟซึ่งมี compliance สูง (ขยายง่าย) เมื่อหายใจเข้า ถุงลมที่ฐานปอดจึงขยายตัวรับอากาศใหม่ (ventilation) ได้มากกว่ายอดปอด",
-    "<b>ความแตกต่างของการไหลเวียนเลือด (Perfusion) และ West’s Zones</b> แรงโน้มถ่วงทำให้ความดันอุทกสถิตของหลอดเลือดเพิ่มขึ้นจากยอดปอดลงมายังฐานปอด แบ่งเป็น 3 โซน: Zone 1 (P<sub>A</sub> &gt; P<sub>a</sub> &gt; P<sub>v</sub>) หลอดเลือดฝอยถูกถุงลมบีบแบนจนไม่มีเลือดไหล (ไม่พบในคนปกติ แต่พบเมื่อใช้เครื่องช่วยหายใจแรงดันบวกหรือเสียเลือดมาก กลายเป็น alveolar dead space), Zone 2 (P<sub>a</sub> &gt; P<sub>A</sub> &gt; P<sub>v</sub>) เลือดไหลตามผลต่าง P<sub>a</sub> &minus; P<sub>A</sub>, และ Zone 3 ที่ฐานปอด (P<sub>a</sub> &gt; P<sub>v</sub> &gt; P<sub>A</sub>) เลือดไหลตามผลต่าง P<sub>a</sub> &minus; P<sub>v</sub> ปกติและมีปริมาณเลือดมากที่สุด (ส่วนท่านอนหงาย เลือดที่ยอดกับฐานจะใกล้เคียงกัน แต่ด้านหลังจะมากกว่าด้านหน้า)",
-    "<b>อัตราส่วน V/Q จากยอดสู่ฐานและค่าเฉลี่ยรวม</b> แม้ทั้ง ventilation และ perfusion จะน้อยที่ยอดปอดและมากที่ฐานปอดเหมือนกัน แต่ความแตกต่างของ perfusion ชันกว่ามาก ทำให้ที่ยอดปอดมีอัตราส่วน V/Q สูงที่สุด (&gt;1) และที่ฐานปอดมี V/Q ต่ำที่สุด (&lt;0.8) สำหรับค่าเฉลี่ยทั้งปอดในผู้ใหญ่ปกติ: Alveolar ventilation = (500 &minus; 150) &times; 12 = 4200 mL/min หารด้วย Cardiac output 5000 mL/min ได้ค่า V/Q = 0.84 (เกณฑ์ปกติ 0.8–1.0)"
+    "<b>ยืนตรง ยอดปอด</b>: pleura ติดลบมากกว่า → ถุงลมพองค้างอยู่แล้ว (ใหญ่สุด) → ขยายเพิ่มได้น้อย → ventilation น้อย",
+    "<b>ฐานปอด</b>: ถุงลมเล็กกว่า → compliance ดีกว่า → ventilation มากกว่า",
+    "<b>Perfusion</b> ตามแรงโน้มถ่วง → ฐานมากกว่ายอดมาก",
+    "<b>ทั้ง V และ Q ลดไปทางยอด</b> แต่ Q ลดมากกว่า → V/Q สูงสุดที่ยอด ต่ำสุดที่ฐาน",
+    "<b>ทั้งปอด</b> ≈ 4.2 L ลม / 5 L เลือด → V/Q ≈ 0.8 · นอนราบ → เลือดกระจายเท่ากันขึ้น"
   ],
   "E-C5": [
-    "<b>Dead Space (V/Q = &infin;) และการวัดด้วยวิธี Fowler กับสมการ Bohr</b> Dead space คือบริเวณที่มีการระบายอากาศแต่ไม่มีเลือดมาแลกเปลี่ยน (Q = 0) ก๊าซในถุงลมจึงมีค่าเท่ากับอากาศชื้นที่หายใจเข้า (P<sub>AO2</sub> = 150 mmHg, P<sub>ACO2</sub> = 0 mmHg) แบ่งเป็น Anatomical dead space ในท่อลม (~150 mL หรือ 2 mL/kg วัดด้วย Fowler’s single-breath N<sub>2</sub> washout) และ Physiological dead space ซึ่งรวมถุงลมที่ขาดเลือดเข้าไปด้วย วัดสัดส่วนด้วยสมการของ Bohr: DS / TV = (P<sub>ACO2</sub> &minus; P<sub>ECO2</sub>) / P<sub>ACO2</sub> โดยจะเพิ่มขึ้นในภาวะลิ่มเลือดอุดกั้นปอด (PE), ช็อก, emphysema หรือการใช้เครื่องช่วยหายใจแรงดันบวก",
-    "<b>Right-to-Left Shunt (V/Q = 0)</b> Shunt คือการที่มีเลือดไหลผ่านแต่ไม่มีอากาศเข้าไปแลกเปลี่ยน (V = 0) เลือดที่ไหลพ้นถุงลมจึงมีค่าความดันก๊าซเท่ากับเลือดดำผสม (P<sub>aO2</sub> = 40 mmHg, P<sub>aCO2</sub> = 46 mmHg) สาเหตุทางพยาธิวิทยาเกิดจากทางเดินหายใจอุดกั้น, ถุงลมเต็มไปด้วยของเหลว/หนอง/เลือด, ปอดแฟบ (atelectasis) หรือมีเส้นเลือดลัดวงจร เช่น pulmonary AVM, hepatopulmonary syndrome และโรคหัวใจพิการแต่กำเนิดชนิด R-to-L shunt (Eisenmenger)",
-    "<b>A–a Gradient (P<sub>AO2</sub> &minus; P<sub>aO2</sub>)</b> ในคนปกติมีค่าความต่างระหว่างถุงลมกับเลือดแดงเพียง 0–10 mmHg (ประมาณ 6 mmHg จาก 103 &minus; 97) หรือคำนวณตามอายุได้จาก (Age / 4) + 4 หากคำนวณแล้วพบว่า A–a gradient กว้างกว่าปกติ จะบ่งชี้ถึงความผิดปกติใน 3 กลุ่มหลัก คือ (1) Right-to-left shunt, (2) V/Q mismatch, หรือ (3) Diffusion defect",
-    "<b>การระบายอากาศขณะออกกำลังกาย (Ventilation during Exercise)</b> ทันทีที่เริ่มออกกำลังกาย การหายใจจะเพิ่มขึ้นอย่างฉับพลันจากกระแสประสาทจิตวิทยา (psychic stimuli) และตัวรับความรู้สึกที่ข้อต่อและกล้ามเนื้อ (proprioceptors) ก่อนที่ค่าก๊าซในเลือดจะเปลี่ยนด้วยซ้ำ ในช่วงออกกำลังกายระดับปานกลาง (isocapnic buffering) การระบายอากาศจะเพิ่มขึ้นสมดุลกับการสร้าง CO<sub>2</sub> พอดี ทำให้ค่า P<sub>aO2</sub>, P<sub>aCO2</sub> และ pH ในเลือดแดงแทบไม่เปลี่ยนจากปกติ จนเมื่อออกกำลังกายหนักมาก (strenuous exercise) การสะสมของกรดแลกติก, K<sup>+</sup> ในเลือดที่สูงขึ้น และอุณหภูมิร่างกายที่สูงขึ้นจะกระตุ้นให้หายใจเร็วและลึกยิ่งขึ้นเพื่อชดเชยภาวะกรด"
+    "<b>Dead space (V/Q = ∞)</b>: มีลมไม่มีเลือด → ถุงลมเหมือนอากาศหายใจเข้า (P<sub>O2</sub> สูง, P<sub>CO2</sub> ≈ 0) → เช่น pulmonary embolism",
+    "<b>Shunt (V/Q = 0)</b>: มีเลือดไม่มีลม → เลือดออกไปเหมือนเลือดดำ (P<sub>O2</sub> 40) → เช่น หนองหรือน้ำในถุงลม (ไม่มี vasoconstriction) = physiological shunt",
+    "<b>V/Q สูง</b> → wasted ventilation · <b>V/Q ต่ำ</b> → wasted perfusion",
+    "<b>Anatomic dead space</b> ≈ 150 mL ≈ 30% ของ TV 500 → วัดด้วย Fowler · physiologic V<sub>D</sub>/V<sub>T</sub> → Bohr equation",
+    "<b>A–a gradient</b> ≈ อายุ/4 + 4 → กว้างขึ้นใน shunt, V/Q mismatch, diffusion defect · <b>ออกกำลังกาย</b>: หายใจเพิ่มทันทีจาก proprioceptors → แล้วปรับตาม CO<sub>2</sub>"
   ]
 });
 
 /* ---------- T · Gas transport ---------- */
 Object.assign(window.THAI_EXPLAIN, {
   "T-C1": [
-    "<b>ความดันย่อย (Partial Pressure) กับแรงตึงก๊าซ (Tension)</b> ที่บริเวณรอยต่อระหว่างก๊าซกับของเหลว (gas-liquid interface) แรงที่ผลักดันให้โมเลกุลก๊าซละลายลงไปในของเหลวเรียกว่า partial pressure ส่วนแรงที่ทำให้โมเลกุลก๊าซที่ละลายอยู่พยายามหนีกลับออกมาจากของเหลวเรียกว่า tension เมื่อเข้าสู่สภาวะสมดุล Partial pressure จะเท่ากับ Tension พอดี",
-    "<b>เส้นทางการแพร่ 9 ด่านและปัจจัยกำหนดอัตราการแพร่</b> กว่าที่ O<sub>2</sub> ในถุงลมจะไปจับกับฮีโมโกลบินต้องแพร่ผ่าน 9 ชั้นตามลำดับ ได้แก่ (1) อากาศในถุงลม, (2) ชั้น surfactant, (3) เยื่อบุถุงลม, (4) ของเหลวแทรก (interstitial fluid), (5) ผนังหลอดเลือดฝอย, (6) พลาสมา, (7) เยื่อหุ้มเม็ดเลือดแดง, (8) ของเหลวในเม็ดเลือดแดง และ (9) ฮีโมโกลบิน โดยอัตราการแพร่ขึ้นกับความต่างความดัน, พื้นที่ผิว, อุณหภูมิ (การเคลื่อนที่จลน์) และค่าการละลาย หารด้วยระยะทางและ &radic;MW",
-    "<b>การเปลี่ยนแปลงขณะออกกำลังกายและโรคที่ลดการแพร่</b> ในคนหนุ่มสาวปกติ O<sub>2</sub> diffusing capacity ขณะพักมีค่า 20 mL/min/mmHg และจะเพิ่มเป็น 65 mL/min/mmHg ขณะออกกำลังกาย เพราะโครงข่ายหลอดเลือดฝอยขยายตัวเพิ่มพื้นที่ผิว และถุงลมที่ขยายตัวทำให้ผนังบางลง ส่วนภาวะโรคที่ลดอัตราการแพร่แบ่งเป็น 2 กลุ่ม คือกลุ่มที่ลดพื้นที่ผิวถุงลม (pneumonia, atelectasis, มะเร็งปอด, วัณโรค) และกลุ่มที่เกิด alveolar-capillary block (pulmonary edema, interstitial pulmonary fibrosis และ silicosis)",
-    "<b>บทบาทของเม็ดเลือดแดงในการเพิ่มความจุก๊าซ</b> พลาสมาละลาย O<sub>2</sub> ได้น้อยมาก แต่เมื่อมีเม็ดเลือดแดง ฮีโมโกลบินจะดึง O<sub>2</sub> ที่ละลายในพลาสมาเข้ามาจับไว้ชั่วคราวแบบผันกลับได้ ทำให้สมดุลในพลาสมาเลื่อนไปและดึง O<sub>2</sub> จากถุงลมลงมาละลายเพิ่มได้เรื่อยๆ ส่งผลให้เลือดที่มีฮีโมโกลบินสามารถขนส่ง O<sub>2</sub> ได้เพิ่มขึ้นถึง 65 เท่า"
+    "<b>Partial pressure</b> ดันก๊าซเข้าของเหลว · <b>tension</b> ดันก๊าซออก → เท่ากันที่สมดุล",
+    "<b>เส้นทาง</b>: ถุงลม → surfactant → ผนังถุงลม → interstitium → ผนังหลอดเลือดฝอย → plasma → เยื่อ RBC → ใน RBC → Hb",
+    "<b>ออกกำลังกาย</b> → หลอดเลือดฝอยเปิดเพิ่ม + ผนังยืดบางลง → diffusing capacity เพิ่ม ~3 เท่า",
+    "<b>RBC</b> ดูด O<sub>2</sub> ที่ละลายออกไป → ละลายเพิ่มได้อีก → เลือดขน O<sub>2</sub> ได้ ~65 เท่า",
+    "<b>โลหิตจาง</b> → Hb น้อย → O<sub>2</sub> content และการส่ง O<sub>2</sub> ลด แต่ P<sub>aO2</sub> ปกติ (ปอดเป็นตัวกำหนด)"
   ],
   "T-C2": [
-    "<b>โครงสร้างของ Hemoglobin A (HbA)</b> HbA เป็นโปรตีนโครงสร้างระดับจตุรภูมิ (quaternary structure) ขนาด 64,500 Da (เส้นผ่านศูนย์กลาง 5.5 nm) ประกอบด้วยสายโพลีเปปไทด์ 4 สาย คือ &alpha;<sub>2</sub>&beta;<sub>2</sub> (สาย &alpha; ยาว 141 กรดอะมิโน, สาย &beta; ยาว 146 กรดอะมิโน) และมีกลุ่ม heme 4 กลุ่ม ซึ่งแต่ละกลุ่มมีอะตอมเหล็กในรูป Ferrous (Fe<sup>2+</sup>) ยึดกับกรดอะมิโน histidine ดังนั้น Hb 1 โมเลกุลจึงจับ O<sub>2</sub> ได้ 4 โมเลกุล",
-    "<b>Oxygenation ไม่ใช่ Oxidation</b> การจับกันระหว่าง Hb กับ O<sub>2</sub> ใช้เวลาเพียง 0.01 วินาที และเรียกว่าปฏิกิริยา oxygenation เนื่องจากเลขออกซิเดชันของเหล็กยังคงเป็น Fe<sup>2+</sup> เหมือนเดิม ไม่ได้สูญเสียอิเล็กตรอนกลายเป็น Fe<sup>3+</sup>",
-    "<b>กลไกระดับโมเลกุล 3 ขั้นตอนของการจับ O<sub>2</sub></b> (1) O<sub>2</sub> โมเลกุลแรกจะเข้าจับที่ heme ของ <b>&alpha;-subunit ก่อน</b> เพราะช่อง heme pocket ของสาย &alpha; กว้างกว่าสาย &beta; (2) ในสภาวะที่ยังไม่มี O<sub>2</sub> อะตอม Fe<sup>2+</sup> จะลอยอยู่เหนือระนาบวงแหวน porphyrin 0.6 &Aring; จากแรงผลักเกะกะ (steric repulsion) และอยู่ในสถานะ high-spin เมื่อ O<sub>2</sub> เข้าจับจะเปลี่ยนเป็นสถานะ low-spin และดึง Fe<sup>2+</sup> ลงมาอยู่ในระนาบเดียวกับ porphyrin (3) การขยับของ Fe<sup>2+</sup> ดึงให้พันธะไอออนิก (salt bridges) ระหว่าง &alpha;–&alpha; และ &alpha;–&beta; ขาดออก คู่ไดเมอร์ &alpha;&beta; หมุนบิดไป 15&deg; ทำให้ 2,3-BPG ที่คั่นอยู่ระหว่างสาย &beta;–&beta; หลุดออก สาย &beta; ขยับเข้าหากัน 0.07 nm และเปิดช่อง heme pocket ของสาย &beta; ให้กว้างขึ้นเพื่อรับ O<sub>2</sub> โมเลกุลถัดไป",
-    "<b>Cooperativity และกราฟรูปตัว S (Sigmoidal Curve)</b> การที่ O<sub>2</sub> โมเลกุลแรกจับแล้วเหนี่ยวนำให้หน่วยย่อยที่เหลือเปลี่ยนรูปร่างจาก deoxyhemoglobin (T-state, affinity ต่ำ) ไปเป็น oxyhemoglobin (R-state, affinity สูง) เรียกว่า cooperativity เปรียบเหมือนการฉีกแสตมป์ 4 ดวงที่ฉีกดวงแรกยากที่สุดแต่ดวงถัดไปจะฉีกง่ายขึ้นเรื่อยๆ ส่งผลให้กราฟการจับ O<sub>2</sub> ของ Hb มีลักษณะเป็นเส้นโค้งรูปตัว S (sigmoid curve)"
+    "<b>HbA</b> = α2β2 → 4 globin, 4 heme, แต่ละอันมี Fe<sup>2+</sup> · O<sub>2</sub> จับ = oxygenation ไม่ใช่ oxidation",
+    "<b>ตำแหน่งจับ</b>: O<sub>2</sub>, CO → เหล็กใน heme · CO<sub>2</sub> → N-terminal ของ globin · 2,3-BPG → ระหว่าง β chains ของ deoxyHb",
+    "<b>ลำดับ</b>: O<sub>2</sub> ตัวแรกจับ α (ช่องกว้างกว่า) → Fe<sup>2+</sup> จาก high-spin เป็น low-spin → เลื่อนลงระนาบ porphyrin",
+    "<b>ต่อ</b>: ดึง histidine → salt bridges ขาด → dimers หมุน → ดัน 2,3-BPG ออก → T state เป็น R state",
+    "<b>ผล</b>: ตัวแรกจับแล้วตัวถัดไปจับง่ายขึ้น (cooperativity) → กราฟรูปตัว S"
   ],
   "T-C3": [
-    "<b>ค่า P<sub>50</sub> และการเลื่อนของกราฟ O<sub>2</sub>–Hb Dissociation Curve</b> เราใช้ค่า P<sub>50</sub> (ความดันย่อยของ O<sub>2</sub> ที่ทำให้ Hb อิ่มตัว 50% ซึ่งค่าปกติเท่ากับ 27 mmHg) เป็นตัวชี้วัดความสามารถในการจับ O<sub>2</sub> หากกราฟเบี่ยงขวา (shift to the right, เช่น P<sub>50</sub> เพิ่มเป็น 48 mmHg) แปลว่า affinity ลดลง ต้องใช้ P<sub>O2</sub> สูงขึ้นในการจับ แต่มีข้อดีคือปล่อย O<sub>2</sub> ให้เนื้อเยื่อได้ง่ายขึ้น ในทางกลับกัน หากกราฟเบี่ยงซ้าย (shift to the left, เช่น P<sub>50</sub> ลดเหลือ 16 mmHg) แปลว่า affinity เพิ่มขึ้น จับ O<sub>2</sub> แน่นขึ้นแต่ปล่อยให้เนื้อเยื่อยากขึ้น",
-    "<b>กลไกของ pH, CO<sub>2</sub> และอุณหภูมิ</b> ขณะออกกำลังกาย เนื้อเยื่อมีอุณหภูมิสูงขึ้น, สร้างกรดแลกติก (pH ต่ำลง / H<sup>+</sup> สูงขึ้น) และสร้าง CO<sub>2</sub> มากขึ้น ซึ่งทั้งสามปัจจัยทำให้กราฟเบี่ยงขวา ในระดับโมเลกุล เมื่อ H<sup>+</sup> สูงขึ้นจะเข้าจับกับกรดอะมิโน His146 (His HC3) ของสาย &beta;-subunit ทำให้เกิดพันธะไอออนิก (ion pair) กับ Asp94 (Asp FG1) ซึ่งช่วยล็อก deoxyhemoglobin ให้อยู่ในรูป T-state ส่วน CO<sub>2</sub> จะจับกับหมู่ amino (&minus;NH<sub>2</sub>) ที่ปลาย N-terminal ของสาย globin กลายเป็น carbaminohemoglobin ซึ่งลด affinity ลงเช่นกัน",
-    "<b>บทบาทและการควบคุมระดับ 2,3-BPG</b> สาร 2,3-BPG (2,3-bisphospho-D-glycerate) เป็นแอนไอออนที่มีประจุลบสูงซึ่งสร้างจาก 1,3-BPG ในวิถี anaerobic glycolysis ของเม็ดเลือดแดง โดยจะเข้าไปจับแบบ non-covalent กับสาย &beta;-chain ของ deoxyhemoglobin ในอัตราส่วน 1:1 ทำให้กราฟเบี่ยงขวา ร่างกายจะสร้าง 2,3-BPG เพิ่มขึ้นเมื่อได้รับฮอร์โมน (thyroid hormone, growth hormone, androgens), ออกกำลังกาย, ซีด (anemia), ขาดออกซิเจน (hypoxia) หรือขึ้นที่สูง แต่ระดับ 2,3-BPG จะ<b>ลดลงในภาวะ acidosis</b>",
-    "<b>การตอบสนองระยะสั้นและการปรับตัวเมื่อขึ้นที่สูง (High Altitude)</b> เมื่อขึ้นที่สูง ความดันย่อย O<sub>2</sub> ในอากาศต่ำลง (hypobaric hypoxia) ในระยะสั้นตัวรับความรู้สึกเคมีส่วนปลาย (carotid และ aortic bodies) จะกระตุ้นให้หายใจเร็วขึ้น (hyperventilation) จนเกิดภาวะ respiratory alkalosis ต่อมาในระยะปรับตัว (acclimatization) เม็ดเลือดแดงจะเพิ่มการสร้าง 2,3-BPG (ควบคู่กับการเพิ่มจำนวนเม็ดเลือดแดง) เพื่อดึงกราฟให้เบี่ยงขวา ช่วยปลดปล่อย O<sub>2</sub> ให้เนื้อเยื่อได้แม้ความดัน O<sub>2</sub> ในเลือดจะต่ำ"
+    "<b>P<sub>50</sub></b> = P<sub>O2</sub> ที่ Hb อิ่มตัว 50% → ปกติ ≈ 27 mmHg",
+    "<b>Right shift</b>: P<sub>50</sub> ↑ → affinity ↓ → ปล่อย O<sub>2</sub> ให้เนื้อเยื่อมากขึ้น → เกิดจาก H<sup>+</sup> ↑, CO<sub>2</sub> ↑, อุณหภูมิ ↑, 2,3-BPG ↑ (นึกถึงกล้ามเนื้อที่กำลังทำงาน)",
+    "<b>Left shift</b>: P<sub>50</sub> ↓ → affinity ↑ → Hb เกาะ O<sub>2</sub> แน่น",
+    "<b>pH ต่ำ</b> → His146 รับ H<sup>+</sup> → เกิด ion pair → ล็อก Hb ไว้ใน T state",
+    "<b>2,3-BPG</b> มาจาก glycolysis ใน RBC → เพิ่มใน anemia, hypoxia, ที่สูง, ออกกำลังกาย · ลดใน acidosis"
   ],
   "T-C4": [
-    "<b>การสังเคราะห์ฮีโมโกลบินตามช่วงวัย</b> ในระยะตัวอ่อน (embryo) มีการสร้าง Gower 1 (&zeta;<sub>2</sub>&epsilon;<sub>2</sub>), Gower 2 (&alpha;<sub>2</sub>&epsilon;<sub>2</sub>) และ Portland (&zeta;<sub>2</sub>&gamma;<sub>2</sub>) พอเข้าสู่ระยะทารกในครรภ์ (fetus) จะเปลี่ยนเป็น HbF (&alpha;<sub>2</sub>&gamma;<sub>2</sub>) และเมื่อเป็นผู้ใหญ่จะมี HbA (&alpha;<sub>2</sub>&beta;<sub>2</sub>) ประมาณ 97%, HbA<sub>2</sub> (&alpha;<sub>2</sub>&delta;<sub>2</sub>) 2–2.5% และ HbF น้อยกว่า 1% ส่วนในผู้ป่วยเบาหวานจะพบ HbA<sub>1c</sub> ที่เกาะกับกลูโคสได้ถึง 12%",
-    "<b>เหตุผลที่ HbF ดึง O<sub>2</sub> จากแม่ได้</b> HbF (&alpha;<sub>2</sub>&gamma;<sub>2</sub>) ทำหน้าที่ขนส่ง O<sub>2</sub> จากแม่ไปสู่ทารกในครรภ์ โดยสาย &gamma; ไม่จับหรือจับกับ 2,3-BPG ได้หลวมมาก ทำให้ HbF มี affinity ต่อ O<sub>2</sub> สูงกว่า HbA ของแม่ (กราฟเบี่ยงซ้าย) จึงสามารถรับ O<sub>2</sub> ข้ามรกได้อย่างมีประสิทธิภาพ",
-    "<b>พิษของคาร์บอนมอนอกไซด์และฮีโมโกลบินผิดปกติ</b> ก๊าซ CO จับกับอะตอม Fe<sup>2+</sup> ของ Hb กลายเป็น carboxyhemoglobin โดยมีความสามารถในการจับสูงกว่า O<sub>2</sub> ถึง 210 เท่า และทำให้กราฟเบี่ยงซ้ายอย่างรุนแรงจนเนื้อเยื่อขาดออกซิเจน ส่วน methemoglobin เกิดจาก Fe<sup>3+</sup> เข้ามาแทนที่ Fe<sup>2+</sup> และ sulfhemoglobin เกิดจากอะตอมกำมะถัน (sulfur) เข้าไปแทนที่เหล็กเมื่อได้รับสารพิษที่มีกำมะถัน เช่น hydroxylamine sulfate ((NH<sub>2</sub>OH)<sub>2</sub>H<sub>2</sub>SO<sub>4</sub>) ซึ่งมีฤทธิ์กัดกร่อนและทำให้ปอดบวมน้ำได้หากสูดดม",
-    "<b>ความแตกต่างระหว่าง Myoglobin กับ Hemoglobin A</b> Myoglobin เป็นโปรตีนสายเดี่ยว (monomer) ประกอบด้วยกรดอะมิโน 153 ตัว (MW 16,700 Da) และมีเพียง 1 heme ทำหน้าที่เก็บและขนส่ง O<sub>2</sub> ภายในเซลล์กล้ามเนื้อหัวใจและกล้ามเนื้อลาย เนื่องจากมีเพียงหน่วยย่อยเดียวจึงไม่มี cooperativity และไม่จับกับ H<sup>+</sup> หรือ CO<sub>2</sub> กราฟการจับ O<sub>2</sub> ของ myoglobin จึงเป็นรูป <b>rectangular hyperbola</b> ซึ่งมี affinity สูงกว่า HbA ทั้งที่ความดัน O<sub>2</sub> ต่ำและสูง"
+    "<b>HbF (α2γ2)</b> → จับ 2,3-BPG ไม่ดี → affinity สูง → กราฟเลื่อนซ้าย (ยังเป็นตัว S) → ทารกดึง O<sub>2</sub> จากแม่ได้",
+    "<b>ผู้ใหญ่</b>: HbA α2β2 (ส่วนใหญ่) · HbA<sub>2</sub> α2δ2 · HbA<sub>1c</sub> = HbA จับน้ำตาล → สูงในเบาหวาน",
+    "<b>CO</b> (เตาในบ้าน ควันไฟ) → จับ Hb แน่นกว่า O<sub>2</sub> ~200 เท่า → ขน O<sub>2</sub> ได้น้อยลง + กราฟเลื่อนซ้าย → ที่ขนมาก็ไม่ปล่อย → เนื้อเยื่อขาด O<sub>2</sub>",
+    "<b>MetHb</b> = เหล็กถูก oxidize เป็น Fe<sup>3+</sup> → จับ O<sub>2</sub> ไม่ได้",
+    "<b>Myoglobin</b> (กล้ามเนื้อ): สายเดียว heme เดียว → ไม่มี cooperativity → กราฟ hyperbola · affinity สูงกว่า HbA"
   ],
   "T-C5": [
-    "<b>3 รูปแบบของการขนส่ง CO<sub>2</sub> ในเลือด</b> ตามสไลด์ Gas Transport (หน้า 41) CO<sub>2</sub> ที่สร้างจากเนื้อเยื่อจะถูกขนส่งใน 3 รูปแบบ คือ (1) ละลายในพลาสมา 7%, (2) จับกับหมู่ amino ของ Hb เป็น carbaminohemoglobin 23% และ (3) เปลี่ยนเป็นไบคาร์บอเนตไอออน (HCO<sub>3</sub><sup>&minus;</sup>) 70% (หมายเหตุ: สไลด์วิชา Gas Exchange หน้า 33 ระบุตัวเลขเป็น 5% dissolved, 3% carbaminoHb และ 90+% HCO<sub>3</sub><sup>&minus;</sup> แต่ทั้งสองวิชายืนยันตรงกันว่า HCO<sub>3</sub><sup>&minus;</sup> คือรูปแบบหลักที่สุด)",
-    "<b>การทำงานของ Carbonic Anhydrase และ Chloride Shift</b> เมื่อ CO<sub>2</sub> แพร่เข้าสู่เม็ดเลือดแดง เอนไซม์ carbonic anhydrase จะเร่งปฏิกิริยา CO<sub>2</sub> + H<sub>2</sub>O &rightleftharpoons; H<sub>2</sub>CO<sub>3</sub> &rightleftharpoons; H<sup>+</sup> + HCO<sub>3</sub><sup>&minus;</sup> โดยโปรตอน (H<sup>+</sup>) จะถูกฮีโมโกลบินที่ปล่อย O<sub>2</sub> แล้วรับไว้เป็นบัฟเฟอร์ (HHb) ส่วน HCO<sub>3</sub><sup>&minus;</sup> จะถูกส่งออกนอกเม็ดเลือดแดงสู่พลาสมาโดยแลกเปลี่ยนเอาคลอไรด์ไอออน (Cl<sup>&minus;</sup>) เข้ามาแทนที่ เรียกว่าปรากฏการณ์ chloride shift",
-    "<b>Bohr Effect (ที่หลอดเลือดฝอยเนื้อเยื่อ)</b> ใน systemic capillaries เนื้อเยื่อที่กำลังทำงานจะปล่อย CO<sub>2</sub> และ H<sup>+</sup> ออกมาในเลือด การเพิ่มขึ้นของ H<sup>+</sup> และ CO<sub>2</sub> จะลดความสามารถในการจับกันระหว่าง O<sub>2</sub> กับ Hb (ลด O<sub>2</sub>–Hb affinity, กราฟเบี่ยงขวา) ช่วยบีบให้ HbO<sub>2</sub> ปลดปล่อย O<sub>2</sub> ออกไปให้เซลล์เนื้อเยื่อใช้งาน",
-    "<b>Haldane Effect (ที่หลอดเลือดฝอยถุงลมปอด)</b> ใน alveolar capillaries เมื่อเลือดดำไหลมาถึงปอดและได้รับ O<sub>2</sub> เข้าจับกับ Hb (oxygenation กลายเป็น HbO<sub>2</sub>) จะทำให้ความสามารถของ Hb ในการจับกับ CO<sub>2</sub> และ H<sup>+</sup> ลดลง (ลด CO<sub>2</sub>–Hb และ HHb affinity) ส่งผลให้ Hb ปล่อย CO<sub>2</sub> จาก carbaminoHb และปล่อย H<sup>+</sup> ออกมารวมกับ HCO<sub>3</sub><sup>&minus;</sup> ย้อนกลับเป็น H<sub>2</sub>CO<sub>3</sub> &rarr; CO<sub>2</sub> + H<sub>2</sub>O เพื่อระบายออกทางลมหายใจ"
+    "<b>CO<sub>2</sub> ในเลือด</b>: HCO<sub>3</sub><sup>−</sup> (มากที่สุด ~70%) · carbamino-Hb · ละลาย",
+    "<b>ใน RBC</b>: CO<sub>2</sub> + H<sub>2</sub>O → (carbonic anhydrase) → H<sup>+</sup> + HCO<sub>3</sub><sup>−</sup> → H<sup>+</sup> ให้ deoxyHb buffer · HCO<sub>3</sub><sup>−</sup> ออกนอกเซลล์แลกกับ Cl<sup>−</sup> (chloride shift)",
+    "<b>Bohr effect (ที่เนื้อเยื่อ)</b>: CO<sub>2</sub> ↑, H<sup>+</sup> ↑ → affinity ต่อ O<sub>2</sub> ↓ → ปล่อย O<sub>2</sub>",
+    "<b>Haldane effect (ที่ปอด)</b>: Hb จับ O<sub>2</sub> → จับ CO<sub>2</sub> และ H<sup>+</sup> ได้น้อยลง → ปล่อย CO<sub>2</sub> ออกทางลมหายใจ",
+    "<b>หลักจำ</b>: Bohr = CO<sub>2</sub> เปลี่ยนการจับ O<sub>2</sub> · Haldane = O<sub>2</sub> เปลี่ยนการจับ CO<sub>2</sub>"
   ]
 });
 
 /* ---------- C · Pulmonary circulation ---------- */
 Object.assign(window.THAI_EXPLAIN, {
   "C-C1": [
-    "<b>ความดันต่ำและความต้านทานต่ำของระบบไหลเวียนเลือดปอด</b> ผนังของหลอดเลือดแดงปอด (pulmonary artery) และแขนงของมันบางมากและมีกล้ามเนื้อเรียบน้อย เนื่องจากปอดต้องการเพียงยกเลือดขึ้นไปให้ถึงยอดปอดเท่านั้น ไม่ต้องส่งไปเลี้ยงอวัยวะที่อยู่สูงหรือไกลเหมือนฝั่ง systemic ระบบไหลเวียนปอดจึงมีความดันต่ำ (ค่าเฉลี่ย PA ~15 mmHg เทียบกับ aorta ~100 mmHg) และมีความต้านทานต่ำมาก",
-    "<b>ปริมาณเลือดไหลเวียนที่เท่ากัน (Same Flow)</b> จากสมการพื้นฐาน Flow = Pressure / Resistance เนื่องจากความดันและความต้านทานของหลอดเลือดปอดลดลงในสัดส่วนที่เท่ากัน ปริมาณเลือดที่ออกจากหัวใจห้องขวาผ่านปอดในแต่ละนาทีจึงเท่ากับปริมาณเลือดที่ออกจากหัวใจห้องซ้ายไปเลี้ยงทั่วร่างกายทุกประการ",
-    "<b>ระบบไหลเวียนเลือดหลอดลม (Bronchial Circulation)</b> นอกเหนือจากระบบไหลเวียนปอดที่ทำหน้าที่แลกเปลี่ยนก๊าซแล้ว ปอดยังมี bronchial circulation ซึ่งแตกแขนงมาจาก aorta และ intercostal arteries จึงมีความดันสูงเท่ากับระบบ systemic ทำหน้าที่เลี้ยงเนื้อเยื่อท่อลม (conducting airways) ลงไปจนถึงระดับ terminal bronchiole",
-    "<b>การระบายเลือดดำและจุดเชื่อมโยงกับ Physiologic Shunt</b> เลือดดำจาก bronchial circulation ส่วนหนึ่งระบายกลับเข้าสู่ระบบหลอดเลือดดำ systemic ตามปกติ แต่อีกส่วนหนึ่งระบายเข้าสู่ <b>pulmonary veins</b> โดยตรง ซึ่งเป็นการเทเลือดที่ใช้ O<sub>2</sub> แล้วปนเข้ากับเลือดแดงที่ฟอกแล้วจากถุงลม จึงเป็นสาเหตุหลักของ 2% anatomic/physiologic right-to-left shunt ที่เรียนในบท Gas Exchange"
+    "<b>Pulmonary circulation</b>: ผนังบาง กล้ามเนื้อเรียบน้อย → ความดันต่ำ ความต้านทานต่ำ แต่ flow เท่ากับ systemic (RV = LV output)",
+    "<b>ทำไมความดันต่ำพอ</b> → แค่ส่งเลือดถึงยอดปอด ไม่ต้องส่งถึงสมอง",
+    "<b>Bronchial circulation</b>: มาจาก aorta (ความดัน systemic) → เลี้ยงทางลมถึง terminal bronchioles",
+    "<b>Bronchial veins บางส่วน</b> → pulmonary veins → LA → เป็นส่วนหนึ่งของ shunt ปกติ"
   ],
   "C-C2": [
-    "<b>การลดลงของ PVR เมื่อเลือดไหลเข้าปอดเพิ่มขึ้น</b> ในสภาวะปกติ หลอดเลือดฝอยในปอดบางส่วนจะปิดอยู่หรือเปิดแต่ไม่มีเลือดไหล เมื่อความดันหลอดเลือดปอดหรือปริมาณเลือดไหลเวียนเพิ่มขึ้น (เช่น ขณะออกกำลังกาย) ความต้านทานหลอดเลือดปอด (PVR) จะลดลงผ่าน 2 กลไกที่เกิดร่วมกันเสมอ",
-    "<b>Recruitment (กลไกหลัก) และ Distension</b> กลไกที่สำคัญที่สุดคือ <b>Recruitment</b> ซึ่งคือการที่หลอดเลือดฝอยที่เคยปิดอยู่เริ่มเปิดให้เลือดไหลผ่านเมื่อความดันสูงขึ้น จึงเพิ่มช่องทางขนานและลดความต้านทานรวมลงอย่างมาก ส่วน <b>Distension</b> คือการที่หลอดเลือดฝอยที่มีความยืดหยุ่นสูงขยายรูปร่างจากแบนรีให้กลายเป็นทรงกลมมากขึ้น ทำให้รูหลอดเลือดกว้างขึ้น",
-    "<b>Alveolar Vessels กับ Extra-alveolar Vessels</b> เราแบ่งหลอดเลือดในปอดตามตำแหน่งออกเป็น 2 กลุ่ม: (1) <b>Alveolar vessels</b> คือหลอดเลือดฝอยและหลอดเลือดเล็กตามมุมผนังถุงลมซึ่งรับความดันจากถุงลมโดยตรง เมื่อปริมาตรปอดสูง ถุงลมที่พองออกจะบีบอัดหลอดเลือดกลุ่มนี้จนแบน (PVR สูง) แต่เมื่อปริมาตรปอดต่ำจะถูกบีบน้อยลง (PVR ต่ำ) (2) <b>Extra-alveolar vessels</b> คือหลอดเลือดแดงและดำขนาดใหญ่ที่วิ่งแทรกอยู่ในเนื้อปอด เมื่อปริมาตรปอดสูง แรงดึงตามแนวรัศมี (radial traction) ของเนื้อปอดที่ยืดหยุ่นและความดันเยื่อหุ้มปอดที่ติดลบมากขึ้นจะช่วยดึงให้หลอดเลือดกลุ่มนี้ถ่างออก (PVR ต่ำ) แต่เมื่อปริมาตรปอดต่ำ กล้ามเนื้อเรียบและเนื้อเยื่ออีลาสติกของผนังหลอดเลือดจะหดตัวต้านการขยายทำให้รูแคบลง (PVR สูง)",
-    "<b>กราฟรูปตัว U และจุดที่ PVR ต่ำที่สุด</b> เมื่อนำความต้านทานของ alveolar vessels และ extra-alveolar vessels มารวมกัน จะได้กราฟรูปตัว U โดยความต้านทานหลอดเลือดปอดรวม (Total PVR) จะ<b>ต่ำที่สุดที่ระดับ Functional Residual Capacity (FRC)</b> และจะสูงขึ้นทั้งเมื่อสูดหายใจเข้าจนปอดใหญ่เกินไป (เข้าใกล้ TLC) หรือหายใจออกจนปอดแฟบเกินไป (เข้าใกล้ RV)"
+    "<b>ความดันหรือ flow เพิ่ม (ออกกำลังกาย)</b> → PVR <b>ลด</b> โดยไม่ต้องสั่ง",
+    "<b>Recruitment (หลัก)</b>: หลอดเลือดฝอยที่ปิดอยู่เปิด · <b>distension</b>: ที่เปิดอยู่ขยายกว้างขึ้น",
+    "<b>Alveolar vessels</b> (หลอดเลือดฝอย): ปอดพองมาก → ถูกถุงลมบีบ → PVR ↑",
+    "<b>Extra-alveolar vessels</b>: ปอดพอง → radial traction ดึงเปิด → PVR ↓ · ปอดแฟบ → แคบ → PVR ↑",
+    "<b>รวมเป็นกราฟรูป U</b> → PVR ต่ำสุดที่ FRC · ความดันถุงลมสูง (เครื่องช่วยหายใจ) → บีบหลอดเลือดฝอย → PVR ↑"
   ],
   "C-C3": [
-    "<b>สารออกฤทธิ์ต่อหลอดเลือดปอด (Vasoconstrictors vs Vasodilators)</b> การหดตัวของกล้ามเนื้อเรียบหลอดเลือดปอดทำให้ PVR เพิ่มขึ้น โดยมีตัวกระตุ้นสำคัญได้แก่ endothelin, serotonin, histamine, norepinephrine, thromboxane A<sub>2</sub> และภาวะขาดออกซิเจน (hypoxia) ในทางตรงกันข้าม สารที่ทำให้กล้ามเนื้อเรียบคลายตัวและลด PVR ได้แก่ nitric oxide (NO), phosphodiesterase inhibitors, prostacyclin (PGI<sub>2</sub>), calcium channel blockers และ acetylcholine (ซึ่งหลายตัวถูกนำมาใช้เป็นยารักษาภาวะความดันหลอดเลือดปอดสูง)",
-    "<b>Hypoxic Pulmonary Vasoconstriction (HPV)</b> หลอดเลือดปอดมีการควบคุมที่ตรงกันข้ามกับอวัยวะอื่นในร่างกาย กล่าวคือเมื่อถุงลมขาดออกซิเจนโดยมีค่า <b>P<sub>AO2</sub> ต่ำกว่า 70 mmHg</b> กล้ามเนื้อเรียบหลอดเลือดปอดจะรับรู้และเกิดการหดตัวเฉพาะที่ (local vasoconstriction) เพื่อเบี่ยงเลือดหนีออกจากบริเวณถุงลมที่ระบายอากาศไม่ดี ไปยังถุงลมส่วนอื่นที่มีอากาศดี ช่วยลดการเกิด right-to-left shunt และรักษาสมดุล V/Q",
-    "<b>การเปลี่ยนแปลงของ PVR จากทารกในครรภ์สู่วัยแรกเกิด</b> ในทารกในครรภ์ ถุงลมยังไม่มีอากาศทำให้เกิด generalized hypoxic vasoconstriction ทั่วทั้งปอด ความต้านทานหลอดเลือดปอด (PVR) ของทารกในครรภ์จึงสูงมาก แต่ทันทีที่ทารกคลอดและสูดลมหายใจแรก (first breath) ออกซิเจนที่เข้าไปในถุงลมจะคลายการหดตัวของหลอดเลือด ทำให้ PVR ลดลงอย่างรวดเร็วและดึงเลือดเข้าสู่ปอด",
-    "<b>ผลของแรงโน้มถ่วงต่อความต้านทานและการไหลเวียนเลือดในปอด</b> ในท่ายืน ยอดปอดมีความดันภายในหลอดเลือดต่ำ จึงเกิด recruitment และ distension น้อย ส่งผลให้มีความต้านทานสูงและเลือดไหลเวียนน้อย ส่วนฐานปอด (Zone 3) มีความดันภายในหลอดเลือดสูงจากแรงโน้มถ่วง จึงเกิด recruitment และ distension มาก มีความต้านทานต่ำที่สุดและได้รับเลือดไหลเวียนมากที่สุด"
+    "<b>เพิ่ม PVR</b>: endothelin, thromboxane A2, serotonin, histamine, ถุงลมขาด O<sub>2</sub> · <b>ลด PVR</b>: NO, prostacyclin, PDE inhibitors, calcium channel blockers",
+    "<b>Hypoxic vasoconstriction</b> (ตรงข้ามอวัยวะอื่น): ถุงลม O<sub>2</sub> ต่ำ → หลอดเลือดแดงตรงนั้นหด → เลือดไปถุงลมที่ได้ลมดี → shunt ลด",
+    "<b>แรกเกิด</b>: ทารกในครรภ์ปอดขาด O<sub>2</sub> ทั้งปอด → PVR สูงมาก → หายใจครั้งแรก → O<sub>2</sub> เข้า → PVR ลด → เลือดไปปอดมากขึ้น",
+    "<b>West zones</b>: zone 1 P<sub>A</sub> &gt; Pa &gt; Pv (ไม่มี flow) · zone 2 Pa &gt; P<sub>A</sub> &gt; Pv · zone 3 (ฐาน) Pa &gt; Pv &gt; P<sub>A</sub> → flow มากสุด"
   ],
   "C-C4": [
-    "<b>สมการของ Starling และสมดุลน้ำในปอดปกติ</b> เนื่องจากเนื้อเยื่อที่กั้นระหว่างเลือดในหลอดเลือดฝอยกับอากาศในถุงลมบางเพียง 0.3 &mu;m ปอดจึงต้องมีกลไกป้องกันไม่ให้น้ำรั่วเข้าถุงลม การเคลื่อนที่ของน้ำข้ามผนังหลอดเลือดฝอยเป็นไปตามสมการ Starling บนสไลด์: Net fluid out = K[(P<sub>c</sub> &minus; P<sub>i</sub>) &minus; &sigma;(&pi;<sub>i</sub> &minus; &pi;<sub>c</sub>)] (หมายเหตุ: สไลด์เขียนวงเล็บแรงดันออสโมติกเป็น &pi;<sub>i</sub> &minus; &pi;<sub>c</sub> แต่หลักสรีรวิทยาและการแปลผลในตารางหน้า 24 ตรงกับสมการมาตรฐานที่ &pi;<sub>c</sub> ทำหน้าที่ดึงน้ำกลับเข้าหลอดเลือด) โดย K คือ filtration coefficient และ &sigma; คือ reflection coefficient ที่บอกประสิทธิภาพในการกั้นโปรตีน ในภาวะปกติแรงสุทธิจะดันน้ำออกนอกหลอดเลือดเล็กน้อย เกิดเป็นน้ำเหลืองไหลออกประมาณ 20 mL/h",
-    "<b>ระยะที่ 1: Interstitial Edema (ระยะเริ่มต้น)</b> เมื่อน้ำกรองออกจากหลอดเลือดฝอยปอดมากขึ้น ด่านแรกน้ำจะเข้าไปสะสมในช่องว่างเนื้อเยื่อแทรก (interstitium) รอบหลอดเลือดและหลอดลม (perivascular และ peribronchial space) ทำให้เกิดเงาหนาตัวรอบหลอดลมที่เห็นในภาพรังสีทรวงอกว่า <b>peribronchial cuffing</b> โดยร่างกายจะชดเชยด้วยท่อน้ำเหลืองจำนวนมากในช่อง perivascular ที่ช่วยลำเลียงน้ำส่วนเกินไปสู่ต่อมน้ำเหลืองขั้วปอด (hilar lymph nodes)",
-    "<b>ระยะที่ 2: Alveolar Edema (ระยะท้ายและรุนแรง)</b> หากปริมาณน้ำที่รั่วออกมาเกินขีดความสามารถสูงสุดที่ช่อง interstitial และท่อน้ำเหลืองจะระบายทัน น้ำจะทะลักข้ามผนังถุงลมเข้าไปในช่องว่างถุงลมและท่วมถุงลมทีละใบ (filled with fluid one by one) ถุงลมที่จมน้ำจะไม่สามารถรับอากาศได้ เกิดภาวะ V/Q mismatch และกลายเป็น <b>shunt</b> ถ้ารุนแรงมาก จึงอันตรายต่อการแลกเปลี่ยนก๊าซกว่าระยะแรกมาก โดยมีกลไกชดเชยคือเซลล์เยื่อบุถุงลมจะใช้ปั๊ม <b>Na<sup>+</sup>/K<sup>+</sup>-ATPase</b> ปั๊มโซเดียมและน้ำกลับออกจากถุงลม",
-    "<b>4 กลไกการเกิดภาวะปอดบวมน้ำ (Cardiogenic vs Non-cardiogenic)</b> ตารางสรุปหน้า 24 แบ่งสาเหตุตามตัวแปรในสมการ Starling เป็น (1) <b>ความดันอุทกสถิตในหลอดเลือดฝอยสูงขึ้น (&uparrow; P<sub>c</sub>, Cardiac)</b> จาก afterload สูง (หัวใจห้องซ้ายล้มเหลว, ลิ้นหัวใจไมทรัลตีบ mitral stenosis) หรือ preload สูง (ให้น้ำเกิน fluid overload), (2) <b>ความดันออสโมติกของพลาสมาลดลง (&downarrow; &pi;<sub>c</sub>, Non-cardiac)</b> จากขาดโปรตีน, เสียโปรตีนทางไตหรือทางเดินอาหาร หรือเลือดเจือจาง (hemodilution), (3) <b>ผนังหลอดเลือดฝอยรั่วเพิ่มขึ้น (&uparrow; K, Non-cardiac)</b> จาก acute lung injury, การติดเชื้อในกระแสเลือด (sepsis) หรือพิษจากออกซิเจน และ (4) <b>การระบายน้ำเหลืองลดลง (Non-cardiac)</b> จากท่อน้ำเหลืองอุดตันหรือบาดเจ็บ"
+    "<b>Starling</b>: น้ำออก = K × [(P<sub>c</sub> − P<sub>i</sub>) − σ × ส่วนต่าง oncotic] · σ = reflection coefficient (โปรตีนผ่านยากแค่ไหน)",
+    "<b>ปกติ</b> → แรงสุทธิออกเล็กน้อย → น้ำเหลืองระบายทัน (~20 mL/h)",
+    "<b>Interstitial edema (ระยะแรก)</b>: น้ำรอบหลอดเลือดและหลอดลม → CXR peribronchial cuffing → น้ำเหลืองพาไป hilar nodes",
+    "<b>Alveolar edema (ระยะหลัง)</b>: น้ำเหลืองระบายไม่ทัน → ถุงลมท่วมทีละอัน → ไม่มีลม → shunt → epithelial Na<sup>+</sup>/K<sup>+</sup>-ATPase สูบน้ำออก",
+    "<b>สาเหตุ</b>: หัวใจ → P<sub>c</sub> ↑ (LV failure, mitral stenosis, น้ำเกิน) · ไม่ใช่หัวใจ → โปรตีนต่ำ, หลอดเลือดรั่ว (sepsis), น้ำเหลืองอุดตัน"
   ]
 });
 
-/* ---------- P · Pulmonary Function Tests & Spirometry Interpretation ---------- */
+/* Part 3: P, R, A, S */
+
+/* ---------- P · Pulmonary function tests ---------- */
 Object.assign(window.THAI_EXPLAIN, {
   "P-C1": [
-    "<b>สไปโรเมตรีย์วัดอะไรได้บ้าง</b> สไปโรมิเตอร์ (spirometer) เป็นเครื่องมือที่วัดอัตราการไหลของอากาศ (flow) หรือปริมาตรอากาศ (volume) ที่ผู้ป่วยสูดเข้าและเป่าออกผ่านทางปากเทียบกับเวลา กราฟที่ได้เรียกว่า spirogram",
-    "<b>Lung volumes 4 ค่าพื้นฐาน</b> แบ่งเป็น Tidal volume (TV, 0.4–0.5 L) คือลมหายใจเข้าออกปกติ, Inspiratory reserve volume (IRV, 1.9–2.5 L) คือลมที่สูดเข้าเพิ่มได้อีกจนสุดหลังหายใจเข้าปกติ, Expiratory reserve volume (ERV, 1.1–1.5 L) คือลมที่เป่าออกเพิ่มได้อีกจนสุดหลังหายใจออกปกติ และ Residual volume (RV, 1.5–1.9 L) คือลมที่ยังคงค้างอยู่ในปอดหลังจากเป่าลมออกสุดแรงแล้ว",
-    "<b>Lung capacities 4 ค่า</b> ความจุปอดแต่ละค่าคือผลรวมของปริมาตรพื้นฐานตั้งแต่ 2 ค่าขึ้นไป ได้แก่ Inspiratory capacity (IC = TV + IRV, 2.3–3.0 L), Functional residual capacity (FRC = ERV + RV, 2.6–3.4 L) คือลมที่ค้างในปอดหลังหายใจออกปกติ, Vital capacity (VC = IRV + TV + ERV = IC + ERV, 3.4–4.5 L) และ Total lung capacity (TLC = VC + RV = IC + FRC, 4.9–6.4 L)",
-    "<b>ข้อจำกัดสำคัญที่ออกสอบเสมอ</b> เนื่องจากเราไม่สามารถเป่าลมออกจากปอดจนปอดแฟบสนิทได้ Simple spirometry จึง<b>ไม่สามารถวัดค่า RV ได้</b> และส่งผลให้วัดความจุที่มี RV รวมอยู่ด้วยไม่ได้เช่นกัน นั่นคือ <b>วัด RV, FRC และ TLC ไม่ได้</b> ต้องใช้วิธีอื่น เช่น Body plethysmography, Helium dilution หรือ Nitrogen washout",
-    "<b>พารามิเตอร์จากการเป่าเร็วแรง (Forced maneuver)</b> ได้แก่ FVC (ปริมาตรลมทั้งหมดที่เป่าออกเร็วแรงสุดหลังจากสูดเข้าจนเต็มปอด), FEV<sub>1</sub> (ปริมาตรลมที่เป่าออกได้ในวินาทีแรก), อัตราส่วน FEV<sub>1</sub>/FVC, PEF (Peak expiratory flow) และ FEF<sub>25–75%</sub> ซึ่งเป็นค่าอัตราการไหลเฉลี่ยในช่วงกลาง (25% ถึง 75% ของ FVC) ที่ไวต่อการตรวจจับการตีบของหลอดลมขนาดเล็กที่มีขนาดเส้นผ่านศูนย์กลางน้อยกว่า 2 มิลลิเมตร"
+    "<b>4 volumes</b>: TV (หายใจปกติ) · IRV (เข้าเพิ่ม) · ERV (ออกเพิ่ม) · RV (ค้างในปอดเสมอ)",
+    "<b>Capacity</b> = รวม volume ตั้งแต่ 2 อันขึ้นไป → IC = TV + IRV · FRC = ERV + RV · VC = IRV + TV + ERV · TLC = VC + RV",
+    "<b>Spirometer</b> วัดได้แค่ลมที่ผ่านปาก → อะไรที่มี RV อยู่ (RV, FRC, TLC) วัดไม่ได้ → ต้องใช้ body plethysmography หรือ gas dilution",
+    "<b>Forced blow ให้ค่า</b>: FEV<sub>1</sub>, FVC, FEV<sub>1</sub>/FVC, PEF และ FEF<sub>25–75%</sub> (ดูทางลมเล็ก)"
   ],
   "P-C2": [
-    "<b>ทำไมต้องมีข้อห้าม</b> การหายใจออกสุดแรงทำให้ความดันในทรวงอก ในกะโหลก และในลูกตาสูงขึ้นทันที ภาวะที่ความดันแบบนี้ทำให้แย่ลงได้จึงต้องรอก่อน",
-    "<b>ภาวะที่ต้องรอ</b> AMI ภายใน 1 เดือน, pneumothorax, pulmonary embolism, cerebral aneurysm, ผ่าตัดสมองหรือทรวงอกภายใน 4 สัปดาห์, ผ่าตัดตาภายใน 4–8 สัปดาห์, ตั้งครรภ์เกิน 28 สัปดาห์ และสงสัยการติดเชื้อทางเดินหายใจ เช่น TB ที่ยังรักษาไม่ครบ",
-    "<b>ก่อนตรวจ</b> ห้ามสูบบุหรี่และออกกำลังกายหนักภายใน 1 ชั่วโมง ห้ามดื่มของมึนเมาภายใน 8 ชั่วโมง และห้ามใส่เสื้อรัดอก",
-    "<b>งดยาขยายหลอดลม</b> เมื่อตรวจเพื่อวินิจฉัย: SABA 4–6 ชม., SAMA 12 ชม., LABA 24 ชม., LAMA 36–48 ชม., theophylline 12 ชม. (ชนิดออกฤทธิ์นาน 24 ชม.) ส่วน inhaled steroid และ anti-leukotriene ไม่ต้องงด",
-    "<b>ค่าคาดหมาย (predicted)</b> คำนวณจากอายุ เพศ ส่วนสูง และเชื้อชาติ (GLI 2012) น้ำหนักบันทึกไว้แต่ไม่ได้ใช้คำนวณ"
+    "<b>ทำไมบางคนยังไม่ควรเป่า</b>: เป่าแรง → ความดันในอก กะโหลก และตาพุ่งขึ้น",
+    "<b>รอก่อนถ้า</b>: MI ในเดือนที่ผ่านมา · pneumothorax หรือ PE ที่ยังไม่รักษา · cerebral aneurysm · เพิ่งผ่าตัดสมอง อก หรือตา · ตั้งครรภ์ช่วงท้าย · อาจเป็น TB ระยะติดต่อ",
+    "<b>ก่อนตรวจ</b>: งดบุหรี่และออกกำลังหนัก 1 ชั่วโมง · ตรวจเพื่อวินิจฉัย → หยุดยาขยายหลอดลมก่อน (ออกฤทธิ์สั้นหลายชั่วโมง ยาวหนึ่งวันขึ้นไป) · inhaled steroid ใช้ต่อได้",
+    "<b>ค่าทำนาย (GLI 2012)</b> คิดจาก อายุ เพศ ส่วนสูง เชื้อชาติ → น้ำหนักไม่ใช้"
   ],
   "P-C3": [
-    "<b>เป่าหนึ่งครั้งที่ดี</b> สูดหายใจเข้าเร็วจนเต็มปอด (TLC) ภายใน 2 วินาที แล้วเป่าออกแรงและเร็วที่สุดทันที เป่าต่อจนลมหมด แล้วสูดกลับเข้าเต็มที่อีกครั้ง ถ้าค้างที่ TLC นาน 4–6 วินาที PEF และ FEV₁ จะต่ำกว่าความจริง",
-    "<b>เกณฑ์ผ่าน (acceptability)</b> เริ่มดี: ไม่ลังเล back-extrapolated volume ≤ 5% ของ FVC หรือ 0.100 L · จบดี: ปริมาตรเปลี่ยน ≤ 0.025 L ในวินาทีสุดท้าย หรือเป่านาน ≥ 15 วินาที หรือ FVC เท่ากับครั้งที่ดีที่สุด · ไม่มี artifact: ไอในวินาทีแรก glottis ปิด ลมรั่ว หรือลิ้นอุด mouthpiece",
-    "<b>สูดเต็มจริงไหม</b> ถ้าลมที่สูดกลับเข้าหลังเป่า (FIVC) มากกว่า FVC เกิน 0.100 L หรือ 5% แปลว่าการสูดครั้งแรกไม่เต็ม",
-    "<b>จำนวนครั้ง</b> ต้องได้ครั้งที่ผ่านเกณฑ์อย่างน้อย 3 ครั้งแต่ไม่เกิน 8 ครั้ง และ FVC สองค่าที่มากที่สุดต้องต่างกันไม่เกิน 0.150 L เช่นเดียวกับ FEV₁ (repeatability)",
-    "<b>ค่าที่รายงาน</b> เลือก FEV₁ ที่มากที่สุดและ FVC ที่มากที่สุด แม้มาจากคนละครั้ง ห้ามเฉลี่ย ใน quiz ข้อ 1 คือ FEV₁ 4.00 และ FVC 4.43",
-    "<b>ครั้งที่เป่าหยุดเร็ว</b> ครั้งที่ 3–4 ใน quiz มี FEV₁/FVC 96–97% แต่ FVC เล็ก แปลว่าเป่าไม่สุด FVC จึงต่ำและ ratio สูงเกินจริง"
-  ],
-  "P-C4": [
-    "<b>ภาพรวม</b> อ่านรายงานทีละขั้น แต่ละขั้นถามคำถามเดียวและใช้ตัวเลขเดียว เรียงตาม flowchart ในสไลด์หน้า 10",
-    "<b>ขั้น 1 มี obstruction ไหม</b> ดูค่า FEV₁/FVC จริงในคอลัมน์ Pre ถ้าต่ำกว่า 70–75 (ต่ำกว่าค่าปกติขั้นต่ำ) = obstruction อย่าใช้ช่อง %(Pre/Pred) ของแถวนี้ ซึ่งเป็นเปอร์เซ็นต์ของ ratio ที่คาดหมาย",
-    "<b>ขั้น 2 ปอดเล็กไหม</b> ดู FVC %(Pre/Pred) ถ้าต่ำกว่า 80% = restriction ซึ่งต้องยืนยันด้วย TLC เพราะ spirometry วัด TLC ไม่ได้ ถ้าขั้น 1 มี obstruction ให้คำนวณ corrected %FVC = %pred FVC + (70 − FEV₁/FVC) ก่อน ถ้าเกิน 80% คือ obstruction ล้วน ถ้าไม่เกินคือ combined",
-    "<b>ขั้น 3 รุนแรงแค่ไหน</b> obstruction ใช้ FEV₁ %pred · restriction ใช้ FVC %pred · Mild ≥ 70, Moderate 50–69, Severe 35–49, Very severe &lt; 35",
-    "<b>ขั้น 4 ตอบสนองต่อยาขยายหลอดลมไหม</b> เทียบ FEV₁ หรือ FVC หลังพ่นยากับก่อนพ่น ต้องเพิ่มทั้ง ≥ 12% และ ≥ 200 mL จึงนับว่าตอบสนอง (reversible) โดย % change = (หลัง − ก่อน) ÷ ก่อน × 100 ส่วนเกณฑ์ ERS/ATS 2021 ใช้การเปลี่ยน &gt; 10% ของค่าคาดหมาย",
-    "<b>ขั้น 5 small airway</b> ถ้า ratio และ FVC ปกติ ดู FEF₂₅–₇₅% ถ้าต่ำกว่า 65% ของค่าคาดหมาย = small airway disease ถ้าไม่ต่ำ = spirometry ปกติ",
-    "<b>ลองกับเคสในสไลด์</b> Case 2 ปกติ · Case 3 severe obstruction ไม่ตอบสนองยา · Case 4 moderate obstruction ตอบสนองยา · Case 5 และ 6 moderate restriction"
+    "<b>วิธีเป่า</b>: สูดเต็มที่ถึง TLC อย่างรวดเร็ว (อย่าค้าง → PEF, FEV<sub>1</sub> ตก) → เป่าแรงเร็วที่สุด → เป่าต่อจนหมด → สูดกลับเต็ม",
+    "<b>เริ่มดี</b>: back-extrapolated volume ≤ 5% ของ FVC หรือ 0.100 L · <b>จบดี</b>: plateau หรือเป่า ≥ 15 วินาที · <b>ไม่มี artifact</b>: ไม่ไอในวินาทีแรก ไม่รั่ว",
+    "<b>จำนวนครั้ง</b>: ผ่านเกณฑ์ 3–8 ครั้ง · repeatable เมื่อ FVC สองค่าสูงสุด และ FEV<sub>1</sub> สองค่าสูงสุด ต่างกันไม่เกิน 0.150 L",
+    "<b>ลงรายงาน</b> → FEV<sub>1</sub> สูงสุด และ FVC สูงสุด (มาจากคนละครั้งได้) → ห้ามเฉลี่ย"
   ],
   "P-C5": [
-    "<b>โครงสร้างของ Flow-volume loop</b> แกนตั้งคืออัตราการไหลของอากาศ (Flow, L/s) โดยครึ่งบนเหนือแกนนอนคือการเป่าลมออก (Expiration) และครึ่งล่างคือการสูดลมเข้า (Inspiration) ส่วนแกนนอนคือปริมาตรปอด (Volume, L) เรียงจาก TLC ทางซ้ายไปหา RV ทางขวา ในคนปกติขาเป่าออกจะพุ่งขึ้นสู่ยอดแหลม (PEF) อย่างรวดเร็วแล้วลาดลงเป็นเส้นตรงจนถึง RV ส่วนขาสูดเข้าเป็นครึ่งวงกลมสมมาตร",
-    "<b>Obstructive pattern (ภาวะหลอดลมส่วนปลายอุดกั้น)</b> ยอด PEF เตี้ยลง และขาเป่าออกช่วงหลังตกลงอย่างรวดเร็วเป็น<b>ร่องเว้าบุ๋ม (scooped-out / concave curve)</b> เนื่องจากการตีบแคบและถูกบีบของหลอดลมเล็กขณะเป่าออก หากมีลมค้างปอดมาก (hyperinflation) ทั้งวงจะเลื่อนไปทางซ้าย และหลังพ่นยาขยายหลอดลม เส้นกราฟจะยกตัวสูงและกว้างขึ้นในกลุ่มที่ตอบสนองต่อยา",
-    "<b>Restrictive pattern (ภาวะจำกัดการขยายตัวของปอด 3 กลุ่มย่อย)</b> ความกว้างตามแนวนอนแคบลง (FVC และ TLC ลดลง) และเลื่อนไปทางขวา โดยสไลด์หน้า 12 แยกเป็น 3 ลักษณะย่อย: <b>(a) Parenchymal lung disease</b> (เช่น พังผืดในปอด) แรงหดกลับของเนื้อปอดสูง ทำให้ยอด PEF ค่อนข้างดีแต่ขาลงชันมากเป็นรูป<b>หมวกแม่มด (witch's hat appearance)</b>, <b>(b) Chest wall restriction</b> ขาลงลาดขนานกับเส้นปกติแต่แคบกว่า และ <b>(c) Neuromuscular disorders</b> (หรือผู้ป่วยสูดเข้าตอนแรกไม่สุด) ยอด PEF จะไม่แหลมคม (PEF not sharp) และแรงเป่าออกกับสูดเข้าลดลงทั้งคู่",
-    "<b>Central / Upper airway obstruction (การอุดกั้นทางเดินหายใจขนาดใหญ่ 3 รูปแบบ)</b> แบ่งตามตำแหน่งและความคงที่ของรอยโรค: <b>(a) Variable extrathoracic obstruction</b> (เช่น อัมพาตสายเสียง) ขณะสูดเข้า ความดันในท่อลมเป็นลบ (&minus;) เมื่อเทียบกับความดันบรรยากาศรอบลำคอ (+) จึงดูดผนังทางเดินหายใจส่วนคอให้ยุบตัวเข้ามา เกิดเสียง <b>Stridor</b> และ<b>กราฟขาสูดเข้าแบนราบ (flat inspiratory curve)</b> ส่วนขาเป่าออกปกติเพราะแรงดันบวกในท่อลมช่วยดันเปิด",
-    "<b>Variable intrathoracic vs Fixed obstruction</b> ใน <b>(b) Variable intrathoracic obstruction</b> (เช่น เนื้องอกหรือหลอดลมใหญ่นิ่มในช่องอก) ขณะเบ่งเป่าออก ความดันในโพรงเยื่อหุ้มปอดเป็นบวกสูงมาก (+) ชนะความดันในท่อลม (&minus;) จึงบีบหลอดลมในช่องอกให้ตีบ เกิดเสียง <b>Wheezes</b> และ<b>กราฟขาเป่าออกแบนราบ (flat expiratory curve)</b> ขณะที่ขาสูดเข้าปกติ ส่วน <b>(c) Fixed upper airway obstruction</b> (เช่น หลอดลมตีบแข็งเป็นวงรอบที่ระดับใดก็ได้) ขนาดรูท่อไม่เปลี่ยนตามแรงดัน จึงเกิด<b>กราฟแบนราบทั้งขาเป่าออกและขาสูดเข้า (box-like loop)</b>"
+    "<b>Obstructive</b> → ขาหายใจออกเว้าลง (scooped) จากทางลมเล็กถูกบีบ · ตอบสนองยา → loop โตกลับเข้าหาปกติ",
+    "<b>Restrictive</b> → loop แคบ · fibrosis → ปอดแข็ง → ขาลงชัน (witch’s hat)",
+    "<b>Variable extrathoracic</b> (เช่น vocal cord palsy): หายใจเข้า → ความดันในทางลมต่ำกว่าบรรยากาศ → ทางลมที่คอถูกดูดแฟบ → ขาหายใจเข้าแบน → stridor",
+    "<b>Variable intrathoracic</b>: หายใจออก → pleura เป็นบวก บีบทางลมในอก → ขาหายใจออกแบน",
+    "<b>Fixed</b> (ตีบแข็ง เช่น แผลเป็นจาก TB) → แบนทั้งสองขา → loop เป็นกล่อง · <b>combined</b> → loop เล็ก + ขาออกเว้า"
   ]
 });
 
-/* ---------- R · Neural & Chemical Control of Respiration ---------- */
+/* ---------- R · Control of breathing ---------- */
 Object.assign(window.THAI_EXPLAIN, {
   "R-C1": [
-    "<b>องค์ประกอบพื้นฐาน 3 ส่วนของระบบควบคุมการหายใจ</b> เป้าหมายหลักคือรักษาระดับก๊าซในเลือดแดงให้คงที่ (PaO<sub>2</sub> 75–100 mmHg, PaCO<sub>2</sub> 35–45 mmHg, pH 7.35–7.45) โดยอาศัย (1) <b>Sensors (ตัวรับข้อมูลเข้า)</b> ได้แก่ chemoreceptors, lung receptors และตัวรับอื่นๆ ส่งสัญญาณไปยัง (2) <b>Central controller (ศูนย์ควบคุมในสมอง)</b> ซึ่งประมวลผลและส่งคำสั่งไปยัง (3) <b>Effectors (กล้ามเนื้อหายใจ)</b>",
-    "<b>ศูนย์ควบคุมการหายใจใน Medulla (DRG และ VRG)</b> อยู่ใน reticular formation ใต้พื้นของ fourth ventricle แบ่งเป็น 2 กลุ่มหลัก: <b>Dorsal respiratory group (DRG)</b> อยู่ด้านหลัง มีโครงสร้างหลักคือ <b>nucleus tractus solitarii (NTS)</b> ทำหน้าที่เด่นในการสั่ง<b>การหายใจเข้า (inspiration)</b> โดยรับข้อมูลจากเส้นประสาทสมองคู่ที่ 9 (CN IX) และคู่ที่ 10 (CN X) แล้วส่งคำสั่งผ่าน <b>phrenic nerve (C3–C5)</b> ไปยังกะบังลม ส่วน <b>Ventral respiratory group (VRG)</b> แบ่งเป็น 3 ส่วนย่อยตามตารางหน้า 10 ได้แก่ <b>Rostral VRG</b> (nucleus retrofacialis หรือ <b>Botzinger complex</b> ทำหน้าที่<b>หายใจออก</b>), <b>Intermediate VRG</b> (ประกอบด้วย <b>pre-Botzinger complex</b> ซึ่งทำหน้าที่เป็น <b>pacemaker / central pattern generator</b> สร้างจังหวะการหายใจพื้นฐาน ร่วมกับ nucleus ambiguus และ para-ambigualis ทำหน้าที่<b>หายใจเข้า</b>และถ่างทางเดินหายใจส่วนต้น) และ <b>Caudal VRG</b> (<b>nucleus retroambigualis</b> ทำหน้าที่สั่งกล้ามเนื้อ<b>หายใจออก</b>เมื่อต้องออกแรงเบ่ง)",
-    "<b>ศูนย์ควบคุมใน Pons (Apneustic และ Pneumotaxic centers)</b> ในพอนส์ส่วนล่างมี <b>Apneustic center</b> ทำหน้าที่<b>กระตุ้น (excitatory)</b> ศูนย์หายใจเข้า (DRG) ให้สูดหายใจเข้ายาวขึ้น ส่วนในพอนส์ส่วนบนมี <b>Pneumotaxic center</b> ทำหน้าที่<b>ยับยั้งการหายใจเข้า (inhibits inspiration)</b> เพื่อตัดจบจังหวะหายใจเข้า จึงเป็นตัวกำหนดปริมาตรลมหายใจเข้า (tidal volume) และอัตราการหายใจ (respiratory rate)",
-    "<b>การควบคุมจากสมองส่วนอื่น (Cortex และ Limbic/Hypothalamus)</b> เปลือกสมองใหญ่ (cerebral cortex) ทำให้เราสั่งการหายใจแบบตั้งใจได้ในระดับหนึ่ง (voluntary control) เช่น สั่งให้หอบเร็ว (hyperventilation) หรือกลั้นหายใจ (voluntary hypoventilation) ได้ชั่วคราวก่อนที่แรงขับจาก CO<sub>2</sub> จะเอาชนะ ส่วนระบบลิมบิกและไฮโปทาลามัสจะปรับรูปแบบการหายใจตามอารมณ์ เช่น ตื่นเต้นหรือหวาดกลัว",
-    "<b>Effectors (กล้ามเนื้อที่ใช้ในการหายใจ)</b> การหายใจเข้าใช้<b>กะบังลม (diaphragm)</b> เป็นหลัก (เมื่อหดตัวจะเคลื่อนต่ำลง ดันอวัยวะในช่องท้องลง และยกซี่โครงขึ้นทางด้านบนและออกด้านนอก) ร่วมกับ external intercostal และเมื่อออกกำลังกายจะใช้กล้ามเนื้อช่วยหายใจ (scalene, sternocleidomastoid, กล้ามเนื้อคอและหลัง) รวมถึงส่งสัญญาณไปกล้ามเนื้อคอหอย (nasopharyngeal muscles) ไม่ให้ทางเดินหายใจส่วนต้นยุบตัว ส่วนการหายใจออกปกติเป็นกระบวนการแบบ passive แต่เมื่อหายใจออกอย่างแรงจะใช้กล้ามเนื้อหน้าท้อง (abdominal muscles) และ internal intercostal muscles"
+    "<b>DRG</b> (medulla, NTS) → สั่งหายใจเข้าปกติ → phrenic n. → diaphragm",
+    "<b>Pre-Bötzinger complex</b> (VRG ส่วนกลาง) → pacemaker กำหนดจังหวะการหายใจ",
+    "<b>VRG ส่วนหน้าและหลัง</b> (Bötzinger, NRA) → หายใจออกแบบออกแรง",
+    "<b>Pons</b>: apneustic (pons ล่าง) → กระตุ้น DRG → หายใจเข้ายาวขึ้น · pneumotaxic (pons บน) → ตัดการหายใจเข้า → คุมอัตราและความลึก",
+    "<b>Cortex</b> → คุมได้ตามใจ (กลั้น, หายใจเร็ว) ในขอบเขต · <b>limbic, hypothalamus</b> → หายใจเปลี่ยนตามอารมณ์"
   ],
   "R-C2": [
-    "<b>Central chemoreceptors (ตัวรับสารเคมีส่วนกลาง)</b> อยู่บริเวณผิวด้านหน้าส่วนล่าง (ventral surface) ของ medulla ใกล้จุดออกของเส้นประสาทสมองคู่ที่ 9 และ 10 เป็นตัวรับที่<b>สำคัญที่สุดในการควบคุมการหายใจ</b> (รับผิดชอบประมาณ <b>70%</b> ของการตอบสนองต่อภาวะ CO<sub>2</sub> สูง) โดยตอบสนองต่อการเปลี่ยนแปลงของค่า <b>pH (ความเข้มข้นของ H<sup>+</sup>) ในน้ำไขสันหลัง (CSF) และของเหลวนอกเซลล์สมอง (ECF)</b>",
-    "<b>กลไกผ่านแนวกั้นเลือดและสมอง (Blood-brain barrier)</b> แนวกั้นเลือดและสมองยอมให้ก๊าซ <b>CO<sub>2</sub> แพร่ผ่านได้อย่างอิสระ</b> แต่ไม่ยอมให้ H<sup>+</sup> จากเลือดผ่านได้ง่าย เมื่อ PaCO<sub>2</sub> ในเลือดสูงขึ้น CO<sub>2</sub> จะแพร่เข้าสู่ CSF (ซึ่งมีค่า <b>pH ปกติเท่ากับ 7.32</b>) แล้วทำปฏิกิริยากับน้ำได้กรดคาร์บอนิกและแตกตัวให้ H<sup>+</sup> เนื่องจาก <b>CSF มีความเข้มข้นของโปรตีนต่ำมาก จึงแทบไม่มีตัวบัฟเฟอร์</b> ค่า pH ใน CSF จึงลดลงอย่างรวดเร็วและไปกระตุ้น central chemoreceptors ให้สั่ง DRG เกิด hyperventilation (ส่วนระดับไบคาร์บอเนต HCO<sub>3</sub><sup>&minus;</sup> ใน CSF ถูกควบคุมและปรับเปลี่ยนได้โดย <b>choroid plexus</b>)",
-    "<b>Peripheral chemoreceptors (ตัวรับสารเคมีส่วนปลาย)</b> มี 2 ตำแหน่ง คือ <b>Carotid bodies</b> ที่ง่ามแยกของหลอดเลือดแดง common carotid (ส่งสัญญาณผ่าน <b>CN IX / glossopharyngeal nerve</b>) และ <b>Aortic bodies</b> รอบโค้งหลอดเลือดแดงใหญ่ aortic arch (ส่งสัญญาณผ่าน <b>CN X / vagus nerve</b>) เนื้อเยื่อเหล่านี้มีเลือดมาเลี้ยงสูงมากและตอบสนองได้<b>เร็วกว่า</b>ตัวรับส่วนกลาง (รับผิดชอบอีกประมาณ 30% ของแรงขับจาก CO<sub>2</sub>)",
-    "<b>สิ่งกระตุ้น Peripheral chemoreceptors และบทบาทในคลินิก</b> ตัวรับที่ carotid body ไวต่อทั้ง <b>PaO<sub>2</sub> ที่ลดลง, PaCO<sub>2</sub> ที่เพิ่มขึ้น และ pH ในเลือดที่ลดลง (H<sup>+</sup> สูงขึ้น)</b> โดยการตอบสนองต่อ PaO<sub>2</sub> เป็นกราฟไม่เชิงเส้น (nonlinear) คือแทบไม่ตอบสนองในภาวะออกซิเจนปกติ แต่จะพุ่งสูงขึ้นเมื่อ PaO<sub>2</sub> ต่ำกว่า 60 mmHg และ<b>ตอบสนองสูงสุดเมื่อ PaO<sub>2</sub> ต่ำกว่า 50 mmHg</b> หากผู้ป่วยได้รับการผ่าตัดเอา carotid body ออกทั้งสองข้าง (bilateral carotid body resection) จะ<b>สูญเสียการตอบสนองต่อภาวะพร่องออกซิเจน (hypoxic ventilatory drive) ไปอย่างสมบูรณ์</b> ส่วนในภาวะกรดเมตาบอลิก (metabolic acidosis) ที่ H<sup>+</sup> ในเลือดสูงโดยไม่ขึ้นกับ PaCO<sub>2</sub> จะกระตุ้น <b>carotid body โดยตรง (ไม่ผ่าน aortic body)</b> ทำให้หายใจหอบลึกที่เรียกว่า <b>Kussmaul breathing</b>",
-    "<b>กลไกระดับเซลล์ของ Glomus cell (Type I cell)</b> ใน carotid body มีเซลล์รับความรู้สึกคือ Type I (glomus) cell และเซลล์ค้ำจุนคือ Type II (sustentacular) cell บนเยื่อหุ้มเซลล์ของ glomus cell มีช่อง <b>O<sub>2</sub>-sensitive K<sup>+</sup> channels</b> เมื่อค่า PO<sub>2</sub> ในเลือดแดงลดลง ช่อง K<sup>+</sup> นี้จะถูกยับยั้ง (ปิด) ทำให้ K<sup>+</sup> ไหลออกจากเซลล์ลดลง เกิด <b>membrane depolarization (&Delta;V<sub>m</sub>)</b> ไปเปิดช่อง <b>voltage-gated Ca<sup>2+</sup> channels</b> ให้ Ca<sup>2+</sup> ไหลเข้าสู่เซลล์ แล้วกระตุ้นการหลั่งสารสื่อประสาท (เช่น <b>ATP และ acetylcholine</b>) ไปกระตุ้นใยประสาทรับความรู้สึกของ CN IX"
+    "<b>Central (ventral medulla)</b>: CO<sub>2</sub> ผ่าน blood-brain barrier ได้ แต่ H<sup>+</sup> ในเลือดผ่านไม่ได้ → CO<sub>2</sub> ใน CSF → H<sup>+</sup> → กระตุ้นตัวรับ → หายใจเพิ่ม",
+    "<b>CSF โปรตีนน้อย</b> → buffer อ่อน → CO<sub>2</sub> เปลี่ยนนิดเดียว pH เปลี่ยนมาก · central ให้ CO<sub>2</sub> drive ~70% และไม่รับรู้ O<sub>2</sub>",
+    "<b>Peripheral</b>: carotid body → CN IX · aortic body → CN X → รับรู้ P<sub>aO2</sub> ต่ำ (แรงเมื่อ &lt; ~60), CO<sub>2</sub> สูง และ H<sup>+</sup> ในเลือด",
+    "<b>กรดในเลือด</b> (lactic, keto) → carotid body เป็นหลัก → Kussmaul breathing",
+    "<b>Glomus (type I) cell</b>: O<sub>2</sub> ต่ำ → K<sup>+</sup> channels ปิด → depolarize → Ca<sup>2+</sup> เข้า → หลั่ง transmitter → เส้นประสาทยิงสัญญาณ"
   ],
   "R-C3": [
-    "<b>1. Pulmonary stretch receptors (Slowly adapting)</b> อยู่ในชั้น<b>กล้ามเนื้อเรียบของหลอดลม (airway smooth muscle)</b> ส่งสัญญาณขึ้นไปตามเส้นประสาทเวกัส (CN X) ชนิด<b>มีไมอีลิน (myelinated fibers)</b> ตอบสนองต่อการยืดขยายของปอดอย่างต่อเนื่อง ทำให้เกิด <b>Hering-Breuer inflation reflex</b> ซึ่งยับยั้งการหายใจเข้าและทำให้<b>ความถี่ของการหายใจช้าลงโดยการยืดเวลาหายใจออกให้ยาวขึ้น</b> หากตัดเส้นประสาทเวกัสทั้งสองข้าง (bilateral vagotomy) ในสัตว์ทดลองจะทำให้หายใจช้าและลึก แต่ในผู้ใหญ่ที่ตื่นอยู่ การบล็อกเส้นประสาทเวกัสชั่วคราวไม่เปลี่ยนอัตราหรือปริมาตรการหายใจปกติ (รีเฟล็กซ์นี้มีความสำคัญใน<b>ทารกแรกเกิด</b>)",
-    "<b>2. Irritant receptors (Rapidly adapting pulmonary stretch receptors)</b> แทรกอยู่ระหว่าง<b>เซลล์เยื่อบุทางเดินหายใจ (airway epithelial cells)</b> ส่งสัญญาณผ่านเส้นใย<b>มีไมอีลิน</b>ของ CN X เช่นกัน ถูกกระตุ้นโดยก๊าซพิษ ควันบุหรี่ ฝุ่นละออง ลมเย็น และสาร <b>histamine</b> ที่หลั่งออกมา ผลของรีเฟล็กซ์คือทำให้เกิด<b>หลอดลมตีบ (bronchoconstriction), อาการไอ และหายใจแรงขึ้น (hyperpnea)</b> ซึ่งมีบทบาทสำคัญในการเกิดหลอดลมตีบในผู้ป่วย<b>โรคหืด (asthma attacks)</b>",
-    "<b>3. J receptors (Juxtacapillary receptors)</b> เป็นปลายประสาทของเส้นใยเวกัสชนิด<b>ไม่มีไมอีลิน (nonmyelinated C-fibers)</b> ที่นำสัญญาณช้า อยู่ใน<b>ผนังถุงลม (alveolar walls)</b> ชิดกับหลอดเลือดฝอยปอด และได้รับเลือดเลี้ยงจาก<b>ระบบไหลเวียนเลือดปอด (pulmonary circulation)</b> ถูกกระตุ้นอย่างรวดเร็วเมื่อมีสารเคมีในหลอดเลือดปอด หรือเมื่อหลอดเลือดฝอยปอดคั่งและมีของเหลวเพิ่มขึ้นในเนื้อเยื่อเกี่ยวพันของผนังถุงลม เช่น ในผู้ป่วย<b>ภาวะหัวใจซ้ายวาย (left-sided heart failure)</b> หรือโรคเนื้อเยื่อปอดอักเสบ (interstitial lung disease) ทำให้เกิดการ<b>หายใจเร็วและตื้น (rapid, shallow breathing)</b> หลอดลมตีบ และหลั่งมูก (หากถูกกระตุ้นรุนแรงจะทำให้หยุดหายใจ apnea)",
-    "<b>4. Bronchial C-fibers</b> เป็นเส้นใยประสาทชนิดไม่มีไมอีลินในผนังหลอดลมที่ได้รับเลือดเลี้ยงจาก<b>หลอดเลือดแดงหลอดลม (bronchial circulation)</b> ตอบสนองอย่างรวดเร็วต่อสารเคมีที่ฉีดเข้าสู่ระบบไหลเวียนหลอดลม ให้ผลรีเฟล็กซ์คล้าย J receptors คือ หายใจเร็วตื้น หลอดลมตีบ และเพิ่มการหลั่งมูก",
-    "<b>5. ตัวรับความรู้สึกอื่นๆ นอกปอด (Other receptors)</b> ได้แก่ (1) <b>ตัวรับในจมูกและทางเดินหายใจส่วนต้น</b> ทำให้เกิดการจาม ไอ หลอดลมตีบ และกล่องเสียงหดเกร็ง (laryngeal spasm); (2) <b>Joint and muscle receptors</b> จากแขนขาที่เคลื่อนไหว ช่วยกระตุ้นการหายใจในช่วงเริ่มต้นของการออกกำลังกาย; (3) <b>Gamma system (muscle spindles)</b> ในกล้ามเนื้อระหว่างซี่โครงและกะบังลม รับรู้การยืดยาวของกล้ามเนื้อ; (4) <b>Arterial baroreceptors</b> เมื่อความดันโลหิตแดงสูงขึ้นจะเกิด<b>รีเฟล็กซ์กดการหายใจ (reflex hypoventilation)</b>; และ (5) <b>ความปวดและอุณหภูมิ</b> ความปวดมักทำให้หยุดหายใจชั่วครู่ตามด้วยหายใจเร็วขึ้น ส่วนการเพิ่มอุณหภูมิผิวหนังทำให้เกิด hyperventilation"
+    "<b>Stretch receptors</b> (กล้ามเนื้อเรียบทางลม): ปอดพอง → Hering-Breuer reflex → หายใจออกนานขึ้น → อัตราช้าลง (เด่นในทารก)",
+    "<b>Irritant receptors</b> (เยื่อบุทางลม): ควัน ฝุ่น อากาศเย็น histamine → ไอ หลอดลมหด → ส่วนหนึ่งของหอบหืด",
+    "<b>J receptors</b> (ผนังถุงลม, C-fibers): น้ำใน interstitium หรือหลอดเลือดคั่ง (LV failure) → หายใจเร็วตื้น",
+    "<b>ตัด vagus ทั้งสองข้าง (สัตว์)</b> → ไม่มี stretch reflex → หายใจช้าลึก",
+    "<b>อื่นๆ</b>: joint/muscle receptors → หายใจเพิ่มช่วงต้นของการออกกำลังกาย · ความดันเลือดสูง (baroreceptor) → หายใจลดลง · ความเจ็บปวด → หยุดหายใจสั้นๆ แล้วหายใจเร็ว"
   ],
   "R-C4": [
-    "<b>การตอบสนองต่อคาร์บอนไดออกไซด์ (Ventilatory response to CO<sub>2</sub>)</b> ในสภาวะปกติ <b>PaCO<sub>2</sub> ในเลือดแดงเป็นตัวกระตุ้นการหายใจที่สำคัญที่สุด</b>และถูกควบคุมไว้อย่างเข้มงวด (ส่วนใหญ่ ~70% มาจาก central chemoreceptors และอีก ~30% มาจาก peripheral chemoreceptors ซึ่งตอบสนองเร็วกว่า) กราฟความสัมพันธ์ระหว่างอัตราระบายอากาศกับ PCO<sub>2</sub> เป็นเส้นตรง โดยหากมีภาวะ<b>พร่องออกซิเจน (PaO<sub>2</sub> ต่ำลง เช่น 47 mmHg) ร่วมด้วย การตอบสนองต่อ CO<sub>2</sub> จะถูกขยายให้แรงขึ้น (ความชันเพิ่มขึ้นและเลื่อนไปทางซ้าย)</b> ในทางตรงข้าม การนอนหลับและอายุที่มากขึ้นจะลดการตอบสนองลง",
-    "<b>การตอบสนองต่อออกซิเจน (Ventilatory response to PO<sub>2</sub>)</b> เกิดจากทำงานของ <b>peripheral chemoreceptors เท่านั้น</b> เมื่อระดับ PCO<sub>2</sub> ปกติ (ประมาณ 36 mmHg) การลดลงของ PO<sub>2</sub> จะแทบไม่กระตุ้นการหายใจเพิ่มขึ้นเลย จนกว่า <b>PaO<sub>2</sub> จะลดลงมาอยู่ที่ประมาณ 60 mmHg หรือต่ำกว่า</b> กราฟจึงจะพุ่งสูงขึ้นอย่างรวดเร็ว กลไกนี้จึงมีความสำคัญมากในที่สูง (high altitude) และในผู้ป่วยโรคปอดเรื้อรังที่มีภาวะพร่องออกซิเจนเรื้อรัง",
-    "<b>ภาวะ CO<sub>2</sub> คั่งเรื้อรัง และกลไกการเกิด CO<sub>2</sub> narcosis (หน้า 44–45)</b> ในผู้ป่วยโรคปอดเรื้อรังที่มี CO<sub>2</sub> คั่งเรื้อรัง สมองจะปรับเพิ่ม HCO<sub>3</sub><sup>&minus;</sup> ใน CSF จน pH ใน CSF กลับมาใกล้เคียงปกติ ทำให้ central chemoreceptors ไม่ค่อยตอบสนองต่อ CO<sub>2</sub> และผู้ป่วยต้องพึ่งพา <b>hypoxic drive จาก peripheral chemoreceptors</b> เป็นหลัก หากให้ออกซิเจนมากเกินไปจะเกิดภาวะ <b>CO<sub>2</sub> narcosis (acute on top respiratory acidosis)</b> จาก 2 กลไกหลักตามสไลด์หน้า 45 คือ: (1) <b>ลด hypoxic ventilatory response</b> ทำให้ผู้ป่วยหายใจแผ่วลง (<b>hypoventilation</b>) และ (2) <b>ลด hypoxic pulmonary vasoconstriction (HPV)</b> ทำให้เลือดไหลไปเลี้ยงถุงลมที่ระบายอากาศไม่ดีมากขึ้น เกิด <b>V/Q mismatch เพิ่มขึ้น</b> ส่งผลให้ CO<sub>2</sub> คั่งในเลือดสูงขึ้นอย่างรวดเร็ว",
-    "<b>การตอบสนองต่อค่า pH (Ventilatory response to pH)</b> ในภาวะกรดเมตาบอลิก (metabolic acidosis) ซึ่งมีค่า pH ต่ำและ PCO<sub>2</sub> ต่ำ จะเกิดการกระตุ้นการหายใจผ่าน <b>peripheral chemoreceptors ที่ carotid bodies เท่านั้น (ไม่ผ่าน aortic bodies)</b> และหากภาวะกรดรุนแรงมากจึงอาจกระตุ้น central chemoreceptors ร่วมด้วย",
-    "<b>การตอบสนองต่อการออกกำลังกาย (Exercise) และที่สูง (High altitude)</b> ขณะออกกำลังกายระดับปานกลาง อัตราการหายใจและประสิทธิภาพการแลกเปลี่ยนก๊าซเพิ่มขึ้นอย่างมากจากคำสั่งของ cortex, สัญญาณจากแขนขา (joint/muscle receptors) และอุณหภูมิร่างกายที่สูงขึ้น ทำให้ค่า <b>PaO<sub>2</sub>, PaCO<sub>2</sub> และ pH ในเลือดแดงยังคงปกติ</b> (ยกเว้นเมื่อออกกำลังกายหนักมากจนเกิด <b>lactic acidosis</b> จึงทำให้ pH ลดลง) ส่วนการขึ้นที่สูง ความดันบรรยากาศต่ำทำให้ PaO<sub>2</sub> ลดลง กระตุ้น peripheral chemoreceptors ให้เกิด hyperventilation &rarr; <b>respiratory alkalosis</b>, ร่างกายสร้าง 2,3-DPG เพิ่มขึ้น (กราฟ O<sub>2</sub>-Hb เลื่อนขวา), หลอดเลือดปอดหดตัวจาก hypoxia (ทำให้ความดันหลอดเลือดปอดสูงและหัวใจห้องขวาล่างโต) และไตสร้างฮอร์โมน <b>erythropoietin (EPO)</b> เพิ่มการสร้างเม็ดเลือดแดง"
+    "<b>CO<sub>2</sub></b> = ตัวกระตุ้นสำคัญที่สุดในชีวิตประจำวัน → ventilation เพิ่มเป็นเส้นตรงตาม P<sub>CO2</sub> · O<sub>2</sub> ต่ำร่วมด้วย → เส้นชันขึ้น · นอนหลับ อายุมาก CO<sub>2</sub> คั่งเรื้อรัง → เส้นแบนลง",
+    "<b>O<sub>2</sub> ต่ำ</b> → รับรู้โดย peripheral เท่านั้น → แทบไม่มีผลจนกว่า P<sub>aO2</sub> &lt; ~60",
+    "<b>หายใจเกิน</b> → P<sub>CO2</sub> ↓ P<sub>O2</sub> ↑ · <b>ออกกำลังกายปานกลาง</b> → ventilation เพิ่มมากกว่า cardiac output → ก๊าซในเลือดและ pH ปกติ · หนักมาก → lactic acid → pH ↓",
+    "<b>ที่สูง</b> → O<sub>2</sub> ต่ำ → หายใจเกิน → respiratory alkalosis · 2,3-BPG ↑, EPO ↑",
+    "<b>CO<sub>2</sub> narcosis</b>: COPD ที่คั่ง CO<sub>2</sub> ได้ O<sub>2</sub> มากเกิน → hypoxic drive หาย → หายใจลด + hypoxic vasoconstriction หาย → V/Q แย่ลง → P<sub>aCO2</sub> ↑ → ซึม (acute-on-chronic respiratory acidosis)"
   ],
   "R-C5": [
-    "<b>Eupnea และ Sigh</b> <b>Eupnea</b> คือการหายใจเข้าออกปกติที่มีจังหวะและความลึกสม่ำเสมอ ส่วน <b>Sigh (การถอนหายใจ)</b> คือการสูดหายใจเข้าลึกกว่าปกติแทรกเป็นระยะตามด้วยช่วงหยุดสั้นๆ ซึ่งช่วยเปิดถุงลมที่แฟบให้ขยายตัวออก",
-    "<b>Cheyne-Stokes respiration</b> มีลักษณะเป็นวงจรที่ความลึกของการหายใจ<b>ค่อยๆ เพิ่มขึ้นแล้วค่อยๆ ลดลง (crescendo–decrescendo / waxing and waning) สลับกับช่วงหยุดหายใจ (apnea)</b> อย่างเป็นจังหวะ พบในภาวะที่การไหลเวียนเลือดจากปอดไปสมองล่าช้า (เช่น หัวใจล้มเหลวเรื้อรัง) หรือมีความไวของศูนย์ควบคุมต่อ CO<sub>2</sub> สูงผิดปกติ (เช่น สมองบาดเจ็บ หรือนอนหลับบนที่สูง)",
-    "<b>Apneusis</b> มีลักษณะเป็น<b>การหายใจเข้าลึกและค้างไว้เป็นเวลานาน (prolonged inspiratory plateau / cramp)</b> แล้วตามด้วยการหายใจออกสั้นๆ ที่ไม่สมบูรณ์ เกิดจากรอยโรคที่ทำลาย <b>pneumotaxic center ในพอนส์ส่วนบน</b> ร่วมกับการขาดสัญญาณยับยั้งจากเส้นประสาทเวกัส ทำให้ apneustic center ในพอนส์ส่วนล่างส่งสัญญาณกระตุ้นการหายใจเข้าอย่างต่อเนื่องโดยไม่มีตัวตัดจบ",
-    "<b>Cluster breathing (Biot's breathing) และ Ataxic breathing</b> <b>Cluster breathing</b> คือการหายใจเป็นกลุ่มๆ (กลุ่มละหลายครั้ง) คั่นด้วยช่วงหยุดหายใจ โดยไม่มีลักษณะค่อยๆ แรงขึ้นและเบาลงเหมือน Cheyne-Stokes พบรอยโรคที่พอนส์หรือเมดัลลา ส่วน <b>Ataxic breathing</b> คือการหายใจที่<b>ไร้ระเบียบอย่างสิ้นเชิง ทั้งความลึกและจังหวะไม่สม่ำเสมอ</b> เกิดจากความเสียหายต่อศูนย์ควบคุมการหายใจใน <b>medulla</b> โดยตรง",
-    "<b>Gasping และ Vagal breathing</b> <b>Gasping</b> คือการเฮือกหายใจเข้าแรงสั้นๆ ทีละครั้งคั่นด้วยช่วงหยุดหายใจยาว พบในภาวะสมองขาดออกซิเจนรุนแรงระยะสุดท้าย (agonal breathing) ส่วน <b>Vagal breathing</b> คือการหายใจที่ช้าลงและลึกขึ้นภายหลังการตัดเส้นประสาทเวกัสทั้งสองข้าง (bilateral vagotomy) เนื่องจากสูญเสีย Hering-Breuer inflation reflex"
+    "<b>Sigh</b> = หายใจลึกครั้งเดียวแทรกในการหายใจปกติ → เปิดถุงลมที่แฟบ",
+    "<b>Cheyne-Stokes</b> → ลึกขึ้นเรื่อยๆ แล้วตื้นลง (crescendo-decrescendo) → หยุด → วนซ้ำ · หัวใจวาย (สัญญาณย้อนกลับช้า), สมองเสียหาย, ที่สูง",
+    "<b>Apneusis</b> → กลั้นหายใจเข้าค้างนาน · รอยโรคที่ pons บน (pneumotaxic) + ตัด vagus",
+    "<b>Cluster (Biot)</b> → หายใจเป็นกลุ่มคั่นด้วยการหยุด · ก้านสมองเสียหาย, ICP ↑ · <b>Ataxic</b> → ไม่สม่ำเสมอเลย · medulla เสียหาย",
+    "<b>Gasping</b> → หายใจเฮือกเป็นครั้งๆ หยุดนาน → ก้านสมองใกล้หยุดทำงาน"
   ]
 });
 
-/* Part 5 Thai explain: Sections A, S */
-window.THAI_EXPLAIN = window.THAI_EXPLAIN || {};
-
-/* ---------- A · Acid-Base Regulation ---------- */
+/* ---------- A · Acid-base ---------- */
 Object.assign(window.THAI_EXPLAIN, {
   "A-C1": [
-    "<b>ค่า pH ปกติในเลือดแดง</b> เลือดแดงปกติมีค่า pH อยู่ที่ 7.35–7.45 (ค่าเฉลี่ย 7.40 ซึ่งตรงกับความเข้มข้นของ [H⁺] = 40 nEq/L) โดยมีช่วง pH ที่สิ่งมีชีวิตทนได้คือ 6.80–7.80",
-    "<b>กรดระเหยได้เทียบกับกรดไม่ระเหย</b> ร่างกายสร้างกรดระเหยได้ (volatile acid คือ CO₂ จากการเผาผลาญระดับเซลล์) สูงถึง 13,000 mmol/วัน ซึ่งกำจัดออกทางปอด และสร้างกรดไม่ระเหย (fixed / non-volatile acids จากการสลายโปรตีนและฟอสโฟลิพิด เช่น sulfuric, phosphoric, uric, lactic และ ketoacids) ประมาณ 50–100 mEq/วัน ซึ่งกำจัดออกทางไต",
-    "<b>สมการของ Henderson–Hasselbalch</b> pH = 6.1 + log([HCO₃⁻] / (0.03 × PaCO₂)) ที่ค่าปกติ [HCO₃⁻] = 24 mmol/L และ PaCO₂ = 40 mmHg (คิดเป็น CO₂ ที่ละลายน้ำ 0.03 × 40 = 1.2 mmol/L) อัตราส่วนระหว่างเบสต่อกรดจะเท่ากับ 24 / 1.2 = 20 : 1 (เนื่องจาก log 20 = 1.3 จึงได้ pH = 6.1 + 1.3 = 7.40)",
-    "<b>กลไกป้องกันการเปลี่ยนแปลง pH ทั้ง 3 ด่าน</b> ด่านที่ 1 คือระบบบัฟเฟอร์ทางเคมีในเลือดและในเซลล์ (ทำงานทันทีภายในไม่กี่วินาที) ด่านที่ 2 คือการปรับการหายใจโดยปอดเพื่อควบคุม PaCO₂ (ทำงานภายในไม่กี่นาที) และด่านที่ 3 คือการขับกรดและปรับ [HCO₃⁻] โดยไต (ใช้เวลาเป็นชั่วโมงถึงหลายวันแต่ทรงพลังที่สุด)"
+    "<b>pH ปกติ</b> 7.35–7.45",
+    "<b>กรด 2 ชนิด</b>: volatile = CO<sub>2</sub> (กรดคาร์บอนิก) → มากที่สุด → ขับทางปอด · fixed (sulfuric, phosphoric, lactic, keto) → น้อย → ขับทางไต",
+    "<b>Henderson–Hasselbalch</b>: pH = 6.1 + log(HCO<sub>3</sub><sup>−</sup> / 0.03 × PaCO<sub>2</sub>) → อัตราส่วนปกติ 20 : 1 → pH 7.40",
+    "<b>ป้องกันตามความเร็ว</b>: buffer เป็นวินาที → การหายใจเป็นนาที → ไตเป็นชั่วโมงถึงวัน",
+    "<b>Buffer</b>: นอกเซลล์ = bicarbonate (หลัก เพราะปอดขับ CO<sub>2</sub> ออกได้) · ในเซลล์ = phosphate และโปรตีน เช่น Hb (histidine เยอะ) · ที่ pH 7.4 phosphate ส่วนใหญ่เป็น HPO<sub>4</sub><sup>2−</sup>"
   ],
   "A-C2": [
-    "<b>การดูดกลับไบคาร์บอเนตตามส่วนต่างๆ ของหน่วยไต</b> ในแต่ละวันมี HCO₃⁻ กรองผ่านโกลเมอรูลัสประมาณ 4,320 mEq/วัน (180 L/วัน × 24 mEq/L) โดยถูกดูดกลับที่ท่อไตส่วนต้น (proximal convoluted tubule) ถึง 85%, ที่ thick ascending limb 10% และที่ท่อไตส่วนปลาย/ท่อรวมอีก 4.9% (รวมสงวนไว้ได้มากกว่า 99.9%)",
-    "<b>กลไกการสงวน HCO₃⁻ ที่ท่อไตส่วนต้น</b> ใช้โปรตีนแลกเปลี่ยน NHE3 ขับ H⁺ ออกไปจับกับ HCO₃⁻ โดยมีเอนไซม์ CA IV ที่ brush border (และ CA II ในเซลล์) ช่วยเปลี่ยนเป็น CO₂ เข้าเซลล์แล้วส่ง HCO₃⁻ กลับเข้าเลือด กระบวนการนี้เป็นเพียงการดึง HCO₃⁻ เดิมกลับคืน ไม่ได้ขับ H⁺ สุทธิออกมากับปัสสาวะ",
-    "<b>การสร้างไบคาร์บอเนตใหม่ (new HCO₃⁻ generation)</b> เกิดขึ้นเมื่อ H⁺ ที่ท่อไตขับออกมาถูกจับไว้ด้วยบัฟเฟอร์ในปัสสาวะ 2 ระบบหลักคือ (1) Titratable acid ซึ่งส่วนใหญ่คือฟอสเฟต (HPO₄²⁻ → H₂PO₄⁻, pKa = 6.8) ขับกรดได้ 10–40 mEq/วัน โดยปัสสาวะมี pH ต่ำสุดได้ 4.4–4.5 และ (2) การขับแอมโมเนียม (NH₄⁺) จากการสลายกรดอะมิโน glutamine ที่ท่อไตส่วนต้น ซึ่งปกติขับได้ 20–50 mEq/วัน แต่เพิ่มได้สูงถึง 500 mEq/วันในภาวะกรดเรื้อรัง",
-    "<b>บทบาทของเซลล์ intercalated ในท่อรวม (collecting duct)</b> Type A (alpha) intercalated cells ทำหน้าที่ขับ H⁺ (ผ่าน H⁺-ATPase และ H⁺/K⁺-ATPase) พร้อมสร้าง HCO₃⁻ ใหม่เข้าเลือดในภาวะกรด ส่วน Type B (beta) intercalated cells ทำหน้าที่ขับ HCO₃⁻ ทิ้งทางปัสสาวะผ่านตัวแลกเปลี่ยน pendrin ที่ผิวด้านโพรงท่อในภาวะด่าง"
-  ],
-  "A-C3": [
-    "<b>การชดเชยในความผิดปกติจากการหายใจ (respiratory disorders)</b> ใน respiratory acidosis (PaCO₂ > 45 mmHg): ระยะเฉียบพลัน (acute) ค่า [HCO₃⁻] จะเพิ่มขึ้น 1 mmol/L ต่อทุกๆ 10 mmHg ของ PaCO₂ ที่เพิ่มขึ้น ส่วนระยะเรื้อรัง (chronic, >3–5 วัน) [HCO₃⁻] จะเพิ่มขึ้น 3.5 mmol/L (หรือ 3–4) ต่อทุกๆ 10 mmHg · ใน respiratory alkalosis (PaCO₂ < 35 mmHg): ระยะเฉียบพลันค่า [HCO₃⁻] จะลดลง 2 mmol/L ต่อทุกๆ 10 mmHg และระยะเรื้อรังจะลดลง 4–5 mmol/L ต่อทุกๆ 10 mmHg",
-    "<b>การชดเชยใน metabolic acidosis</b> เมื่อ [HCO₃⁻] < 22 mmol/L ปอดจะชดเชยด้วยการหายใจหอบลึก (Kussmaul breathing) ทำให้ PaCO₂ ลดลง 1.25 mmHg ต่อทุกๆ 1 mmol/L ของ [HCO₃⁻] ที่ลดลง (หรือลดลง 5 mmHg ต่อ 4 mmol/L; หรือใช้สูตรของ Winter: PaCO₂ = 1.5 × [HCO₃⁻] + 8 ± 2)",
-    "<b>การชดเชยใน metabolic alkalosis</b> เมื่อ [HCO₃⁻] > 26 mmol/L ปอดจะชดเชยด้วยการลดการหายใจทำให้ PaCO₂ เพิ่มขึ้น 0.75 mmHg ต่อทุกๆ 1 mmol/L ของ [HCO₃⁻] ที่เพิ่มขึ้น (หรือเพิ่มขึ้น 3 mmHg ต่อ 4 mmol/L)",
-    "<b>ข้อควรระวังเรื่องทิศทางการชดเชย</b> ในข้อความบรรยายของสไลด์หน้า 55, 56 และ 60 มีคำพิมพ์ผิดจากลดลงเป็นเพิ่มขึ้น ให้ยึดเครื่องหมายลบในสมการและตารางสรุปหน้า 61 เป็นหลักเสมอ คือตัวแปรชดเชยต้องขยับไปในทิศทางเดียวกับตัวแปรหลัก และไม่มีการชดเชยเกิน (no overcompensation)"
-  ],
-  "A-C4": [
-    "<b>ช่องว่างประจุลบในพลาสมา (Plasma Anion Gap, AG)</b> คำนวณจากสูตร AG = [Na⁺] − ([Cl⁻] + [HCO₃⁻]) ค่าปกติในเอกสารประกอบการสอนคือ 12 ± 4 mEq/L (ช่วง 8–16 mEq/L) ซึ่งส่วนใหญ่เกิดจากประจุลบของโปรตีน albumin ในเลือด",
-    "<b>High anion gap metabolic acidosis (HAGMA)</b> มีระดับคลอไรด์ปกติ เกิดจากการสะสมกรดที่มีประจุลบที่ไม่ได้วัด (A⁻) เข้ามาแทนที่ HCO₃⁻ จำด้วยตัวย่อ KUSMALE ได้แก่ Ketoacidosis (เบาหวาน อดอาหาร แอลกอฮอล์), Uremia (ไตวาย), Salicylate, Methanol, Aldehyde/alcohol, Lactic acidosis และ Ethylene glycol",
-    "<b>Normal anion gap metabolic acidosis (NAGMA)</b> มีระดับคลอไรด์สูงขึ้น (hyperchloremic) เกิดจากการสูญเสีย HCO₃⁻ โดยตรงแล้วร่างกายดึง Cl⁻ กลับมาแทนที่แบบ 1 ต่อ 1 พบในภาวะท้องเสียรุนแรง (diarrhea), โรคท่อไตเป็นกรด (RTA) หรือการใช้ยา acetazolamide",
-    "<b>ช่องว่างประจุลบในปัสสาวะ (Urine Anion Gap, UAG)</b> คำนวณจาก UAG = ([Na⁺]u + [K⁺]u) − [Cl⁻]u ใช้แยกสาเหตุของ NAGMA: หากค่า UAG ติดลบ (< −20 mEq/L) แสดงว่ามี Cl⁻ ในปัสสาวะสูงเพราะถูกขับออกคู่กับ NH₄⁺ จำนวนมาก บ่งชี้ว่าเสีย HCO₃⁻ ทางลำไส้ (ท้องเสีย) แต่หากค่า UAG เป็นบวก (> +20 mEq/L) แสดงว่าไตขับ NH₄⁺ ไม่ได้ตามปกติ บ่งชี้ภาวะ RTA"
-  ],
-  "A-C5": [
-    "<b>ขั้นที่ 1 ถึง 3 ของอัลกอริทึมการอ่านผล ABG</b> ขั้นที่ 1 ตรวจสอบความสอดคล้องภายใน ([H⁺] ≈ 24 × PaCO₂ / [HCO₃⁻]) · ขั้นที่ 2 ดู pH ว่าเป็น acidemia (< 7.35) หรือ alkalemia (> 7.45) · ขั้นที่ 3 หาความผิดปกติหลัก (ถ้า PaCO₂ สวนทางกับ pH เป็น respiratory; ถ้า [HCO₃⁻] ไปทางเดียวกับ pH เป็น metabolic)",
-    "<b>ขั้นที่ 4 ถึง 6 ของอัลกอริทึม</b> ขั้นที่ 4 คำนวณค่าชดเชยที่คาดหวัง หากค่าจริงอยู่นอกช่วงแสดงว่ามีความผิดปกติร่วม (mixed disorder) · ขั้นที่ 5 คำนวณ Anion Gap ทุกครั้ง · ขั้นที่ 6 หากมี HAGMA ให้เทียบส่วนต่าง ΔAG = (AG − 12) กับ Δ[HCO₃⁻] = (24 − [HCO₃⁻]) เพื่อหา metabolic alkalosis หรือ NAGMA ที่ซ่อนอยู่",
-    "<b>กรณีศึกษาเคส 1 ถึง 3 ในสไลด์</b> เคส 1 (อาเจียน 1 สัปดาห์): pH 7.50, PaCO₂ 48, HCO₃⁻ 37, AG 12 = metabolic alkalosis ที่ปอดชดเชยเหมาะสม · เคส 2 (ปอดอักเสบและติดเชื้อในกระแสเลือด): pH 7.12, PaCO₂ 40, HCO₃⁻ 12, AG 25 = HAGMA ร่วมกับ respiratory acidosis · เคส 3 (โรคไตเรื้อรังและอาเจียน 4 วัน): pH 7.40, PaCO₂ 40, HCO₃⁻ 24 แต่ AG สูงถึง 21 = mixed HAGMA ร่วมกับ metabolic alkalosis",
-    "<b>กรณีศึกษาเคส 4 และ 5 ในสไลด์</b> เคส 4 (หลอดลมอักเสบเฉียบพลันในผู้ป่วย COPD): pH 7.26, PaCO₂ 70, HCO₃⁻ 31, AG 11 = acute-on-chronic respiratory acidosis (เพราะ HCO₃⁻ 31 อยู่ระหว่างค่าเฉียบพลัน 27 กับเรื้อรัง 34.5) · เคส 5 (ท้องเสีย 5 วัน): pH 7.25, PaCO₂ 28, HCO₃⁻ 12, Cl⁻ 116, AG 12 = hyperchloremic (normal AG) metabolic acidosis ที่ปอดชดเชยเหมาะสม"
+    "<b>งานที่ 1: เก็บ HCO<sub>3</sub><sup>−</sup> ที่กรองกลับ</b> → ส่วนใหญ่ที่ proximal tubule ผ่าน NHE3 + carbonic anhydrase → ไม่มีกรดออกจากร่างกายสุทธิ",
+    "<b>งานที่ 2: สร้าง HCO<sub>3</sub><sup>−</sup> ใหม่</b> → ขับ H<sup>+</sup> 1 ตัว ได้ HCO<sub>3</sub><sup>−</sup> ใหม่ 1 ตัว",
+    "<b>H<sup>+</sup> ออกไปกับ</b> titratable acid (phosphate) หรือ NH<sub>4</sub><sup>+</sup> → NH<sub>4</sub><sup>+</sup> มาจาก glutamine → acidosis เรื้อรังเพิ่มได้มาก",
+    "<b>Collecting duct</b>: type A → หลั่ง H<sup>+</sup> (acidosis) · type B → หลั่ง HCO<sub>3</sub><sup>−</sup> ผ่าน pendrin (alkalosis) · sulfate ไม่ใช่ buffer ในปัสสาวะ"
   ]
 });
 
-/* ---------- S · Respiratory System Under Stress ---------- */
+/* ---------- S · RS under stress ---------- */
 Object.assign(window.THAI_EXPLAIN, {
   "S-C1": [
-    "<b>ระบบพลังงาน 3 ระบบของกล้ามเนื้อขณะออกกำลังกาย</b> (1) ระบบ phosphagen (ATP และ phosphocreatine) ให้พลังงานสูงสุดทันทีสำหรับงานช่วงสั้น 8–10 วินาที เช่น วิ่ง 100 เมตร (2) ระบบ glycogen–lactic acid รองรับการออกแรงหนักต่อเนื่อง 1.3–1.6 นาที และ (3) ระบบ oxidative รองรับการออกกำลังกายแบบทนทานได้นานตราบเท่าที่มีสารอาหาร",
-    "<b>แก๊สในเลือดแดงในการออกกำลังกายระดับปานกลาง</b> ใน moderate steady-state exercise การระบายอากาศถุงลมเพิ่มขึ้นเป็นเส้นตรงตามการใช้ออกซิเจนและการสร้าง CO₂ ทำให้ค่า PaO₂, PaCO₂ และ pH ในเลือดแดงคงที่เหมือนขณะพัก (ขณะที่เลือดดำมี PO₂ ลดลงและกราฟ ODC เลื่อนขวาเพื่อส่งออกซิเจนให้กล้ามเนื้อ)",
-    "<b>การเปลี่ยนแปลงเมื่อเกินจุดเปลี่ยนผ่านแอนแอโรบิก (anaerobic threshold)</b> เมื่อออกแรงหนักเกิน ~60% ของงานสูงสุด กรดแลกติกจะถูกบัฟเฟอร์ด้วย HCO₃⁻ เกิด CO₂ ส่วนเกินและ H⁺ ไปกระตุ้น carotid bodies ทำให้หายใจเพิ่มขึ้นอย่างชันจนค่า PaCO₂ ลดลงต่ำกว่าปกติ",
-    "<b>การปรับตัวของระบบไหลเวียนเลือดและการฝึกความทนทาน</b> ปริมาตรเลือดออกจากหัวใจที่เพิ่มขึ้นจะเปิดหลอดเลือดฝอยส่วนยอดปอด (capillary recruitment) ทำให้สัดส่วน V/Q สม่ำเสมอขึ้นและเพิ่มความสามารถในการแพร่ของแก๊สราว 3 เท่า ทั้งนี้การฝึกความทนทานเพิ่มค่า VO₂max โดยการเพิ่ม stroke volume และ cardiac output สูงสุดเป็นหลัก"
+    "<b>พลังงานกล้ามเนื้อ เร็ว → นาน</b>: phosphagen (วินาที) → glycogen–lactic acid (~1 นาที) → oxidative (นานตราบที่มีเชื้อเพลิง)",
+    "<b>วินาทีแรก</b> ventilation พุ่ง → สัญญาณประสาทจาก motor cortex + proprioceptors ของแขนขาที่ขยับ (ก่อนก๊าซในเลือดเปลี่ยน)",
+    "<b>ปานกลาง</b>: ventilation ตาม CO<sub>2</sub> พอดี → ก๊าซในเลือดและ pH ปกติ",
+    "<b>เกิน anaerobic threshold</b>: lactic acid → HCO<sub>3</sub><sup>−</sup> buffer → CO<sub>2</sub> เพิ่ม + H<sup>+</sup> กระตุ้น carotid body → หายใจเกิน → PaCO<sub>2</sub> ลด",
+    "<b>Ventilation เพิ่มมากที่สุด</b> (~15 เท่า vs cardiac output ~5 เท่า) · ฝึกซ้อม → VO<sub>2</sub>max เพิ่มผ่าน stroke volume ไม่ใช่ขนาดปอด"
   ],
   "S-C2": [
-    "<b>ภาวะพร่องออกซิเจนจากความดันบรรยากาศต่ำ (hypobaric hypoxia)</b> บนที่สูง สัดส่วนของออกซิเจนในอากาศยังคงเป็น 21% เท่าเดิม แต่ความดันบรรยากาศ (barometric pressure) ลดต่ำลง (เช่น บนยอดเขาเอเวอเรสต์เหลือเพียง ~253 mmHg) ทำให้ความดันย่อยของออกซิเจนในอากาศที่สูดเข้าและในถุงลมลดลงอย่างมาก",
-    "<b>การตอบสนองเฉียบพลันต่อที่สูง</b> เมื่อ PaO₂ ลดต่ำกว่า 60 mmHg จะกระตุ้น peripheral chemoreceptors (carotid bodies) ให้หายใจเร็วขึ้น ขับ CO₂ ออกจนเกิดภาวะ respiratory alkalosis ซึ่งในวันแรกๆ จะไปยับยั้ง central chemoreceptors ไม่ให้หายใจเพิ่มขึ้นได้เต็มที่",
-    "<b>การปรับตัวระยะยาว (acclimatization)</b> เมื่อเวลาผ่านไปหลายวัน ไตจะขับ HCO₃⁻ ออกทางปัสสาวะ (เร่งได้ด้วยยา acetazolamide ซึ่งยับยั้ง carbonic anhydrase) ทำให้ pH เลือดและน้ำไขสันหลังกลับสู่ปกติและปลดเบรกการหายใจ นอกจากนี้เม็ดเลือดแดงจะเพิ่ม 2,3-BPG และปัจจัย HIF จะกระตุ้น erythropoietin (polycythemia) และ VEGF",
-    "<b>โรคจากการขึ้นที่สูง (altitude illnesses)</b> การหดตัวของหลอดเลือดปอดจากภาวะพร่องออกซิเจนแบบไม่สม่ำเสมอทำให้หลอดเลือดฝอยในบริเวณที่หดตัวน้อยถูกความดันสูงดันจนรั่วเกิดภาวะปอดบวมน้ำจากที่สูง (HAPE รักษาด้วยการลงที่ต่ำ ออกซิเจน และยา nifedipine) ส่วนอาการทางสมองได้แก่ AMS และสมองบวมจากที่สูง (HACE รักษาด้วยการลงที่ต่ำ ออกซิเจน และยา dexamethasone)"
+    "<b>ที่สูง</b>: O<sub>2</sub> ยัง 21% แต่ความดันบรรยากาศลด → P<sub>IO2</sub>, P<sub>AO2</sub> ลด",
+    "<b>ชั่วโมงแรก</b>: P<sub>aO2</sub> ต่ำ → peripheral chemoreceptors → หายใจเกิน → PaCO<sub>2</sub> ↓ → respiratory alkalosis",
+    "<b>หลายวัน</b>: ไตขับ HCO<sub>3</sub><sup>−</sup> (acetazolamide ช่วยให้เร็ว) → pH กลับใกล้ปกติ → แรงขับหายใจกลับมา",
+    "<b>หลายสัปดาห์</b>: 2,3-BPG ↑ → กราฟเลื่อนขวา · HIF → EPO ↑ → เม็ดเลือดแดงเพิ่ม",
+    "<b>Hypoxic vasoconstriction ทั้งปอด</b> → ความดันในปอดสูง → HAPE (ลงจากที่สูง, O<sub>2</sub>, nifedipine) · AMS, HACE (ลงจากที่สูง, O<sub>2</sub>, dexamethasone)"
   ],
   "S-C3": [
-    "<b>ความดันใต้น้ำและกฎของ Boyle (barotrauma)</b> ทุกๆ ความลึกน้ำทะเลที่เพิ่มขึ้น 10 เมตร (33 ฟุต) ความดันบรรยากาศจะเพิ่มขึ้น 1 ATM (เช่น ที่ 20 เมตร = 3 ATM, ที่ 30 เมตร = 4 ATM) ตามกฎของ Boyle (P₁V₁ = P₂V₂) หากนักดำน้ำสูดอากาศอัดจากถัง SCUBA ที่ความลึกแล้วกลั้นหายใจขณะลอยตัวขึ้นสู่ผิวน้ำ อากาศในถุงลมจะขยายตัวออกจนฉีกถุงลมขาด เกิดภาวะปอดรั่ว (pneumothorax) และฟองอากาศอุดตันในหลอดเลือดแดง (arterial gas embolism)",
-    "<b>กฎของ Henry และการละลายของแก๊สที่ความลึก</b> ตามกฎของ Henry ปริมาณแก๊สที่ละลายในเลือดและเนื้อเยื่อไขมันจะเพิ่มขึ้นตามความดันย่อยที่ความลึก ทำให้เกิดการสะสมของไนโตรเจนและออกซิเจนในเนื้อเยื่อ",
-    "<b>พิษจากไนโตรเจนและออกซิเจนความดันสูง</b> ที่ความลึกเกิน 30 เมตร (4 ATM) ไนโตรเจนที่ละลายในเยื่อหุ้มเซลล์ประสาทจะทำให้เกิดภาวะเมาไนโตรเจน (nitrogen narcosis หรือ rapture of the deep) ส่วนออกซิเจนที่มีความดันย่อยสูงเกิน 2 ATM จะสร้างอนุมูลอิสระทำลายเนื้อปอดและทำให้ชักได้ (acute O₂ toxicity)",
-    "<b>โรคลดความดัน (decompression sickness, DCS หรือ the bends)</b> หากนักดำน้ำขึ้นสู่ผิวน้ำเร็วเกินไป ไนโตรเจนที่ละลายอิ่มตัวจะกลายสภาพเป็นฟองแก๊สอุดตันตามข้อ ไขสันหลัง สมอง และหลอดเลือดปอด ป้องกันได้ด้วยการค่อยๆ ลอยตัวขึ้นหรือใช้ก๊าซผสมฮีเลียม–ออกซิเจน (Heliox) และรักษาในห้องปรับบรรยากาศความดันสูง (hyperbaric chamber)"
+    "<b>ทุก 10 m ใต้น้ำ</b> → ความดันเพิ่ม 1 atm → 50 m = 6 atm → P<sub>IO2</sub> = 0.21 × ความดันรวม",
+    "<b>Boyle</b>: ขึ้นโดยไม่หายใจออก → ลมในปอดขยาย → ถุงลมแตก → pneumothorax, arterial gas embolism",
+    "<b>Henry</b>: ลึก → ความดันสูง → N<sub>2</sub> และ O<sub>2</sub> ละลายมากขึ้น → N<sub>2</sub> → nitrogen narcosis · O<sub>2</sub> → oxygen toxicity (ชัก)",
+    "<b>Decompression sickness</b>: ขึ้นเร็วเกิน → N<sub>2</sub> ที่ละลายกลายเป็นฟองอากาศ → ปวดข้อ ระบบประสาทเสียหาย → รักษาใน hyperbaric chamber"
   ],
   "S-C4": [
-    "<b>การเปลี่ยนแปลงของการหายใจในระยะหลับธรรมดา (NREM sleep)</b> เมื่อเปลี่ยนจากภาวะตื่นเข้าสู่ NREM sleep แรงกระตุ้นการหายใจจากสมองส่วนหน้า (wakefulness drive) จะหายไป ทำให้ปริมาตรการหายใจต่อนาทีลดลง 10–15% จังหวะการหายใจช้าและสม่ำเสมอ ค่า PaCO₂ เพิ่มขึ้น 3–5 mmHg และความต้านทานของทางเดินหายใจส่วนบนเพิ่มขึ้นเนื่องจากกล้ามเนื้อขยายคอหอย (เช่น genioglossus) คลายตัวลง",
-    "<b>การเปลี่ยนแปลงในระยะหลับฝัน (REM sleep)</b> จังหวะการหายใจจะไม่สม่ำเสมอ (irregular) มีช่วงหยุดหายใจสั้นๆ และความไวของศูนย์ควบคุมการหายใจต่อทั้งภาวะ CO₂ สูงและ O₂ ต่ำลดน้อยลงมาก",
-    "<b>ภาวะไร้ความตึงตัวของกล้ามเนื้อในระยะ REM</b> สมองสั่งยับยั้งกล้ามเนื้อลายทั่วร่างกายให้เกิดภาวะไร้ความตึงตัว (atonia) ซึ่งกดการทำงานของทั้งกล้ามเนื้อซี่โครง (intercostals) และกล้ามเนื้อขยายคอหอย โดยยกเว้นเฉพาะกะบังลม (diaphragm) เท่านั้น การหายใจในระยะ REM จึงต้องพึ่งพากะบังลมเกือบทั้งหมดและเกิดการยุบตัวของคอหอยได้รุนแรงที่สุด",
-    "<b>ภาวะหยุดหายใจขณะหลับ (OSA เทียบกับ CSA)</b> Obstructive sleep apnea (OSA) เกิดจากการยุบตัวอุดกั้นซ้ำๆ ของคอหอยขณะหลับโดยที่กะบังลมและทรวงอกยังพยายามออกแรงดึงอากาศเข้า (รักษาด้วย CPAP) ส่วน central sleep apnea (CSA) เกิดจากศูนย์ควบคุมการหายใจที่ก้านสมองหยุดส่งสัญญาณชั่วคราว จึงไม่มีทั้งการไหลของอากาศและไม่มีการขยับของทรวงอก"
+    "<b>NREM</b>: แรงขับจากการตื่นหายไป → ventilation ลด → PaCO<sub>2</sub> ขึ้นเล็กน้อย · หายใจช้าสม่ำเสมอ · กล้ามเนื้อขยายคอหอยหย่อน → ทางลมตีบ",
+    "<b>REM</b>: หายใจไม่สม่ำเสมอ มีหยุดสั้นๆ · ตอบสนอง CO<sub>2</sub> และ O<sub>2</sub> ลด · กล้ามเนื้อหย่อนหมดยกเว้น diaphragm",
+    "<b>นอนราบ + กล้ามเนื้อหย่อน</b> → FRC ลด",
+    "<b>OSA</b>: คอหอยยุบแต่ยังพยายามหายใจ → กรน ง่วงกลางวัน → CPAP · <b>central apnea</b>: ก้านสมองหยุดสั่ง → ไม่มีลมและไม่มีความพยายาม"
   ],
   "S-C5": [
-    "<b>การแลกเปลี่ยนแก๊สของทารกในครรภ์ผ่านรก</b> ในครรภ์การแลกเปลี่ยนแก๊สเกิดขึ้นที่รก เลือดในหลอดเลือดดำสายสะดือ (umbilical vein) มีค่า PO₂ ต่ำเพียง ~30 mmHg (ความอิ่มตัว ~80%) แต่ทารกยังได้รับออกซิเจนเพียงพอเพราะมีความเข้มข้นของฮีโมโกลบินสูง มีฮีโมโกลบินชนิดทารก (HbF, α₂γ₂) ที่จับกับ 2,3-BPG ได้น้อยทำให้กราฟ ODC เลื่อนไปทางซ้าย (P₅₀ ≈ 19 mmHg) และมีปรากฏการณ์ double Bohr effect",
-    "<b>ระบบไหลเวียนเลือดทารกในครรภ์และทางลัด (fetal shunts)</b> ถุงลมของทารกในครรภ์เต็มไปด้วยของเหลวและมีความดันออกซิเจนต่ำ จึงเกิด hypoxic pulmonary vasoconstriction อย่างรุนแรงทำให้ความต้านทานหลอดเลือดปอด (PVR) สูงมาก เลือดที่ออกจากหัวใจห้องล่างขวาราว 90% จึงลัดข้ามปอดผ่าน foramen ovale (RA → LA) และ ductus arteriosus (PA → aorta) ร่วมกับ ductus venosus ที่ตับ",
-    "<b>การลดลงของ PVR เมื่อสูดลมหายใจแรกหลังคลอด</b> เมื่อทารกสูดลมหายใจแรก (สร้างความดันในโพรงเยื่อหุ้มปอดติดลบถึง −40 ถึง −60 cmH₂O โดยมี surfactant ช่วยคงสภาพถุงลม) ออกซิเจนและการขยายตัวของปอดจะทำให้ PVR ลดต่ำลงอย่างฮวบฮาบ เลือดไหลเข้าปอดและกลับสู่ left atrium เพิ่มขึ้น 8–10 เท่า",
-    "<b>การปิดของทางลัดหัวใจหลังคลอด</b> การหนีบสายสะดือจะตัดวงจรรกที่มีความต้านทานต่ำออกไป ทำให้ความต้านทานหลอดเลือดทั่วร่างกาย (SVR) และความดันใน left atrium สูงกว่า right atrium จนดันแผ่นลิ้นของ foramen ovale ให้ปิดลง ส่วนค่า PaO₂ ที่สูงขึ้นและระดับ prostaglandin E₂ ที่ลดลงจะกระตุ้นให้ ductus arteriosus หดตัวปิดตามมา"
+    "<b>ทารกในครรภ์</b>: แลกก๊าซที่รก → P<sub>O2</sub> ต่ำแต่ O<sub>2</sub> พอเพราะ HbF (กราฟเลื่อนซ้าย) + Hb สูง + double Bohr effect",
+    "<b>ปอดมีน้ำและขาด O<sub>2</sub></b> → PVR สูงมาก → เลือดเลี่ยงปอดผ่าน foramen ovale (RA → LA) และ ductus arteriosus (PA → aorta)",
+    "<b>หายใจครั้งแรก</b> + surfactant → ปอดขยาย O<sub>2</sub> เข้า → PVR ลด → เลือดไปปอดเพิ่ม → เลือดกลับ LA มากขึ้น",
+    "<b>ตัดสายสะดือ</b> → SVR ↑ → ความดัน LA &gt; RA → foramen ovale ปิดทันที",
+    "<b>PaO<sub>2</sub> ↑ + prostaglandin E2 ↓</b> → ductus arteriosus ปิด (ชั่วโมงถึงวัน)"
+  ]
+});
+
+/* P-C4, A-C3, A-C4, A-C5: the cards that carry the interactive PFT and acid-base flowcharts. */
+Object.assign(window.THAI_EXPLAIN, {
+  "P-C4": [
+    "<b>ขั้น 1 ลมออกช้าไหม</b>: ทางเดินหายใจแคบ → FEV₁ ลดมากกว่า FVC → ratio &lt; 70 = obstruction · ใช้ ratio จริง ไม่ใช่ช่อง %Pred",
+    "<b>ขั้น 2 ปอดเล็กไหม</b>: FVC &lt; 80% → restriction → ยืนยันด้วย TLC (spirometry วัด TLC ไม่ได้)",
+    "<b>มี obstruction แล้ว FVC ต่ำ</b>: air trapping ทำให้ FVC ดูต่ำ → corrected %FVC = %FVC + (70 − ratio) → ยัง &lt; 80 = mixed",
+    "<b>ขั้น 3 รุนแรงแค่ไหน</b>: obstruction ใช้ FEV₁ %pred · restriction ใช้ FVC %pred → ≥ 70 mild · 50–69 moderate · 35–49 severe · &lt; 35 very severe",
+    "<b>ขั้น 4–5</b>: FEV₁ หลังพ่นยาเพิ่ม ≥ 12% และ ≥ 200 mL = ตอบสนอง (นึกถึง asthma) · ratio และ FVC ปกติแต่ FEF₂₅–₇₅ &lt; 65% = small airway disease"
+  ],
+  "A-C3": [
+    "<b>หลักการ</b>: pH ขึ้นกับ HCO₃⁻ ÷ PCO₂ → ตัวหนึ่งเปลี่ยน → อีกตัวขยับทางเดียวกันเพื่อดึง ratio กลับ → ไม่ชดเชยเกิน",
+    "<b>Respiratory acidosis</b>: หายใจน้อย → PCO₂ ↑ → ไตเก็บ HCO₃⁻ → ทุก 10 mmHg: HCO₃⁻ ↑ 1 (acute) · ↑ 3.3–4 (chronic)",
+    "<b>Respiratory alkalosis</b>: หายใจเร็ว → PCO₂ ↓ → ไตขับ HCO₃⁻ → ทุก 10 mmHg: HCO₃⁻ ↓ 2 (acute) · ↓ 4–5 (chronic)",
+    "<b>Metabolic</b>: acidosis → หายใจหอบลึก (Kussmaul) → PCO₂ ↓ ตาม Winter (1.5 × HCO₃⁻ + 8 ± 2) · alkalosis → หายใจช้าลง → PCO₂ ↑ ราว 6 ต่อ HCO₃⁻ 10",
+    "<b>ค่าจริงไม่ตรงกับที่คาด</b> → มีความผิดปกติที่สอง · สไลด์หน้า 55, 56, 60 พิมพ์ increase แทน decrease → ยึดสูตรและตารางหน้า 61"
+  ],
+  "A-C4": [
+    "<b>Anion gap</b>: ประจุบวก = ประจุลบเสมอ → AG = Na⁺ − (Cl⁻ + HCO₃⁻) = ประจุลบที่ไม่ได้วัด → ปกติ ≈ 12",
+    "<b>HAGMA</b>: กรดที่มี anion ของตัวเอง (lactate, ketoacid) → anion แทนที่ HCO₃⁻ → AG ↑ → จำ MUDPILES",
+    "<b>NAGMA</b>: เสีย HCO₃⁻ (ท้องเสีย, RTA type 1) หรือได้ Cl⁻ (NH₄Cl, saline) → Cl⁻ แทนที่ → AG ปกติ (hyperchloremic)",
+    "<b>Albumin</b>: ประจุลบหลักที่ไม่ได้วัด → albumin ↓ 1 g/dL → AG ↓ 2.5 → ต้อง correct ไม่งั้น HAGMA ซ่อน",
+    "<b>Delta ratio</b> = (AG − 12) ÷ (24 − HCO₃⁻) → &lt; 0.4 NAGMA · 0.4–0.8 ทั้งสองแบบ · 1–2 HAGMA ล้วน · &gt; 2 มี metabolic alkalosis ซ่อน"
+  ],
+  "A-C5": [
+    "<b>ขั้น 1 pH</b>: &lt; 7.35 acidemia · &gt; 7.45 alkalemia · อยู่ในช่วงปกติแต่ค่าอื่นผิด → ดูว่าอยู่ฝั่งไหนของ 7.40",
+    "<b>ขั้น 2 ค่าไหนอธิบาย pH</b>: PCO₂ พาไปทางนั้น = respiratory · HCO₃⁻ พาไปทางนั้น = metabolic · ทั้งคู่ = mixed",
+    "<b>ขั้น 3 ชดเชยพอดีไหม</b>: เทียบค่าจริงกับสูตร (A-C3) → ต่างจากที่คาด = มีโรคที่สอง",
+    "<b>ขั้น 4 ถ้ามี metabolic acidosis</b>: คำนวณ AG (correct ด้วย albumin) → delta ratio → แยก HAGMA, NAGMA หรือมี alkalosis ซ่อน",
+    "<b>Ex 10 ใน handout</b>: Winter บอก respiratory acidosis ร่วม · AG ที่ correct แล้ว 25 → delta ratio 2.2 → metabolic alkalosis ร่วม → 3 ภาวะพร้อมกัน"
   ]
 });

@@ -3,14 +3,15 @@ CVS.add({ id: 'E', short: 'Gas exchange', title: 'Alveolar Ventilation, Diffusio
   blurb: 'Dalton and Henry laws, the partial pressure cascade and alveolar gas equation, Fick diffusion and DLCO, O2 content, perfusion vs diffusion limitation, regional V/Q differences, dead space, shunt, A-a gradient, and exercise ventilation.',
   items: [
   { t: 'c', id: 'E-C1', title: 'Partial pressure cascade, alveolar gas equation & alveolar ventilation', src: 'Gas exchange p.7–12, 15',
-    html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Dalton’s law</b> (P<sub>gas</sub> = P<sub>total</sub> &times; F<sub>gas</sub>): dry inspired air at sea level has P<sub>O2</sub> = 760 &times; 0.21 = {{160 mmHg}}.</li>' +
-      '<li><b>Humidified tracheal air</b>: water vapor dilutes inspired air (P<sub>H2O</sub> = {{47 mmHg}} at 37&deg;C), so P<sub>IO2</sub> = (760 &minus; 47) &times; 0.21 = {{150 mmHg}}.</li>' +
-      '<li><b>Alveolar gas equation</b>: P<sub>AO2</sub> = P<sub>IO2</sub> &minus; ({{PACO2 / R}}) + F. With normal respiratory quotient R = 0.8 and P<sub>ACO2</sub> = 40 mmHg, P<sub>AO2</sub> = 150 &minus; (40 / 0.8) = <b>100 mmHg</b> (103 mmHg on the shunt diagram). Macronutrient RQ: carbohydrates {{1.0}}, proteins ~0.8, fats {{0.7}}.</li>' +
-      '<li><b>Physiologic shunt</b>: normal arterial P<sub>aO2</sub> is <b>97 mmHg</b> (slightly below P<sub>AO2</sub>) because <b>2%</b> of cardiac output bypasses alveolar capillaries via the {{bronchial}} artery and coronary {{thebesian}} veins.</li>' +
-      '<li><b>Henry’s law</b>: dissolved [O<sub>2</sub>] = P<sub>O2</sub> &times; {{0.003}} mL O<sub>2</sub>/100 mL blood/mmHg (= 0.3 mL/dL at P<sub>aO2</sub> 100 mmHg; only free dissolved molecules generate partial pressure).</li>' +
-      '<li><b>Alveolar ventilation</b>: V&#775;<sub>A</sub> = {{(TV &minus; DS) &times; RR}} (whereas minute ventilation = TV &times; RR).</li></ul></div>' +
-      CVS.fig('exch-shunt-phys', 'Oxygen cascade from dry air to arterial blood, showing the 2% anatomic/physiologic shunt.', 'exch', 8) + '</div>' },
+    html: '<div class="two"><div class="stack"><p><b>O<sub>2</sub> cascade (mmHg)</b>: dry air {{160}} → humidified airway 150 → alveolus {{100}} → artery {{97}}.</p>' +
+      '<ul class="pts"><li>Air → airway: water vapour ({{47}}) dilutes the air.</li>' +
+      '<li>Airway → alveolus: CO<sub>2</sub> comes in and takes up room (P<sub>ACO2</sub>/R).</li>' +
+      '<li>Alveolus → artery: about 2% of blood bypasses the alveoli ({{bronchial}} veins, Thebesian veins) → small normal shunt.</li>' +
+      '<li><b>R</b> depends on food: carbohydrate {{1.0}}, fat 0.7.</li>' +
+      '<li><b>Alveolar ventilation</b> = {{(TV − dead space) × RR}}; minute ventilation = TV × RR.</li>' +
+      '<li><b>Hyperventilate</b> (CO<sub>2</sub> production unchanged) → CO<sub>2</sub> washed out → P<sub>ACO2</sub> and end-tidal CO<sub>2</sub> {{fall}}; P<sub>AO2</sub> rises.</li></ul></div>' +
+      CVS.fig('exch-shunt-phys', 'Oxygen cascade from dry air to arterial blood, showing the 2% anatomic/physiologic shunt.', 'exch', 8) + '</div>' +
+      '<p class="note">Worked (AC79): dead space 150 mL, RR 10, cardiac output 5 L/min → needs a tidal volume of about 550 mL.</p>' },
   { t: 'q', id: 'E1', src: 'AC81', core: true, keep: true,
     q: 'A 75-kg man has a dead space of 150 mL. What tidal volume (TV) and respiratory rate (RR) are required to maintain normal alveolar ventilation if his cardiac output is 5 L/min?',
     o: ['TV 250, RR 10', 'TV 450, RR 10', 'TV 350, RR 10', 'TV 550, RR 10', 'TV 750, RR 10'], a: 3,
@@ -21,13 +22,14 @@ CVS.add({ id: 'E', short: 'Gas exchange', title: 'Alveolar Ventilation, Diffusio
     ex: 'More alveolar ventilation with the same CO₂ production washes CO₂ out, so PACO₂ and end-tidal CO₂ fall, while PAO₂, work of breathing and V/Q go up.',
     flag: 'PS81 edit keys ETCO₂; an older AC79 key gave PAO₂, which actually rises when you hyperventilate.' },
   { t: 'c', id: 'E-C2', title: 'Fick’s law of diffusion, Graham’s law & DLCO', src: 'Gas exchange p.18–24, 41',
-    html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Blood–gas barrier</b> (alveolar epithelium, fused basement membrane, capillary endothelium): thickness T is as thin as {{0.3 &mu;m}} across a surface area A of {{50–100 m&sup2;}}.</li>' +
-      '<li><b>Fick’s &amp; Graham’s laws</b>: V&#775;<sub>gas</sub> = [D &times; A &times; (P<sub>1</sub> &minus; P<sub>2</sub>)] / T = D<sub>L</sub> &times; (P<sub>1</sub> &minus; P<sub>2</sub>), where D<sub>L</sub> = (D &times; A) / T and diffusion coefficient D &prop; {{Solubility / &radic;MW}}.</li>' +
-      '<li><b>CO<sub>2</sub> vs O<sub>2</sub></b>: CO<sub>2</sub> solubility in water is {{24.2 times}} higher than O<sub>2</sub> (0.592 vs 0.0244) while &radic;(44/32) is only 1.17&times; heavier, so CO<sub>2</sub> diffuses {{20 times}} faster than O<sub>2</sub> (relative D: O<sub>2</sub> = 1, CO<sub>2</sub> = 20, CO = 0.81, N<sub>2</sub> = 0.53, He = 0.25).</li>' +
-      '<li><b>D<sub>LCO</sub> (T<sub>LCO</sub>)</b>: normal value is about {{25 mL/min/mmHg}} (normal range 80–120% predicted in men, 76–120% in women).</li>' +
-      '<li><b>Low D<sub>LCO</sub> (&lt;80%)</b>: &downarrow; area ({{emphysema}}, lung resection), &uparrow; thickness (fibrosis), or false-low from &downarrow; gradient (smoking), &downarrow; perfusion ({{Valsalva maneuver}}, pulmonary embolism, pulmonary hypertension, extrapulmonary R-to-L shunt), or &downarrow; Hb (anemia).</li>' +
-      '<li><b>High D<sub>LCO</sub> (&gt;120%)</b>: &uparrow; perfusion ({{M&uuml;ller’s maneuver}} [inhaling against a closed glottis], pulmonary hemorrhage, early congestion, L-to-R shunt, exercise, fever) or &uparrow; Hb ({{polycythemia}}).</li></ul></div>' +
+    html: '<div class="two"><div class="stack"><p class="eqn"><span>V̇<sub>gas</sub> ∝ A × D × (P<sub>1</sub> − P<sub>2</sub>) / T</span></p>' +
+      '<ul class="pts"><li>More {{area}}, bigger gradient, better solubility → faster.</li>' +
+      '<li>{{Thicker}} barrier (fibrosis, edema) → slower.</li>' +
+      '<li><b>D</b> ∝ solubility / √MW.</li>' +
+      '<li><b>CO<sub>2</sub> vs O<sub>2</sub></b>: CO<sub>2</sub> is heavier (slightly slower) but about 24× more {{soluble}} → net ≈ {{20×}} faster.</li>' +
+      '<li><b>D<sub>LCO</sub></b> measures how well gas crosses the barrier into blood.<ul>' +
+      '<li>{{Low}}: less surface ({{emphysema}}), thick wall (fibrosis), less blood (embolism), anemia.</li>' +
+      '<li>{{High}}: more blood in the capillaries → exercise, {{fever}}, polycythemia, pulmonary hemorrhage, L-to-R shunt.</li></ul></li></ul></div>' +
       CVS.fig('exch-fick', 'Fick’s law of diffusion, diffusion coefficient (D), and lung diffusing capacity (DL).', 'exch', 24) + '</div>' },
   { t: 'q', id: 'E3', src: 'AC80', core: true, keep: true,
     q: 'Which of the following will <i>decrease</i> the diffusion of gases from the alveoli to the pulmonary capillaries?',
@@ -44,26 +46,31 @@ CVS.add({ id: 'E', short: 'Gas exchange', title: 'Alveolar Ventilation, Diffusio
     o: ['Fever', 'Pulmonary embolism', 'Emphysema', 'Pulmonary fibrosis', 'Severe anemia'], a: 0,
     ex: 'The lecture lists fever with exercise, polycythemia, pulmonary hemorrhage and left-to-right shunt as causes of a high DLCO (more capillary blood). Embolism, emphysema, fibrosis and anemia lower it.' },
   { t: 'c', id: 'E-C3', title: 'O2 content, capillary transit time & perfusion vs diffusion limitation', src: 'Gas exchange p.26–32, 36–40',
-    html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Total O<sub>2</sub> content</b> = (Hb &times; {{1.34}} &times; S<sub>O2</sub>) + (P<sub>O2</sub> &times; 0.003). At normal [Hb] = 15 g/dL:</li>' +
-      '<li><b>Arterial blood</b> (S<sub>aO2</sub> 100%, P<sub>aO2</sub> 100 mmHg): 20.1 + 0.3 = {{20.4 mL/dL}} (~20 mL/dL). <b>Venous blood</b> (S<sub>vO2</sub> 75%, P<sub>vO2</sub> 40 mmHg): 15.07 + 0.12 = {{15.19 mL/dL}} (~15 mL/dL). Thus 100 mL blood gains 5 mL O<sub>2</sub> (5 L/min CO &rarr; <b>250 mL O<sub>2</sub>/min</b>).</li>' +
-      '<li><b>Capillary transit time</b>: RBCs spend {{0.75 s}} in the pulmonary capillary at rest (HR 80 bpm). Normal O<sub>2</sub> equilibrates in {{0.25 s}} (<b>1/3</b> of transit time), leaving a 0.50 s safety margin.</li>' +
-      '<li><b>{{Perfusion-limited}} exchange</b> (<b>N<sub>2</sub>O, CO<sub>2</sub>, and O<sub>2</sub> at rest</b>): gas equilibrates early along the capillary (N<sub>2</sub>O in {{0.075 s}} = 1/10 of transit time because it does not bind Hb); total transfer can only be increased by increasing pulmonary blood flow.</li>' +
-      '<li><b>{{Diffusion-limited}} exchange</b> ({{Carbon monoxide (CO)}} always; <b>O<sub>2</sub> in emphysema, fibrosis, or strenuous exercise</b>): gas fails to equilibrate by the end of the capillary because CO binds tightly to Hb without raising dissolved plasma P<sub>CO</sub>, maintaining the partial pressure gradient throughout the capillary.</li></ul></div>' +
+    html: '<div class="two"><div class="stack"><p class="eqn"><span>O<sub>2</sub> content = Hb × {{1.34}} × S<sub>O2</sub> + P<sub>O2</sub> × 0.003</span></p>' +
+      '<ul class="pts"><li>Artery ≈ {{20}} mL/dL; vein ≈ 15 → each 100 mL of blood drops off 5 mL.</li>' +
+      '<li><b>Transit time</b>: blood stays {{0.75 s}} in the capillary; O<sub>2</sub> equilibrates in 0.25 s → plenty of spare time.</li>' +
+      '<li><b>{{Perfusion-limited}}</b> (O<sub>2</sub> at rest, CO<sub>2</sub>, N<sub>2</sub>O)<ul>' +
+      '<li>gas equilibrates early → only more blood flow takes up more.</li></ul></li>' +
+      '<li><b>{{Diffusion-limited}}</b> ({{CO}} always)<ul>' +
+      '<li>It binds Hb so tightly that plasma P<sub>CO</sub> never rises → gradient never closes.</li>' +
+      '<li>O<sub>2</sub> joins this group in thick-wall disease, hard exercise, or {{altitude}}.</li></ul></li>' +
+      '<li><b>Exercise up a mountain</b>: faster blood → {{shorter transit time}} + small gradient → no time to equilibrate → P<sub>aO2</sub> falls.</li></ul></div>' +
       '<div class="stack">' + CVS.fig('exch-perf-lim', 'Early capillary equilibration of O2 and N2O (flow-dependent uptake).', 'exch', 37) + CVS.fig('exch-diff-lim', 'Uptake of CO and of O2 in lung disease across the capillary length.', 'exch', 38) + '</div></div>' },
   { t: 'q', id: 'E6', src: 'AC80', keep: true,
     q: 'ออกกำลังกายที่สูง 5000 เมตร ให้ตาราง PaO₂ ก่อนออกกำลังกายเทียบหลังออก<div class="tblwrap"><table class="tbl compact"><thead><tr><th></th><th>PaO₂ ก่อน (rest)</th><th>PaO₂ หลัง (exercise)</th></tr></thead><tbody><tr><td>ระดับน้ำทะเล (sea level)</td><td class="num">92</td><td class="num">92</td></tr><tr><td>ที่สูง 5000 m</td><td class="num">50</td><td class="num">40</td></tr></tbody></table></div>ถามว่าอะไรคือกลไกที่ทำให้ PO₂ ลดลงเมื่อออกกำลังกายในที่สูงเมื่อเทียบกับภาวะพักในที่สูง <span class="muted">Exercise at 5,000 m: what lowers PaO₂ during exercise at altitude compared with rest at altitude?</span>',
     o: ['Increase shunt fraction', 'Increase dead space fraction', 'Decrease blood transit time', 'Hyperventilation'], a: 2,
     ex: 'Exercise speeds blood through the capillary (transit time can fall below 0.25 s). At sea level that is still enough time, but at altitude the small alveolar–capillary gradient makes O₂ uptake slow, so it becomes diffusion-limited and PaO₂ falls.' },
   { t: 'c', id: 'E-C4', title: 'Regional ventilation, perfusion & V/Q ratio from apex to base', src: 'Gas exchange p.43–51',
-    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl"><thead><tr><th>Feature (upright lung)</th><th>Apex</th><th>Base</th></tr></thead><tbody>' +
-      '<tr><td><b>Intrapleural pressure (P<sub>pl</sub>)</b></td><td>More negative ({{&minus;10 cmH2O}})</td><td>Less negative ({{&minus;2 cmH2O}})</td></tr>' +
-      '<tr><td><b>Transpulmonary pressure</b></td><td>Greater (+10 cmH<sub>2</sub>O)</td><td>Lower (+2 cmH<sub>2</sub>O)</td></tr>' +
-      '<tr><td><b>Resting alveolar size (at FRC)</b></td><td>{{Largest resting size}}</td><td>{{Smallest resting size}}</td></tr>' +
-      '<tr><td><b>Alveolar compliance &amp; V&#775;<sub>A</sub></b></td><td>{{Less compliant}} &rarr; <b>less ventilation</b></td><td>{{More compliant}} &rarr; <b>more ventilation</b></td></tr>' +
-      '<tr><td><b>Arterial pressure, PVR &amp; Q&#775;</b></td><td>Lower P<sub>a</sub>, higher PVR &rarr; <b>much less perfusion</b></td><td>Higher P<sub>a</sub>, lower PVR &rarr; <b>much more perfusion</b></td></tr>' +
-      '<tr><td><b>V/Q ratio</b></td><td>{{Highest V/Q}} (&gt;1; wasted ventilation)</td><td>{{Lowest V/Q}} (&lt;0.8; relative underventilation)</td></tr></tbody></table></div>' +
-      '<p class="note"><b>Overall normal V/Q</b>: with TV = 500 mL, DS = 150 mL, RR = 12/min, V&#775;<sub>A</sub> = (500 &minus; 150) &times; 12 = <b>4200 mL/min</b> and cardiac output Q&#775; = <b>5000 mL/min</b>, giving overall V/Q = 4200 / 5000 = {{0.84}} (normal range 0.8–1.0). In the supine position, blood flow becomes nearly uniform from apex to base (ventral vs dorsal).</p></div>' +
+    html: '<div class="two"><div class="stack"><div class="tblwrap"><table class="tbl compact"><thead><tr><th>Upright lung</th><th>Apex</th><th>Base</th></tr></thead><tbody>' +
+      '<tr><td>Pleural pressure</td><td>{{more negative}}</td><td>less negative</td></tr>' +
+      '<tr><td>Alveoli at rest</td><td>{{larger}}</td><td>smaller</td></tr>' +
+      '<tr><td>Compliance → ventilation</td><td>{{lower}}</td><td>higher</td></tr>' +
+      '<tr><td>Perfusion (gravity)</td><td>much less</td><td>{{much higher}}</td></tr>' +
+      '<tr><td>V/Q</td><td>{{highest}}</td><td>{{lowest}}</td></tr></tbody></table></div>' +
+      '<ul class="pts"><li>Apex: alveoli already stretched → expand less on each breath.</li>' +
+      '<li>Ventilation and perfusion both fall toward the apex, but perfusion falls {{more}} → V/Q rises.</li>' +
+      '<li>Whole lung: about 4.2 L air / 5 L blood → V/Q ≈ {{0.8}}.</li>' +
+      '<li>Lying flat → blood flow nearly even from apex to base.</li></ul></div>' +
       CVS.fig('exch-vq-zones', 'Regional differences in ventilation, perfusion, and V/Q ratio from apex to base in the upright lung.', 'exch', 50) + '</div>' },
   { t: 'q', id: 'E7', src: 'AC79', core: true, keep: true,
     q: 'Which of the following parameters is greater in the apex of the lung than the base of the lung in upright position?',
@@ -75,13 +82,16 @@ CVS.add({ id: 'E', short: 'Gas exchange', title: 'Alveolar Ventilation, Diffusio
     ex: 'Intrapleural pressure is more negative at the apex, so apical alveoli are more distended (largest alveoli at the apex, Gas exchange p.43). Ventilation and blood flow are both higher at the base.',
     flag: 'The recall wrote “the upper alveoli are <i>smaller</i> than the lower ones” and keyed it. The lecture says the largest alveoli are at the apex (Gas exchange p.43), so the option must have read “larger”; it is shown corrected here.' },
   { t: 'c', id: 'E-C5', title: 'V/Q mismatch, dead space, shunt, A-a gradient & exercise ventilation', src: 'Gas exchange p.33, 56–68',
-    html: '<div class="two"><div class="stack"><ul class="pts">' +
-      '<li><b>Dead space (V/Q = &infin;)</b>: ventilation without perfusion (Q = 0), so alveolar gas equilibrates with humidified inspired air (P<sub>AO2</sub> = {{150 mmHg}}, P<sub>ACO2</sub> = {{0 mmHg}}).</li>' +
-      '<li><b>Anatomical dead space</b> (~150 mL, or 2 mL/kg) is measured by {{Fowler’s method}} (single-breath N<sub>2</sub> washout). <b>Physiological dead space</b> (anatomical + alveolar DS) is measured by <b>Bohr’s equation</b>: DS / TV = {{(PACO2 &minus; PECO2) / PACO2}}. Increased in PE, shock, emphysema, or positive-pressure ventilation.</li>' +
-      '<li><b>Right-to-left shunt (V/Q = 0)</b>: perfusion without ventilation (V = 0), so end-capillary blood remains identical to mixed venous blood (P<sub>aO2</sub> = {{40 mmHg}}, P<sub>aCO2</sub> = {{46 mmHg}}). Caused by airway obstruction, fluid/pus/blood-filled alveoli, atelectasis, pulmonary AVM, hepatopulmonary syndrome, or intracardiac R-to-L shunt (Eisenmenger).</li>' +
-      '<li><b>A–a gradient</b> (P<sub>AO2</sub> &minus; P<sub>aO2</sub>): normally 0–10 mmHg (~6 mmHg) or estimated by {{(Age / 4) + 4}}; increased in <b>R-to-L shunt, V/Q mismatch, and diffusion defect</b>.</li>' +
-      '<li><b>Exercise ventilation</b>: abrupt onset increase driven by psychic stimuli and muscle/joint {{proprioceptors}}, brief pause, then gradual rise. In graded moderate exercise ({{isocapnic buffering}}), ventilation rises proportionally with CO<sub>2</sub> production so P<sub>aO2</sub>, P<sub>aCO2</sub>, and pH remain normal; in strenuous exercise, buffering of {{lactic acid}}, &uparrow; plasma K<sup>+</sup>, and &uparrow; temperature further stimulate ventilation.</li></ul></div>' +
-      CVS.fig('exch-vq-mismatch', 'Gas tensions from pure shunt (V/Q = 0) through normal to pure dead space (V/Q = infinity).', 'exch', 61) + '</div>' + '<p class="note"><b>From the past papers</b> · An anatomical dead space of about 150 mL is about 30% of a 500 mL breath (VD/VT ≈ 0.3) (AC80).</p>' },
+    html: '<div class="two"><div class="stack"><div class="cols2">' +
+      '<div class="mini art"><h4>Dead space · V/Q = ∞</h4><ul><li>Air, no blood.</li><li>Alveolus looks like inspired air: P<sub>O2</sub> {{high}}, P<sub>CO2</sub> ≈ 0.</li><li>Pulmonary embolism, shock.</li></ul></div>' +
+      '<div class="mini ven"><h4>Shunt · V/Q = 0</h4><ul><li>Blood, no air.</li><li>Blood leaves like venous blood: P<sub>O2</sub> {{40}}.</li><li>Pus, fluid or collapse in the alveoli.</li></ul></div></div>' +
+      '<ul class="pts"><li>V/Q above normal → {{wasted ventilation}}; below normal → wasted perfusion.</li>' +
+      '<li><b>Anatomic dead space</b> ≈ 150 mL ≈ {{30%}} of a 500 mL breath; measured by {{Fowler}} (N<sub>2</sub> washout).</li>' +
+      '<li><b>Physiologic dead space fraction</b> (V<sub>D</sub>/V<sub>T</sub>) → {{Bohr}} equation.</li>' +
+      '<li>Pus or edema in alveoli (no vasoconstriction) → {{physiological shunt}}.</li>' +
+      '<li><b>A–a gradient</b> normal ≈ age/4 + 4; widened by shunt, V/Q mismatch, {{diffusion defect}}.</li>' +
+      '<li><b>Exercise</b>: sudden rise ({{proprioceptors}}, mind) → then ventilation matches CO<sub>2</sub> → blood gases stay normal.</li></ul></div>' +
+      CVS.fig('exch-vq-mismatch', 'Gas tensions from pure shunt (V/Q = 0) through normal to pure dead space (V/Q = infinity).', 'exch', 61) + '</div>' },
   { t: 'q', id: 'E9', src: 'AC80', core: true, keep: true,
     q: 'Concerning alveolar ventilation, what is the Bohr’s equation used to calculate?',
     o: ['Alveolar ventilation rate (V̇A)', 'Oxygen diffusion capacity', 'Dead space fraction (VD/VT)', 'Ventilation-perfusion (V/Q) ratio', 'Respiratory exchange ratio (RER)'], a: 2,

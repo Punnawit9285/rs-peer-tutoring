@@ -63,6 +63,7 @@ CVS.dims = {
   "acid-comp-table": [1094, 616],
   "acid-hco3-reabs": [1325, 680],
   "acid-nh4": [1080, 632],
+  "acid-summary": [2160, 1463],
   "acid-titratable": [1008, 632],
   "circ-pressures": [605, 510],
   "circ-pvr-vol": [1354, 583],
