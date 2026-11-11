@@ -10,7 +10,7 @@ Question-first peer-tutoring material for the 13 non-radiology **Respiratory Sys
 |---|---|
 | **Student deck** (shown in the video) | https://punnawit9285.github.io/rs-peer-tutoring/student.html |
 | **Tutor deck** (second screen: answers, Thai notes, script) | https://punnawit9285.github.io/rs-peer-tutoring/tutor.html |
-| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/student.pdf?v=055710d1 |
+| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/student.pdf?v=4725cefb |
 | **Radiologic Anatomy companion deck** | https://punnawit9285.github.io/rs-radiology-peer-tutoring/ |
 
 Open the student and tutor decks in the same browser and tick *Follow student* in the tutor deck: it jumps to whatever card the student deck shows.
