@@ -127,3 +127,7 @@ table.toc td:first-child { white-space: normal; }
 /* a quiz item whose figure must stay readable (spirometry reports): full width */
 .pq.wide { column-span: all; }
 .pq.wide .pfig img { max-height: 118mm; }
+
+/* a table too wide to sit beside its figure (see unclip() in print.js): one column, table full width, figure under it */
+.cfit .tstack.tstack { grid-template-columns: minmax(0, 1fr); }
+.cfit .tstack .scan img, .cfit .tstack .scan.tall img { max-height: 300px; }
