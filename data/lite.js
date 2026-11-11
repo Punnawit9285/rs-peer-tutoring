@@ -290,7 +290,9 @@ S_('M-C5', [
   '> Flow: {{laminar}} in small airways · turbulent in the trachea at high flow',
   '- Most work of breathing = {{elastic}} (stretching the lung)',
   '> Bronchoconstriction → resistance ↑ → {{resistive}} work ↑',
-  '- Fibrosis → stretching work ↑ · COPD → airway work ↑'
+  '- Fibrosis → stretching work ↑ · COPD → airway work ↑',
+  '---',
+  '@F3'
 ]);
 
 /* ---------- E · Gas exchange ---------- */

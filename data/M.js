@@ -105,7 +105,9 @@ CVS.add({ id: 'M', short: 'Mechanics', title: 'Mechanics of Breathing: Pressures
       '<li><b>Work of breathing</b><ul><li>Most of it goes into stretching the lung ({{elastic}} work).</li>' +
       '<li>Bronchoconstriction → R ↑ → {{resistive}} work ↑.</li></ul></li>' +
       '<li><b>Disease</b>: fibrosis → stretching work ↑; COPD → airway work ↑.</li></ul></div>' +
-      CVS.fig('mech-work', 'Pressure-volume work-of-breathing loops in restrictive lung disease (a) and obstructive lung disease (b).', 'mech', 43) + '</div>' },
+      CVS.fig('mech-work', 'Pressure-volume work-of-breathing loops in restrictive lung disease (a) and obstructive lung disease (b).', 'mech', 43) +
+      CVS.fig('mech-wob-pv', 'Work of breathing = pressure × volume, and how the muscle work divides into its parts on the P–V diagram.', 'mech', 41) +
+      CVS.fig('mech-sounds', 'Normal breath sounds: vesicular, bronchovesicular, bronchial and tracheal (duration, pitch, location), with tracheal vs vesicular frequency spectra.', 'mech', 39) + '</div>' },
   { t: 'q', id: 'M12', src: 'AC80', keep: true,
     q: 'Which of the following will increase as a result from contraction of bronchial smooth muscle?',
     o: ['Lung compliance', 'Airway diameter', 'Elastic work of breathing', 'Resistive work of breathing', 'Anatomic dead space'], a: 3,

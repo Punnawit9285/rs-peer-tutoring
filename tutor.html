@@ -640,6 +640,8 @@ CVS.dims = {
   "mech-ppv": [1238, 778],
   "mech-relax": [922, 799],
   "mech-resistance": [1210, 886],
+  "mech-sounds": [1411, 983],
+  "mech-wob-pv": [1382, 994],
   "mech-work": [1210, 637],
   "pft-accept": [1354, 417],
   "pft-algo": [1692, 1018],
@@ -1588,7 +1590,9 @@ CVS.add({ id: 'M', short: 'Mechanics', title: 'Mechanics of Breathing: Pressures
       '<li><b>Work of breathing</b><ul><li>Most of it goes into stretching the lung ({{elastic}} work).</li>' +
       '<li>Bronchoconstriction → R ↑ → {{resistive}} work ↑.</li></ul></li>' +
       '<li><b>Disease</b>: fibrosis → stretching work ↑; COPD → airway work ↑.</li></ul></div>' +
-      CVS.fig('mech-work', 'Pressure-volume work-of-breathing loops in restrictive lung disease (a) and obstructive lung disease (b).', 'mech', 43) + '</div>' },
+      CVS.fig('mech-work', 'Pressure-volume work-of-breathing loops in restrictive lung disease (a) and obstructive lung disease (b).', 'mech', 43) +
+      CVS.fig('mech-wob-pv', 'Work of breathing = pressure × volume, and how the muscle work divides into its parts on the P–V diagram.', 'mech', 41) +
+      CVS.fig('mech-sounds', 'Normal breath sounds: vesicular, bronchovesicular, bronchial and tracheal (duration, pitch, location), with tracheal vs vesicular frequency spectra.', 'mech', 39) + '</div>' },
   { t: 'q', id: 'M12', src: 'AC80', keep: true,
     q: 'Which of the following will increase as a result from contraction of bronchial smooth muscle?',
     o: ['Lung compliance', 'Airway diameter', 'Elastic work of breathing', 'Resistive work of breathing', 'Anatomic dead space'], a: 3,
@@ -2708,7 +2712,9 @@ S_('M-C5', [
   '> Flow: {{laminar}} in small airways · turbulent in the trachea at high flow',
   '- Most work of breathing = {{elastic}} (stretching the lung)',
   '> Bronchoconstriction → resistance ↑ → {{resistive}} work ↑',
-  '- Fibrosis → stretching work ↑ · COPD → airway work ↑'
+  '- Fibrosis → stretching work ↑ · COPD → airway work ↑',
+  '---',
+  '@F3'
 ]);
 
 /* ---------- E · Gas exchange ---------- */

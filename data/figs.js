@@ -108,6 +108,8 @@ CVS.dims = {
   "mech-ppv": [1238, 778],
   "mech-relax": [922, 799],
   "mech-resistance": [1210, 886],
+  "mech-sounds": [1411, 983],
+  "mech-wob-pv": [1382, 994],
   "mech-work": [1210, 637],
   "pft-accept": [1354, 417],
   "pft-algo": [1692, 1018],
