@@ -44,6 +44,23 @@ The problems are the **past papers**: the AC79, AC80 and AC81 MCQ recalls (with 
 - **Excluded**: items whose stem, figure or key was not recalled well enough to learn from (for example AC80 acid–base 4, AC81 “identify carina”, AC79 titratable acid).
 - Cards gained a short *From the past papers* note where a question tests something the slide text does not spell out.
 
+## Anatomy 101: cadaver to lecture (RS I gross anatomy)
+
+A second deck for the RS I gross-anatomy lectures, built to link each lecture structure to the real cadaver. Each section pairs the lecture slides with dissection steps: an atlas plate with numbered labels to name, the matching handout figure beside it, and what to find and compare. Connected nerves, arteries and veins have a connection map (flowchart) next to the slide or cadaver photo. Click a box to trace its branches, or hide the names to quiz yourself.
+
+| | Link |
+|---|---|
+| **Student deck** | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/student.html |
+| **Tutor deck** (every answer and cloze revealed, Thai tutor notes and SAY lines) | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/tutor.html |
+| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/student.pdf?v=902881ee |
+| **NS I Anatomy 101 deck** | https://punnawit9285.github.io/ns-peer-tutoring/anatomy/student.html |
+
+29 concepts · 18 cadaver steps · 3 lab clips · 104 past-paper items (167 questions) · 15 connection maps.
+
+Sections: U External nose, nasal cavity & paranasal sinuses; L Pharynx, larynx & trachea; W Thoracic wall & diaphragm; P Pleura, lungs, bronchial tree & chest imaging.
+
+The atlas photos (Rohen, *Photographic Atlas of Anatomy*) are not published here. Each cadaver step shows the atlas page instead, and its label numbers match that page, so keep your atlas open beside the deck. Deck source: [`ns-peer-tutoring/anatomy/src`](https://github.com/Punnawit9285/ns-peer-tutoring/tree/main/anatomy/src).
+
 ## Pages
 
 - **`student.html`** (also `index.html`, `dist/deck.html`): Present and Browse modes, *Core only* filter, cloze blanks on every concept card (Space = next blank, Enter = all, R = hide, click a blank to flip it), click an option to see the answer, click a figure to zoom, L opens the Thai explanation, B toggles Browse. Swipe on phones.
