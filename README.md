@@ -52,14 +52,14 @@ A second deck for the RS I gross-anatomy lectures, built to link each lecture st
 |---|---|
 | **Student deck** | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/student.html |
 | **Tutor deck** (every answer and cloze revealed, Thai tutor notes and SAY lines) | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/tutor.html |
-| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/student.pdf?v=902881ee |
+| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/student.pdf?v=8fdfe3e5 |
 | **NS I Anatomy 101 deck** | https://punnawit9285.github.io/ns-peer-tutoring/anatomy/student.html |
 
 29 concepts · 18 cadaver steps · 3 lab clips · 104 past-paper items (167 questions) · 15 connection maps.
 
 Sections: U External nose, nasal cavity & paranasal sinuses; L Pharynx, larynx & trachea; W Thoracic wall & diaphragm; P Pleura, lungs, bronchial tree & chest imaging.
 
-The atlas photos (Rohen, *Photographic Atlas of Anatomy*) are not published here. Each cadaver step shows the atlas page instead, and its label numbers match that page, so keep your atlas open beside the deck. Deck source: [`ns-peer-tutoring/anatomy/src`](https://github.com/Punnawit9285/ns-peer-tutoring/tree/main/anatomy/src).
+This repository is private because the cadaver steps use photos from Rohen, *Photographic Atlas of Anatomy* 8e (© Schattauer / Wolters Kluwer). Do not share the deck or the PDF outside the class. Deck source: [`ns-peer-tutoring/anatomy/src`](https://github.com/Punnawit9285/ns-peer-tutoring/tree/main/anatomy/src).
 
 ## Pages
 
