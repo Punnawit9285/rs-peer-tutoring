@@ -52,7 +52,7 @@ A second deck for the RS I gross-anatomy lectures, built to link each lecture st
 |---|---|
 | **Student deck** | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/student.html |
 | **Tutor deck** (every answer and cloze revealed, Thai tutor notes and SAY lines) | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/tutor.html |
-| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/student.pdf?v=8fdfe3e5 |
+| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/student.pdf?v=8b6f13ea |
 | **NS I Anatomy 101 deck** | https://punnawit9285.github.io/ns-peer-tutoring/anatomy/student.html |
 
 29 concepts · 18 cadaver steps · 3 lab clips · 104 past-paper items (167 questions) · 15 connection maps.
