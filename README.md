@@ -59,7 +59,7 @@ A second deck for the RS I gross-anatomy lectures, built to link each lecture st
 
 Sections: U External nose, nasal cavity & paranasal sinuses; L Pharynx, larynx & trachea; W Thoracic wall & diaphragm; P Pleura, lungs, bronchial tree & chest imaging.
 
-This repository is private because the cadaver steps use photos from Rohen, *Photographic Atlas of Anatomy* 8e (© Schattauer / Wolters Kluwer). Do not share the deck or the PDF outside the class. Deck source: [`ns-peer-tutoring/anatomy/src`](https://github.com/Punnawit9285/ns-peer-tutoring/tree/main/anatomy/src).
+The cadaver steps use photos from Rohen, *Photographic Atlas of Anatomy* 8e (© Schattauer / Wolters Kluwer). The deck and PDF are for educational, non-profit use inside MDCU only, and the textbook itself is not uploaded; see [legal.md](legal.md). Deck source: [`ns-peer-tutoring/anatomy/src`](https://github.com/Punnawit9285/ns-peer-tutoring/tree/main/anatomy/src).
 
 ## Pages
 
@@ -77,3 +77,7 @@ tools/pdf.sh       # student.pdf: two headless-Chrome passes for real page numbe
 ```
 
 The flowcharts live in `src/flows.js` and `src/flows.css` (`node tools/flowtest.js` prints the path and verdict for every preset case). Content lives in `data/<section>.js` (cards and questions), `src/thai-data.js` (Thai bullets, key points, section intros; shared by both decks and the PDF), `src/thai-explain.js`, `src/tutor-notes.js` and `src/tutor-script.js`. The engine is adapted from [cvs-peer-tutoring](https://github.com/Punnawit9285/cvs-peer-tutoring) and [rs-radiology-peer-tutoring](https://github.com/Punnawit9285/rs-radiology-peer-tutoring).
+
+## Legal
+
+Educational, non-profit use inside MDCU only. See [legal.md](legal.md).
