@@ -61,6 +61,24 @@ Sections: U External nose, nasal cavity & paranasal sinuses; L Pharynx, larynx &
 
 The cadaver steps use photos from Rohen, *Photographic Atlas of Anatomy* 8e (© Schattauer / Wolters Kluwer). The deck and PDF are for educational, non-profit use inside MDCU only, and the textbook itself is not uploaded; see [legal.md](legal.md). Deck source: [`ns-peer-tutoring/anatomy/src`](https://github.com/Punnawit9285/ns-peer-tutoring/tree/main/anatomy/src).
 
+## Spot trainer: the gross-lab checklist on cadaver photos
+
+| | Link |
+|---|---|
+| **NS I spot trainer** | https://punnawit9285.github.io/ns-peer-tutoring/spot/ |
+| **RS I spot trainer** | https://punnawit9285.github.io/rs-peer-tutoring/spot/ |
+
+Every structure on the *114-69 Gross Checklist RS I*: 3 labs and 47 items, split into 54 structures. Each is shown on Rohen cadaver photos with the printed numbers removed and a thin arrow on the structure.
+- 46 structures have 1–4 photos (108 views on 56 photos).
+- Six more are drilled on past spot stations: torus tubarius, pharyngeal recess, internal and innermost intercostals, carina and eparterial bronchus.
+- Two have notes only: sinus openings and hyparterial bronchi.
+
+- **Drill**: name the structure at the arrow (type it or self-grade), with spaced repetition (misses return in 10 min; known ones in 1, 3, 8… days) and hints. After the answer: how to find it on the cadaver, why it matters, a Thai line, the neighbours on the same photo (hover shows their arrow), the other photos, the lecture slide and the past spot stations that asked it.
+- **Quiz** (four choices from the same photo; a miss shows where your choice really is), **Find it** (four lettered arrows), **Spot exam** (past stations against the clock) and **Atlas** (every label on a photo, with a hide-names self-test).
+- The home page mirrors the lab checklist and ticks an item once all its structures are mastered. Progress stays in the browser.
+
+Source and method: [`ns-peer-tutoring/spot/src`](https://github.com/Punnawit9285/ns-peer-tutoring/tree/main/spot/src). The atlas PDF is read locally and never uploaded; see [legal.md](legal.md).
+
 ## Pages
 
 - **`student.html`** (also `index.html`, `dist/deck.html`): Present and Browse modes, *Core only* filter, cloze blanks on every concept card (Space = next blank, Enter = all, R = hide, click a blank to flip it), click an option to see the answer, click a figure to zoom, L opens the Thai explanation, B toggles Browse. Swipe on phones.
