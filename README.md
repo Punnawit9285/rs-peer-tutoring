@@ -67,15 +67,17 @@ The cadaver steps use photos from Rohen, *Photographic Atlas of Anatomy* 8e (© 
 |---|---|
 | **NS I spot trainer** | https://punnawit9285.github.io/ns-peer-tutoring/spot/ |
 | **RS I spot trainer** | https://punnawit9285.github.io/rs-peer-tutoring/spot/ |
+| **NS I tutor answer sheet** (every item of a lab on one page) | https://punnawit9285.github.io/ns-peer-tutoring/spot/tutor.html#lab=1 |
+| **RS I tutor answer sheet** (every item of a lab on one page) | https://punnawit9285.github.io/rs-peer-tutoring/spot/tutor.html#lab=1 |
 
 Every structure on the *114-69 Gross Checklist RS I*: 3 labs and 47 items, split into 54 structures. Each is shown on Rohen cadaver photos with the printed numbers removed and a thin arrow on the structure.
 - 46 structures have 1–4 photos (108 views on 56 photos).
 - Six more are drilled on past spot stations: torus tubarius, pharyngeal recess, internal and innermost intercostals, carina and eparterial bronchus.
 - Two have notes only: sinus openings and hyparterial bronchi.
 
-- **Drill**: name the structure at the arrow (type it or self-grade), with spaced repetition (misses return in 10 min; known ones in 1, 3, 8… days) and hints. After the answer: how to find it on the cadaver, why it matters, a Thai line, the neighbours on the same photo (hover shows their arrow), the other photos, the lecture slide and the past spot stations that asked it.
+- **Drill** (big *Drill Lab N* buttons): pick the name of the structure at the arrow from four choices (default) or switch to typing, with spaced repetition (misses return in 10 min; known ones in 1, 3, 8… days) and hints. After the answer: how to find it on the cadaver, why it matters, a Thai line, the neighbours on the same photo (hover shows their arrow), the other photos, the lecture slide and the past spot stations that asked it.
 - **Quiz** (four choices from the same photo; a miss shows where your choice really is), **Find it** (four lettered arrows), **Spot exam** (past stations against the clock) and **Atlas** (every label on a photo, with a hide-names self-test).
-- The home page mirrors the lab checklist and ticks an item once all its structures are mastered. Progress stays in the browser.
+- The home page mirrors the lab checklist and ticks an item once each of its structures is named correctly; students can untick or tick by hand. Every page carries the note ห้ามส่งต่อนอก MDCU · รูปติดลิขสิทธิ์. Progress stays in the browser.
 
 Source and method: [`ns-peer-tutoring/spot/src`](https://github.com/Punnawit9285/ns-peer-tutoring/tree/main/spot/src). The atlas PDF is read locally and never uploaded; see [legal.md](legal.md).
 
