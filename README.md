@@ -10,10 +10,12 @@ Question-first peer-tutoring material for the 13 non-radiology **Respiratory Sys
 |---|---|
 | **Student deck** (shown in the video) | https://punnawit9285.github.io/rs-peer-tutoring/student.html |
 | **Tutor deck** (second screen: answers, Thai notes, script) | https://punnawit9285.github.io/rs-peer-tutoring/tutor.html |
-| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/student.pdf?v=f76baa72 |
+| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/student.pdf?v=d4c8276a |
 | **Radiologic Anatomy companion deck** | https://punnawit9285.github.io/rs-radiology-peer-tutoring/ |
 
 Open the student and tutor decks in the same browser and tick *Follow student* in the tutor deck: it jumps to whatever card the student deck shows.
+
+**QR codes** for a shared screen or a printed page: the start card of each deck (main and Anatomy 101) shows QR codes that open the deck, download its PDF and open the spot trainer, and the cover of each PDF carries a QR code that downloads that PDF.
 
 ## Sections (63 concepts · 219 questions · 515 cloze blanks · 179 figure uses)
 
@@ -52,10 +54,10 @@ A second deck for the RS I gross-anatomy lectures, built to link each lecture st
 |---|---|
 | **Student deck** | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/student.html |
 | **Tutor deck** (every answer and cloze revealed, Thai tutor notes and SAY lines) | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/tutor.html |
-| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/student.pdf?v=8b6f13ea |
+| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/student.pdf?v=285f1ccf |
 | **NS I Anatomy 101 deck** | https://punnawit9285.github.io/ns-peer-tutoring/anatomy/student.html |
 
-29 concepts · 18 cadaver steps · 3 lab clips · 104 past-paper items (167 questions) · 15 connection maps.
+29 concepts · 18 cadaver steps · 3 lab clips · 104 past-paper items (167 questions) · 15 connection maps · 79 tidbits-board tiles.
 
 Sections: U External nose, nasal cavity & paranasal sinuses; L Pharynx, larynx & trachea; W Thoracic wall & diaphragm; P Pleura, lungs, bronchial tree & chest imaging.
 
@@ -77,6 +79,7 @@ Every structure on the *114-69 Gross Checklist RS I*: 3 labs and 47 items, split
 
 - **Drill** (big *Drill Lab N* buttons): pick the name of the structure at the arrow from four choices (default) or switch to typing, with spaced repetition (misses return in 10 min; known ones in 1, 3, 8… days) and hints. After the answer: how to find it on the cadaver, why it matters, a Thai line, the neighbours on the same photo (hover shows their arrow), the other photos, the lecture slide and the past spot stations that asked it.
 - **Quiz** (four choices from the same photo; a miss shows where your choice really is), **Find it** (four lettered arrows), **Spot exam** (past stations against the clock) and **Atlas** (every label on a photo, with a hide-names self-test).
+- **QR** button (top bar of the trainer and the tutor answer sheet): both trainers' QR codes full screen, for a shared screen; the home page shows them small.
 - The home page mirrors the lab checklist and ticks an item once each of its structures is named correctly; students can untick or tick by hand. Every page carries the note ห้ามส่งต่อนอก MDCU · รูปติดลิขสิทธิ์. Progress stays in the browser.
 
 Source and method: [`ns-peer-tutoring/spot/src`](https://github.com/Punnawit9285/ns-peer-tutoring/tree/main/spot/src). The atlas PDF is read locally and never uploaded; see [legal.md](legal.md).
