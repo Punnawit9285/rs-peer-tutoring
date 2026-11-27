@@ -2,16 +2,16 @@
 
 Question-first peer-tutoring material for the 13 non-radiology **Respiratory System I (RS I)** lectures (gross anatomy, histology, and respiratory physiology, MDCU).
 
-> **Companion Radiologic Anatomy deck:** The two RS I radiology handouts (*Radiologic Anatomy of Head and Neck* and *Radiologic Anatomy of Respiratory System*) are in the companion deck at **[punnawit9285.github.io/rs-radiology-peer-tutoring](https://punnawit9285.github.io/rs-radiology-peer-tutoring/)**.
+> **Companion Radiologic Anatomy deck:** The two RS I radiology handouts (*Radiologic Anatomy of Head and Neck* and *Radiologic Anatomy of Respiratory System*) are in the companion deck at **[kaopunnawit.github.io/rs-radiology-peer-tutoring](https://kaopunnawit.github.io/rs-radiology-peer-tutoring/)**.
 
 ## Open it
 
 | | Link |
 |---|---|
-| **Student deck** (shown in the video) | https://punnawit9285.github.io/rs-peer-tutoring/student.html |
-| **Tutor deck** (second screen: answers, Thai notes, script) | https://punnawit9285.github.io/rs-peer-tutoring/tutor.html |
-| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/student.pdf?v=d4c8276a |
-| **Radiologic Anatomy companion deck** | https://punnawit9285.github.io/rs-radiology-peer-tutoring/ |
+| **Student deck** (shown in the video) | https://kaopunnawit.github.io/rs-peer-tutoring/student.html |
+| **Tutor deck** (second screen: answers, Thai notes, script) | https://kaopunnawit.github.io/rs-peer-tutoring/tutor.html |
+| **Student handout PDF** | https://kaopunnawit.github.io/rs-peer-tutoring/student.pdf?v=d05614df |
+| **Radiologic Anatomy companion deck** | https://kaopunnawit.github.io/rs-radiology-peer-tutoring/ |
 
 Open the student and tutor decks in the same browser and tick *Follow student* in the tutor deck: it jumps to whatever card the student deck shows.
 
@@ -52,25 +52,25 @@ A second deck for the RS I gross-anatomy lectures, built to link each lecture st
 
 | | Link |
 |---|---|
-| **Student deck** | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/student.html |
-| **Tutor deck** (every answer and cloze revealed, Thai tutor notes and SAY lines) | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/tutor.html |
-| **Student handout PDF** | https://punnawit9285.github.io/rs-peer-tutoring/anatomy/student.pdf?v=285f1ccf |
-| **NS I Anatomy 101 deck** | https://punnawit9285.github.io/ns-peer-tutoring/anatomy/student.html |
+| **Student deck** | https://kaopunnawit.github.io/rs-peer-tutoring/anatomy/student.html |
+| **Tutor deck** (every answer and cloze revealed, Thai tutor notes and SAY lines) | https://kaopunnawit.github.io/rs-peer-tutoring/anatomy/tutor.html |
+| **Student handout PDF** | https://kaopunnawit.github.io/rs-peer-tutoring/anatomy/student.pdf?v=b5672e00 |
+| **NS I Anatomy 101 deck** | https://kaopunnawit.github.io/ns-peer-tutoring/anatomy/student.html |
 
 29 concepts · 18 cadaver steps · 3 lab clips · 104 past-paper items (167 questions) · 15 connection maps · 79 tidbits-board tiles.
 
 Sections: U External nose, nasal cavity & paranasal sinuses; L Pharynx, larynx & trachea; W Thoracic wall & diaphragm; P Pleura, lungs, bronchial tree & chest imaging.
 
-The cadaver steps use photos from Rohen, *Photographic Atlas of Anatomy* 8e (© Schattauer / Wolters Kluwer). The deck and PDF are for educational, non-profit use inside MDCU only, and the textbook itself is not uploaded; see [legal.md](legal.md). Deck source: [`ns-peer-tutoring/anatomy/src`](https://github.com/Punnawit9285/ns-peer-tutoring/tree/main/anatomy/src).
+The cadaver steps use photos from Rohen, *Photographic Atlas of Anatomy* 8e (© Schattauer / Wolters Kluwer). The deck and PDF are for educational, non-profit use inside MDCU only, and the textbook itself is not uploaded; see [legal.md](legal.md). Deck source: [`ns-peer-tutoring/anatomy/src`](https://github.com/KAOPUNnawit/ns-peer-tutoring/tree/main/anatomy/src).
 
 ## Spot trainer: the gross-lab checklist on cadaver photos
 
 | | Link |
 |---|---|
-| **NS I spot trainer** | https://punnawit9285.github.io/ns-peer-tutoring/spot/ |
-| **RS I spot trainer** | https://punnawit9285.github.io/rs-peer-tutoring/spot/ |
-| **NS I tutor answer sheet** (every item of a lab on one page) | https://punnawit9285.github.io/ns-peer-tutoring/spot/tutor.html#lab=1 |
-| **RS I tutor answer sheet** (every item of a lab on one page) | https://punnawit9285.github.io/rs-peer-tutoring/spot/tutor.html#lab=1 |
+| **NS I spot trainer** | https://kaopunnawit.github.io/ns-peer-tutoring/spot/ |
+| **RS I spot trainer** | https://kaopunnawit.github.io/rs-peer-tutoring/spot/ |
+| **NS I tutor answer sheet** (every item of a lab on one page) | https://kaopunnawit.github.io/ns-peer-tutoring/spot/tutor.html#lab=1 |
+| **RS I tutor answer sheet** (every item of a lab on one page) | https://kaopunnawit.github.io/rs-peer-tutoring/spot/tutor.html#lab=1 |
 
 Every structure on the *114-69 Gross Checklist RS I*: 3 labs and 47 items, split into 54 structures. Each is shown on Rohen cadaver photos with the printed numbers removed and a thin arrow on the structure.
 - 46 structures have 1–4 photos (108 views on 56 photos).
@@ -83,7 +83,7 @@ Every structure on the *114-69 Gross Checklist RS I*: 3 labs and 47 items, split
 - The home page mirrors the lab checklist and ticks an item once each of its structures is named correctly; students can untick or tick by hand. Every page carries the note ห้ามส่งต่อนอก MDCU · รูปติดลิขสิทธิ์. Progress stays in the browser.
 - On photos whose numbers and lines are printed into the image, the arrow follows each printed leader to its real end: round its bends, across dark cavities where a black line cannot be seen, and to the point of a printed arrowhead. Every printed line is erased, so the yellow arrow is the only line on the photo. As a fallback, under every arrowed question (and on the tutor sheet) a note says: ถ้าลูกศรสีเหลืองชี้ลูกศรสีดำเล็ก หรือขีดสีดำอยู่ ให้ยึดตามสีดำเล็ก (ใช้ลูกศรสีเหลืองใหญ่ชี้เลยมันจะเห็นไม่ชัด).
 
-Source and method: [`ns-peer-tutoring/spot/src`](https://github.com/Punnawit9285/ns-peer-tutoring/tree/main/spot/src). The atlas PDF is read locally and never uploaded; see [legal.md](legal.md).
+Source and method: [`ns-peer-tutoring/spot/src`](https://github.com/KAOPUNnawit/ns-peer-tutoring/tree/main/spot/src). The atlas PDF is read locally and never uploaded; see [legal.md](legal.md).
 
 ## Pages
 
@@ -100,7 +100,7 @@ node build.js all  # student.html, index.html, tutor.html, dist/deck.html, dist/
 tools/pdf.sh       # student.pdf: two headless-Chrome passes for real page numbers (CHROME=... to override)
 ```
 
-The flowcharts live in `src/flows.js` and `src/flows.css` (`node tools/flowtest.js` prints the path and verdict for every preset case). Content lives in `data/<section>.js` (cards and questions), `src/thai-data.js` (Thai bullets, key points, section intros; shared by both decks and the PDF), `src/thai-explain.js`, `src/tutor-notes.js` and `src/tutor-script.js`. The engine is adapted from [cvs-peer-tutoring](https://github.com/Punnawit9285/cvs-peer-tutoring) and [rs-radiology-peer-tutoring](https://github.com/Punnawit9285/rs-radiology-peer-tutoring).
+The flowcharts live in `src/flows.js` and `src/flows.css` (`node tools/flowtest.js` prints the path and verdict for every preset case). Content lives in `data/<section>.js` (cards and questions), `src/thai-data.js` (Thai bullets, key points, section intros; shared by both decks and the PDF), `src/thai-explain.js`, `src/tutor-notes.js` and `src/tutor-script.js`. The engine is adapted from [cvs-peer-tutoring](https://github.com/KAOPUNnawit/cvs-peer-tutoring) and [rs-radiology-peer-tutoring](https://github.com/KAOPUNnawit/rs-radiology-peer-tutoring).
 
 ## Legal
 
